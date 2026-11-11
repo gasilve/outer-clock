@@ -138,10 +138,21 @@ export class Diorama {
     this.remotes = new Map();
     this.props = [];
     this.slow = false;
+    this.zoom = 1;
+    this.birds = [];
+    this.animal = null;
     this.bob = 0;
     this._onResize = () => this.resize();
     window.addEventListener("resize", this._onResize);
     this.resize();
+    parent.addEventListener("wheel", (event) => {
+      event.preventDefault();
+      this.zoomBy(event.deltaY > 0 ? 1.08 : 0.92);
+    }, { passive: false });
+  }
+
+  zoomBy(factor) {
+    this.zoom = Math.max(0.4, Math.min(2.5, (this.zoom || 1) * factor));
   }
 
   resize() {
@@ -185,6 +196,8 @@ export class Diorama {
     this.clearPlace();
     this.npc = null;
     this.hands = null;
+    this.birds = [];
+    this.animal = null;
     this.inside = spec.inside;
     this.limit = spec.inside == null ? 8 : 3.3;
     const style = STYLE[spec.look] || STYLE.taller;
@@ -215,6 +228,7 @@ export class Diorama {
       this.props.push(door);
     });
     this._clockTower();
+    this._outdoorsLife(style, ground, roof);
   }
 
   _house(style, wall, roof, index) {
@@ -279,6 +293,7 @@ export class Diorama {
     ceil.position.y = h;
     this.place.add(ceil);
     this._furniture(style, roof);
+    this._indoorsLife(roof);
     const exit = new THREE.Mesh(new THREE.BoxGeometry(0.9, 1.6, 0.1), matte("#4a3428"));
     exit.position.set(0, 0.8, 3.7);
     exit.userData.propId = "salir";
@@ -327,6 +342,69 @@ export class Diorama {
     rug.rotation.x = -Math.PI / 2;
     rug.position.set(0, 0.02, 0.2);
     this.place.add(rug);
+  }
+
+  _outdoorsLife(style, ground, roof) {
+    const leaf = style.wall === "rock" ? "#6b7c55" : style.wall === "concrete" ? "#8a8175" : "#3f7d45";
+    for (let i = 0; i < 6; i += 1) {
+      const tree = new THREE.Group();
+      const trunk = new THREE.Mesh(new THREE.CylinderGeometry(0.12, 0.16, 1.3, 6), matte("#6b4a2a"));
+      trunk.position.y = 0.65;
+      const crown = new THREE.Mesh(new THREE.SphereGeometry(0.7, 8, 6), matte(leaf));
+      crown.position.y = 1.5;
+      tree.add(trunk, crown);
+      const angle = i / 6 * Math.PI * 2;
+      tree.position.set(Math.cos(angle) * 9.2, 0, Math.sin(angle) * 9.2);
+      this.place.add(tree);
+    }
+    for (let i = 0; i < 28; i += 1) {
+      const tuft = new THREE.Mesh(new THREE.ConeGeometry(0.12, 0.35, 5), matte(i % 3 ? "#4f8f4a" : "#d7c15a"));
+      const angle = i * 0.7;
+      const radius = 2.2 + (i % 5) * 1.1;
+      tuft.position.set(Math.cos(angle) * radius, 0.15, Math.sin(angle) * radius);
+      this.place.add(tuft);
+    }
+    for (let i = 0; i < 3; i += 1) {
+      const bird = new THREE.Group();
+      const body = new THREE.Mesh(new THREE.SphereGeometry(0.08, 6, 5), matte(i === 2 ? "#e6d3a3" : "#2a241c"));
+      const wing = new THREE.Mesh(new THREE.BoxGeometry(0.28, 0.02, 0.08), matte("#1a120c"));
+      wing.position.y = 0.02;
+      bird.add(body, wing);
+      this.place.add(bird);
+      this.birds.push(bird);
+    }
+    const beast = new THREE.Group();
+    const fur = style.wall === "rock" ? "#6b5344" : style.stilts ? "#d8c49a" : "#8c5a32";
+    const body = new THREE.Mesh(new THREE.BoxGeometry(0.55, 0.28, 0.28), matte(fur));
+    body.position.y = 0.28;
+    const head = new THREE.Mesh(new THREE.BoxGeometry(0.22, 0.2, 0.22), matte(fur));
+    head.position.set(0.32, 0.38, 0);
+    beast.add(body, head);
+    beast.position.set(2.2, 0, 1.4);
+    beast.userData.ox = 2.2;
+    beast.userData.oz = 1.4;
+    this.place.add(beast);
+    this.animal = beast;
+  }
+
+  _indoorsLife(roof) {
+    const pot = new THREE.Mesh(new THREE.CylinderGeometry(0.12, 0.1, 0.22, 8), matte("#8c4a32"));
+    pot.position.set(-3.1, 0.12, 1.2);
+    const plant = new THREE.Mesh(new THREE.SphereGeometry(0.18, 7, 6), matte("#3f7d45"));
+    plant.position.set(-3.1, 0.36, 1.2);
+    const cat = new THREE.Group();
+    const body = new THREE.Mesh(new THREE.BoxGeometry(0.36, 0.16, 0.16), matte("#c4a574"));
+    body.position.y = 0.12;
+    const head = new THREE.Mesh(new THREE.BoxGeometry(0.14, 0.12, 0.12), matte("#c4a574"));
+    head.position.set(0.2, 0.18, 0);
+    cat.add(body, head);
+    cat.position.set(1.5, 0, 1.6);
+    const bowl = new THREE.Mesh(new THREE.CylinderGeometry(0.1, 0.08, 0.08, 8), matte(roof));
+    bowl.position.set(2.4, 0.06, 1.5);
+    this.place.add(pot, plant, cat, bowl);
+    this.animal = cat;
+    this.animal.userData.ox = 1.5;
+    this.animal.userData.oz = 1.6;
   }
 
   _clockTower() {
@@ -442,9 +520,27 @@ export class Diorama {
       const wave = Math.sin(performance.now() / (this.slow ? 2400 : 400));
       this.npc.position.y = wave * (this.slow ? 0.02 : 0.06);
     }
+    if (this.birds) {
+      const rate = this.slow ? 0.05 : 1;
+      const t = performance.now() / 1000 * rate;
+      this.birds.forEach((bird, index) => {
+        const angle = t * 0.55 + index * 2.1;
+        const radius = 5.5 + index * 1.3;
+        bird.position.set(Math.cos(angle) * radius, 4.4 + Math.sin(t * 2 + index) * 0.35, Math.sin(angle) * radius);
+        bird.rotation.y = -angle + Math.PI / 2;
+      });
+    }
+    if (this.animal && this.animal.userData.ox != null) {
+      const rate = this.slow ? 0.08 : 1;
+      const angle = performance.now() / 1000 * 0.4 * rate;
+      this.animal.position.x = this.animal.userData.ox + Math.cos(angle) * (this.inside == null ? 1.5 : 0.45);
+      this.animal.position.z = this.animal.userData.oz + Math.sin(angle) * (this.inside == null ? 1.5 : 0.45);
+      this.animal.rotation.y = -angle;
+    }
     const p = this.player.position;
-    const back = this.inside == null ? 7.5 : 4.2;
-    const up = this.inside == null ? 8.2 : 3.4;
+    const zoom = this.zoom || 1;
+    const back = (this.inside == null ? 7.5 : 4.2) * zoom;
+    const up = (this.inside == null ? 8.2 : 3.4) * zoom;
     this.camera.position.set(p.x + back, up, p.z + back);
     this.camera.lookAt(p.x, 1.2, p.z);
     this.renderer.render(this.scene, this.camera);

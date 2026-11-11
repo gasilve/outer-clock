@@ -517,6 +517,8 @@ function setupUi() {
     if (event.code === "KeyA" || event.code === "ArrowLeft") keys.left = true;
     if (event.code === "KeyD" || event.code === "ArrowRight") keys.right = true;
     if (event.code === "ShiftLeft") keys.run = true;
+    if (event.code === "Equal" || event.code === "NumpadAdd") world.zoomBy(0.9);
+    if (event.code === "Minus" || event.code === "NumpadSubtract") world.zoomBy(1.1);
     if (event.code === "KeyE") {
       const near = world.nearest(1.8);
       if (near) interact(near.userData.propId);
@@ -541,7 +543,7 @@ function loop(now) {
   world.move(dt, keys);
   world.frame(dt);
   const near = world.nearest(1.8);
-  document.getElementById("prompt").textContent = near ? "E · " + near.userData.label : "WASD para caminar. Clic o E para mirar.";
+  document.getElementById("prompt").textContent = near ? "E · " + near.userData.label : "WASD camina. Rueda, + y - hacen zoom. Clic o E mira.";
   if (peer && peer.id && Math.floor(now / 120) !== Math.floor((now - dt * 1000) / 120)) {
     const msg = {
       t: "pos",
