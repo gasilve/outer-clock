@@ -101,3 +101,4 @@ const ERAS = [
   {id:"e99",y:"Después",title:"La frase del diario",place:"Un quiosco",npc:"Canillita",line:"El diario puede decir que moriste, o que la calle sigue y nadie vio la cara.",mission:"Elegí qué diario se queda.",puzzle:"dialogue",choices:["El de la muerte anunciada","El de la calle abierta y la cara que nadie vio","Los dos, uno en cada bolsillo"],answer:1,flag:"quiosco",colors:["#f4efe4","#2a241c","#c4552a"]},
   {id:"e100",y:"Después",title:"El taller otra vez",place:"Tu mesa, con otro polvo",npc:"Tictac",line:"La máquina no vuelve. El reloj de la pared sí. Si queda ámbar, todavía hay un rincón quieto.",mission:"Dejá la mesa lista para el día que sigue: paño y llave.",puzzle:"combine",a:"Paño limpio",b:"Llave del taller",result:"Mesa lista",flag:"mesa_lista",colors:["#1a120c","#d7b56d","#e8d7b0"]}
 ];
+globalThis.ERAS = ERAS;

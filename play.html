@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Outer Clock — pueblo 3D</title>
+  <link rel="stylesheet" href="css/play.css">
+</head>
+<body>
+  <div id="view"></div>
+  <header class="hud top">
+    <div>
+      <p class="eyebrow">Reloj de afuera</p>
+      <strong id="clock">--:--:--</strong>
+    </div>
+    <div>
+      <p class="eyebrow" id="place-name">Outer Clock</p>
+      <span id="day-left"></span>
+    </div>
+    <div>
+      <p class="eyebrow">Dentro del mundo</p>
+      <span id="inner">El ámbar está quieto</span>
+    </div>
+  </header>
+  <p id="prompt" class="hud"></p>
+  <aside class="panel">
+    <h2 id="title">El taller</h2>
+    <p id="mission"></p>
+    <p id="stats"></p>
+    <ul id="inventory"></ul>
+    <button id="combine" type="button">Combinar</button>
+    <button id="amber" type="button">Ámbar de los lentos</button>
+    <p id="people"></p>
+    <div id="room">
+      <button id="host" type="button">Crear sala</button>
+      <input id="code" placeholder="código" aria-label="Código de sala">
+      <button id="join" type="button">Unirse</button>
+    </div>
+    <label>Tu nombre <input id="hero-name" maxlength="24" placeholder="Inventor"></label>
+    <label>Tu foto <input id="photo" type="file" accept="image/*"></label>
+    <p><button id="wipe" type="button">Borrar esta partida</button></p>
+    <p><a href="index.html">Versión de fichas</a></p>
+  </aside>
+  <div id="dialogue" hidden>
+    <p id="who"></p>
+    <p id="line"></p>
+    <div id="choices"></div>
+  </div>
+  <script src="https://unpkg.com/peerjs@1.5.4/dist/peerjs.min.js"></script>
+  <script src="js/eras.js"></script>
+  <script type="importmap">
+  {
+    "imports": {
+      "three": "https://cdn.jsdelivr.net/npm/three@0.170.0/build/three.module.js"
+    }
+  }
+  </script>
+  <script type="module" src="js/play.js"></script>
+</body>
+</html>

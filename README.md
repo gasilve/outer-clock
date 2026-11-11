@@ -2,7 +2,9 @@
 
 Aventura de mirar, tomar y combinar. Se juega en el navegador.
 
-**Jugar:** https://gasilve.github.io/outer-clock/
+**Jugar el pueblo en 3D:** https://gasilve.github.io/outer-clock/play.html
+
+WASD camina, E o un clic mira un objeto. El reloj de arriba es el de tu computadora. Crear sala muestra un código para que otra persona entre en la misma plaza.
 
 La partida queda en este navegador. Arriba se ve la hora real y cuánto falta para que el día se cierre. Cada fecha abre una época de las cien y no la repite. El ámbar de los lentos pone a todos a 1/24: son dos días de ellos para buscar un objeto, y cada mirada gasta una hora de esos días.
 
