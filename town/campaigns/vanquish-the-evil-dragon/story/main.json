@@ -1,0 +1,167 @@
+{
+  "format": "luminati-story",
+  "version": 1,
+  "vars": {
+    "routed": 0,
+    "waves": 0
+  },
+  "quests": {
+    "defend": {
+      "title": "Fire over Sunhallow",
+      "text": "Monsters came down from the Wyrmspine at dawn and are tearing Sunhallow apart, while a dragon circles overhead and hurls fire at the ground.",
+      "stages": [
+        {
+          "id": "routing",
+          "text": "Mira begged us to save Sunhallow: seven packs of monsters besiege its houses. Destroy every one of them."
+        }
+      ],
+      "goals": [
+        {
+          "text": "Monster packs destroyed (${routed} of 7)",
+          "done": "routed >= 7"
+        }
+      ],
+      "textKeys": {
+        "text": "50ABEEF792FE9C0D076810CA8DCB6B8F",
+        "stages": {
+          "routing": "2F06EB8EB13A574FAB708A26C3F024DE"
+        },
+        "goals": [
+          "35869B5B5604CFD9BF706E65D4E6071F"
+        ]
+      }
+    },
+    "slay": {
+      "title": "Slay the Ashen Tyrant",
+      "text": "Vorthrax, the Ashen Tyrant, nests on the Ashen Throne high in the Wyrmspine. End him before nightfall.",
+      "stages": [
+        {
+          "id": "hunt",
+          "text": "Elder Hesk named the dragon: Vorthrax, the Ashen Tyrant. The pass road north of Sunhallow climbs to his lair."
+        },
+        {
+          "id": "climb",
+          "text": "The road up the Wyrmspine swarms with the dragon's brood. Climb to the Ashen Throne."
+        },
+        {
+          "id": "throne",
+          "text": "The Ashen Throne. Vorthrax came down out of the sky to meet us."
+        },
+        {
+          "id": "slain",
+          "text": "Vorthrax is slain. Tonight Sunhallow lights its bonfire."
+        }
+      ],
+      "goals": [
+        {
+          "text": "Waves of the brood weathered (${waves} of 6)",
+          "done": "waves >= 6"
+        },
+        {
+          "text": "Reach the Ashen Throne",
+          "done": "dragon-descends"
+        },
+        {
+          "text": "Slay Vorthrax, the Ashen Tyrant",
+          "done": "dragon-slain"
+        }
+      ],
+      "textKeys": {
+        "text": "E6DCE726990AF04BDB63CA9ABBF6733B",
+        "stages": {
+          "hunt": "DB8C69E907E9B3C25CB716EA8545357D",
+          "climb": "999C1E704BE291310A5DEAB63EAC1756",
+          "throne": "3E06905200A89FC3D5A2185382D0BB95",
+          "slain": "A23F506612E158CFC46FBA99B0E98734"
+        },
+        "goals": [
+          "862259CE60250FA38960FC27142B0F44",
+          "EF48E51BB8185316416510BDCF188805",
+          "CB8C2B37AFBC52EBAF6ECF2F0C4CEE03"
+        ]
+      }
+    }
+  },
+  "actors": {
+    "seraphine": {
+      "name": "Sister Seraphine",
+      "preset": "cleric",
+      "portraitColor": "#f2d27a",
+      "talk": "seraphine"
+    },
+    "lyra": {
+      "name": "Lyra",
+      "preset": "scholar",
+      "portraitColor": "#8ccfff",
+      "talk": "lyra"
+    },
+    "brannoc": {
+      "name": "Brannoc",
+      "preset": "guard",
+      "portraitColor": "#d8a05a",
+      "talk": "brannoc"
+    },
+    "mira": {
+      "name": "Mira",
+      "preset": "villager",
+      "portraitColor": "#e2a85c",
+      "talk": "mira"
+    },
+    "hesk": {
+      "name": "Elder Hesk",
+      "preset": "elder",
+      "portraitColor": "#c9a45c",
+      "talk": "hesk"
+    }
+  },
+  "events": [
+    {
+      "id": "rally",
+      "on": "arrive",
+      "if": "party < 3",
+      "run": "rally"
+    }
+  ],
+  "starts": {
+    "wyrmspine": {
+      "level": "wyrmspine",
+      "entrance": "trailhead",
+      "vars": {
+        "village-saved": 1,
+        "routed": 7
+      },
+      "quests": {
+        "defend": "done",
+        "slay": "hunt"
+      }
+    },
+    "lair": {
+      "level": "wyrmspine",
+      "entrance": "throne-steps",
+      "vars": {
+        "village-saved": 1,
+        "routed": 7,
+        "waves": 6
+      },
+      "quests": {
+        "defend": "done",
+        "slay": "climb"
+      }
+    },
+    "festival": {
+      "level": "sunhallow",
+      "entrance": "festival",
+      "vars": {
+        "village-saved": 1,
+        "dragon-descends": 1,
+        "dragon-slain": 1,
+        "routed": 7,
+        "waves": 6
+      },
+      "quests": {
+        "defend": "done",
+        "slay": "done"
+      }
+    }
+  }
+}

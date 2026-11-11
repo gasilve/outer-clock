@@ -1,0 +1,2621 @@
+{
+  "format": "luminati-i18n",
+  "version": 3,
+  "lang": "zh",
+  "source": "campaigns/bells-of-evermere",
+  "extends": [],
+  "terms": {
+    "A Child's Drawing": "孩子的画",
+    "Agathe": "阿加特",
+    "Amberfield": "琥珀原",
+    "Barracks Waystone": "营房的路标石",
+    "Bell Street": "钟街",
+    "Bessa": "贝莎",
+    "Brother Fallow": "法洛修士",
+    "Bryn": "布琳",
+    "Cherry Blossom": "樱花枝",
+    "Close Waystone": "围场的路标石",
+    "Cob": "柯伯",
+    "Cobb": "科布",
+    "Corin": "科林",
+    "Court Waystone": "钟庭的路标石",
+    "Day board": "计日牌",
+    "Dilly": "迪莉",
+    "Door Warden": "守门卫士",
+    "Ebba": "埃芭",
+    "Elin": "埃琳",
+    "Evermere": "永湖镇",
+    "Evermere Water": "永湖",
+    "Gilly": "基利",
+    "Gran Maud": "莫德阿婆",
+    "Grandda's Coat": "外公的大衣",
+    "Grandda's Tuning Fork": "外公的音叉",
+    "Harbour Row": "港口街",
+    "Hushguard": "寂静卫士",
+    "Jory": "乔里",
+    "Linnet": "琳内特",
+    "Mill Lane": "磨坊巷",
+    "Mill Lane Waystone": "磨坊巷的路标石",
+    "Mole's End Waystone": "堤头的路标石",
+    "Mother Yarrow": "亚罗大娘",
+    "Old Gullet": "老饕",
+    "Old Mabry": "老马布里",
+    "Old Nettle": "内特尔婆婆",
+    "Osmund": "奥斯蒙德",
+    "Osric": "奥斯里克",
+    "Quay Waystone": "码头的路标石",
+    "Red Leaf": "红叶",
+    "Rimehart": "莱姆哈特",
+    "Rimehart's Glade": "莱姆哈特林地",
+    "Rimeholt": "雾凇堡",
+    "Saffy": "萨菲",
+    "Saltcombe": "盐谷镇",
+    "Seashell": "贝壳",
+    "Shrine Waystone": "神祠的路标石",
+    "Something for Dilly": "给迪莉的礼物",
+    "The Abbey of Amberfield": "琥珀原修道院",
+    "The Barracks Ward": "营房区",
+    "The Bell Court": "钟庭",
+    "The Bell of Rest": "安眠之钟",
+    "The Bells of Evermere": "永湖钟声",
+    "The Blossomwood": "繁花林",
+    "The Churchyard": "教堂墓园",
+    "The Coast Road": "海岸路",
+    "The Court Stair": "钟庭石阶",
+    "The East Shore": "东岸",
+    "The Frost Gate": "霜之门",
+    "The Frozen Bay": "冰封海湾",
+    "The Frozen Causeway": "冰封堤道",
+    "The Gorge Road": "峡谷路",
+    "The Halloway Forge": "哈洛韦铸钟坊",
+    "The Harbour Basin": "港池",
+    "The Harvest Close": "丰收围场",
+    "The Harvest Mawkin": "丰收稻草人",
+    "The Hush Bell": "寂静之钟",
+    "The Hushed King": "寂静之王",
+    "The Inner Ward": "内城",
+    "The Last Waystone": "最后的路标石",
+    "The Lighthouse Head": "灯塔岬",
+    "The Long Stair": "长石阶",
+    "The Mill Pond": "磨坊池",
+    "The Outer Gate": "外城门",
+    "The Reeve's Farm": "庄头农场",
+    "The Shrine of Waking": "苏醒神祠",
+    "The South Shore": "南岸",
+    "The Square": "广场",
+    "The Stopped Mills": "停转的风车",
+    "The Upper Town": "上城",
+    "The Upper Wood": "高林",
+    "The Wayside Chimes": "道旁钟铃",
+    "The Woodcutters' Camp": "樵夫营地",
+    "The Year That Stopped": "停滞之年",
+    "Tin": "阿锡",
+    "Valley Waystone": "山谷的路标石",
+    "Wenna": "温娜",
+    "Wenna's Ledger": "温娜的账本",
+    "Wenna's Receipt": "温娜的收据",
+    "Young Linnet": "幼年琳内特"
+  },
+  "units": {
+    "0A1BD3CF803365531C305842E3D77136": {
+      "source": "The Year That Stopped",
+      "target": "停滞之年"
+    },
+    "0A4B3979A41D06EDBFC4DE0ADD62E5EE": {
+      "source": "The knight takes the old coat from her arms and lays it around her shoulders. Then it kneels.",
+      "target": "骑士从她怀里接过那件旧大衣，披在她肩上。然后，它跪了下来。"
+    },
+    "0A0024455200703DBC3AC72D1668DB85": {
+      "source": "That knight of yours is the best scarecrow Amberfield's ever had. Not one crow's touched the pie.",
+      "target": "你们那位骑士呀，是琥珀原有过的最好的稻草人。一只乌鸦都没碰过那馅饼哪。"
+    },
+    "0B9CE3B69B2985FA5AA4FDB5D855E1C4": {
+      "source": "Strike",
+      "target": "敲击"
+    },
+    "0D01DD3A44EBD8CF92C0946E85481149": {
+      "source": "The Bellkeeper",
+      "target": "守钟人"
+    },
+    "00D555ACFBBAD5C5A2E11F01CD4CC173": {
+      "source": "If it goes badly up there, I want it known I was the handsome one. Tell it bigger than it was. I would.",
+      "target": "万一上头情况不妙，记得告诉大家，我是长得最俊的那个。往大了说。换我就会。"
+    },
+    "0DB5668DDCE3BDA407E640F76FE0B7DD": {
+      "source": "There's the wind! And — oh, lovely. There's what was in the fog.",
+      "target": "起风啦！还有——哎哟，真是好极了。雾里藏着的东西也出来了。"
+    },
+    "0E9FB47A9A14C64F1AA0B859EDDFCFAB": {
+      "source": "The ice went! I was standing on it! Well — near it. Well — I saw it.",
+      "target": "冰化了！我当时就站在上面！呃——在旁边。呃——我看见了。"
+    },
+    "0EF5CCC2237E3F96A161E632A7045B11": {
+      "source": "The east bell! Did you bring me a leaf? A red one?",
+      "target": "东边的钟！你给我带叶子了吗？红的那种？"
+    },
+    "0F2A7434774AD2491564D2D7EF35291A": {
+      "source": "→ Amberfield, across the fields. The Bell of Harvest.",
+      "target": "→ 琥珀原，穿过田野便到。丰收之钟。"
+    },
+    "0F6597ED174915F23FD974DAF331519A": {
+      "source": "Gran says flowers are like snow, only they come up instead of down.",
+      "target": "阿婆说，花就像雪一样，只不过不是往下落，是往上长。"
+    },
+    "0F7210378F42294D5C770EFE808B3896": {
+      "source": "Ring",
+      "target": "敲钟"
+    },
+    "0FE4D15FE45832EA626A2FA81CF68A84": {
+      "source": "Strike the hub",
+      "target": "敲击轴心"
+    },
+    "1BAFE622A8C45A61355C9E8C88B1B442": {
+      "source": "The great mould. He broke it open the night he left, and never said what he'd poured.",
+      "target": "大钟模。他走的那晚把它砸开了，浇的是什么，他始终没说。"
+    },
+    "1BCD40537F29C567C0E862DCA86272B4": {
+      "source": "The sails are turning. That's all this one has to give.",
+      "target": "风车转起来了。这一座能给的就这些。"
+    },
+    "1C5CBF3C6F13F124888912C9C2DB1615": {
+      "source": "Chatty as ever.",
+      "target": "话还是这么多。"
+    },
+    "1C99AD48427F6EB28C30C6E56B676B09": {
+      "source": "Saltcombe",
+      "target": "盐谷镇"
+    },
+    "1CC4934F310A6F0A9033EA4EC8DCE731": {
+      "source": "I'm staying. That's the whole story.",
+      "target": "我不走了。整个故事就这么多。"
+    },
+    "1E0B6408C33C8801184060A002876F4A": {
+      "source": "Once. The second was an accident.",
+      "target": "就一次。第二次是意外。"
+    },
+    "1E7A6587A8F2BCB93EDD700D47B23E71": {
+      "source": "Cut logs, stacked to the rafters. Seven winters of firewood, and still the cold comes in.",
+      "target": "劈好的木柴一直堆到房梁。备了七个冬天的柴火，寒气还是照样往里钻。"
+    },
+    "1E894796E57D0298A3F25FBA8859403A": {
+      "source": "That's the east road, then.",
+      "target": "东路这就通了。"
+    },
+    "1EF6CA4615A334008147BA3E4877EA55": {
+      "source": "The lodge is shut. Frost has grown over the latch like a second lock.",
+      "target": "小屋关着门。门闩上长满了霜，像又加了一道锁。"
+    },
+    "1F12C146BE96A587C5A3154F79312765": {
+      "source": "Snow on its pauldrons, frost in every joint. It has stood at the forge door every night for seven winters, and never once crossed the threshold.",
+      "target": "肩甲上积着雪，每个关节都结了霜。七个冬天，它每晚都站在铸钟坊门口，却从没跨过门槛一步。"
+    },
+    "02A7D8A78786BED13876D9C6B08D183C": {
+      "source": "A Waking Cake, fresh this morning. In case today's the day.",
+      "target": "苏醒蛋糕，今早刚出炉的。万一就是今天呢。"
+    },
+    "2B950D4017D100E78A2A11853AB24B57": {
+      "source": "A sign: GONE TO EVERMERE. BACK WHEN THE TIDE IS.",
+      "target": "一块牌子：去永湖镇了。潮水回来，人就回来。"
+    },
+    "2B8477359E1102F01F9C90859FB26030": {
+      "source": "Your knight's gone from the door, love. Gave me a turn this morning.",
+      "target": "你那位骑士不在门口了，孩子。今早可把我吓了一跳。"
+    },
+    "2BCE368F30A851C752ADB1730B56FE7A": {
+      "source": "You rang it! Did you see one? A flower?",
+      "target": "你把钟敲响啦！你看见了吗？花？"
+    },
+    "2BF33C690D6A60A3CDFB3169E2FF088B": {
+      "source": "Amberfield's harvest stands frozen in the fields. Its abbey holds the Bell of Harvest.",
+      "target": "琥珀原的庄稼还立在田里，冻得硬邦邦的。那里的修道院挂着丰收之钟。"
+    },
+    "2C0D8E087698C1BB49B364B941A4C0EE": {
+      "source": "I've seen the sea, you know. Twice. Once it was the wrong colour.",
+      "target": "我跟你说，我见过大海。两回呢。有一回颜色还不对。"
+    },
+    "2C3C34B7ADDDFDB67F746A7944737CA5": {
+      "source": "Where the Hush Bell hangs",
+      "target": "寂静之钟高悬之处"
+    },
+    "2C1629F4DC2EE2B87C89C7A22D3BD17B": {
+      "source": "Some nights the wall hums. Same note every time. Gets in your teeth.",
+      "target": "有些夜里，那道墙会嗡嗡作响。每回都是同一个音。震得人牙根发酸。"
+    },
+    "2CF3CACF27EC95B0CBE789E27C9A70E0": {
+      "source": "Don't wait up.",
+      "target": "不用等我。"
+    },
+    "02D0F74A755B45E4E022B09E00525D04": {
+      "source": "Ow! I set it for a bear. A small bear.",
+      "target": "哎哟！那是给熊下的套。一头小熊。"
+    },
+    "2DD390B8865572D9797FA2DD4D27B678": {
+      "source": "Black bell, white fog, and then you, grey as a gull. What day is it?",
+      "target": "黑钟，白雾，再一睁眼就是你，灰得跟海鸥似的。今天星期几了？"
+    },
+    "2DF742856727B48524022CF466530E8F": {
+      "source": "♪",
+      "target": "♪"
+    },
+    "2E913D91B0466EF9206E80C0AB1BFB0D": {
+      "source": "Bunks for forty, made up neat. The blankets have frozen to the frames.",
+      "target": "四十张床铺，铺得整整齐齐。毯子都冻在了床架上。"
+    },
+    "2EB9A2B11797FB373E2BE7D173449195": {
+      "source": "Amberfield",
+      "target": "琥珀原"
+    },
+    "2EBE7A5F1D9948B6805013AA7BD6FAE0": {
+      "source": "The Bellkeeper",
+      "target": "守钟人"
+    },
+    "2EC69AEB831FEFFC7B012D5F72893726": {
+      "source": "She climbed that ladder steadier than I held it. Seven, and she's never seen a lantern lit for anything good.",
+      "target": "她爬那梯子，比我扶得还稳当。才七岁，还从没见过哪盏灯是为好事点的。"
+    },
+    "2ECC9E6AC5FF1E544B7DBC0F59FD19E6": {
+      "source": "The coat was Grandda's. The drawing was mine. The Bell of Harvest waits at the abbey.",
+      "target": "那件大衣是外公的。那幅画是我画的。丰收之钟在修道院等着。"
+    },
+    "02F77C53E3F9DD4280E22BC0212B89AC": {
+      "source": "…It's so small. Gran said they'd be small. I didn't believe her.",
+      "target": "……好小呀。阿婆说过花是小小的。我还不信呢。"
+    },
+    "3AFD02ABD1C1E2E51641CB537BD7E456": {
+      "source": "I've an invoice drawn up for whoever stopped the year. Lamp oil, one harbour, seven years of a brother. Itemised.",
+      "target": "让这一年停住的那位，我给他开好了一张账单。灯油、一座港口、一个弟弟的七年。逐项列明。"
+    },
+    "3B0068974203C509A0DEA6766732C751": {
+      "source": "The Bell of Harvest hangs in the abbey belfry at Amberfield. The road leaves from the east shore, across the frozen lake.",
+      "target": "丰收之钟挂在琥珀原修道院的钟楼里。路从东岸出发，要穿过结冰的湖面。"
+    },
+    "3C27DC030C66BA101CA86CA0DFC277A2": {
+      "source": "So this is where the hammer lives. Smaller than I pictured. Warmer, too. Nobody's been properly warm since the ice.",
+      "target": "原来锤子就住在这儿呀。比我想的小，也暖和些。自从结冰以来，谁都没真正暖和过。"
+    },
+    "3CD215FC2DC3067BF8EC72B0B9DF8DC2": {
+      "source": "Evermere",
+      "target": "永湖镇"
+    },
+    "3CE1F5A49B795A9DE08446055B9FB443": {
+      "source": "The way up to the Close. Ringers first — remember.",
+      "target": "上围场的路。先对付鸣钟者——记住。"
+    },
+    "3DFEE3ACF2425866EA197404D86E9336": {
+      "source": "The west bell! I put an extra egg in this morning's, for luck. Number 2,563.",
+      "target": "西边的钟响啦！今早那个我多打了一个鸡蛋，讨个好兆头。第2563个。"
+    },
+    "3E19DE93083AD15472BE2BB3D0D0915B": {
+      "source": "Poacher of the Blossomwood",
+      "target": "繁花林的偷猎者"
+    },
+    "3ED3BF0BE31E7C1A012E0106B8F1B64D": {
+      "source": "↑ {Harbour Row} · {the Chapel Steps}",
+      "target": "↑ {港口街} · {礼拜堂石阶}"
+    },
+    "3F9CB89BE6CF4DE49B7A5158831E4FE6": {
+      "source": "Harbour Master of Saltcombe",
+      "target": "盐谷镇港务长"
+    },
+    "4A4E11631D02F32D3775BFAD3BCCCE78": {
+      "source": "Evermere",
+      "target": "永湖镇"
+    },
+    "04AE3745C99EA961528F19948D8DF7FB": {
+      "source": "He's up there. Grandda. He's been up there the whole time.",
+      "target": "他在上面。外公。他一直都在上面。"
+    },
+    "4B9A2793E4D66F76C3AFA1482EAC6341": {
+      "source": "Truer again. Two notes of the four.",
+      "target": "又准了些。四个音里准了两个。"
+    },
+    "4B60B3676EF4A44C3887055771B18F8B": {
+      "source": "Day One",
+      "target": "第一天"
+    },
+    "4B94FDE9ADF44E03CA9A664D3194D811": {
+      "source": "Three beats, then the cold comes down. Anyone not by a fire went flat at the gate — I counted.",
+      "target": "钟响三下，寒气就压下来了。在城门那儿，没站在火边的全趴下了——我数过。"
+    },
+    "4BF9BB5909038F123D8508B626DAFB7D": {
+      "source": "Wake, little blossom, the frost's letting go… Turn, little tide, bring the boats back to shore…",
+      "target": "醒来吧，小花苞，冰花正松手……转回吧，小潮水，送船儿归岸……"
+    },
+    "4C2A6703E1F2A8D5181742F314443D32": {
+      "source": "Go on. I'll find you.",
+      "target": "去吧。我回头去找你。"
+    },
+    "4C6D5EC1CFF8A67F52BEF4BAAB999C95": {
+      "source": "See the falls? Froze the night the bells stopped. Mid-pour. I was standing about where you are.",
+      "target": "看见那瀑布没？钟声停的那晚冻住的。泻到一半，就那么停了。我当时差不多就站在你这个位置。"
+    },
+    "4C11B998B3F8BB74246BF69804EA7ED2": {
+      "source": "I'll see what I can do, sparrow.",
+      "target": "我想想办法吧，小麻雀。"
+    },
+    "4C419B9939AD9AE35CD3E895A0414EC4": {
+      "source": "A seashell, Linnet. From the sea. South.",
+      "target": "贝壳哦，琳内特。海里的。在南边。"
+    },
+    "04CA36F8E1E38D0207C44A890F23BE07": {
+      "source": "I asked him. I was ten, and Mam was cold, and I asked him not to let it be morning.",
+      "target": "是我求他的。那年我十岁，妈浑身冰凉，我求他别让天亮。"
+    },
+    "4CAD349F5ACF46B61C222BF88420EF13": {
+      "source": "It's breathing. Frost, but breathing. It isn't the stag that's wrong — it's the cold in it.",
+      "target": "还在喘气。满身是霜，可还在喘气。出问题的不是雄鹿——是它身体里的寒气。"
+    },
+    "4D498D01C89532B3A47CC71C42A553CE": {
+      "source": "The Bell of Tides",
+      "target": "潮汐之钟"
+    },
+    "4DE0AD811E9D04BE4E212EF383540099": {
+      "source": "Your knight's at the forge door again. Every night. You'd think it'd want a sit-down.",
+      "target": "你那位骑士又站在铸钟坊门口啦。天天晚上都是。它就不想坐下歇会儿吗？"
+    },
+    "4ED5735F6B25F30AA618A3402780F07C": {
+      "source": "One for Dilly.",
+      "target": "这片给迪莉。"
+    },
+    "5A88CF2F3BC3629F146ECE34F7AEFAA7": {
+      "source": "The Bell of Waking",
+      "target": "苏醒之钟"
+    },
+    "5A88CF2F3BC3629F146ECE34F7AEFAA7.2": {
+      "source": "Wake, little blossom, the frost's letting go",
+      "target": "醒来吧，小花苞，冰花正松手"
+    },
+    "5B53A66D7B3DFCB22696BB8C87CFA118": {
+      "source": "The Bell of Tides",
+      "target": "潮汐之钟"
+    },
+    "5B53A66D7B3DFCB22696BB8C87CFA118.2": {
+      "source": "Turn, little tide, bring the boats back to shore",
+      "target": "转回吧，小潮水，送船儿归岸"
+    },
+    "5BE10955762EE8A1241BC9D7CFF0B253": {
+      "source": "The root bridge. I'd forgotten it was under there. So had the roots, I expect.",
+      "target": "树根桥！我都忘了它在底下了。我猜那些树根也忘了。"
+    },
+    "5C6A35E1BA9EFB59C776D1EE21FCA0D8": {
+      "source": "Nothing. Armour full of frost. Hit it hard enough and the cold lets go.",
+      "target": "没什么。不过是灌满了霜的盔甲。敲得够重，寒气就松手了。"
+    },
+    "5C9CC45F3F6753C65C3667B99FD6EE2A": {
+      "source": "Empty armour, standing where it chose to stand. Blossom has settled in its open helm.",
+      "target": "一具空盔甲，站在它自己选定的地方。花瓣落进了它敞开的头盔里。"
+    },
+    "5CD43AA8DFC6E0BE2B25CA543BBFE101": {
+      "source": "That log's been stuck upstream since the first winter. I'd have charged you a toll to cross it.",
+      "target": "那根木头打头一个冬天起就卡在上游。它要是早漂到这儿，我非收你过桥费不可。"
+    },
+    "5CD8999AF6E57D25C75001BA27046F2C": {
+      "source": "Light",
+      "target": "点火"
+    },
+    "5D05FFFEC6C4AE7C68BE9943E61052DF": {
+      "source": "Warmest I've been since the Blossomwood. Which was frozen.",
+      "target": "自打离开繁花林，我就没这么暖和过。那地方可是冻着的。"
+    },
+    "5D11B696F6241D99F268EBAD5CFF5A13": {
+      "source": "Linnet. I'm going up to the shrine to ring the Bell of Waking.",
+      "target": "琳内特。我要上神祠去，敲响苏醒之钟。"
+    },
+    "5E7E55F781922778EE7838EADABA5C5F": {
+      "source": "A red leaf next. Don't forget. I've written it on my hand.",
+      "target": "下一样是红叶哦。别忘了。我都写在手上啦。"
+    },
+    "5E013A7011D4E45A2E6F370B7B0873A0": {
+      "source": "Corin Ashby — poacher, guide, last man in the Blossomwood. And that's a bell-founder's hammer, so you're the Halloway girl.",
+      "target": "科林·阿什比——偷猎的、带路的，繁花林里剩下的最后一个人。还有，那是把铸钟匠的锤子，所以你就是哈洛韦家的丫头啦。"
+    },
+    "5E81C2912D4314C30E181314D9A8D0A2": {
+      "source": "The Citadel of Ice",
+      "target": "冰之城塞"
+    },
+    "5E8324F498F95B1A721C7F30CE6DCAC5": {
+      "source": "A red leaf",
+      "target": "一片红叶"
+    },
+    "5EF55C0F1BADA46EA5CD682CDD055A76": {
+      "source": "It wants them in order. Those three notes — they're the start of Mam's song.",
+      "target": "它要按顺序来。那三个音——是妈妈那首歌的开头。"
+    },
+    "5F0B3236631FFABAA2EA2E8ECD53BE36": {
+      "source": "The stag? It goes up into the high wood every spring and comes down every autumn. Seven years it stood still. Now it's late, and it knows it.",
+      "target": "那头雄鹿？它每年春天上高林，秋天再下来。七年来它一动不动。如今它晚了，它自己也知道。"
+    },
+    "5F7A1DBA5E2DE7E91E6F38E7403BF2E0": {
+      "source": "That drift on the beach went with the ice. And there's a box under it. Finders keepers is a harbour rule, isn't it?",
+      "target": "沙滩上那堆雪跟着冰一起没了。底下还有个箱子。谁捡到归谁，这是港口的规矩，对吧？"
+    },
+    "5F654F034973A7B308C4ED3CDBF04D4D": {
+      "source": "It tilts its helm, as if listening for something a long way off.",
+      "target": "它微微侧过头盔，像是在倾听远方的什么声音。"
+    },
+    "6A6241E3C0ABA79A129D59744C6D1121": {
+      "source": "A Waking Cake for the first morning. And tomorrow I shall bake something else entirely. I don't know what. Isn't it marvellous?",
+      "target": "第一个早晨，就配一个苏醒蛋糕。明天呀，我要烤点完全不一样的东西。烤什么我还不知道呢。是不是妙极了？"
+    },
+    "6ACA84A842ABA8CB935BDC7CB300475C": {
+      "source": "Seven winters, and nobody's dared touch it.",
+      "target": "七个冬天了，谁都没敢碰它。"
+    },
+    "6B810FD127C9667831360F91317CD6D6": {
+      "source": "A flower. A real one. Not a paper one — Cobb made me a paper one and it doesn't count.",
+      "target": "一朵花。真的花。不要纸做的——科布给我做过一朵纸花，那个不算。"
+    },
+    "6C2AAA74F894F3938C5C9F9161A1DA88": {
+      "source": "↓ {Evermere}",
+      "target": "↓ {永湖镇}"
+    },
+    "6C7BE6017D5D145A3D0C53C503195A8C": {
+      "source": "Kneel",
+      "target": "跪下"
+    },
+    "6C250C869543A5049B80F53D972AACB5": {
+      "source": "I've lit the harbour lamp every night since the ice came. Two thousand five hundred and fifty-seven lamps. Somebody owes me for the oil.",
+      "target": "自从结冰以来，港口的灯我每晚都点。两千五百五十七盏灯。灯油钱总得有人付。"
+    },
+    "6CF9D02AF9FAD8B094F9D9EC85959A42": {
+      "source": "Seven winters ago the bells of the valley fell silent and the year stopped turning. Four Season Bells stand at its edges — Waking, Tides, Harvest, Rest — and they have to ring in that order. Grandda's hammer will have to do.",
+      "target": "七个冬天以前，山谷的钟声沉寂了，这一年也停住了，不再流转。四口季节之钟分立在山谷四边——苏醒、潮汐、丰收、安眠——必须按这个顺序敲响。外公的锤子，只好凑合着用了。"
+    },
+    "6D3AEA8FA4A947FF9F16FE6D7F02596F": {
+      "source": "They say Amberfield's mills are turning. Mine's next. She's next, isn't she?",
+      "target": "听说琥珀原的风车都转起来了。下一个就是我的。我那风车是下一个，对吧？"
+    },
+    "6DDEFF6713A87D214FEE2600B2FCA14F": {
+      "source": "The Bell of Tides",
+      "target": "潮汐之钟"
+    },
+    "6DEF30B7C55F5625C8CD3214F074B80A": {
+      "source": "You asked me for one more night, Linnet. I am a bell-founder. I made it last.",
+      "target": "你求我再多给你一夜，琳内特。我是个铸钟匠。我把它铸得长长久久。"
+    },
+    "6E14B357EF73D44E6D520FCC4376467A": {
+      "source": "Saltcombe. I came here once to sell a fox fur. The harbour master fined me for the smell.",
+      "target": "盐谷镇。我来过一回，卖一张狐狸皮。港务长嫌那股味儿，罚了我的款。"
+    },
+    "6EA3DEBB5AE2F0B313AC84C33956A6F1": {
+      "source": "♪ …turn, little tide… gold, little field… ♪",
+      "target": "♪ ……转回吧，小潮水……金黄吧，小麦田…… ♪"
+    },
+    "6ECB2BF903918B9C3D251630CFDAF51E": {
+      "source": "♪",
+      "target": "♪"
+    },
+    "6F42793D49F87127B5EB32A4FD70F884": {
+      "source": "Light the fires first. Then them.",
+      "target": "先点火。再对付它们。"
+    },
+    "07A4EE3EEB60D4F746547516ACD06F4B": {
+      "source": "Saltcombe's harbour master keeps a tally of what the frost has cost her harbour. She means to collect.",
+      "target": "盐谷镇的港务长记着一笔账：这场霜冻让她的港口亏了多少。她打算一笔一笔讨回来。"
+    },
+    "7B3105FA5CC8826F7F3B1D3B8AB9797E": {
+      "source": "Empty racks. Every halberd in Rimeholt is out walking.",
+      "target": "兵器架空空如也。雾凇堡的每一柄长戟都出门溜达去了。"
+    },
+    "7BBCB1C5FF4F14E75ABE71CDE53FC787": {
+      "source": "Somebody tuned these chimes. Bronze does what it was cast to do.",
+      "target": "有人给这些钟铃调过音。青铜铸来做什么，就做什么。"
+    },
+    "7C08F75459B25A23376E95EBBBC275C4": {
+      "source": "It stood where I should have stood.",
+      "target": "它站在了本该是我站的地方。"
+    },
+    "7C9BE6D93A681C7BBAB95CCEE0FA2F00": {
+      "source": "HARBOUR OFFICE. Fees payable in advance. Complaints payable in advance.",
+      "target": "港务所。各项费用须预付。投诉亦须预付。"
+    },
+    "7C67DFA011C799CEBD216E7B35D6DC3C": {
+      "source": "No. That's what makes it a good price.",
+      "target": "不知道。所以才是个好价钱嘛。"
+    },
+    "7CE552962EA419CEB73FAB0B2B44C2B0": {
+      "source": "That's a scarecrow. Why is it the size of a barn?",
+      "target": "那是个稻草人。它怎么有谷仓那么大？"
+    },
+    "7D4A25FCCCCCA4A36C35E2D8669E4F33": {
+      "source": "Salt. Mostly salt, and boats, and one very large fish.",
+      "target": "是盐。大多是盐，还有船，外加一条特别大的鱼。"
+    },
+    "7DD1EB07E3667F4EDF46980A6E78E33A": {
+      "source": "The Bell of Waking",
+      "target": "苏醒之钟"
+    },
+    "7DF35A3435EB352FD36EDF2F73F57730": {
+      "source": "If they still make them.",
+      "target": "要是还没停产的话。"
+    },
+    "7E0C4F974B3332B9A0CD750F636F7489": {
+      "source": "I tell her what I remember. Flowers, rain, the smell of cut grass. Some of it I make up. She'll not know the difference till she sees it.",
+      "target": "我把记得的都讲给她听。花、雨、刚割过的青草味儿。有些是我编的。等她亲眼见了，才分得出哪些是真的。"
+    },
+    "7E322B6DECBDB073A246B2896340F24E": {
+      "source": "Evermere",
+      "target": "永湖镇"
+    },
+    "7E679B9BE19FD53D8F7DD11F6D5F875E": {
+      "source": "↓ {Evermere}",
+      "target": "↓ {永湖镇}"
+    },
+    "7EBC68DE7043EF24FF8ECEB054E73414": {
+      "source": "♪ Turn, little tide… gold, little field… rest, little— ♪",
+      "target": "♪ 转回吧，小潮水……金黄吧，小麦田……安睡吧，小—— ♪"
+    },
+    "7FD449C7B89637130442527BAC6184DE": {
+      "source": "Where the Bell of Waking hangs",
+      "target": "苏醒之钟高悬之处"
+    },
+    "7FEFD6C97E34C09471ACC7BD90BD86A0": {
+      "source": "I remember now, Mam. All of it. …I'm sorry.",
+      "target": "我想起来了，妈。全都想起来了。……对不起。"
+    },
+    "8A4C30FD032ADB0934B69DBDCDF8CBB5": {
+      "source": "Grandda used to say a bell's only a question you can hear across a valley. So. Let's ask one.",
+      "target": "外公常说，钟不过是一句隔着山谷也听得见的问话。那好。我们就来问一句。"
+    },
+    "8A4E2301E36F1838AFC85C8CA4D73143": {
+      "source": "Linnet! Gran says flowers are like snow, only they come up instead of down! Have you ever seen one?",
+      "target": "琳内特！阿婆说，花就像雪一样，只不过不是往下落，是往上长！你见过花吗？"
+    },
+    "8ABC728EF6A18EE01EF7DA78045FBE60": {
+      "source": "Somebody had to ask.",
+      "target": "总得有人问一问。"
+    },
+    "8ABEF7103A206AD615DCE984AD161CD8": {
+      "source": "Epilogue",
+      "target": "尾声"
+    },
+    "8AF07846858D073603992A5FD1B28CDB": {
+      "source": "Hear the beat in it? That bell's been tuned against itself. On purpose.",
+      "target": "听出里头的颤音了吗？那口钟被调得跟自己作对。是故意的。"
+    },
+    "8B9F6CE4D810477B36E765533B5602B5": {
+      "source": "Three chimes rung, and the hill's still shut. Maybe it wants a fourth. Maybe it wants a fee.",
+      "target": "三座钟铃都敲过了，山上还是关着。也许它想要第四座。也许它想收点费。"
+    },
+    "8B7140713D7B3F03DAAA0C3876A08987": {
+      "source": "Fish! Fresh fish! Well — fish. Seven years in a barrel of ice, they're fresher than I am.",
+      "target": "鱼！新鲜的鱼！呃——反正是鱼。在冰桶里待了七年，比我还新鲜呢。"
+    },
+    "8C8A82780AA07D50034408A5671373AD": {
+      "source": "Race you to the island! …Oh. You've got a hammer. Never mind.",
+      "target": "看谁先跑到岛上！……哦。你拿着锤子呢。那算了。"
+    },
+    "8CB15DD04B2B4A1CBD7D9295181ACA3F": {
+      "source": "Wake first. Then turn. Then gold. Even I've got it now.",
+      "target": "先“醒”，再“转”，然后“金”。连我都记住了。"
+    },
+    "8CFBAC24A255D3E73B10D39969C6EA92": {
+      "source": "Osmund Halloway's tuning fork. It gives one note, low and long. The Bellkeeper's.",
+      "target": "奥斯蒙德·哈洛韦的音叉。它只发一个音，低沉而悠长。守钟人之物。"
+    },
+    "8D22FDF53C381BF30FEF2F7152D5550D": {
+      "source": "Mind the snares. Some of them are mine, and the bears are getting clever.",
+      "target": "当心套子呀。有几个是我下的，再说熊也越来越精了。"
+    },
+    "8DBE3B9598984C85983400097C46F4B8": {
+      "source": "Three chimes, three notes",
+      "target": "三座钟铃，三个音"
+    },
+    "8DD9E2A4436CD063F424B39CED938A5C": {
+      "source": "Nobody believes you, do they?",
+      "target": "没人信你，是吧？"
+    },
+    "8E3D923EC94E733A88FB6B5074F41C34": {
+      "source": "In a neat harbour hand: \"One kraken, removed. Paid: no.\" Signed, M. Gale, Harbour Master.",
+      "target": "用港务所那种工整的字迹写着：“海怪一头，已清除。已付：否。”署名：M. 盖尔，港务长。"
+    },
+    "8E632F51A3251E8043D25FEA0EE3E8AC": {
+      "source": "Inside, a kettle is already on. Mother Yarrow did not waste a minute.",
+      "target": "屋里的水壶已经烧上了。亚罗大娘一分钟也没耽搁。"
+    },
+    "8F599DA5245E6FBC5701FBF6C0B5335C": {
+      "source": "J — strike · K — roll clear · L — lock on",
+      "target": "J——攻击 · K——翻滚闪避 · L——锁定"
+    },
+    "9ACFB782784FAA85E3188A7960F14A41": {
+      "source": "My drift's gone — by the woodpile. I buried a little something under it, seven winters back.",
+      "target": "柴堆边上我那堆雪没了。七个冬天以前，我在它底下埋了点小玩意儿。"
+    },
+    "9B3D185DB80B096A7CF8FB44DE2956E1": {
+      "source": "The Blossomwood",
+      "target": "繁花林"
+    },
+    "9BA22EB7888D8E6BACB5AAEFCE974080": {
+      "source": "Then ring your bell, bell-founder, and let's see what it does.",
+      "target": "那就去敲你的钟吧，铸钟匠，看看它会怎么样。"
+    },
+    "9BC3BF38BD80F3B93FCF7C1338E0AD6F": {
+      "source": "The Bell of Waking",
+      "target": "苏醒之钟"
+    },
+    "9BDB2871BF9CD1FCC3D43C36854854DA": {
+      "source": "The door is barred from inside. Nobody has lifted the bar in seven years.",
+      "target": "门从里面闩上了。七年来，没人抬起过门闩。"
+    },
+    "9C53A429FA9F6F5C163EBB4D1F4B948D": {
+      "source": "Afternoon, Brother! We're after the abbey bell, and I was just telling these two about the time I wrestled a—",
+      "target": "修士，下午好啊！我们是来找修道院那口钟的，我正跟这两位讲我当年徒手摔翻一头——"
+    },
+    "9C96E1E4B4335BF4C8FA982A635454F8": {
+      "source": "Grandda's tuning fork hung on this hook every night of his life. It went where he went.",
+      "target": "外公这辈子，每天晚上都把音叉挂在这个钩子上。他走到哪儿，它就跟到哪儿。"
+    },
+    "9CDCF2E0B02058DB26CDA066DC9D4149": {
+      "source": "Saltcombe",
+      "target": "盐谷镇"
+    },
+    "9D85FF4F5187435A7BEB3CA3A847B652": {
+      "source": "I'm going to let it be morning.",
+      "target": "我要让天亮了。"
+    },
+    "9D434A215332946B6AC8EFF76FEE5F34": {
+      "source": "A Hushguard: old belfry armour, empty, frost in every joint. It has stood here since the bells fell silent. The children dare each other to touch it.",
+      "target": "一具寂静卫士：钟楼的旧盔甲，里面是空的，每个关节都结着霜。自从钟声沉寂，它就一直站在这里。孩子们总互相怂恿着去摸它一下。"
+    },
+    "9DA4B5E39A7EF5A88A86E4EB39724E35": {
+      "source": "All those mornings of practice. It's perfect. Somebody eat it before I cry.",
+      "target": "练了那么多个早上。这一个，完美极了。谁快来把它吃了吧，不然我要哭出来了。"
+    },
+    "9E589A1EBEE54144FE0282E89CA0D42C": {
+      "source": "Go on home, bell-founder. And mind your knight. It listens better than any novice I ever had.",
+      "target": "回家去吧，铸钟匠。照看好你的骑士。它可比我带过的哪个见习修士都听得进话。"
+    },
+    "9EABED425E7E1F2CA6D6825ABB4FD93F": {
+      "source": "Break the ice",
+      "target": "破冰"
+    },
+    "9EE5E2E214770BC446FDFAF17EE74341": {
+      "source": "Saltcombe",
+      "target": "盐谷镇"
+    },
+    "9F4DF2BAF87069CBB9B6BCAD1092E7CE": {
+      "source": "Old Gullet",
+      "target": "老饕"
+    },
+    "9F4DF2BAF87069CBB9B6BCAD1092E7CE.2": {
+      "source": "the Thing under the Bay",
+      "target": "海湾之下的怪物"
+    },
+    "9F5F9FEFD10FE8BBDEB9F6131AB4C224": {
+      "source": "↑ {The Shrine of Waking}",
+      "target": "↑ {苏醒神祠}"
+    },
+    "9F11F80674CB5FFB100BF6A4DC694CC0": {
+      "source": "Poacher of the Blossomwood",
+      "target": "繁花林的偷猎者"
+    },
+    "09F537F550199E877066EA87BE66886B": {
+      "source": "Three mills, and not a breath of wind",
+      "target": "三座风车，一丝风也没有"
+    },
+    "10BD03726AB2D361577E0BE0788A781D": {
+      "source": "♪",
+      "target": "♪"
+    },
+    "13CEA480233BF464D302967FEC21B555": {
+      "source": "Light",
+      "target": "点火"
+    },
+    "14A74EAA4EF446BB873015B8A5A820AF": {
+      "source": "The year's stopped before, you know. For a fortnight, when I was small. We liked it.",
+      "target": "我跟你说，以前年也停过一回。我小时候，停了两个礼拜。我们还挺喜欢的。"
+    },
+    "14D59A34FD84BEA25A29A190549AB73E": {
+      "source": "The well has been a solid block of ice since that night. Somebody has carved a face in it.",
+      "target": "自那晚起，这口井就冻成了一整块冰。有人在冰上刻了一张脸。"
+    },
+    "14E9EDA8F6EA59E821778B13FD3D5FE3": {
+      "source": "A child's drawing, folded small. Four bells in a row, and a fifth, coloured in black. Under it, in big uneven letters: SO MAM CAN STAY.",
+      "target": "一幅孩子的画，叠得小小的。四口钟排成一排，还有第五口，涂成了黑色。下面用歪歪扭扭的大字写着：让妈妈留下来。"
+    },
+    "016AA5AD75753FB7D5E22A61418E3799": {
+      "source": "The Blossomwood",
+      "target": "繁花林"
+    },
+    "17A6BEE1DAA3B94C6E517CCEA04E08E2": {
+      "source": "Evermere",
+      "target": "永湖镇"
+    },
+    "18DBDC855A6F04BA0FEA2A6665A9157E": {
+      "source": "Look at it. I couldn't have made this up. And I've made up a lot.",
+      "target": "瞧瞧这儿。这我可编不出来。我编过的东西多着呢。"
+    },
+    "19A4D11A7AA183E473DA46070FD97761": {
+      "source": "A note on the door: \"Gone to ring at the knights. Back for vespers. — F.\" It has been there seven years.",
+      "target": "门上有张字条：“去对着骑士摇铃了。晚祷前回来。——F.”字条在那儿贴了七年了。"
+    },
+    "19B369BB50C7EF2ED8AC0B236D67F728": {
+      "source": "Seven years of names on the board by the door: the boats that went out the night the ice came.",
+      "target": "门边的木牌上挂了七年的名字：都是结冰那晚出海的船。"
+    },
+    "19ED5DC70B7C4E1E9A80D0FD86572A8F": {
+      "source": "Poaching.",
+      "target": "在偷猎。"
+    },
+    "20B9DDF6C7DC55474ED0F7AF2E46E17C": {
+      "source": "The Blossomwood",
+      "target": "繁花林"
+    },
+    "21AFAEE1439FB49443C9D687FA92834A": {
+      "source": "Keeper of the Shrine",
+      "target": "神祠守护人"
+    },
+    "23B877B60FC9C3CBBEE760522A20DCA3": {
+      "source": "♪ Wake, little blossom, the frost's letting go… ♪",
+      "target": "♪ 醒来吧，小花苞，冰花正松手…… ♪"
+    },
+    "29E97E049DB1160476291D4F39DEA0B2": {
+      "source": "In chalk: THE WEST BELL RANG. AND THE SOUTH ONE.",
+      "target": "粉笔写的：西边的钟响了。南边的也响了。"
+    },
+    "31EB4CC39944BA88758CA7B241863214": {
+      "source": "A red leaf from Amberfield.",
+      "target": "从琥珀原带一片红叶。"
+    },
+    "32B59BF6A9EE1A0EB4546AF648D43A92": {
+      "source": "EVERMERE — Day 2,570 of Winter.",
+      "target": "永湖镇——冬日第2570天。"
+    },
+    "32DDFC2EC0997564A819A5E478568A20": {
+      "source": "The Bell of Rest",
+      "target": "安眠之钟"
+    },
+    "33EAEDDDB7FE6123F059CE4FD34269B4": {
+      "source": "Fishwife of Saltcombe",
+      "target": "盐谷镇的鱼贩"
+    },
+    "34DA4996007A2B5DF830D0F8BF36EFF6": {
+      "source": "In chalk, in a child's round hand: THE WEST BELL RANG.",
+      "target": "粉笔写的，孩子圆圆的字迹：西边的钟响了。"
+    },
+    "36E9780688C941C4C23A630CE68A97BD": {
+      "source": "Barrels stacked to the rafters. Years of barrels, and nothing to put in them.",
+      "target": "木桶一直堆到房梁。攒了好几年的桶，却没有东西可装。"
+    },
+    "38C1EFA47EE528EAD53518D787BB7A96": {
+      "source": "You've snow on your shoulders again.",
+      "target": "你肩上又落雪了。"
+    },
+    "039FD556D6244F582F2E1D92A25BA5CB": {
+      "source": "The Bell of Waking hangs in the shrine on the hill of the Blossomwood, west along the road from Bell Street. Spring is waiting under the snow there.",
+      "target": "苏醒之钟挂在繁花林山上的神祠里，从钟街沿路往西走。那里的春天，正在雪底下等着。"
+    },
+    "40F82067E96F9766A3F19C30D47AE685": {
+      "source": "The fishermen were right. I hate it when fishermen are right.",
+      "target": "渔夫们说对了。我最讨厌渔夫说对的时候。"
+    },
+    "41EAB4F305D21EDF3115F7DD9D5F2F27": {
+      "source": "Truer. As if it heard the west bell too.",
+      "target": "准了些。好像它也听见了西边的钟。"
+    },
+    "43D30017A6A9D4BAF622046CD90B8C29": {
+      "source": "That's where I always stop.",
+      "target": "我每次都停在这儿。"
+    },
+    "43EFB00CDA4EC57E0E7F608319DE438C": {
+      "source": "Seven years I've told that story about the man in the snow. Seven years of \"yes, Corin\". I'd like to be wrong, for once.",
+      "target": "雪地里那个人的故事，我讲了七年。七年来听到的全是“是是是，科林”。这一回，我倒宁愿是我错了。"
+    },
+    "43F507C10B304B1F9BA76396D3EF50C3": {
+      "source": "Mark me — it'll turn. I've a knee for weather, and it's itched since your first bell.",
+      "target": "你记着——它会转的。我这膝盖看天气准着呢，打你敲响头一口钟起，它就一直发痒。"
+    },
+    "44CB964823CCDFC7318399803DCE6221": {
+      "source": "I light them every evening. It's always evening. You do the sums.",
+      "target": "我每天傍晚点灯。可现在永远是傍晚。你自己算吧。"
+    },
+    "44F1465F1321D05FD3E4B03485176085": {
+      "source": "…That's the Rest note.",
+      "target": "……那是安眠之音。"
+    },
+    "47AAEFE457C8657779D4293693F624BB": {
+      "source": "Of the Patience",
+      "target": "耐心号船员"
+    },
+    "047D5C57C1AB7BD09C3AD4E228F75AEC": {
+      "source": "Wall's gone, sun's up, nothing to watch. Might take up fishing. Nettle says she'll teach me. Heaven help me.",
+      "target": "墙没了，太阳出来了，没什么可守的了。也许去钓钓鱼。内特尔说她来教我。老天保佑。"
+    },
+    "049A69F7489D7E2A8C35501AEDD56832": {
+      "source": "Its helm is turned toward the square now. It was not, this morning.",
+      "target": "它的头盔现在朝着广场。今早还不是这样。"
+    },
+    "052C4EC1789CBB05F24B0EC9BE0EFE6C": {
+      "source": "Wenna tears the receipt in half, and in half again, and lets the pieces go with the petals.",
+      "target": "温娜把收据撕成两半，再撕成两半，让碎片随着花瓣飘走。"
+    },
+    "52E02EFBF79016A95E5FA84127DD5E75": {
+      "source": "You hit a knight! With a hammer! Do it again, I wasn't looking at the start!",
+      "target": "你打了骑士！用锤子！再来一次，开头我没看见！"
+    },
+    "53F3BC108FCDB6B5644BF9D250BACDC0": {
+      "source": "Gold to the hedges. I rang this little bell for seven years so I'd not forget what that sound was for.",
+      "target": "金灿灿的，一直铺到树篱边。这只小铃我摇了七年，为的是别忘了这声音本来是为什么响的。"
+    },
+    "54C2BD4729D9E73E5ABD2F6C3152349A": {
+      "source": "When I'm big I'm going to see a summer. Gran says they're mostly flies, but I don't mind.",
+      "target": "等我长大了，我要去看一回夏天。阿婆说夏天大多是苍蝇，可我不在乎。"
+    },
+    "54FAB1EB76732B9DEF50B4DD22969F2D": {
+      "source": "Stowaways. Every one of you owes passage!",
+      "target": "偷渡客。你们一个个都欠着船费！"
+    },
+    "55DDAD84177B4A0DD947FF11B66FFE61": {
+      "source": "When you're ready, sparrow. I've waited seven years. I can wait a little longer.",
+      "target": "等你准备好了再来吧，小麻雀。我已经等了七年，再多等一会儿也不要紧。"
+    },
+    "56DBA1618D1132450691B66996A8C164": {
+      "source": "Wake, little blossom… turn, little tide… gold, little field. Wake, turn, gold.",
+      "target": "醒来吧，小花苞……转回吧，小潮水……金黄吧，小麦田。醒、转、金。"
+    },
+    "56EF80924F9FB924A7CA59CD459D4F58": {
+      "source": "The child lit the first one herself. Up the ladder before I'd found my boots.",
+      "target": "头一盏是那孩子自己点的。我靴子还没找着，她就已经上梯子了。"
+    },
+    "57C9EA71E9EA6F449ADAD82F1B2D59BA": {
+      "source": "The way to the Bell Court",
+      "target": "通往钟庭之路"
+    },
+    "58D553E8AAE21DE3185CAAC570886056": {
+      "source": "You're telling me somebody tuned a whole wood to a lullaby.",
+      "target": "你是说，有人照着一首摇篮曲给整片林子调了音？"
+    },
+    "60A6B0ADC85AEB21359211AE210CEF11": {
+      "source": "And you've gone nowhere, you great lump.",
+      "target": "你倒好，哪儿都没去，你这傻大个。"
+    },
+    "060AA0AA2D78104E3456A25B7468065B": {
+      "source": "A seashell",
+      "target": "一枚贝壳"
+    },
+    "064BC9088C877D6CBC28115FACA7D8AE": {
+      "source": "Not yet. Not till I know what I'm going for.",
+      "target": "还不行。得先弄清楚我是去做什么的。"
+    },
+    "64C8D4A471E1BD705C9E0E95CF9921AA": {
+      "source": "Sing her the end of it, Da.",
+      "target": "爸，把最后一句唱给她听吧。"
+    },
+    "64E136C097A63BDC0205CF01E5AC9EC8": {
+      "source": "Gran says when it's spring here I'm to make a crown of everything. You'll have to help. I don't know what everything is yet.",
+      "target": "阿婆说，等这里到了春天，我要编一顶什么都有的花冠。你得帮我。我还不知道“什么都有”都有些什么呢。"
+    },
+    "64FC3FD52B22F0AFE74BCD1D05954EE0": {
+      "source": "Rimeholt",
+      "target": "雾凇堡"
+    },
+    "65A88D3BE005F7EFDB9AF760C5A56F71": {
+      "source": "You set it on the road.",
+      "target": "你把它下在路上了。"
+    },
+    "65B23B2E5D6952516B4BB5C7C0D4822B": {
+      "source": "I gave the tin knight flowers. It didn't say thank you, but it never says anything.",
+      "target": "我送了锡骑士一束花。它没说谢谢，不过它本来就什么都不说嘛。"
+    },
+    "65D304724366F31C28095DDF7DFE9D4A": {
+      "source": "A Hushguard: old belfry armour, empty, frost in every joint. It has stood here since the bells fell silent. The children dare each other to touch it.",
+      "target": "一具寂静卫士：钟楼的旧盔甲，里面是空的，每个关节都结着霜。自从钟声沉寂，它就一直站在这里。孩子们总互相怂恿着去摸它一下。"
+    },
+    "68EA5F9C65545D93A37422D10BE97766": {
+      "source": "Evermere",
+      "target": "永湖镇"
+    },
+    "69E7DE5F32A3D58CF53E8EF79352D3CB": {
+      "source": "Where the Bell of Harvest hangs",
+      "target": "丰收之钟高悬之处"
+    },
+    "70CF989EF6A799E22F8EDC077E4E1A88": {
+      "source": "Not forever. That's the point of them, I think.",
+      "target": "留不了永远。我想，花好就好在这儿。"
+    },
+    "71C1A454071FCAF2CACE66704B195D0B": {
+      "source": "That's not a garrison. That's a choir.",
+      "target": "那不是守军。那是唱诗班。"
+    },
+    "71DAC091CB2141FF356B8F75C5D6CB92": {
+      "source": "The pilot's house. Her charts of the bay are pinned to the shutters — iced over, every one.",
+      "target": "领航员的家。她画的海湾海图钉在百叶窗上——每一张都结了冰。"
+    },
+    "71FFBD8E462542C30069E8AAABE83EFE": {
+      "source": "Seven fires. I'll want a receipt.",
+      "target": "七个火盆了。我得要张收据。"
+    },
+    "72A2FBF531CF4221B09FC75CC6716603": {
+      "source": "A notice on the door: NO MEETING THIS WEEK. Under it, older: NO MEETING THIS WEEK.",
+      "target": "门上贴着告示：本周不开会。下面还有一张更旧的：本周不开会。"
+    },
+    "74F32A1A8BACC45E33ED8C11DC56A402": {
+      "source": "Linnet Halloway! Are you hurt? What were they?",
+      "target": "琳内特·哈洛韦！你受伤没有？那些是什么东西呀？"
+    },
+    "76C05E6714117FB1C96E60A5A63976F0": {
+      "source": "Chapter Three",
+      "target": "第三章"
+    },
+    "76F956738F4641B08FD47551D6BED1BB": {
+      "source": "The Miller",
+      "target": "磨坊主"
+    },
+    "77F24A99ED605420E44ED69C568081A2": {
+      "source": "Did you fight a kraken? Corin says you fought a kraken. Corin says a lot of things.",
+      "target": "你跟海怪打过架吗？科林说你跟海怪打过。不过科林说的话多了去了。"
+    },
+    "78FBECA7343A580764580095F3FEB452": {
+      "source": "Two! Cobb lit that one. He says he's a professional and I'm not allowed.",
+      "target": "两盏啦！那盏是科布点的。他说他是专业的，不许我点。"
+    },
+    "78FEDF6FBE20D87558D56D3DA7D2E3A9": {
+      "source": "↑ {Mill Lane} · {the Abbey}",
+      "target": "↑ {磨坊巷} · {修道院}"
+    },
+    "79B76B8F81902D62640584C16746B4CD": {
+      "source": "…Morning, Tin.",
+      "target": "……早安，阿锡。"
+    },
+    "80BF0699C776168743F3D852221E5390": {
+      "source": "We sat down to eat, and the light never moved. The others went to Evermere when the cold set in. I stayed with the supper.",
+      "target": "我们坐下吃饭，天光就再没动过。天一冷，别人都去了永湖镇。我留下来守着这顿晚饭。"
+    },
+    "81D559A7F86FABA4D2FDB349B4F2AE71": {
+      "source": "The Knight at the Forge Door",
+      "target": "铸钟坊门前的骑士"
+    },
+    "81FC2C42A7505E9DCA3E85E408966441": {
+      "source": "↑ {Saltcombe} · {the Harbour}",
+      "target": "↑ {盐谷镇} · {港口}"
+    },
+    "81FDDB43603DDBB66AAAFF37E8963B1D": {
+      "source": "Harbour Master of Saltcombe",
+      "target": "盐谷镇港务长"
+    },
+    "83CFD61F06A11EA40B2AA0DB024E0A8D": {
+      "source": "The smell of fish has outlasted the fish. Impressive, in its way.",
+      "target": "鱼早就没了，鱼腥味却还在。也算是一种本事。"
+    },
+    "83F24B8DDE55326B7F44CEBDA36447D7": {
+      "source": "A blossom",
+      "target": "一枝花"
+    },
+    "84D112B1779C2E03DBADF29300695E2A": {
+      "source": "Evermere",
+      "target": "永湖镇"
+    },
+    "86B0899198EEB58A980692EE944E6424": {
+      "source": "Seven years I sat in Evermere with my hands in my lap, listening for that bell. And then — there it was. Clear as morning.",
+      "target": "七年来，我在永湖镇坐着，两手搁在膝上，就等着听那口钟响。后来——它真的响了。清亮得像早晨一样。"
+    },
+    "86DE63212FF77A656B8AFBD1CE20DD21": {
+      "source": "The mills went still the same night. Hit one on the hub, if you've the arm for it. They always did need a kick to start.",
+      "target": "风车也是那天晚上停的。你要是有那把力气，就朝轴心敲上一下。它们向来得踹一脚才肯转。"
+    },
+    "87A6FDB06D91E4D4DF9B53E312B48180": {
+      "source": "Bar six nights I was down with the ague. I've billed myself for those.",
+      "target": "只有六晚没点，那几天我打摆子病倒了。那六晚，我给自己开了账单。"
+    },
+    "87AF15969B89071A82C97BFCE688D9D5": {
+      "source": "Noted. One confession, unpaid. I'll put it under sundries.",
+      "target": "记下了。坦白一桩，未付。归入杂项。"
+    },
+    "88B2128415FA74F2D99FCEF67F2D263D": {
+      "source": "Where the Hushguard slept",
+      "target": "寂静卫士沉睡之处"
+    },
+    "88E9D082926A48D3E8B2774749B3C80F": {
+      "source": "You were ten. A debt that old, the harbour writes off. Ring it, love.",
+      "target": "你那时才十岁。这么老的账，港口一笔勾销。敲吧，丫头。"
+    },
+    "88FB4D00085E583208F38489712C9775": {
+      "source": "Wake…",
+      "target": "醒……"
+    },
+    "89BC687F1F0C92777F6DC5AE92FE9E48": {
+      "source": "It's wearing a coat. Who dresses a scarecrow in a good coat?",
+      "target": "它还穿着件大衣。谁会给稻草人穿件好大衣？"
+    },
+    "090DC39E99484B42CC5643E3CE63DEF9": {
+      "source": "Two bells. The ice on the gate's gone grey at the edges. Like a beard. Like mine.",
+      "target": "两口钟了。门上的冰，边上发灰了。像胡子。跟我的一样。"
+    },
+    "92CDA0A8C9206C18CA57150084F31BC1": {
+      "source": "♪",
+      "target": "♪"
+    },
+    "92D227074CEF4B760BB744C82F42DCC2": {
+      "source": "Light",
+      "target": "点火"
+    },
+    "93E991B0C77484FFCC34E40B79FF8F8A": {
+      "source": "No.",
+      "target": "不是。"
+    },
+    "94D1394602282AC38DF05823F95FDACE": {
+      "source": "Thousands. White, mostly, and pink at the edges. They smell like a clean shirt.",
+      "target": "成千上万。大多是白的，边上带点粉。闻起来像刚洗干净的衬衫。"
+    },
+    "94E6664275A2C82FBF6BE8458B7A18DD": {
+      "source": "The bridge went in the first winter. Mind the edge.",
+      "target": "桥在头一个冬天就塌了。小心崖边。"
+    },
+    "94E21402652E5FF943820583F5B7F7E0": {
+      "source": "You're telling me somebody tuned a whole wood to a lullaby.",
+      "target": "你是说，有人照着一首摇篮曲给整片林子调了音？"
+    },
+    "097A0D0E486470324A142517BA7C97AC": {
+      "source": "Rimehart",
+      "target": "莱姆哈特"
+    },
+    "097A0D0E486470324A142517BA7C97AC.2": {
+      "source": "the Stag of the Waking Wood",
+      "target": "苏醒之森的雄鹿"
+    },
+    "97E63568D865FC653E9E7DF0319E9579": {
+      "source": "He's snuffing the fires! Light them again, quick!",
+      "target": "他把火都掐灭了！快，重新点上！"
+    },
+    "98BBB980CB6FE551924F570995699C70": {
+      "source": "Did you see Wenna's face when that boat came in? Best thing I've seen since the ice came, and I've seen a bear in a hat.",
+      "target": "那条船进港的时候，你看见温娜的脸没？自从结冰以来，这是我见过最棒的场面——要知道，我可是见过戴帽子的熊呢。"
+    },
+    "172E878CF16AE475EC47DC927E57E0DA": {
+      "source": "The Bell of Tides is in the lighthouse at Saltcombe, south down the gorge road. The town dug the drift out the day the west bell rang.",
+      "target": "潮汐之钟在盐谷镇的灯塔里，顺着峡谷路往南走。西边的钟响起那天，镇上的人把雪堆挖通了。"
+    },
+    "0192B7FC27B9794DB5753629EB12A42A": {
+      "source": "Still here, then.",
+      "target": "你还在这儿。"
+    },
+    "199B35BC476DE7608EF1FA3B4D07BABD": {
+      "source": "Ring it",
+      "target": "敲响它"
+    },
+    "215EA6A38C37EA8D4F7F2E11458765C2": {
+      "source": "The Blossomwood",
+      "target": "繁花林"
+    },
+    "225AAD957D3581370349D80E10CD3694": {
+      "source": "You all right?",
+      "target": "你没事吧？"
+    },
+    "238B06411F37B55DECE1ED3AE21F7720": {
+      "source": "A Hushguard: old belfry armour, empty, frost in every joint. It has stood here since the bells fell silent. The children dare each other to touch it.",
+      "target": "一具寂静卫士：钟楼的旧盔甲，里面是空的，每个关节都结着霜。自从钟声沉寂，它就一直站在这里。孩子们总互相怂恿着去摸它一下。"
+    },
+    "304B7084D9F93D8A334737D9F7F9C373": {
+      "source": "The Bell of Rest waits at Rimeholt, at the head of the valley, past the Frost Gate. So does Grandda.",
+      "target": "安眠之钟在山谷尽头的雾凇堡等着，过了霜之门就是。外公也在那儿。"
+    },
+    "313F21D3F81E009299828C0B50FA481A": {
+      "source": "Tidy forge. Your grandfather kept accounts, I'd wager. A man who hangs every tool on its own hook keeps accounts.",
+      "target": "铸钟坊收拾得挺齐整。我敢打赌，你外公记账。每样工具都挂在自己钩子上的人，准记账。"
+    },
+    "333CBF51E114510EA1F5C6016294156F": {
+      "source": "Gold, little field, for the reapers are home… Rest, little year—",
+      "target": "金黄吧，小麦田，割麦人回家……安睡吧，小年年——"
+    },
+    "339D4BBA8CE8D7A3AB2706CEB34F9015": {
+      "source": "Evermere",
+      "target": "永湖镇"
+    },
+    "345DC99ACF32A31FDC8D33EE6C07E1E3": {
+      "source": "Harbour Master of Saltcombe",
+      "target": "盐谷镇港务长"
+    },
+    "355EDDF570C24B01D0C381B29D482259": {
+      "source": "Luminati 2.5D Pixel-Art Engine · three.js",
+      "target": "Luminati 2.5D 像素艺术引擎 · three.js"
+    },
+    "392DBC16E8539499B5818C6DC64DE74B": {
+      "source": "My hands shake on the hammer now. Yours don't. That's as it should be.",
+      "target": "我握锤子的手如今会抖了。你的不会。这样才对。"
+    },
+    "403AFDD6C72CF9BBE8DC76D50BFD16C8": {
+      "source": "The Prosper. Wool and brandy for Evermere, seven years overdue. I've a key for every hold in this harbour.",
+      "target": "兴旺号。运往永湖镇的羊毛和白兰地，逾期七年了。这港口里每个货舱的钥匙我都有。"
+    },
+    "432C61663E40CED38D3A88290AF422C3": {
+      "source": "Nothing comes down through that ice. Nothing goes up. I watch it anyway.",
+      "target": "那道冰墙，什么都下不来，什么也上不去。我照样守着。"
+    },
+    "439C6A299D3ACE8C0FE7856361DBB479": {
+      "source": "I make it seven. And two of the bell-ringers behind them.",
+      "target": "我数着是七具。后面还有两个鸣钟者。"
+    },
+    "465AFEF623F6A4A90F8F31814C5D2DBC": {
+      "source": "♪ Wake, little blossom, the frog's letting go…",
+      "target": "♪ 醒来吧，小花苞，冰蛙正松手……"
+    },
+    "469B748BA6043F77AEC3640A08978ED2": {
+      "source": "The 2,578 has been rubbed out with a mitten. Under it, in a child's round hand: SPRING!!!",
+      "target": "那个2578被人用连指手套抹掉了。下面是孩子圆圆的字迹：春天来啦！！！"
+    },
+    "469FA993835F3B9ADBBDC55DA7F7735A": {
+      "source": "Fog cleared, hedge open, knights behind it. I'll invoice the miller.",
+      "target": "雾散了，树篱开了，后头还有骑士。这笔账我开给磨坊主。"
+    },
+    "470F892584693F79D0AE515108D6F3F1": {
+      "source": "I've closed the ledger. First time it's balanced since the ice. I don't know what to do with my evenings.",
+      "target": "我把账本合上了。自从结冰以来，头一回收支两平。晚上都不知道该干什么好了。"
+    },
+    "487DF1D93605F4337760EE4CA480315C": {
+      "source": "A bridge under the drift. Roots, grown across on purpose.",
+      "target": "雪堆底下有座桥。树根是特意引着长过去的。"
+    },
+    "488D27557FC7BE08CF800EDE36795954": {
+      "source": "Strike",
+      "target": "敲击"
+    },
+    "492E37CE20A044CEC7004F8864407FEB": {
+      "source": "One brazier's worth of coal. Billed to the King.",
+      "target": "煤一火盆。记在国王账上。"
+    },
+    "00492F4FD3DB19F280C3D5F186AE70F7": {
+      "source": "Up past the chimes, past the falls, past whatever's been living on that hill since the frost came. You'll want a guide.",
+      "target": "一路往上，过钟铃，过瀑布，还得过山上那玩意儿——自从霜冻降临，也不知是什么东西一直盘踞在那儿。你得有个向导呀。"
+    },
+    "509F29F06F3A9242F5F201D878E5C6BF": {
+      "source": "You've grown, sparrow.",
+      "target": "你长大了，小麻雀。"
+    },
+    "512C27BC45EEF1EC3F90BE8E54D09E46": {
+      "source": "The sails are turning. That's all this one has to give.",
+      "target": "风车转起来了。这一座能给的就这些。"
+    },
+    "517A24795F30D4778EBE14FEFFF22C35": {
+      "source": "A crown of everything, when spring comes to Evermere.",
+      "target": "等春天来到永湖镇，编一顶什么都有的花冠。"
+    },
+    "535F5E04657D060D74FB309FABBF97A4": {
+      "source": "It's Grandda's coat. These burns on the cuffs — that's bell-metal. He never would wear gloves.",
+      "target": "是外公的大衣。袖口上这些烧痕——是钟铜烫的。他从来不肯戴手套。"
+    },
+    "543E2922D00DDA2E02981A7A1A50B7E3": {
+      "source": "Rimeholt",
+      "target": "雾凇堡"
+    },
+    "554B85172ADD64DD6797F7DBF4E29325": {
+      "source": "Then they'll be wanting a founder.",
+      "target": "那就该轮到铸钟匠了。"
+    },
+    "560C98F7ACDC8BFD8B521E60855EFD9D": {
+      "source": "The Bell of Harvest",
+      "target": "丰收之钟"
+    },
+    "561BE8996D1A052B4D6A891E92E4468A": {
+      "source": "Do you know what a bell's worth of bronze weighs?",
+      "target": "你知道一口钟的青铜有多重吗？"
+    },
+    "575DF8030F6943FEEE753A17EF7B2CCB": {
+      "source": "There was a hollow behind the ice all along.",
+      "target": "原来冰后面一直有个凹洞。"
+    },
+    "586A20A9A69FA2AE2E81316E1DAB0B5B": {
+      "source": "I know.",
+      "target": "我知道呀。"
+    },
+    "0592E5567DEFC9D48E693F88C18423FF": {
+      "source": "…Someone was singing.",
+      "target": "……刚才有人在唱歌。"
+    },
+    "599F001E2C16AFD2F20ED5487FE55492": {
+      "source": "Every word of it's true. Most of the words, anyway.",
+      "target": "每个字都是真的。好吧，大部分字是。"
+    },
+    "609AD190C780A081FF5558A9B4B43630": {
+      "source": "A sprig of the Blossomwood's first blossom in seven years. Dilly has never seen one.",
+      "target": "一小枝樱花，繁花林七年来开的头一茬花。迪莉还从没见过花。"
+    },
+    "611CDC4ED9EE6A8FBE304F1B275CF1BB": {
+      "source": "Evermere",
+      "target": "永湖镇"
+    },
+    "649E39BA6C67E508C74DB47E41D50B91": {
+      "source": "Every spring, till I was ten. …I can't remember the colour.",
+      "target": "十岁以前，每年春天都见。……我记不起是什么颜色了。"
+    },
+    "698E7BC6E2982993DB1FF94F7161B297": {
+      "source": "Stay by the fire when it rings.",
+      "target": "钟响的时候，待在火边。"
+    },
+    "709FB7D7A90330AED5F9E054D25DF6DC": {
+      "source": "Dilly's going to want one of these.",
+      "target": "迪莉肯定也想要一枝。"
+    },
+    "713CF53905864BD5CFAC4B1A1B1B345A": {
+      "source": "The shrine gate is open. Something waits in the glade beneath the Bell of Waking.",
+      "target": "神祠的大门开了。苏醒之钟下方的林地里，有什么东西在等着。"
+    },
+    "740AB65949EB9E4AD7D84A944D012077": {
+      "source": "The Bell of Harvest",
+      "target": "丰收之钟"
+    },
+    "740AB65949EB9E4AD7D84A944D012077.2": {
+      "source": "Gold, little field, for the reapers are home",
+      "target": "金黄吧，小麦田，割麦人回家"
+    },
+    "743F35A805B429B91E4990E00F215EC9": {
+      "source": "The Bell of Rest",
+      "target": "安眠之钟"
+    },
+    "746E47ACEF4B918B04B218F87C1B9877": {
+      "source": "Still flat. Grandda could tune a bell by ear in an afternoon. Seven years, and I've got this far.",
+      "target": "还是走音。外公凭耳朵，一个下午就能把一口钟调准。七年了，我才到这一步。"
+    },
+    "766AB64DB6E8B9D8B032102C87E1AEC6": {
+      "source": "Saltcombe",
+      "target": "盐谷镇"
+    },
+    "772D2C8AF274AEC31E36E1DF5B6DB420": {
+      "source": "Its helm is turned toward the square now. It was not, this morning.",
+      "target": "它的头盔现在朝着广场。今早还不是这样。"
+    },
+    "800A126C13328C21C1B35D7D5E4B0D40": {
+      "source": "The harbour's got its master back. And I've an invoice to deliver, soon as I find out who it's made out to.",
+      "target": "港口又有人当家了。我这儿还有张账单要送，就等弄清楚抬头该写谁了。"
+    },
+    "819E1018476644D60E4187E02F4B581E": {
+      "source": "Three bells. Number 2,578, iced. I've a feeling about tomorrow's. Don't you laugh.",
+      "target": "三口钟啦。第2578个，抹了糖霜。明天那个呀，我有种预感。你可别笑话我。"
+    },
+    "833F681391E1D2AD5E2A00DC0432F871": {
+      "source": "Wenna says the chandler went to Evermere and married a baker. That can't be right. He hated bread.",
+      "target": "温娜说，那个船具商去了永湖镇，娶了个面包师。不可能吧。他最讨厌面包了。"
+    },
+    "856FD4964EE8DE54EE6F761F32812B46": {
+      "source": "Call it settled.",
+      "target": "就算两清了。"
+    },
+    "897CE414424BF4CE46E938B236A65546": {
+      "source": "A loom clacks inside, slow and patient. Whatever it is, it is very long by now.",
+      "target": "屋里的织机咔嗒作响，缓慢而耐心。不管织的是什么，到如今想必已经很长很长了。"
+    },
+    "897F867F4F12918B8C5CCB7E12EEEC6B": {
+      "source": "The Hushed King",
+      "target": "寂静之王"
+    },
+    "932B90DF47D1C4151A3EE116D54E4FDE": {
+      "source": "Dilly is seven. She has never seen a season. She wants something from each edge of the valley.",
+      "target": "迪莉七岁了。她一个季节也没见过。她想从山谷的每一边各要一样东西。"
+    },
+    "950A443931569FD3A40D45CA8D780066": {
+      "source": "Ships. Stuck in the ice like flies in amber. Seven years, and not one of them has rotted.",
+      "target": "船。卡在冰里，像琥珀里的苍蝇。七年了，一艘都没烂。"
+    },
+    "953BC26134611DD23C5F61B16A5F25CE": {
+      "source": "Strike",
+      "target": "敲击"
+    },
+    "1241E197947E267548E625A68DFB0336": {
+      "source": "You're quiet, Halloway. Quiet costs extra. Talk to me.",
+      "target": "你话少了，哈洛韦。沉默要另外收费。跟我说说话。"
+    },
+    "1415FC8BF825157FC3641C5ECF17A75F": {
+      "source": "Buds. Every one of them shut tight under the ice, like a casting left too long in the mould.",
+      "target": "花苞。每一个都被冰封得死死的，像在模子里闷得太久的铸件。"
+    },
+    "1613F1B0B9004A0A28790090D1365FE0": {
+      "source": "Ships in the ice, like flies in amber",
+      "target": "船困冰中，如蝇封琥珀"
+    },
+    "02169C44DD5953280A4B6161F051D6B3": {
+      "source": "Jory's asked after three girls who married other men and a dog that's dead. I tell him one a day. It's cheaper.",
+      "target": "乔里打听了三个早就嫁给别人的姑娘，还有一条早死了的狗。我一天只告诉他一件。这样划算。"
+    },
+    "2255AABC8C023C48DB9667A837B2D72F": {
+      "source": "The Bell of Harvest",
+      "target": "丰收之钟"
+    },
+    "2365FCD2989A570FCE9EE61B45F41DAF": {
+      "source": "The Knight at the Forge Door",
+      "target": "铸钟坊门前的骑士"
+    },
+    "2875B9AA0906250FC41084810E5AFE00": {
+      "source": "Strike",
+      "target": "敲击"
+    },
+    "2935D88BB2BDE520A75CCB8190A17D8A": {
+      "source": "Three bells! I've been practising on the well with a stick. Forty hits. It hasn't rung once.",
+      "target": "三口钟！我一直拿根棍子敲井练习呢。敲了四十下。一下都没响！"
+    },
+    "3116F7320ED8FE64043636F3F519B6CF": {
+      "source": "…turn…",
+      "target": "……转……"
+    },
+    "3532C9A803900A18EA6555655BCFC25C": {
+      "source": "That's not a smell. …Bring me a seashell next. From the sea. Gran says it's south.",
+      "target": "那才不是味道呢。……下次给我带个贝壳吧。从海里带。阿婆说海在南边。"
+    },
+    "4145B64221771864267D938BD0A3026A": {
+      "source": "Wake, little blossom… turn, little tide… gold, little field. Wake, turn, gold.",
+      "target": "醒来吧，小花苞……转回吧，小潮水……金黄吧，小麦田。醒、转、金。"
+    },
+    "4223E58F89782A19425DC7BB9D18316B": {
+      "source": "Somebody has to keep the places laid. When they come home, they'll want to know where to sit.",
+      "target": "总得有人把碗筷摆好嘛。等他们回了家，总得知道自己坐哪儿。"
+    },
+    "4347BE94BC45F96A7843EE7C92B1E25D": {
+      "source": "Sit down, sit down. The pie's seven years cold and still the best in the valley.",
+      "target": "坐，坐。这馅饼凉了七年，还是山谷里最好的。"
+    },
+    "5000E7D86E0F2DCCA38711F22142D7C6": {
+      "source": "And you. The fox fur. I never forget a smell.",
+      "target": "还有你。狐狸皮那个。什么味儿我都忘不了。"
+    },
+    "5013F6288CECF3AD033196A95FE183B9": {
+      "source": "Ringers first. The cantors mend the knights; a knight with no cantor is only armour with an opinion.",
+      "target": "先对付鸣钟者。咏者会修好骑士；没了咏者，骑士不过是一副有主见的盔甲。"
+    },
+    "5126B7B45D255778283F5D335117CF25": {
+      "source": "A Hushguard: old belfry armour, empty, frost in every joint. It has stood here since the bells fell silent. The children dare each other to touch it.",
+      "target": "一具寂静卫士：钟楼的旧盔甲，里面是空的，每个关节都结着霜。自从钟声沉寂，它就一直站在这里。孩子们总互相怂恿着去摸它一下。"
+    },
+    "5151E4E1C606ADE04FF776E2787390FE": {
+      "source": "Its helm is turned toward the square now. It was not, this morning.",
+      "target": "它的头盔现在朝着广场。今早还不是这样。"
+    },
+    "5163B39B69D17A5465B1506E8D38E46F": {
+      "source": "\"One kraken, removed. Paid: no.\"",
+      "target": "“海怪一头，已清除。已付：否。”"
+    },
+    "5389D9D1D5313A08D16BCACEBD7F4585": {
+      "source": "Poacher of the Blossomwood",
+      "target": "繁花林的偷猎者"
+    },
+    "5988FC0C5F702CB3F017085FC8E3F245": {
+      "source": "EVERMERE — Day 2,563 of Winter.",
+      "target": "永湖镇——冬日第2563天。"
+    },
+    "6570A326F80B077230E5E0C5C57A1F74": {
+      "source": "Ring",
+      "target": "敲钟"
+    },
+    "6681ECAACC0E8D634CC7C7A24BE7BC05": {
+      "source": "Not for seven years.",
+      "target": "七年了，都没人信。"
+    },
+    "6973C4651E6115917B8C8C277302EE73": {
+      "source": "The Patience is home, and Jory with her, seven years late and not a day older. Wenna has an invoice for whoever stopped the year.",
+      "target": "耐心号回港了，乔里也跟着回来了，晚了七年，却一天也没老。温娜备好了一张账单，要交给让这一年停住的那个人。"
+    },
+    "7008DBA72B1A6D4B4A07EE10CD714870": {
+      "source": "In chalk: THE WEST BELL RANG. AND THE SOUTH ONE. EAST TOO!!!",
+      "target": "粉笔写的：西边的钟响了。南边的也响了。东边也响啦！！！"
+    },
+    "7030E3380972BE09F1D2DB0FE51B04FD": {
+      "source": "Rimeholt",
+      "target": "雾凇堡"
+    },
+    "7642E8B423D46DD9F8B20705C4A186AC": {
+      "source": "Dilly's Gran",
+      "target": "迪莉的阿婆"
+    },
+    "7720B1DB5BD3D4E16EEB63BE7EAC8E8C": {
+      "source": "The Knight at the Forge Door",
+      "target": "铸钟坊门前的骑士"
+    },
+    "08093F5D1642708D5C648DDE7B6A9FC8": {
+      "source": "The west bell rang, and the wall up there sang back. Never heard it do that.",
+      "target": "西边的钟一响，上头那道墙就跟着唱了起来。从没听它这样过。"
+    },
+    "8148ABB93CACFCBC67EF9220BBD7DA8A": {
+      "source": "The Lamplighter",
+      "target": "点灯人"
+    },
+    "8193F29D69F58F92C0130CF472E17C40": {
+      "source": "Amberfield",
+      "target": "琥珀原"
+    },
+    "8209A2432FBCBEC957D6F90157CCF12E": {
+      "source": "Evermere",
+      "target": "永湖镇"
+    },
+    "8248F68E3290D73727BBCDD6650EE01D": {
+      "source": "For luck.",
+      "target": "图个好运。"
+    },
+    "8536EA6CF0CDAFDEA288FD947E2C785F": {
+      "source": "Harbour Master of Saltcombe",
+      "target": "盐谷镇港务长"
+    },
+    "8676E403060FB9B10A641DC7D96595EA": {
+      "source": "Its helm is turned toward the square now. It was not, this morning.",
+      "target": "它的头盔现在朝着广场。今早还不是这样。"
+    },
+    "9362FBDAEF5A313E4152F911ECA4BF85": {
+      "source": "Three lanterns. I've started a fourth. Optimism, the child calls it.",
+      "target": "三盏了。第四盏我已经动手做了。那孩子管这叫“乐观”。"
+    },
+    "9377D55DCBB2B23262FCE0FA13FC9C07": {
+      "source": "Bears use roads. Everybody uses roads. That's what makes them roads.",
+      "target": "熊也走路嘛。谁都走路。所以才叫路啊。"
+    },
+    "9631D691C9E69DCE2A71726F95863BB4": {
+      "source": "Seven years that water's been holding its breath. Hark at it go.",
+      "target": "这水整整憋了七年气。听听它这股劲儿。"
+    },
+    "9825B9AA8C169E076ADE088FFCE3D27C": {
+      "source": "Strike the hub",
+      "target": "敲击轴心"
+    },
+    "12505E298F3B507C701F7D5253A4A668": {
+      "source": "Poacher of the Blossomwood",
+      "target": "繁花林的偷猎者"
+    },
+    "21498CED57480762DB91B425B1709CC1": {
+      "source": "The grass is GREEN. Gran didn't make it up. Gran didn't make ANY of it up.",
+      "target": "草是绿的！阿婆没有瞎编。阿婆说的，一点儿都没瞎编！"
+    },
+    "21555E80C2D7514ECA86D777ED3EF7FE": {
+      "source": "Three lanterns. I've been telling that child stories about spring since she could talk. She likes yours better.",
+      "target": "三盏灯了。那孩子打会说话起，我就给她讲春天的故事。她更喜欢你讲的。"
+    },
+    "25644EE86D18D885FF660F35269B151A": {
+      "source": "We're in the middle. We go last.",
+      "target": "我们在正中间。我们排最后。"
+    },
+    "28780D8D87E4D1DFD12FEF4D93E1346A": {
+      "source": "I stood at your door seven winters, and walked beside you from the abbey. Corin tells me you hit him with a hammer.",
+      "target": "我在你家门口站了七个冬天，又从修道院一路走在你身边。科林跟我说，你用锤子打过他。"
+    },
+    "35936BB3F046552C85F0C8343196F79C": {
+      "source": "…Oh. There it is. Hello, dear. Does it eat cake?",
+      "target": "……哎呀，它在这儿呢。你好呀，亲爱的。它吃蛋糕吗？"
+    },
+    "39772AB5249F1C71931530190C22ABE8": {
+      "source": "…That's not a bear.",
+      "target": "……那可不是熊。"
+    },
+    "43227DC6BF1126C52A705A7FF39AFE38": {
+      "source": "Tell her it's only one night.",
+      "target": "跟她说，只是一个晚上而已。"
+    },
+    "43465D418DAD6E4C29C5077C70D5E50F": {
+      "source": "The town has dug the gorge road out. The way south to Saltcombe is open.",
+      "target": "镇上的人把峡谷路挖通了。往南去盐谷镇的路开通了。"
+    },
+    "47013EEA9B37BF439B90E47E8EB30BC1": {
+      "source": "I'm the harbour master. Somebody has to keep the books.",
+      "target": "我是港务长。总得有人记账。"
+    },
+    "47978D2E3280E3440105C9C70687CD5E": {
+      "source": "I lit the second lantern. Professional job. The child's not allowed up ladders after the first one.",
+      "target": "第二盏灯是我点的。专业活儿。自打头一盏之后，那孩子就不许上梯子了。"
+    },
+    "56500C6193C3B88C521991D3782F6FBF": {
+      "source": "I lit it! Gran held the ladder. We heard it, Linnet — all the way from the west!",
+      "target": "是我点的！阿婆扶着梯子。我们听见啦，琳内特——从西边一路传过来的！"
+    },
+    "63479C630960DA67F6C8315BF73A5D5F": {
+      "source": "—and begin it once more.",
+      "target": "——再重来一遍。"
+    },
+    "67826EA6E47E350EC1AE61AC6CEBE38F": {
+      "source": "Tin strikes the fork on its gauntlet. One note, low and long. Linnet's hand goes to her throat, as if to catch it.",
+      "target": "阿锡在护手上敲响音叉。一个音，低沉而悠长。琳内特的手抬到喉边，像是要把它接住。"
+    },
+    "72552D8E133E0FD97AB5B4452C7DD4F3": {
+      "source": "Ice shove. Seen one put a wall across Saltcombe harbour in a night. Stand back.",
+      "target": "冰推。我见过一回，一夜之间就在盐谷镇的港口横起一道墙。往后站。"
+    },
+    "073711B15C683E1DBD31D652BE6A6D7A": {
+      "source": "My brother's boat was out that night. If a bell brings the tide back, it brings the Patience back. Wait there.",
+      "target": "那晚我弟弟的船还在海上。要是钟声能把潮水带回来，也就能把耐心号带回来。在这儿等着。"
+    },
+    "75581EDEBCD5AA31DF354C812AA56EB4": {
+      "source": "Evermere",
+      "target": "永湖镇"
+    },
+    "78331B0A43E778C9E008884CDDB7D900": {
+      "source": "A shell! It sounds like snow inside. Is the sea made of snow?",
+      "target": "贝壳！里面听着像在下雪。大海是雪做的吗？"
+    },
+    "78861D445BD30E77949546A44751EA1F": {
+      "source": "Seven years I've rung it at them. A bell-note stills them, for a breath. They listen.",
+      "target": "七年来，我一直冲它们摇这铃。铃音一响，它们就会定住一口气的工夫。它们在听。"
+    },
+    "89492D4F87079EEEE61130D48D8627A0": {
+      "source": "The press still holds its last load of apples — frozen solid, mid-squeeze.",
+      "target": "压榨机里还压着最后一批苹果——榨到一半，冻得结结实实。"
+    },
+    "94260A22E0B97DD77B88ED41B0D9E2DC": {
+      "source": "Chapter One",
+      "target": "第一章"
+    },
+    "99628F533A34A8AF1764C846958DB01B": {
+      "source": "You can. And if you can't, I'll tell everyone you did. I'm very convincing.",
+      "target": "你做得到。就算做不到，我也会告诉所有人你做到了。我说话可是很有说服力的。"
+    },
+    "246879FF036C873A1231B67A2DB36E3F": {
+      "source": "The Bell of Tides",
+      "target": "潮汐之钟"
+    },
+    "270097C7BFCA79464AEF7B38B645172C": {
+      "source": "— C. A.",
+      "target": "——C. A."
+    },
+    "299801CD3E66E30C1719A874CAC58D59": {
+      "source": "The Cider Wife",
+      "target": "苹果酒娘"
+    },
+    "0316673FCCBD4D85BAEB1EA76123B2DF": {
+      "source": "That's number 2,557. I bake one every morning. One morning somebody's going to need it.",
+      "target": "这是第2557个了。我每天早上烤一个。总有那么一天早上，有人会用得着它。"
+    },
+    "0342726C1B4B76C0F18FD49769330A4B": {
+      "source": "Ring",
+      "target": "敲钟"
+    },
+    "417454C44BDB6E7088FB6D8480A2F892": {
+      "source": "Seven years they've stood about this town like coat-stands, and you go and ring the bell at them.",
+      "target": "七年了，它们就像衣帽架似的杵在镇上，你倒好，跑去冲着它们敲钟。"
+    },
+    "511494E2794D3D3C9F2C6A375248685F": {
+      "source": "Light",
+      "target": "点火"
+    },
+    "554430D00A6E2E189A2C4EB7602A2E52": {
+      "source": "Day One",
+      "target": "第一天"
+    },
+    "705686EDCF6F3EBE08F482FD1C90383A": {
+      "source": "Oil, wicks, and a ledger. Every night for seven years, one tally mark: a lamp lit. The last page is nearly full.",
+      "target": "灯油、灯芯，还有一本账本。七年来每晚一道记号：点了一盏灯。最后一页快记满了。"
+    },
+    "711552E98201E05A84B73813073677A0": {
+      "source": "The road to the Shrine of Waking climbs through the Blossomwood, where three wayside chimes stand frozen in the snow.",
+      "target": "通往苏醒神祠的路穿过繁花林向上攀去，林中有三座道旁钟铃，冻在雪里。"
+    },
+    "716633E638E6147138DC7F9A9CDA31FE": {
+      "source": "A cracked bell can be recast. It's still the same bronze.",
+      "target": "裂了的钟可以重铸。铜还是那块铜。"
+    },
+    "760182A5066A2C943F44F9C89484242F": {
+      "source": "Rimeholt",
+      "target": "雾凇堡"
+    },
+    "798741E0D6A92A3A7F3E173F58C9A72B": {
+      "source": "Doesn't even blink. Best one we've ever had.",
+      "target": "连眼都不眨一下哪。是咱们用过最好的一个。"
+    },
+    "816035CD9279065DAEA62356DF6D2628": {
+      "source": "Observing. Black as a boot, that night, and a man came up the north road through the storm — tall, a long coat, striking something on his hand. A little fork. Ting. Ting.",
+      "target": "是在观察。那晚黑得伸手不见五指，有个男人顶着风雪从北边的路上来——个子高高的，穿着长大衣，在手上敲着什么东西。一把小小的叉子。叮。叮。"
+    },
+    "821534D762A56BA3E20D92A87EBE7850": {
+      "source": "Harbour's closed. Has been since the ice came in. There's a fee for asking.",
+      "target": "港口关了。自从结冰以来一直关着。打听也要收费。"
+    },
+    "849001DCF931D284B7F8B98369C63667": {
+      "source": "The Bell of Rest",
+      "target": "安眠之钟"
+    },
+    "863689DAE37C2D39A923DA2A933F16F4": {
+      "source": "The Bell of Harvest",
+      "target": "丰收之钟"
+    },
+    "0887007CA2AED877783D809519A9D2AC": {
+      "source": "A hut of split logs. Snares hang from every peg — and one rabbit, frozen in mid-escape.",
+      "target": "一间劈开的原木搭成的小屋。每根木钉上都挂着套索——还有一只兔子，逃到一半就冻住了。"
+    },
+    "4026794A8E0CB3B624EEAFA2A611EDBB": {
+      "source": "A draught for the road? Brother Fallow blesses them. I mostly just bottle them.",
+      "target": "带瓶治疗药水上路？法洛修士给它们祝过福。我嘛，基本就管装瓶。"
+    },
+    "4091270AAA5DC37007FACF0C452F1C61": {
+      "source": "I'll be at the square, sparrow. There's something I should have given you a long time ago.",
+      "target": "我在广场等你，小麻雀。有样东西，我早就该给你了。"
+    },
+    "4349824F9AEF41164555A3836B2191CF": {
+      "source": "Rimeholt",
+      "target": "雾凇堡"
+    },
+    "6566875B293A95FDC8A339400AE6D075": {
+      "source": "I'll take you. For a bell's worth of bronze.",
+      "target": "我带你去。价钱嘛，一口钟的青铜。"
+    },
+    "8022428E64A4AFBAE670D68B7FA08634": {
+      "source": "Here — first thing the tide brought in. For luck.",
+      "target": "喏——潮水送来的头一样东西。图个好运。"
+    },
+    "09350883BA9EB471D3749215F3D3EAB9": {
+      "source": "Seven years of grain, never threshed. It smells of a summer nobody had.",
+      "target": "七年的谷子，从没脱过粒。闻起来像一个谁也没过上的夏天。"
+    },
+    "16514465F679A4C83DD9A19C9DDE2C2D": {
+      "source": "Somebody tuned these chimes. Bronze does what it was cast to do.",
+      "target": "有人给这些钟铃调过音。青铜铸来做什么，就做什么。"
+    },
+    "22603117AA5C0F15647A4243E824A5B7": {
+      "source": "The south bell! Is the sea real? Is it bigger than the lake?",
+      "target": "南边的钟！大海是真的吗？比湖还大吗？"
+    },
+    "23941854A3C4DD17F5C50D492ABC75D1": {
+      "source": "A seashell from Saltcombe, from the sea.",
+      "target": "从盐谷镇带一枚贝壳，海里来的。"
+    },
+    "27982778F2FEC5F58540700F08321189": {
+      "source": "I keep looking at the sea and waiting for it to stop again. Silly. It's only water.",
+      "target": "我老是盯着海，等着它又停下来。傻吧。不过是水而已。"
+    },
+    "32018271A8F5AC0865D05E3D9A1BB023": {
+      "source": "The Bells of Evermere",
+      "target": "永湖钟声"
+    },
+    "32018271A8F5AC0865D05E3D9A1BB023.2": {
+      "source": "A tale of the year that stopped",
+      "target": "停滞之年的故事"
+    },
+    "45770347C5F136C279CEFD49663E43F3": {
+      "source": "The chapel is cold. Seven rows of candles, all of them lit.",
+      "target": "礼拜堂里很冷。七排蜡烛，全都点着。"
+    },
+    "61924768EAFE34937C1A7F273B5637B8": {
+      "source": "Itemise it. He likes a thing done properly.",
+      "target": "逐项列明。他喜欢把事情做得规规矩矩。"
+    },
+    "66461843AFE2664B2C921FD3BFC01A5A": {
+      "source": "Grandda said the Bell of Waking was tuned to open them. Let's see if he was right.",
+      "target": "外公说过，苏醒之钟调成那个音，就是为了让它们开。看看他说得对不对。"
+    },
+    "74160077D540C32C80F7463EA219995A": {
+      "source": "The stream's talking under the ice by the wheel. First time since that night. I put my ear to it.",
+      "target": "磨坊边的冰底下，小溪在说话呢。自那晚起，这还是头一回。我把耳朵贴上去听了。"
+    },
+    "350018980D955E0E1A1A5092E01786EF": {
+      "source": "The drift's gone off the cellar hatch. Cider wife won't miss a bottle. Or a chest.",
+      "target": "酒窖口那堆雪没了。少一瓶酒，苹果酒娘不会发现的。少一只箱子也不会。"
+    },
+    "809169588BB3D3371E0DE3034F34D3D5": {
+      "source": "I came up to see the spring for myself. Wenna says I owe her for the cart.",
+      "target": "我上来亲眼看看春天。温娜说我还欠她一笔车钱呢。"
+    },
+    "893752004B8B34A915A9DC57882D9500": {
+      "source": "The lake's full of fish that think it's still the night it froze. I'll not tell them if you won't.",
+      "target": "湖里满是鱼，还当现在是结冰的那天晚上呢。你不说，我也不跟它们讲。"
+    },
+    "9235568619BECB49EDB7A7D70A9B250F": {
+      "source": "Bound in ice for seven winters",
+      "target": "七个冬天，冰封不化"
+    },
+    "80893500187C4AE13EE9DE1E015EF6A6": {
+      "source": "That's three. A blossom, a shell and a leaf. Gran says there's one more season, and it's ours.",
+      "target": "三样啦。一枝花、一枚贝壳、一片叶子。阿婆说，还剩一个季节，是我们的。"
+    },
+    "18527884915869FF396699D79F20C094": {
+      "source": "Go out",
+      "target": "出去"
+    },
+    "981331532385267FCFF012F36F9E741A": {
+      "source": "♪ Gold, little field, for the reapers are home…",
+      "target": "♪ 金黄吧，小麦田，割麦人回家……"
+    },
+    "A1D1B93B614FB60F13173CBB66BC68D0": {
+      "source": "Light",
+      "target": "点火"
+    },
+    "A2E780479F13F4047FDA9A3AA4846B73": {
+      "source": "The mills? Strike the hub. Old Mabry swears by it, and he's been wrong about everything else.",
+      "target": "风车？敲它的轴心。老马布里拿这招打包票，别的事他可是样样都说错了。"
+    },
+    "A5E7DCA4A3EBA090DC9C731BC1276937": {
+      "source": "Amberfield. Monks and mills. I've never stolen from a monk. Never had the chance.",
+      "target": "琥珀原。修士和风车。我还从没偷过修士的东西呢。一直没逮着机会嘛。"
+    },
+    "A6CD5251D2F661EBDA47FD458C780444": {
+      "source": "Two bells! I've started icing them. That's how hopeful I am. Number 2,570, with a cherry on.",
+      "target": "两口钟啦！我都开始给蛋糕抹糖霜了。你瞧我多有盼头。第2570个，顶上还有颗樱桃呢。"
+    },
+    "A9AD547D9D339510D93AAFFC877A0AEE": {
+      "source": "The armour kneels where it fell, empty. There is frost on the inside of the helm, and nothing else.",
+      "target": "盔甲跪在它倒下的地方，里面空空的。头盔内侧结着一层霜，此外什么也没有。"
+    },
+    "A9D958C695E55ABA805D2B36293954D8": {
+      "source": "Your grandfather tuned the wayside chimes, you know. Wake, Turn, Gold. He said a wood should learn the song before the children did.",
+      "target": "道旁那几座钟铃，是你外公调的音，你知道吧。醒、转、金。他说，林子该比孩子们先学会这首歌。"
+    },
+    "A18A2DB919CDDFAAF5404A31CE4E091C": {
+      "source": "Ring",
+      "target": "敲钟"
+    },
+    "A20F4207AE3917B6EEC765E1E09C8FAE": {
+      "source": "Night, Tin.",
+      "target": "晚安，阿锡。"
+    },
+    "A35B690E123986136AC7631FB5B917D0": {
+      "source": "Go and see them all. Then come and find me with your mother.",
+      "target": "去看看大家吧。看完了，就到你妈妈那儿来找我。"
+    },
+    "A66E6B8AA98E46539EC217B4E302E7D4": {
+      "source": "A maple leaf from Amberfield, red as a forge. Dilly has never seen one fall.",
+      "target": "一片琥珀原的枫叶，红得像炉火。迪莉还从没见过叶子落下来。"
+    },
+    "A95F8AB9D69D11385A29AE6EC3F6C1AC": {
+      "source": "The year turns in order. Waking, Tides, Harvest, Rest — four bells, one at each edge of the valley, and each one frees its own edge into the season it was holding.",
+      "target": "一年按次序流转。苏醒、潮汐、丰收、安眠——四口钟，山谷四边各一口。每一口都扣着一个季节，敲响了，那一边就解冻，回到那个季节里。"
+    },
+    "A300BD460FD79E1DDC003EA758B9DFBC": {
+      "source": "Three notes true. The last is the one I could never hold.",
+      "target": "三个音准了。最后那个，我一直没能留住。"
+    },
+    "A340FB352262BD0347C3FC026679EAEA": {
+      "source": "There's something in the pocket.",
+      "target": "口袋里有东西。"
+    },
+    "A364DCAF2E21D80785F46186F0751B2E": {
+      "source": "…Well. That's an answer.",
+      "target": "……好吧。这就算是回答了。"
+    },
+    "A515B41BA4A729AF6C2EEA33804899D4": {
+      "source": "Never been up this far. The deer won't come past the steps.",
+      "target": "我还从没上到过这么高。连鹿都不肯走过那段石阶。"
+    },
+    "A03699D465D583DFC8F0A102D0B1D5D4": {
+      "source": "Poacher of the Blossomwood",
+      "target": "繁花林的偷猎者"
+    },
+    "A9250F38913DF9946C7FCD4430DBA047": {
+      "source": "Last chance for anyone to confess they've been lying this whole time…",
+      "target": "最后的机会啦，有谁想坦白自己一直在撒谎的……"
+    },
+    "A312636FFFB6EE5BDA93C239903045EE": {
+      "source": "The Gate Watch",
+      "target": "守门人"
+    },
+    "A5383901E0EDA69A4DE530AB6F0DF339": {
+      "source": "♪ Rest, little year — and begin it once more.",
+      "target": "♪ 安睡吧，小年年——再重来一遍。"
+    },
+    "A36113719C4A35B52E5459A5F64546BC": {
+      "source": "The gorge road. Seven winters of drift.",
+      "target": "峡谷路。积了七个冬天的雪堆。"
+    },
+    "AA8FE585E5A1A1A6CB2AF960C4C831C4": {
+      "source": "All that lamp oil. The harbour master down at Saltcombe counts hers, I hear. Every lamp.",
+      "target": "烧掉那么多灯油。听说盐谷镇的港务长，自家的灯油都记着数。每一盏灯都记。"
+    },
+    "AA9F16CB048532F5377C0F72CE368408": {
+      "source": "Is it true there was a colour called green? Not pine green. Grass green.",
+      "target": "以前真的有一种颜色叫绿色吗？不是松树那种绿。是草的那种绿。"
+    },
+    "AC0A3F898B7EE9F3C0883025CCFED5BD": {
+      "source": "Seven winters of a wrong note, then. And a whole valley made to hold it.",
+      "target": "这么说，七个冬天，拖的竟是一个错音。还让整座山谷替我撑着它。"
+    },
+    "AC6CC94754A080DC4E7181FDF0F2899D": {
+      "source": "Reeve of Amberfield",
+      "target": "琥珀原的庄头"
+    },
+    "ACBEF0AF3EEE61CEB0A498A676374551": {
+      "source": "The Blossomwood",
+      "target": "繁花林"
+    },
+    "AD7BFC4A78831391914EC70315FC4563": {
+      "source": "♪",
+      "target": "♪"
+    },
+    "AD875033023A8E2C00EC0083316BE36D": {
+      "source": "One kraken, removed. Paid: no. …Give it here.",
+      "target": "海怪一头，已清除。已付：否。……拿来吧。"
+    },
+    "AED6980CFFCF82861ADF3B526C96D7BC": {
+      "source": "Saltcombe",
+      "target": "盐谷镇"
+    },
+    "AF3C47DF8ED4F6DAB63D1003B1E920C6": {
+      "source": "Oh, that's lovely. I'm never leaving this spot.",
+      "target": "哎呀，这可真舒服。我再也不挪窝了。"
+    },
+    "AF59E643A09EBE93A87374FC4CF35BE2": {
+      "source": "Every knight carried a piece of my winter. That one carried the piece that was sorry.",
+      "target": "每一具骑士都扛着我这场冬天的一块。那一具扛着的，是心怀愧疚的那一块。"
+    },
+    "AFA066954FB0D36FB92A71DB09C9A5CD": {
+      "source": "A rota on the door: the night watch, every night, for seven years. Nobody has crossed a name off.",
+      "target": "门上贴着值班表：夜哨，每晚一班，排了七年。没有一个名字被划掉。"
+    },
+    "AFD5691D92F07763AFF92EFB355DC0F1": {
+      "source": "Is it… dead?",
+      "target": "它……死了吗？"
+    },
+    "B0BE1480C30F38910ED2E903F8874225": {
+      "source": "It's a knight. It's with us. It doesn't do crows.",
+      "target": "它是骑士。跟我们一起的。赶乌鸦可不归它管。"
+    },
+    "B0F2DAA3FC939EDBDD9CAAF35AB38631": {
+      "source": "The Frost Gate. Ice to the sky — and it hums, when the wind's in the north.",
+      "target": "霜之门。冰一直垒到天上——北风一吹，它还会嗡嗡作响。"
+    },
+    "B1AC7C9F63DC86D1D71A80B65FE164C8": {
+      "source": "The nets are frozen into one grey block. Somebody has chalked FEE PAID on it.",
+      "target": "渔网冻成了灰扑扑的一整块。有人用粉笔在上面写着：费用已付。"
+    },
+    "B02F99B82A2DC6BCD1B1CB5B4A2981DE": {
+      "source": "Evermere",
+      "target": "永湖镇"
+    },
+    "B2FC135B7BB2A14B542681492B200030": {
+      "source": "Of the Patience",
+      "target": "耐心号船员"
+    },
+    "B4FB92F7139B652CB2DE0F58EC72D132": {
+      "source": "Light",
+      "target": "点火"
+    },
+    "B5A59EC0C9AC1A32A8ADB2F3B465CB23": {
+      "source": "→ {The Quay} · {the Mole}",
+      "target": "→ {码头} · {防波堤}"
+    },
+    "B6B647CAB383E61BC67D2C7FB998B7DC": {
+      "source": "Two bells, Mam. There's a harbour master who fights with a door. You'd have liked her.",
+      "target": "两口钟了，妈。有个港务长，抡着一扇门打架。你肯定会喜欢她。"
+    },
+    "B6CF6999294FB8A61FD60DDA96D2AC22": {
+      "source": "Two thousand five hundred and fifty-seven lamps, one a night, for a brother's boat. Wenna has joined us — and taken her office door.",
+      "target": "两千五百五十七盏灯，一夜一盏，为了弟弟的船。温娜加入了我们——还把港务所的门拆下来带上了。"
+    },
+    "B7BE46C717662040775B9E003B3014E2": {
+      "source": "The Year Turns",
+      "target": "岁月流转"
+    },
+    "B7E1A25F42CD61A7A6C088BDF402D0EA": {
+      "source": "…A fork.",
+      "target": "……音叉。"
+    },
+    "B8DEE2E8F453574811B029A91A3A5F9A": {
+      "source": "↓ {Evermere}",
+      "target": "↓ {永湖镇}"
+    },
+    "B16E332170ED6A8300B6DBE5EA913CBA": {
+      "source": "Corin Ashby knows the wood. The chimes come first, he says — the shrine gate has not opened since the frost.",
+      "target": "科林·阿什比熟悉这片林子。他说要先敲钟铃——自从霜冻降临，神祠的大门就再没开过。"
+    },
+    "B45E50C4C2DF502F4823E1AA6B258963": {
+      "source": "I've been as far south as Saltcombe twice. Once on purpose.",
+      "target": "我往南最远到过盐谷镇，去过两回。有一回还是故意去的呢。"
+    },
+    "B46BDB964B7EBA772004680E5613CD75": {
+      "source": "Under that, very large, the chalk snapped halfway: EAST TOO!!!",
+      "target": "再下面，字写得很大，粉笔写到一半断了：东边也响啦！！！"
+    },
+    "B53BCCC22D84A636F2176772E707AEC5": {
+      "source": "Tell it it's welcome to the field any year it likes.",
+      "target": "跟它说，哪年想来田里都行，我们都欢迎。"
+    },
+    "B62D023B2ECB2ACE9AFF770EB0B8825D": {
+      "source": "The Knight at the Forge Door",
+      "target": "铸钟坊门前的骑士"
+    },
+    "B63DD723BF57243D39782CDAD8D8B2A6": {
+      "source": "We sat down to eat, and the light never moved.",
+      "target": "我们坐下吃饭，天光就再没动过。"
+    },
+    "B76B1678CB663E647EFD819231D9A414": {
+      "source": "Chapter Four",
+      "target": "第四章"
+    },
+    "B78B2DC684DFCA249608AA5407CD0DE7": {
+      "source": "Will you bring me a flower? A real one?",
+      "target": "你能给我带一朵花回来吗？真的花？"
+    },
+    "B87F147A588C90093704A1C2D0DFADCB": {
+      "source": "But there are cantors in the fields now — hollow things in choir robes, ringing bells of their own. When a cantor rings, the knights mend.",
+      "target": "可如今田里有了咏者——穿着唱诗袍的空壳子，摇着它们自己的铃。咏者的铃一响，骑士就修好了。"
+    },
+    "B148D7EFEBB045D47C03369F1FBFD5EE": {
+      "source": "♪",
+      "target": "♪"
+    },
+    "B199C28A378FDC953A0DDE206F45E4AC": {
+      "source": "Warm through the door: cinnamon, and something burning slightly.",
+      "target": "暖意从门里透出来：肉桂的香味，还夹着一丝焦糊味。"
+    },
+    "B215E4DA49F9F4BC0FA7768DB9400FFF": {
+      "source": "The west road to the Blossomwood is open.",
+      "target": "通往繁花林的西路开通了。"
+    },
+    "B224E32F31E88C7B9B8CB4CE8D915E60": {
+      "source": "Go on, Bellkeeper. Wake them.",
+      "target": "去吧，守钟人。去把它们唤醒。"
+    },
+    "B547B7BAD7FAF6D97E378BA3646C4CB5": {
+      "source": "Chalked under it, in a child's round hand: THE WEST BELL RANG.",
+      "target": "下面用粉笔写着，是孩子圆圆的字迹：西边的钟响了。"
+    },
+    "B0572A49F32280DAF0356A29E78D86A8": {
+      "source": "Where the Bells Fell Silent",
+      "target": "钟声沉寂之地"
+    },
+    "B730A2AE01E985FFF1857DD8BD57D627": {
+      "source": "Seven years in Evermere sleeping on my sister's floor. You've no idea what she snores like.",
+      "target": "在永湖镇我姐家的地板上睡了七年。你都想不到她打呼噜是什么动静。"
+    },
+    "B2074D4B3CA3577442F3A7C748761760": {
+      "source": "There. Gone back down where it came from. And you'll want a receipt for that.",
+      "target": "好了。打哪儿来的回哪儿去了。这一笔，得给你们开张收据。"
+    },
+    "B4910E6AB5D191A266341B7619EC8339": {
+      "source": "Strike the hub",
+      "target": "敲击轴心"
+    },
+    "B7791C4A3430B5BDE3B058FE98817FEE": {
+      "source": "Light",
+      "target": "点火"
+    },
+    "B8360F956A4D40E37B2D211F71CA9865": {
+      "source": "Sit a moment. You've brought the spring up a hill; you can rest your legs.",
+      "target": "坐一会儿吧。你把春天带上了山，也该歇歇腿了。"
+    },
+    "B52988BD981613DBDEDBC260AD425B98": {
+      "source": "Mam's shawl. Some nights I can hear the song she sang me, right up to the last line. Then nothing.",
+      "target": "妈妈的披肩。有些夜里，我能听见她唱给我的那首歌，一直到最后一句。然后，就什么都没了。"
+    },
+    "B871383F89D9EB9C3C23BD7DC3A29DBD": {
+      "source": "Rimeholt",
+      "target": "雾凇堡"
+    },
+    "B5541274245C003745AEA7FD5C225EBA": {
+      "source": "Day One",
+      "target": "第一天"
+    },
+    "B18768369826AF629B3C0BDB85CE95B9": {
+      "source": "The Knight at the Forge Door",
+      "target": "铸钟坊门前的骑士"
+    },
+    "BABF7D43C2ABD5CA5C40DB7AE9ED93DA": {
+      "source": "A tale of the year that stopped",
+      "target": "停滞之年的故事"
+    },
+    "BADFAAC259ADCB428DC70B74616F86FF": {
+      "source": "One kraken, removed. Paid: no. The lighthouse is up the cliff stair.",
+      "target": "海怪一头，已清除。已付：否。灯塔在悬崖石阶的上头。"
+    },
+    "BC07C54F2887B183ADABA4BEF220D24A": {
+      "source": "Harbour Master of Saltcombe",
+      "target": "盐谷镇港务长"
+    },
+    "BC808E4453575F099BE08F1204038C0E": {
+      "source": "A shield, if you like. I'll want that back.",
+      "target": "就当是面盾牌吧。这可是港务所的门，回头得还。"
+    },
+    "BCC34966A6604F5F0E1719464C4D6229": {
+      "source": "The Frost Gate. Seven winters thick.",
+      "target": "霜之门。冻了七个冬天的厚冰。"
+    },
+    "BCD89318AC14CEC01D4367BF1A069601": {
+      "source": "Three chimes rung, and the hill's still shut. Maybe it wants a fourth. Maybe it wants a fee.",
+      "target": "三座钟铃都敲过了，山上还是关着。也许它想要第四座。也许它想收点费。"
+    },
+    "BCF0A6F1BF293FB10175D431EA247295": {
+      "source": "The citadel at the head of the valley",
+      "target": "山谷尽头的城塞"
+    },
+    "BD81AA8799F6D6B835644ACE5E766438": {
+      "source": "Abbey bell's up the hill, past the mills. They've not turned since. Nor has anything.",
+      "target": "修道院的钟在山上，过了那几座风车就到。打那以后，风车一直没转过。什么都没再动过。"
+    },
+    "BDCB9E047375BA1BCBA72655E3FF703A": {
+      "source": "Listen. Hear that creak? She's turning. She's turning!",
+      "target": "听。听见那嘎吱声没？它在转。它转起来了！"
+    },
+    "BE4C35F88F1D6CAAB12049824E78CEA6": {
+      "source": "Don't let it be morning, Grandda. Please.",
+      "target": "外公，别让天亮。求求你了。"
+    },
+    "BE363A294AB868D7CBE98D4F75704A92": {
+      "source": "Linnet! LINNET! Look at my crown!",
+      "target": "琳内特！琳内特——！快看我的花冠！"
+    },
+    "BEAC09F49B5A38FAF8CD511FF5C65FFA": {
+      "source": "One ridge, removed. I'll put it on the account.",
+      "target": "冰脊一道，已清除。记在账上。"
+    },
+    "BF3F630A881569C982792909A5A3E15D": {
+      "source": "That's a mooring fee, that is. And that one. And you, with the face.",
+      "target": "这只得交停泊费，跑不了。那只也是。还有你，摆着张臭脸的那只。"
+    },
+    "BF019AE9C109FC59C17C58021946CD0C": {
+      "source": "The stream heard it. Well. There's my bridge.",
+      "target": "溪水听见了。好吧。我的桥来了。"
+    },
+    "BF862A40610621DE09F2998FC3135346": {
+      "source": "♪ Turn, little tide, bring the boats back to shore…",
+      "target": "♪ 转回吧，小潮水，送船儿归岸……"
+    },
+    "BFFE86F15EB58B2D9B297090FC24A433": {
+      "source": "♪",
+      "target": "♪"
+    },
+    "C0C63D0FBE6F6F1EC5EC20CC4D4973B9": {
+      "source": "Three chimes rung, and the hill's still shut. Maybe it wants a fourth. Maybe it wants a fee.",
+      "target": "三座钟铃都敲过了，山上还是关着。也许它想要第四座。也许它想收点费。"
+    },
+    "C2B45788C7CC702B17E993273B07AAE8": {
+      "source": "Take a slice for the road. …No? Nobody ever does. The crows won't touch them any more either.",
+      "target": "拿一块路上吃吧。……不要？谁都不要。现在连乌鸦都不碰了。"
+    },
+    "C2BDA73F59AAB05390800403A687A956": {
+      "source": "Rimeholt",
+      "target": "雾凇堡"
+    },
+    "C4A51D895A57E22C298716C09CDE9C84": {
+      "source": "Gone nowhere? We came round the head in a fog so thick you could lean on it. Last thing I saw before it closed — old Halloway, up on the north road, ringing a bell black as a kettle.",
+      "target": "哪儿都没去？我们绕过岬角的时候，雾浓得都能靠上去。雾合拢前我看见的最后一样东西——是老哈洛韦，在北边的路上，敲着一口黑得像锅底的钟。"
+    },
+    "C04D4E2B0B8BDD6B38DE80F489DA9A40": {
+      "source": "I told you. I told everyone.",
+      "target": "我早说过吧。我跟所有人都说过。"
+    },
+    "C9F570528C76606DFAD3408D9B3DE347": {
+      "source": "Rest, little year—",
+      "target": "安睡吧，小年年——"
+    },
+    "C24B250B6F2CB96ABB31816F1C4568A4": {
+      "source": "Nobody moors in the basin. Not since my father's day. The fishermen say there's something under it.",
+      "target": "没人在港池停船。打我爹那时候起就没有了。渔夫们说，底下有东西。"
+    },
+    "C41BAE39479C4C203E8FB58172E98B05": {
+      "source": "Bigger than the lake. It doesn't stop. It just goes on till it's sky.",
+      "target": "比湖大。它没有尽头。一直往前，直到变成天。"
+    },
+    "C41DCA6C0830624ED3CC5F6FA6862D30": {
+      "source": "Works on novices too.",
+      "target": "对见习修士也管用。"
+    },
+    "C43DB7419EA3FAD33C695C56A5AE9BE6": {
+      "source": "The Knight at the Forge Door",
+      "target": "铸钟坊门前的骑士"
+    },
+    "C53D0A77E8BEB23290C70089F7B8F29C": {
+      "source": "Light",
+      "target": "点火"
+    },
+    "C69DC76944273D4BCA15572C4BCDA9F1": {
+      "source": "Now bring me a leaf. A red one. Gran says they go red before they fall, like they're embarrassed.",
+      "target": "那下回给我带一片叶子吧。红的。阿婆说，叶子掉下来之前会变红，就像害羞了一样。"
+    },
+    "C82BC35FF4CF17162EA69BE759787420": {
+      "source": "The year has turned, and spring has come to Evermere. Grandda has gone to sit with Mam in the churchyard.",
+      "target": "这一年又流转起来了，春天来到了永湖镇。外公去教堂墓园陪妈妈坐坐了。"
+    },
+    "C94D8E6407589853F2052A5E0113DE56": {
+      "source": "I should go and sit with your mother. Seven years, and I never once went.",
+      "target": "我该去你妈妈那儿坐坐了。七年了，我一次也没去过。"
+    },
+    "C94DB1844E241C2B1E57AF7F34C124B8": {
+      "source": "First pressing in seven years. It's a bit sharp. So am I.",
+      "target": "七年来头一回榨的酒。有点冲。跟我一样。"
+    },
+    "C573BB3E8EB4BFE7CA73F85FC246CF33": {
+      "source": "Her sails haven't turned since that night. I grease her every week anyway. You never know.",
+      "target": "自那晚起，风车就没转过。我还是每周给它上油。说不准哪天呢。"
+    },
+    "C2180CC8B7356A3185F1C6A343D1D9A4": {
+      "source": "Something walks in the Harvest Close at dusk. Which is always, now. It wears a coat.",
+      "target": "每到黄昏，丰收围场里就有个东西走来走去。如今可一直都是黄昏。它穿着件大衣。"
+    },
+    "C5900A5C01904326D4422451BA9FEBEA": {
+      "source": "And the Hushguard came out of the snow behind him. Dozens. Following the note like hounds after a horn. North, the lot of them.",
+      "target": "寂静卫士就跟在他身后，从雪里走了出来。几十具。追着那个音走，就像猎犬追着号角。全都往北去了。"
+    },
+    "C6154AC2C81DC921458ED3F97ACE307D": {
+      "source": "West first. The Bell of Waking.",
+      "target": "先往西。苏醒之钟。"
+    },
+    "CACE10EE2E10FC321EA162ED128878DE": {
+      "source": "A tale of the year that stopped",
+      "target": "停滞之年的故事"
+    },
+    "CB5B2B9AC74F95DF33C9C54590868975": {
+      "source": "Here. It's yours. It always was going to be.",
+      "target": "拿着吧。它是你的了。早晚都会是你的。"
+    },
+    "CB275E1E80F35C8A12A67898064AB304": {
+      "source": "Listen to that. Running water. I'd forgotten it had a voice.",
+      "target": "听听。流水声。我都忘了它还有自己的嗓音呢。"
+    },
+    "CBA8AAFAE8F84F7DFA701E3AC658B088": {
+      "source": "Every bell in the valley just rang at once, and you look like somebody stood on your foot.",
+      "target": "全山谷的钟刚刚一齐响了，你倒好，一脸像是被人踩了脚还硬撑着。"
+    },
+    "CBB5DCF7684798A96421E1CB23ABC172": {
+      "source": "Nobody came running. Good.",
+      "target": "没人跑过来。很好。"
+    },
+    "CBD99F3126D6E1EAE9DDDECDF258F844": {
+      "source": "Every fire's out — stand in your own bell's ring, Linnet!",
+      "target": "火全灭了——快躲进你自己那口钟的钟声里，琳内特！"
+    },
+    "CC7A7DF3429A0959D9CC1F7AB49FC317": {
+      "source": "Gull Steps, clear again. My father carried his lamps up these every evening for forty years.",
+      "target": "海鸥石阶，又通了。我爹四十年来每天傍晚都提着灯，从这儿爬上去。"
+    },
+    "CCC14D19110C7F59E2265EBC29E06B82": {
+      "source": "…It's very good.",
+      "target": "……很好吃。"
+    },
+    "CD709F5A1B5B3DAEEA60B015A41BEEA5": {
+      "source": "One bell. It's blossom out west, Mam. Pink and white. You'd have picked an armful.",
+      "target": "一口钟了。西边开花了，妈。粉的，白的。你要是在，准会摘上一大抱。"
+    },
+    "CDF64CE00F013692428A8B42DB6B57D7": {
+      "source": "Wake, little blossom… turn, little tide… gold, little field. Wake, turn, gold.",
+      "target": "醒来吧，小花苞……转回吧，小潮水……金黄吧，小麦田。醒、转、金。"
+    },
+    "CDF301EFAD5DBE32E6A364B6FE0F3B07": {
+      "source": "Ice shove. The whole lake's been leaning on this shore since the freeze. I'd need a crowbar the size of a mast.",
+      "target": "冰推。自从湖面封冻，整个湖就一直压在这片岸上。得有根桅杆那么粗的撬棍才撬得动。"
+    },
+    "CE2F936AC804510CBC4CFE43C14549BE": {
+      "source": "Seven years? It was Tuesday a minute ago. Is old Penhallow still at the chandlery? He owes me a rope.",
+      "target": "七年？刚才还是星期二呢。老彭哈洛还在船具店吗？他还欠我一根绳子。"
+    },
+    "CE7D29B1ECCD2E75D89C39A332A39882": {
+      "source": "Poacher of the Blossomwood",
+      "target": "繁花林的偷猎者"
+    },
+    "CF2770A5D6429679A2E2041A08A6DD4F": {
+      "source": "Grandda is waiting at the square's bell.",
+      "target": "外公在广场的钟那儿等我。"
+    },
+    "CFB32D4804DE00323E42DF50CC76D4D4": {
+      "source": "First morning I've not had to light a lamp. I don't know what to do with my hands.",
+      "target": "头一个不用点灯的早晨。我都不知道这双手该往哪儿放了。"
+    },
+    "CFE86E0686036212E208534ECDC52C1A": {
+      "source": "Light",
+      "target": "点火"
+    },
+    "D0D35BECE39151DB5AAA8E0B7FCEC0D8": {
+      "source": "So. Ringers first. Then the knights. Then supper.",
+      "target": "所以说，先对付鸣钟者。再对付骑士。然后吃晚饭。"
+    },
+    "D2F2C5C6DA5420D07CB357A758D2D0EC": {
+      "source": "Morning, Mam. …Evening. It's always evening.",
+      "target": "早安，妈。……不，是傍晚。永远是傍晚。"
+    },
+    "D2FDA1811A9BFCF9EF5FFCF1365137E4": {
+      "source": "Amberfield",
+      "target": "琥珀原"
+    },
+    "D3A1AC1923D32E31C187569D15886AEF": {
+      "source": "Hymn sheets frozen to the lectern. Every hymn on them is the same four notes, backwards.",
+      "target": "赞美诗页冻在诵经台上。上面每一首都是同样的四个音，倒着唱。"
+    },
+    "D3B8664BA79247879A41BB6D3919EED8": {
+      "source": "♪",
+      "target": "♪"
+    },
+    "D3ED560EF41FDAD7285F40C6A2170AAF": {
+      "source": "Strike",
+      "target": "敲击"
+    },
+    "D8E2694E8837AA82A1281352194E4B9C": {
+      "source": "When that bell goes, stand by a fire. I'm not paying to dig anyone out.",
+      "target": "那口钟一响，就站到火边去。我可不出钱把谁刨出来。"
+    },
+    "D9CC38F740773E0C22D7AC1BA48BE5AD": {
+      "source": "Amberfield",
+      "target": "琥珀原"
+    },
+    "D9EE575DF5D3DFF1288A5ED48C22C053": {
+      "source": "No? Just me, then.",
+      "target": "没有？那就只有我一个了。"
+    },
+    "D51D3552B3C0F62E81F69F0FE6CA2D5A": {
+      "source": "Draughts too, if you're hurt. Wenna makes me keep them. Says it's a harbour regulation. It isn't.",
+      "target": "您要是受了伤，我这儿也有治疗药水。温娜非让我备着，说是港口的规定。才不是呢。"
+    },
+    "D75A2671AFE331FEBE0CFC12EE85E33F": {
+      "source": "Told you it'd turn.",
+      "target": "我早说过它会转的。"
+    },
+    "D83C4A097BBE5D3E1E6412BE96523E7D": {
+      "source": "EVERMERE — Day 1 of Spring.",
+      "target": "永湖镇——春日第1天。"
+    },
+    "D83C7F1FCE4E049A94B295B1354931F5": {
+      "source": "When I was a girl the sun went backwards for a whole afternoon. Nobody else noticed. Typical.",
+      "target": "我还是个小丫头的时候，太阳倒着走了一整个下午。别人谁也没发现。哼，向来如此。"
+    },
+    "D404E3B636D6A135372C009549CF1FC8": {
+      "source": "Look! A crown of everything! A blossom, a shell, a red leaf — and a snowdrop, so winter doesn't feel left out.",
+      "target": "你看！一顶什么都有的花冠！一枝花、一枚贝壳、一片红叶——还有一朵雪花莲，这样冬天就不会觉得被落下啦。"
+    },
+    "D724AB7DB72A9DB188242386269828EE": {
+      "source": "Got you, you thieving—",
+      "target": "逮住你了，你这偷东西的——"
+    },
+    "D981DCF8160EB16D5976E042862A2EA1": {
+      "source": "♪ Wake, little blossom… ♪",
+      "target": "♪ 醒来吧，小花苞…… ♪"
+    },
+    "D8281F683C5E2A76E35A4233104168D5": {
+      "source": "Seven years I watched that wall, and I'd have sworn nothing could shift it. Mind how you go up there.",
+      "target": "那道墙我守了七年，本来敢发誓，什么都挪不动它。上去以后当心点。"
+    },
+    "D9530D721D44A5757B7F3F7A47EA96E8": {
+      "source": "Light",
+      "target": "点火"
+    },
+    "D85354E12B619DA8AF38F9AC6347E316": {
+      "source": "↓ The gorge road to Saltcombe. The Bell of Tides.",
+      "target": "↓ 峡谷路，通往盐谷镇。潮汐之钟。"
+    },
+    "D838037F0C3A5672E04F0CCE85461DD3": {
+      "source": "The west bell, was it? Then I'll have flour on my hands by summer. Mark me.",
+      "target": "是西边的钟，对吧？那到了夏天，我手上就该沾满面粉了。你记着。"
+    },
+    "DA4BDD1373FB0C2E68FBC8D42DA2AC4D": {
+      "source": "You've gone grey, Wenna.",
+      "target": "你头发都白了，温娜。"
+    },
+    "DAF04985981766DDD055A12B007999DF": {
+      "source": "Seven years she asked me what green smelled like. I said wait. I'm glad I said wait.",
+      "target": "七年来她老问我，绿色是什么味道。我说，等着吧。幸好我说的是等着。"
+    },
+    "DAFBF9B2DD4A76C1FB2AD2D62E4183ED": {
+      "source": "It's RED. Is it hot? It looks hot. …It's not hot.",
+      "target": "是红的！红的哦！烫不烫？看着好烫。……不烫。"
+    },
+    "DD74520AB8B1FC3DF3FBC738E2302271": {
+      "source": "My hands shake now. A Bellkeeper wants steady hands.",
+      "target": "我的手如今会抖了。守钟人得有一双稳当的手。"
+    },
+    "DDEBFC4723BDE1BEDAD2DE4A906ACB71": {
+      "source": "Evermere",
+      "target": "永湖镇"
+    },
+    "DE3F3EC766413A5A0897DBC8E3C563C1": {
+      "source": "EVERMERE — Day 2,557 of Winter.",
+      "target": "永湖镇——冬日第2557天。"
+    },
+    "DE388EAE297F476D7F130A7536A1FC33": {
+      "source": "Ring the Bell of Harvest?",
+      "target": "要敲响丰收之钟吗？"
+    },
+    "DED0335C0D54F7B6C2175A490FEDDF84": {
+      "source": "The sails are turning. That's all this one has to give.",
+      "target": "风车转起来了。这一座能给的就这些。"
+    },
+    "DF3F5E7CD09EAE9265217AB62B129193": {
+      "source": "Evermere",
+      "target": "永湖镇"
+    },
+    "DFA5B1CC79AEFD66267D5911FD5FE263": {
+      "source": "The bells are broken, girl. Everyone knows that.",
+      "target": "钟都坏啦，丫头。谁不知道。"
+    },
+    "DFD121A62F2D508DAA15AEFAADC11730": {
+      "source": "The three chimes ring the first notes of Mam's song. Strike them in its order: Wake, Turn, Gold.",
+      "target": "三座钟铃敲出的，是妈妈那首歌开头的几个音。按歌里的顺序敲响它们：醒、转、金。"
+    },
+    "E1DD52EE89296FD0473F1A61205DAADE": {
+      "source": "They're all red over there. Red and gold, the whole field. Like the forge, but quiet.",
+      "target": "那边全是红的。红的、金的，整片田野都是。像铸钟坊，只是静悄悄的。"
+    },
+    "E1FAC7E383054A75AB00207F90175C66": {
+      "source": "I've come to ring the Bell of Tides.",
+      "target": "我是来敲响潮汐之钟的。"
+    },
+    "E3B5E40D6C00F1D035D0DF371E4426C4": {
+      "source": "The reeve's door stands open, as it has for seven years. The supper is outside, where the light was.",
+      "target": "庄头家的门敞着，七年来一直如此。晚饭摆在屋外——摆在当时还有光的地方。"
+    },
+    "E4D5ECE328FD596C7C9216DC359997C0": {
+      "source": "Can I keep it forever? Will it stay?",
+      "target": "我能永远留着它吗？它会一直在吗？"
+    },
+    "E4E4A845BF63FE0F217893CC22BEA39B": {
+      "source": "Light",
+      "target": "点火"
+    },
+    "E5F24F5335E9233AD1E4EE373D963EFB": {
+      "source": "Mam's gone, Grandda. She was gone before morning.",
+      "target": "妈已经走了，外公。天没亮她就走了。"
+    },
+    "E8E0D6F502FDA3D9627B1A08D1CB5BA3": {
+      "source": "Evermere",
+      "target": "永湖镇"
+    },
+    "E9A8E8834A2C8AD8C396D43B4CA6DDC5": {
+      "source": "I'm keeping a tally. You'll want to be on the right side of it.",
+      "target": "我一笔笔都记着账呢。你最好别落到欠账那一栏里。"
+    },
+    "E22A14C192445854C990E3E4F7DE63F0": {
+      "source": "No mooring past the second bollard. — W. Gale",
+      "target": "第二根系缆桩以外禁止停泊。——W. 盖尔"
+    },
+    "E24A0C67E11B8A78DBF5BE8D84483A6D": {
+      "source": "It wants them in order. Those three notes — they're the start of Mam's song.",
+      "target": "它要按顺序来。那三个音——是妈妈那首歌的开头。"
+    },
+    "E40FB6AE2E22C8C5F6F7C3665A0E965A": {
+      "source": "Tin's armour stands beside the grave, empty. Blossom drifts down into its open helm.",
+      "target": "阿锡的盔甲立在墓旁，里面空空的。花瓣飘落，落进它敞开的头盔里。"
+    },
+    "E41FF83703E8F311BF0F60BC990DB8FF": {
+      "source": "Oh, look, Cob — they've brought us a new mawkin. Isn't it handsome?",
+      "target": "哎呀，你瞧，柯伯——他们给咱们带来个新稻草人。多俊哪！"
+    },
+    "E55E79392C7F912BFD2D9645A670267F": {
+      "source": "Does it… want something?",
+      "target": "它……想要什么吗？"
+    },
+    "E64B939984B18583F629BC387A01B1EA": {
+      "source": "Four bells in a row and a fifth, coloured in black. Underneath, in a child's letters: SO MAM CAN STAY.",
+      "target": "一排四口钟，还有第五口，涂成了黑色。下面是孩子写的字：让妈妈留下来。"
+    },
+    "E98ECCF8CC3D6FA70FB7C2F849A7008A": {
+      "source": "Osmund Halloway's old work coat, taken off the Harvest Mawkin. Bell-metal burns on both cuffs.",
+      "target": "奥斯蒙德·哈洛韦的旧工作大衣，从丰收稻草人身上取下来的。两只袖口上都有钟铜烫出的焦痕。"
+    },
+    "E341E44CD2E349322EEF6863C2459B7A": {
+      "source": "Visitors. First since the ice. Morwenna Gale, harbour master — that'll be a landing fee.",
+      "target": "来客了。结冰以来头一批。莫温娜·盖尔，港务长——这得收登岸费。"
+    },
+    "E681A93C063F7C1CF959F2A19C901BFB": {
+      "source": "The charcoal burner's hut. His last fire is still laid in the hearth, seven years unlit.",
+      "target": "烧炭人的小屋。他最后一炉火的柴还码在炉膛里，七年没点过。"
+    },
+    "E958F3371E9FBB0A490214C5F5FECD01": {
+      "source": "A flower from the Blossomwood. A real one.",
+      "target": "从繁花林带一朵花。要真的。"
+    },
+    "E984A15A67FFD2403F4F49DB028F156F": {
+      "source": "It suits you.",
+      "target": "挺适合你的。"
+    },
+    "E1533CF9F0C8667CB6AEC6D60788565C": {
+      "source": "The chapter house. Seven years of hymn sheets, frozen to the lectern in the middle of a verse.",
+      "target": "修士会堂。诵经台上的赞美诗页冻了七年，正停在一节唱到一半的地方。"
+    },
+    "E3773BBE7CE3A524AAD30298DA89DCC0": {
+      "source": "Oh, I'm crying anyway.",
+      "target": "哎呀，我还是哭了。"
+    },
+    "E6227FBE1FF966E1FD5C9098BF7A7A1B": {
+      "source": "…I can't",
+      "target": "……我做不到"
+    },
+    "E7134DE65A4DC2BE6BB76D82B6C2A82C": {
+      "source": "A knight walked right past the forge last night. I hid. Bravely.",
+      "target": "昨晚有个骑士从铸钟坊门前走过去了。我躲起来了。躲得可勇敢了。"
+    },
+    "E9382E034A2573A229EBE3449E3C9A9B": {
+      "source": "Like the forge but quiet. …I'm going to think about that all night.",
+      "target": "像铸钟坊，只是静悄悄的。……我要想它一整晚。"
+    },
+    "E37241BA0350421355EF582FE3ACD683": {
+      "source": "Chapter Two",
+      "target": "第二章"
+    },
+    "E46835437C28C7ED7A3FAADC06D681B4": {
+      "source": "Kneel",
+      "target": "跪下"
+    },
+    "E74454985700C6CE7FFFE8E8708F76E0": {
+      "source": "Still rings true. That's something.",
+      "target": "音还是准的。好歹还有这个。"
+    },
+    "EAD917F85C36B5780E9B6213D67EE5DB": {
+      "source": "EVERMERE — Day 2,578 of Winter.",
+      "target": "永湖镇——冬日第2578天。"
+    },
+    "EAF1BD5552BB72CFD50B98F1766D4666": {
+      "source": "Somebody tuned these chimes. Bronze does what it was cast to do.",
+      "target": "有人给这些钟铃调过音。青铜铸来做什么，就做什么。"
+    },
+    "EB11CE4472C89F18CE52D3F19DC3E466": {
+      "source": "Last Monk of Amberfield",
+      "target": "琥珀原最后的修士"
+    },
+    "EBD9CDE2ED88AE432127AF31F2910307": {
+      "source": "I asked after Mabli Price all morning. Married a cooper. Three children. Seven years, and I still had a ribbon for her in my pocket.",
+      "target": "我打听了一上午玛布丽·普赖斯的消息。嫁了个箍桶匠。三个孩子了。七年了，我兜里还揣着给她的一根缎带呢。"
+    },
+    "EC687273F040CDDE5AA00CEA092B599C": {
+      "source": "Light",
+      "target": "点火"
+    },
+    "ECA6686FC3EF005C92D620D6A5BB0AE9": {
+      "source": "Rimeholt",
+      "target": "雾凇堡"
+    },
+    "ECB1EAC05E1951F03E414BCDA8DC1CE5": {
+      "source": "Twelve places, eleven empty. And a pie nobody's cut. That's a supper owed.",
+      "target": "十二个座位，空了十一个。还有个没人切过的馅饼。这顿晚饭算是欠下了。"
+    },
+    "ECD7392B607A140D2C267C2970EBCCFA": {
+      "source": "Ring",
+      "target": "敲钟"
+    },
+    "ECF73D07A42FEB4A899FB272063FC88C": {
+      "source": "Empty. A kettle on a cold hob, and the gulls nesting in the chimney.",
+      "target": "屋里空着。冰冷的灶台上搁着一只水壶，海鸥在烟囱里筑了巢。"
+    },
+    "EDD6FD65FF7C7F0B608EC9857814373F": {
+      "source": "Then we'll go up and have a word with him. I've brought the ledger.",
+      "target": "那咱们就上去，跟他好好说道说道。账本我带着呢。"
+    },
+    "EDFDF44E8B014473C9ECF6E81E7F6911": {
+      "source": "Light",
+      "target": "点火"
+    },
+    "EE16976A0DC2C406F68B818DAF33A8AE": {
+      "source": "THE MOLE",
+      "target": "防波堤"
+    },
+    "EE3741554F67E93541275855FD39CDBC": {
+      "source": "Tin?",
+      "target": "阿锡？"
+    },
+    "EFA64D82760CE69E89E0D382383017CE": {
+      "source": "Petals in my hair. Seven years of snow and now petals. I'll never get them out.",
+      "target": "花瓣都落进我头发里了。下了七年的雪，现在倒下起花瓣来了。这下可再也弄不干净啦。"
+    },
+    "F0D8B412F04865D451794A85C8075066": {
+      "source": "The Harvest Mawkin",
+      "target": "丰收稻草人"
+    },
+    "F0D8B412F04865D451794A85C8075066.2": {
+      "source": "Keeper of the Frozen Field",
+      "target": "冰封田野的守望者"
+    },
+    "F0D43513A63A76CA7EBFFDF6D48D5501": {
+      "source": "It stood at our door every night. Seven years.",
+      "target": "它每晚都站在我们家门口。七年。"
+    },
+    "F1B0D320FDAB17D323E48D3C0F0E78B8": {
+      "source": "Look at it. Gold to the hedges. I'd forgotten wheat could move.",
+      "target": "瞧瞧。金灿灿的，一直铺到树篱边。我都忘了麦子是会动的。"
+    },
+    "F1BB36DB36B73C6C2B5E121F77FF279F": {
+      "source": "There. Warm iron.",
+      "target": "好了。铁热了。"
+    },
+    "F1D94AF5443D52A52239E4BB504F88FC": {
+      "source": "Whatever he is up there, he's your family. I'll bill him gently.",
+      "target": "不管他在上面成了什么，他总归是你的家人。账单我会开得客气些。"
+    },
+    "F2A634E386184E0C09282B0833C380C7": {
+      "source": "THE BELLS OF EVERMERE",
+      "target": "永湖钟声"
+    },
+    "F002B37EE197632642B6550D70B858A4": {
+      "source": "They say the fish at Saltcombe come the size of carts. I'll believe it once I've told it myself.",
+      "target": "听说盐谷镇的鱼有大车那么大。等我自己讲过一遍，我就信啦。"
+    },
+    "F5BDED5DAD00A70909787A400425235F": {
+      "source": "The Bell of Waking",
+      "target": "苏醒之钟"
+    },
+    "F5DBA860AAC125350AA588D826EE32B6": {
+      "source": "Prologue",
+      "target": "序章"
+    },
+    "F6BD78DBF013D57C10CF593116882BB7": {
+      "source": "And then the abbey bell, clear across the valley, and we all just — got up and walked home.",
+      "target": "后来修道院的钟声传遍了山谷，我们就都——站起身，走回家了。"
+    },
+    "F6EA5DE509F7F52D6AF9DBCBD60ED1AD": {
+      "source": "Wake, turn, gold. The gate heard it. Up the hill, then.",
+      "target": "醒、转、金。大门听见了。那就上山吧。"
+    },
+    "F7FFD77E037C4ED2CDAB865C79D9C9B2": {
+      "source": "Mam's shawl. I remember the last line now. I'll sing it to her when it's morning.",
+      "target": "妈妈的披肩。最后一句我想起来了。等天亮了，我唱给她听。"
+    },
+    "F8AAD04566E53CA4F1A7248C1C9ABB81": {
+      "source": "It is not.",
+      "target": "当然不是。"
+    },
+    "F8CCE1D4465146A3E0F3C0605F1BCD2A": {
+      "source": "A spiral shell the first tide in seven years brought to Saltcombe's quay. Dilly has never heard the sea in one.",
+      "target": "一枚螺旋形的贝壳，七年来的第一场潮水把它送上了盐谷镇的码头。迪莉还从没在贝壳里听见过大海。"
+    },
+    "F9BFB8171FC5D6CFB215F98AB284F329": {
+      "source": "The Bell of Rest",
+      "target": "安眠之钟"
+    },
+    "F9BFB8171FC5D6CFB215F98AB284F329.2": {
+      "source": "Rest, little year — and begin it once more",
+      "target": "安睡吧，小年年——再重来一遍"
+    },
+    "F046F5EE58867A352AE2050955577CE7": {
+      "source": "Where the Bell of Tides hangs",
+      "target": "潮汐之钟高悬之处"
+    },
+    "F48DC95D1282E7B3B721D3FE454C1545": {
+      "source": "I taught your grandfather to ring. Left hand on the rope, right hand on your heart. He never listened.",
+      "target": "你外公敲钟还是我教的呢。左手拉绳，右手按在心口。他从来不听。"
+    },
+    "F50C2BA1A68135E546A8ADC2C503B082": {
+      "source": "A handbell. Does it work on the Hushguard?",
+      "target": "手摇铃。对寂静卫士管用吗？"
+    },
+    "F65F145CDC71A1F171798C77182B55DB": {
+      "source": "It wasn't dead. It was waiting.",
+      "target": "它没死。它在等。"
+    },
+    "F68ACB2367A80AEAB158B3D784779064": {
+      "source": "Brother Fallow's lesson: the cantors ring and the knights mend. Silence the ringers first. The mills' fog closes the lane to the abbey.",
+      "target": "法洛修士教的：咏者一敲钟，骑士就会修复。先让鸣钟者噤声。风车那边的雾封住了通往修道院的小路。"
+    },
+    "F88AE9FACD647FBD931A91EDC70112DB": {
+      "source": "Tin looks at Linnet for a long moment. Then it reaches out and straightens her collar.",
+      "target": "阿锡久久地望着琳内特。然后它伸出手，替她理了理衣领。"
+    },
+    "F9500EFA5B1D79F15154E6662CFEDA7C": {
+      "source": "The Baker",
+      "target": "面包师"
+    },
+    "F9876DAFEF7CA4920BCC2916CE0597B9": {
+      "source": "Saltcombe",
+      "target": "盐谷镇"
+    },
+    "F41439BE9912BF2F3859B6055130D96F": {
+      "source": "You're telling me somebody tuned a whole wood to a lullaby.",
+      "target": "你是说，有人照着一首摇篮曲给整片林子调了音？"
+    },
+    "F50585B18917057D65FA1A1ED122ECB6": {
+      "source": "→ {The Cider Press}",
+      "target": "→ {苹果酒坊}"
+    },
+    "FA3AE77F8AA8EB66AE9885418D30B797": {
+      "source": "The east road. Not before the Bell of Tides.",
+      "target": "东边的路。得等潮汐之钟响过再说。"
+    },
+    "FB3E2248685742C1CF347027B647EAC6": {
+      "source": "It wants them in order. Those three notes — they're the start of Mam's song.",
+      "target": "它要按顺序来。那三个音——是妈妈那首歌的开头。"
+    },
+    "FC12155D0DB6571A60A5D6DD7FE51B01": {
+      "source": "↓ {Evermere}",
+      "target": "↓ {永湖镇}"
+    },
+    "FD0F7FE452D9709216526BB1D6470249": {
+      "source": "Rimeholt",
+      "target": "雾凇堡"
+    },
+    "FD3A13996E4175F5C39D00831FF0FA56": {
+      "source": "Somebody inside is arguing with a kettle, and winning.",
+      "target": "屋里有人在跟一只水壶吵架，而且吵赢了。"
+    },
+    "FD8F4E015A4CFAD000E9CC5171EC4DD0": {
+      "source": "Iron's iron. Hit it till it rings — then hit what's underneath.",
+      "target": "铁就是铁。敲到它响——再敲里头那东西。"
+    },
+    "FDEA8BAD70B2261D1BC1A9ADE381F441": {
+      "source": "EVERMERE — Day 2,578 of Winter.",
+      "target": "永湖镇——冬日第2578天。"
+    },
+    "FE2DE483BD18969F483626DC958DE005": {
+      "source": "← The Blossomwood. The Bell of Waking.",
+      "target": "← 繁花林。苏醒之钟。"
+    },
+    "FE37BF36B57F989710F72D520AB90C9D": {
+      "source": "Through the door: a fiddle, badly tuned, and somebody laughing anyway.",
+      "target": "门里传来一把走了音的提琴声，可还是有人在笑。"
+    },
+    "FF5F5ED5134FE573FD832C95791EADBC": {
+      "source": "Night, Tin.",
+      "target": "晚安，阿锡。"
+    },
+    "FF7C628C654C9B791592CC71F852D85A": {
+      "source": "Then we light our own. Brazier iron holds its heat. It only wants a spark.",
+      "target": "那我们就自己点火。火盆的铁能存住热。只差一点火星。"
+    },
+    "FF75BC0872302ED8CA938AC6B7082D8D": {
+      "source": "Under it, in a lamplighter's careful capitals: AND THE SOUTH ONE.",
+      "target": "下面是点灯人一笔一画的工整大字：南边的也响了。"
+    },
+    "FF6295EACFB1674D27FD32955138ED0D": {
+      "source": "CLOSED FOR THE SEASON. The season has lasted seven years.",
+      "target": "本季歇业。这一季已经持续了七年。"
+    }
+  }
+}

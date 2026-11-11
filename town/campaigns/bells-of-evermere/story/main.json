@@ -1,0 +1,665 @@
+{
+  "format": "luminati-story",
+  "version": 1,
+  "vars": {
+    "rh-brazier-1": 0,
+    "rh-brazier-2": 0,
+    "rh-brazier-3": 0,
+    "rh-brazier-4": 0,
+    "rh-brazier-5": 0,
+    "rh-brazier-6": 0,
+    "rh-brazier-7": 0,
+    "rh-check-guard": 0,
+    "rh-check-cantors": 0,
+    "bc-brazier-1-out": 0,
+    "bc-brazier-2-out": 0,
+    "bc-brazier-3-out": 0,
+    "bc-brazier-4-out": 0,
+    "bc-brazier-5-out": 0,
+    "bc-brazier-6-out": 0,
+    "bc-crown-phase": 0
+  },
+  "items": {
+    "blossom": {
+      "name": "Cherry Blossom",
+      "text": "A sprig of the Blossomwood's first blossom in seven years. Dilly has never seen one.",
+      "key": true,
+      "textKeys": {
+        "text": "609AD190C780A081FF5558A9B4B43630"
+      }
+    },
+    "receipt": {
+      "name": "Wenna's Receipt",
+      "text": "In a neat harbour hand: \"One kraken, removed. Paid: no.\" Signed, M. Gale, Harbour Master.",
+      "key": true,
+      "textKeys": {
+        "text": "8E3D923EC94E733A88FB6B5074F41C34"
+      }
+    },
+    "seashell": {
+      "name": "Seashell",
+      "text": "A spiral shell the first tide in seven years brought to Saltcombe's quay. Dilly has never heard the sea in one.",
+      "key": true,
+      "textKeys": {
+        "text": "F8CCE1D4465146A3E0F3C0605F1BCD2A"
+      }
+    },
+    "osmund-coat": {
+      "name": "Grandda's Coat",
+      "text": "Osmund Halloway's old work coat, taken off the Harvest Mawkin. Bell-metal burns on both cuffs.",
+      "key": true,
+      "textKeys": {
+        "text": "E98ECCF8CC3D6FA70FB7C2F849A7008A"
+      }
+    },
+    "drawing": {
+      "name": "A Child's Drawing",
+      "text": "Four bells in a row and a fifth, coloured in black. Underneath, in a child's letters: SO MAM CAN STAY.",
+      "key": true,
+      "textKeys": {
+        "text": "E64B939984B18583F629BC387A01B1EA"
+      }
+    },
+    "red-leaf": {
+      "name": "Red Leaf",
+      "text": "A maple leaf from Amberfield, red as a forge. Dilly has never seen one fall.",
+      "key": true,
+      "textKeys": {
+        "text": "A66E6B8AA98E46539EC217B4E302E7D4"
+      }
+    },
+    "fork": {
+      "name": "Grandda's Tuning Fork",
+      "text": "Osmund Halloway's tuning fork. It gives one note, low and long. The Bellkeeper's.",
+      "key": true,
+      "textKeys": {
+        "text": "8CFBAC24A255D3E73B10D39969C6EA92"
+      }
+    }
+  },
+  "quests": {
+    "year": {
+      "title": "The Year That Stopped",
+      "text": "Seven winters ago the bells of the valley fell silent and the year stopped turning. Four Season Bells stand at its edges — Waking, Tides, Harvest, Rest — and they have to ring in that order. Grandda's hammer will have to do.",
+      "stages": [
+        {
+          "id": "waking",
+          "text": "The Bell of Waking hangs in the shrine on the hill of the Blossomwood, west along the road from Bell Street. Spring is waiting under the snow there."
+        },
+        {
+          "id": "tides",
+          "text": "The Bell of Tides is in the lighthouse at Saltcombe, south down the gorge road. The town dug the drift out the day the west bell rang."
+        },
+        {
+          "id": "harvest",
+          "text": "The Bell of Harvest hangs in the abbey belfry at Amberfield. The road leaves from the east shore, across the frozen lake."
+        },
+        {
+          "id": "rest",
+          "text": "The Bell of Rest waits at Rimeholt, at the head of the valley, past the Frost Gate. So does Grandda."
+        },
+        {
+          "id": "day-one",
+          "text": "The year has turned, and spring has come to Evermere. Grandda has gone to sit with Mam in the churchyard."
+        },
+        {
+          "id": "bellkeeper",
+          "text": "Grandda is waiting at the square's bell."
+        }
+      ],
+      "goals": [
+        {
+          "text": "The Bell of Waking",
+          "done": "bell-waking"
+        },
+        {
+          "text": "The Bell of Tides",
+          "done": "bell-tides"
+        },
+        {
+          "text": "The Bell of Harvest",
+          "done": "bell-harvest"
+        },
+        {
+          "text": "The Bell of Rest",
+          "done": "bell-rest"
+        }
+      ],
+      "textKeys": {
+        "text": "6CF9D02AF9FAD8B094F9D9EC85959A42",
+        "stages": {
+          "waking": "039FD556D6244F582F2E1D92A25BA5CB",
+          "tides": "172E878CF16AE475EC47DC927E57E0DA",
+          "harvest": "3B0068974203C509A0DEA6766732C751",
+          "rest": "304B7084D9F93D8A334737D9F7F9C373",
+          "day-one": "C82BC35FF4CF17162EA69BE759787420",
+          "bellkeeper": "CF2770A5D6429679A2E2041A08A6DD4F"
+        },
+        "goals": [
+          "9BC3BF38BD80F3B93FCF7C1338E0AD6F",
+          "6DDEFF6713A87D214FEE2600B2FCA14F",
+          "863689DAE37C2D39A923DA2A933F16F4",
+          "32DDFC2EC0997564A819A5E478568A20"
+        ]
+      }
+    },
+    "dilly": {
+      "title": "Something for Dilly",
+      "text": "Dilly is seven. She has never seen a season. She wants something from each edge of the valley.",
+      "stages": [
+        {
+          "id": "blossom",
+          "text": "A flower from the Blossomwood. A real one."
+        },
+        {
+          "id": "shell",
+          "text": "A seashell from Saltcombe, from the sea."
+        },
+        {
+          "id": "leaf",
+          "text": "A red leaf from Amberfield."
+        },
+        {
+          "id": "crown",
+          "text": "A crown of everything, when spring comes to Evermere."
+        }
+      ],
+      "goals": [
+        {
+          "text": "A blossom",
+          "done": "stage:dilly >= shell"
+        },
+        {
+          "text": "A seashell",
+          "done": "stage:dilly >= leaf"
+        },
+        {
+          "text": "A red leaf",
+          "done": "stage:dilly >= crown"
+        }
+      ],
+      "textKeys": {
+        "text": "932B90DF47D1C4151A3EE116D54E4FDE",
+        "stages": {
+          "blossom": "E958F3371E9FBB0A490214C5F5FECD01",
+          "shell": "23941854A3C4DD17F5C50D492ABC75D1",
+          "leaf": "31EB4CC39944BA88758CA7B241863214",
+          "crown": "517A24795F30D4778EBE14FEFFF22C35"
+        },
+        "goals": [
+          "83F24B8DDE55326B7F44CEBDA36447D7",
+          "060AA0AA2D78104E3456A25B7468065B",
+          "5E8324F498F95B1A721C7F30CE6DCAC5"
+        ]
+      }
+    },
+    "bw-chimes": {
+      "title": "The Wayside Chimes",
+      "text": "The road to the Shrine of Waking climbs through the Blossomwood, where three wayside chimes stand frozen in the snow.",
+      "stages": [
+        {
+          "id": "guide",
+          "text": "Corin Ashby knows the wood. The chimes come first, he says — the shrine gate has not opened since the frost."
+        },
+        {
+          "id": "order",
+          "text": "The three chimes ring the first notes of Mam's song. Strike them in its order: Wake, Turn, Gold."
+        },
+        {
+          "id": "gate",
+          "text": "The shrine gate is open. Something waits in the glade beneath the Bell of Waking."
+        }
+      ],
+      "textKeys": {
+        "text": "711552E98201E05A84B73813073677A0",
+        "stages": {
+          "guide": "B16E332170ED6A8300B6DBE5EA913CBA",
+          "order": "DFD121A62F2D508DAA15AEFAADC11730",
+          "gate": "713CF53905864BD5CFAC4B1A1B1B345A"
+        }
+      }
+    },
+    "sc-ledger": {
+      "title": "Wenna's Ledger",
+      "text": "Saltcombe's harbour master keeps a tally of what the frost has cost her harbour. She means to collect.",
+      "stages": [
+        {
+          "id": "lamps",
+          "text": "Two thousand five hundred and fifty-seven lamps, one a night, for a brother's boat. Wenna has joined us — and taken her office door."
+        },
+        {
+          "id": "kraken",
+          "text": "One kraken, removed. Paid: no. The lighthouse is up the cliff stair."
+        },
+        {
+          "id": "home",
+          "text": "The Patience is home, and Jory with her, seven years late and not a day older. Wenna has an invoice for whoever stopped the year."
+        }
+      ],
+      "textKeys": {
+        "text": "07A4EE3EEB60D4F746547516ACD06F4B",
+        "stages": {
+          "lamps": "B6CF6999294FB8A61FD60DDA96D2AC22",
+          "kraken": "BADFAAC259ADCB428DC70B74616F86FF",
+          "home": "6973C4651E6115917B8C8C277302EE73"
+        }
+      }
+    },
+    "af-harvest": {
+      "title": "The Stopped Mills",
+      "text": "Amberfield's harvest stands frozen in the fields. Its abbey holds the Bell of Harvest.",
+      "stages": [
+        {
+          "id": "mills",
+          "text": "Brother Fallow's lesson: the cantors ring and the knights mend. Silence the ringers first. The mills' fog closes the lane to the abbey."
+        },
+        {
+          "id": "bell",
+          "text": "The coat was Grandda's. The drawing was mine. The Bell of Harvest waits at the abbey."
+        }
+      ],
+      "textKeys": {
+        "text": "2BF33C690D6A60A3CDFB3169E2FF088B",
+        "stages": {
+          "mills": "F68ACB2367A80AEAB158B3D784779064",
+          "bell": "2ECC9E6AC5FF1E544B7DBC0F59FD19E6"
+        }
+      }
+    }
+  },
+  "actors": {
+    "corin": {
+      "name": "Corin",
+      "preset": "hunter",
+      "portraitColor": "#9cc06a",
+      "talk": "corin"
+    },
+    "wenna": {
+      "name": "Wenna",
+      "preset": "guard",
+      "portraitColor": "#6f9fc8",
+      "talk": "wenna"
+    },
+    "tin": {
+      "name": "Tin",
+      "preset": "guard",
+      "portraitColor": "#7fd6e6",
+      "talk": "tin"
+    },
+    "osmund": {
+      "name": "Osmund",
+      "preset": "elder",
+      "portraitColor": "#b8c4d8",
+      "talk": "osmund"
+    },
+    "elin": {
+      "name": "Elin",
+      "preset": "villager",
+      "portraitColor": "#f0d8b0"
+    },
+    "dilly": {
+      "name": "Dilly",
+      "preset": "child",
+      "portraitColor": "#f2a0c0",
+      "talk": "ev-dilly"
+    },
+    "agathe": {
+      "name": "Agathe",
+      "preset": "innkeeper",
+      "portraitColor": "#e0b070",
+      "talk": "ev-agathe"
+    },
+    "nettle": {
+      "name": "Old Nettle",
+      "preset": "elder",
+      "portraitColor": "#a8c47a",
+      "talk": "ev-nettle"
+    },
+    "jory": {
+      "name": "Jory",
+      "preset": "farmer",
+      "portraitColor": "#8ac0d0",
+      "talk": "jory"
+    },
+    "fallow": {
+      "name": "Brother Fallow",
+      "preset": "scholar",
+      "portraitColor": "#c8a06a",
+      "talk": "fallow"
+    },
+    "young-linnet": {
+      "name": "Young Linnet",
+      "preset": "child",
+      "portraitColor": "#e0753a",
+      "spec": {
+        "female": true,
+        "hair": "hairRed",
+        "hairStyle": "ponytail",
+        "eyes": "green",
+        "outfit": {
+          "top": "#6e4a32",
+          "bottom": "#3a3640",
+          "accent": "brown",
+          "style": "tunic",
+          "shirt": "cream"
+        }
+      }
+    },
+    "king": {
+      "name": "The Hushed King",
+      "preset": "elder",
+      "portraitColor": "#7fe0ff"
+    }
+  },
+  "events": [
+    {
+      "id": "rally-corin",
+      "on": "arrive",
+      "if": "corin-joined and not party:corin",
+      "run": "rally-corin"
+    },
+    {
+      "id": "rally-wenna",
+      "on": "arrive",
+      "if": "wenna-joined and not party:wenna",
+      "run": "rally-wenna"
+    },
+    {
+      "id": "rally-tin",
+      "on": "arrive",
+      "if": "tin-joined and not party:tin and not crown-broken",
+      "run": "rally-tin"
+    }
+  ],
+  "starts": {
+    "hub-tides": {
+      "level": "evermere",
+      "entrance": "west-road",
+      "vars": {
+        "ev-woke": 1,
+        "set-out": 1,
+        "bell-waking": 1,
+        "corin-joined": 1
+      },
+      "quests": {
+        "year": "tides",
+        "dilly": "blossom"
+      },
+      "progress": {
+        "level": 6
+      }
+    },
+    "hub-harvest": {
+      "level": "evermere",
+      "entrance": "south-road",
+      "vars": {
+        "ev-woke": 1,
+        "set-out": 1,
+        "bell-waking": 1,
+        "corin-joined": 1,
+        "bell-tides": 1,
+        "wenna-joined": 1
+      },
+      "quests": {
+        "year": "harvest",
+        "dilly": "shell"
+      },
+      "progress": {
+        "level": 8
+      }
+    },
+    "hub-rest": {
+      "level": "evermere",
+      "entrance": "east-road",
+      "vars": {
+        "ev-woke": 1,
+        "set-out": 1,
+        "bell-waking": 1,
+        "corin-joined": 1,
+        "bell-tides": 1,
+        "wenna-joined": 1,
+        "bell-harvest": 1,
+        "tin-joined": 1,
+        "ev-east-open": 1,
+        "ev-knight-left": 1
+      },
+      "quests": {
+        "year": "rest",
+        "dilly": "leaf"
+      },
+      "progress": {
+        "level": 10
+      }
+    },
+    "waking": {
+      "level": "blossomwood",
+      "entrance": "entry",
+      "vars": {
+        "set-out": 1
+      },
+      "quests": {
+        "year": "waking"
+      },
+      "progress": {
+        "level": 3
+      }
+    },
+    "waking-chimes": {
+      "level": "blossomwood",
+      "entrance": "entry",
+      "vars": {
+        "set-out": 1,
+        "corin-joined": 1,
+        "bw-arrived": 1
+      },
+      "quests": {
+        "year": "waking",
+        "bw-chimes": "guide"
+      },
+      "progress": {
+        "level": 4
+      }
+    },
+    "waking-stag": {
+      "level": "blossomwood",
+      "entrance": "bw-shrine",
+      "vars": {
+        "set-out": 1,
+        "corin-joined": 1,
+        "bw-arrived": 1,
+        "bw-chime-wake": 1,
+        "bw-chime-turn": 1,
+        "bw-chime-gold": 1,
+        "bw-chimes": 3,
+        "bw-song": 3,
+        "bw-song-heard": 1,
+        "bw-gate-open": 1
+      },
+      "quests": {
+        "year": "waking",
+        "bw-chimes": "gate"
+      },
+      "progress": {
+        "level": 5
+      }
+    },
+    "tides": {
+      "level": "saltcombe",
+      "entrance": "entry",
+      "vars": {
+        "set-out": 1,
+        "bell-waking": 1,
+        "corin-joined": 1
+      },
+      "quests": {
+        "year": "tides"
+      },
+      "progress": {
+        "level": 6
+      }
+    },
+    "tides-gullet": {
+      "level": "saltcombe",
+      "entrance": "sc-mole",
+      "vars": {
+        "set-out": 1,
+        "bell-waking": 1,
+        "corin-joined": 1,
+        "wenna-joined": 1,
+        "sc-arrived": 1,
+        "sc-boarding": 1
+      },
+      "quests": {
+        "year": "tides",
+        "sc-ledger": "lamps"
+      },
+      "progress": {
+        "level": 7
+      }
+    },
+    "harvest": {
+      "level": "amberfield",
+      "entrance": "entry",
+      "vars": {
+        "set-out": 1,
+        "bell-waking": 1,
+        "corin-joined": 1,
+        "bell-tides": 1,
+        "wenna-joined": 1,
+        "ev-knight-left": 1
+      },
+      "quests": {
+        "year": "harvest"
+      },
+      "progress": {
+        "level": 8
+      }
+    },
+    "harvest-mawkin": {
+      "level": "amberfield",
+      "entrance": "af-close-entry",
+      "vars": {
+        "set-out": 1,
+        "bell-waking": 1,
+        "corin-joined": 1,
+        "bell-tides": 1,
+        "wenna-joined": 1,
+        "ev-knight-left": 1,
+        "af-arrived": 1,
+        "af-fallow-met": 1,
+        "af-mill-1": 1,
+        "af-mill-2": 1,
+        "af-mill-3": 1
+      },
+      "quests": {
+        "year": "harvest",
+        "af-harvest": "mills"
+      },
+      "progress": {
+        "level": 9
+      }
+    },
+    "harvest-toll": {
+      "level": "amberfield",
+      "entrance": "af-close-entry",
+      "vars": {
+        "set-out": 1,
+        "bell-waking": 1,
+        "corin-joined": 1,
+        "bell-tides": 1,
+        "wenna-joined": 1,
+        "ev-knight-left": 1,
+        "af-arrived": 1,
+        "af-fallow-met": 1,
+        "af-mill-1": 1,
+        "af-mill-2": 1,
+        "af-mill-3": 1,
+        "af-mawkin-rises": 1,
+        "af-wish-done": 1,
+        "af-coat-taken": 1
+      },
+      "items": {
+        "osmund-coat": 1,
+        "drawing": 1
+      },
+      "quests": {
+        "year": "harvest",
+        "af-harvest": "bell"
+      },
+      "progress": {
+        "level": 10
+      }
+    },
+    "rest": {
+      "level": "rimeholt",
+      "entrance": "entry",
+      "vars": {
+        "set-out": 1,
+        "bell-waking": 1,
+        "corin-joined": 1,
+        "bell-tides": 1,
+        "wenna-joined": 1,
+        "bell-harvest": 1,
+        "tin-joined": 1,
+        "ev-knight-left": 1,
+        "ev-gate-open": 1
+      },
+      "quests": {
+        "year": "rest"
+      },
+      "progress": {
+        "level": 10
+      }
+    },
+    "court": {
+      "level": "bell-court",
+      "entrance": "entry",
+      "vars": {
+        "set-out": 1,
+        "bell-waking": 1,
+        "corin-joined": 1,
+        "bell-tides": 1,
+        "wenna-joined": 1,
+        "bell-harvest": 1,
+        "tin-joined": 1,
+        "ev-knight-left": 1,
+        "ev-gate-open": 1
+      },
+      "quests": {
+        "year": "rest"
+      },
+      "progress": {
+        "level": 10
+      }
+    },
+    "spring": {
+      "level": "evermere",
+      "entrance": "square",
+      "vars": {
+        "set-out": 1,
+        "bell-waking": 1,
+        "corin-joined": 1,
+        "bell-tides": 1,
+        "wenna-joined": 1,
+        "bell-harvest": 1,
+        "tin-joined": 1,
+        "bell-rest": 1,
+        "crown-broken": 1,
+        "ev-woke": 1,
+        "ev-knight-left": 1,
+        "ev-gate-open": 1,
+        "ev-east-open": 1
+      },
+      "items": {
+        "receipt": 1
+      },
+      "quests": {
+        "year": "rest",
+        "dilly": "crown"
+      },
+      "progress": {
+        "level": 10
+      }
+    }
+  }
+}

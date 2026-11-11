@@ -1,0 +1,977 @@
+{
+  "format": "luminati-i18n",
+  "version": 3,
+  "lang": "zh",
+  "source": "campaigns/vanquish-the-evil-dragon",
+  "extends": [],
+  "terms": {
+    "Aldric": "奥尔德里克",
+    "Ana the Fiddler": "提琴手安娜",
+    "Brannoc": "布兰诺克",
+    "Cinder Waystone": "烬火路标石",
+    "Corwin": "科温",
+    "Elder Hesk": "赫斯克长老",
+    "Fire over Sunhallow": "烽火圣阳",
+    "Garrick": "加里克",
+    "Lower Sunhallow": "圣阳下村",
+    "Lyra": "莱拉",
+    "Mira": "米拉",
+    "Old Joss": "老乔斯",
+    "Old Marta": "玛尔塔婆婆",
+    "Pell": "佩尔",
+    "Rina": "莉娜",
+    "Sefa": "塞法",
+    "Sister Seraphine": "塞拉菲娜修女",
+    "Slay the Ashen Tyrant": "诛杀灰烬暴君",
+    "Sunhallow": "圣阳村",
+    "Sunhallow Square": "圣阳广场",
+    "Sunstone": "太阳石",
+    "Teo the Drummer": "鼓手特奥",
+    "The Ashen Throne": "灰烬王座",
+    "The Chasm Bridge": "裂谷桥",
+    "The Cinder Vents": "烬火喷口",
+    "The Field of Bones": "骸骨之野",
+    "The Old Watchtower": "旧瞭望塔",
+    "The Pass Gate": "隘口之门",
+    "The Red Canyon": "赤色峡谷",
+    "The South Road": "南大路",
+    "The Switchbacks": "盘山道",
+    "The Trailhead": "登山口",
+    "The Wyrmspine": "龙脊山",
+    "Tobin": "托宾",
+    "Upper Sunhallow": "圣阳上村",
+    "Vanquish the Evil Dragon": "讨伐恶龙",
+    "Vorthrax": "沃斯拉克斯",
+    "Watchtower Waystone": "瞭望塔的路标石"
+  },
+  "units": {
+    "00A66FF2E312A2F79B76A9B4AC9A4AB4": {
+      "source": "Candles burn on every step of the temple tonight.",
+      "target": "今夜，神殿的每一级台阶上都点着蜡烛。"
+    },
+    "0ABC0F74EB39E5325BC45EB1A4F4A599": {
+      "source": "Those horned brutes came down the pass road. The pass road!",
+      "target": "那些长角的蛮兽是从隘口山道下来的。隘口山道啊！"
+    },
+    "0BAA733E113F1B584EDE0A1FC14B8434": {
+      "source": "The temple! They are at the temple!",
+      "target": "神殿！它们在神殿那边！"
+    },
+    "0C1EE9A8BAC63AAC220CC4EBB7455A34": {
+      "source": "The pack at the Granary has fallen · ${routed} of 7",
+      "target": "粮仓的魔物群已被击溃 · ${routed}/7"
+    },
+    "0CA100FE15A0B934D02987F365B93A0C": {
+      "source": "I watched it fall from the upper town. A star coming down backwards, it was.",
+      "target": "我在上村亲眼看着它坠下去的。活像一颗倒着坠落的流星。"
+    },
+    "0CD94747E9EFEEFB435D3A29538E9F36": {
+      "source": "Peace, child. You ran through fire to find us. It will not be for nothing.",
+      "target": "安心吧，孩子。你穿过火海来找我们，这份勇气绝不会白费。"
+    },
+    "0EA6D60508A76869045F1618FAA1AF2B": {
+      "source": "Dance with us! The dragon is dead and the night is young!",
+      "target": "跟我们一起跳舞吧！恶龙死了，夜还长着呢！"
+    },
+    "0EA53F7DD2C0816F727D26B74C229BF3": {
+      "source": "The sisters are safe. The temple bell will ring for you tonight.",
+      "target": "修女们都平安无事。今晚，神殿的钟会为你们而鸣。"
+    },
+    "0EB63BE99A2115313B665FA2363EDCF0": {
+      "source": "Golden hour. Of course it is golden hour. Every legend ends at golden hour.",
+      "target": "夕阳西下。果然是夕阳西下。传说总在夕阳下落幕。"
+    },
+    "0F5B1484C875F5DF654431AE338E8B3B": {
+      "source": "Made with Luminati",
+      "target": "使用 Luminati 制作"
+    },
+    "0F5B1484C875F5DF654431AE338E8B3B.2": {
+      "source": "A 2.5D pixel-art engine on three.js",
+      "target": "基于 three.js 的 2.5D 像素艺术引擎"
+    },
+    "1A890C7DB4CEACA68F6D9B6F0547EE4E": {
+      "source": "Please — you have swords! Monsters came down from the mountain at first light. They're tearing Sunhallow apart!",
+      "target": "求求你们——你们有剑！天刚亮，怪物就从山上冲了下来。它们要把圣阳村撕碎了！"
+    },
+    "1B6F11BF22C4B2D432C9E8F5CDBE385D": {
+      "source": "I watched its shadow fly north. Toward the Throne.",
+      "target": "我看着它的影子往北飞走了。朝着王座的方向。"
+    },
+    "1B951AF2BBA697995084B8CD33D527F0": {
+      "source": "The pack at the Temple of the Dawn has fallen · ${routed} of 7",
+      "target": "曙光神殿的魔物群已被击溃 · ${routed}/7"
+    },
+    "1C7AC917887097223F1AC160D1873B92": {
+      "source": "You're Sunhallow's heroes, then. I held this tower as long as I could.",
+      "target": "这么说，你们就是圣阳村的英雄了。我拼尽全力守着这座塔，也只撑到了现在。"
+    },
+    "1F69566CBBE11D034A411D8610ADC370": {
+      "source": "— the Sunhallow watch",
+      "target": "——圣阳村守卫队"
+    },
+    "1FF82E7938400CBC83A49BAE53DC7B2C": {
+      "source": "↑ {The Wyrmspine} · {the Ashen Throne}",
+      "target": "↑ {龙脊山} · {灰烬王座}"
+    },
+    "2A7EAF67383BEAC2DFD2948A3D957DB5": {
+      "source": "The pass road can wait — the packs cannot.",
+      "target": "隘口山道可以等——魔物群可等不了。"
+    },
+    "2D42CC16B352FF4193BDA56FFD6385CE": {
+      "source": "A waystone still glows",
+      "target": "路标石仍在发光"
+    },
+    "2EA0504309ECA4AD2D1997214BB40742": {
+      "source": "A Luminati campaign",
+      "target": "Luminati 冒险"
+    },
+    "2F06EB8EB13A574FAB708A26C3F024DE": {
+      "source": "Mira begged us to save Sunhallow: seven packs of monsters besiege its houses. Destroy every one of them.",
+      "target": "米拉恳求我们拯救圣阳村：七群魔物正围攻村里的房屋。将它们全部歼灭。"
+    },
+    "02FDA0408CF823F6647492A712441080": {
+      "source": "The baker's house still stands!",
+      "target": "面包师的房子还在！"
+    },
+    "3B53EA30DB69AD6728EC87D289BC4378": {
+      "source": "Seventy years I've danced at this bonfire, and never once for a dragon-slayer. Go on, pick up your feet!",
+      "target": "我在这堆篝火边跳了七十年舞，还从没为屠龙英雄跳过一回。来吧，脚底下动起来！"
+    },
+    "3C0CE21F6AA96CBA29ADDC21462EF356": {
+      "source": "The brood came down off the Throne like a rockslide. Little ones — but so many.",
+      "target": "那群眷属像山崩一样从王座上冲了下来。个头都不大——可数量实在太多了。"
+    },
+    "3C09D341ACC39A29AB73DC63720B5EEE": {
+      "source": "The pack at the Vintner's House has fallen · ${routed} of 7",
+      "target": "酿酒师之家的魔物群已被击溃 · ${routed}/7"
+    },
+    "3E110A8583F8396D41400E06999B2E0B": {
+      "source": "The road to the Wyrmspine",
+      "target": "通往龙脊山之路"
+    },
+    "3E06905200A89FC3D5A2185382D0BB95": {
+      "source": "The Ashen Throne. Vorthrax came down out of the sky to meet us.",
+      "target": "灰烬王座。沃斯拉克斯从天而降，前来迎战我们。"
+    },
+    "3F8F9A8DB7270611173585EB4436E494": {
+      "source": "The water is low and full of ash. It will clear.",
+      "target": "井水很浅，满是灰烬。总会再变清的。"
+    },
+    "3FC6B2AE1E7A0CC6C1475B9D1A4F3FA6": {
+      "source": "of Sunhallow",
+      "target": "圣阳村的姑娘"
+    },
+    "4BBECCAF0A9843667D853E023A608228": {
+      "source": "Something will. Something always does.",
+      "target": "肯定会有的。哪回没有呢？"
+    },
+    "4D975A8C0807FF1A35E187D3EAB77BCC": {
+      "source": "Frost Mage of Halvard",
+      "target": "哈尔瓦德冰术师"
+    },
+    "4DB7B3E9FF1B904617ABFC3904F39D76": {
+      "source": "Sunhallow",
+      "target": "圣阳村"
+    },
+    "4DC4E0257DABE66F50252F8DBFC5537D": {
+      "source": "That was the last of them. Listen — the beast knows it, too.",
+      "target": "这是最后一批了。听——那头畜生也明白了。"
+    },
+    "4E97788679EFAE8CAB31E5CA5DC8BA90": {
+      "source": "The Climb at Golden Hour",
+      "target": "夕照下的攀登"
+    },
+    "5B89F6C3FD1EEF2F62EE2D332028F55B": {
+      "source": "A toast — to the dragon. May his bones make a very fine fence.",
+      "target": "干杯——敬那头龙。愿它的骨头能给村子围上一道上好的篱笆。"
+    },
+    "5B120EFA0ADB9DF8AB3CE28A47949C01": {
+      "source": "I'll keep down the road, like you said. Please — hurry!",
+      "target": "我会照你说的，躲到大路那头去。求求你们——快一点！"
+    },
+    "5BCE86FC68404546A48B01C049881B61": {
+      "source": "You did it! Not one of them left standing!",
+      "target": "你们做到了！一个都没剩下！"
+    },
+    "5D2ADAD52CEAC5CF413628DCCE7750E9": {
+      "source": "The pack at the Smithy has fallen · ${routed} of 7",
+      "target": "铁匠铺的魔物群已被击溃 · ${routed}/7"
+    },
+    "5F5220BB3BBE33F0B8ACB197B5CDDDFF": {
+      "source": "Luminati 2.5D Pixel-Art Engine · three.js",
+      "target": "Luminati 2.5D 像素艺术引擎 · three.js"
+    },
+    "5FDF7171655B85CA3FD7B2563395C421": {
+      "source": "They rang the temple bell for you. Did you hear it? The whole valley heard it.",
+      "target": "他们为你们敲响了神殿的钟。你听见了吗？整个山谷都听见了。"
+    },
+    "5FF164F68AFAEA1F779EB16AED0A34B3": {
+      "source": "Not tonight. Tonight, Sunhallow dances.",
+      "target": "今晚不走。今晚，圣阳村要尽情起舞。"
+    },
+    "6B8A310E04E4A4EF955FDFA7D519CC06": {
+      "source": "The temple! They saved the temple!",
+      "target": "神殿！他们救下了神殿！"
+    },
+    "06B8E48EFB16951DC5B08F3B767932AC": {
+      "source": "Easy breaths. One fight at a time.",
+      "target": "放缓呼吸。一仗一仗地打。"
+    },
+    "6CA6E3FFE2EB3F4FA6C5DC2D2AEECF6B": {
+      "source": "Tonight the granary is open to all. Eat, eat! You've earned it ten times over.",
+      "target": "今晚粮仓向所有人敞开。吃吧，吃吧！这是你们应得的，十倍都不止！"
+    },
+    "6CF4459423679641DA362FF1BB5EA1A2": {
+      "source": "Seventy years in this village. Never seen the like. Thank you, dear.",
+      "target": "我在这村子里活了七十年，从没见过这种事。谢谢你啊，孩子。"
+    },
+    "6D1F69C7B7DC7E6E1A610D8544E9154E": {
+      "source": "We're alive… thanks to you. All of us, thanks to you.",
+      "target": "我们活下来了……多亏了你们。我们所有人，都多亏了你们。"
+    },
+    "6EEE2211DF5CC46463943111A1817934": {
+      "source": "Rest by the stone if you need it. It still remembers how to heal.",
+      "target": "需要的话，就在那块石头旁歇歇脚。它还记得怎么疗伤。"
+    },
+    "7C629DE166BF1EA9F3B68867B36CF0C0": {
+      "source": "Flanks! Left and right — and behind!",
+      "target": "两翼！左边、右边——还有后面！"
+    },
+    "8B34AEBD5608510792C2491581C8C5EE": {
+      "source": "The ground itself is burning. The Throne must be close.",
+      "target": "连大地都在燃烧。王座一定近了。"
+    },
+    "8B98A6B3117220D29EF24866B4C4CEA0": {
+      "source": "Elder Hesk's house. The door is shut tight; the roof has held.",
+      "target": "赫斯克长老的家。房门紧闭，屋顶总算撑住了。"
+    },
+    "8C2263DD7E7B487646D5277D0281EC5C": {
+      "source": "Brannoc, the front. Lyra, Seraphine, the flanks. Mira — get clear. We'll give you your village back.",
+      "target": "布兰诺克，打头阵。莱拉、塞拉菲娜，守两翼。米拉——快去躲好。我们会把村子还给你。"
+    },
+    "8E50F05CC3E48B99B719619E1925B851": {
+      "source": "Lead on",
+      "target": "继续前进"
+    },
+    "8E371938CF6319DEFE548D573A3D708C": {
+      "source": "Before nightfall, then. We end this on the Ashen Throne.",
+      "target": "那就在入夜之前。我们在灰烬王座上做个了断。"
+    },
+    "9D1B3330A2C53AEBEDBF187F76E24399": {
+      "source": "Water! Bring water!",
+      "target": "水！快拿水来！"
+    },
+    "9DA6312C34CE8E6B313896291CDE9F92": {
+      "source": "The Ashen Throne lies at the top of the pass road. May the dawn light your way.",
+      "target": "灰烬王座就在隘口山道的尽头。愿曙光照亮你们的前路。"
+    },
+    "09DF00D6AD11BBEC015DA801DA2CF8BA": {
+      "source": "I'll forge you a blade from one of its teeth. Two blades. A whole rack of them!",
+      "target": "我要用它的一颗牙给你打一把剑。不，两把。打一整架！"
+    },
+    "9EE808D7D4588C621C94A72E11484770": {
+      "source": "Still alive? Good. I hate breaking in new swordsmen.",
+      "target": "还活着？很好。我最讨厌重新调教新剑士了。"
+    },
+    "9F39B84997038AB24B4F19E0AAA2CA95": {
+      "source": "Shield of the Marches",
+      "target": "边境之盾"
+    },
+    "9F60B8C551D0101FD3F56106315A062D": {
+      "source": "Seven packs — the granary, the smithy, the temple… And above it all, a dragon. No arrow can reach it. You see its shadow, then the fire falls.",
+      "target": "七群——粮仓、铁匠铺、神殿……而在这一切之上，还有一头龙。箭根本射不到它。只要看见它的影子，火就落下来了。"
+    },
+    "13C5088AA5BB6649FADC01129E7D0387": {
+      "source": "Sit, sit. The fire burns till dawn, and so will the dancing.",
+      "target": "坐吧，坐吧。篝火要烧到天亮，舞也要跳到天亮。"
+    },
+    "13DAF0356CD6DDD6533573BE4CDC2F47": {
+      "source": "Sunhallow",
+      "target": "圣阳村"
+    },
+    "19EEA82C21F95BB4BEC5EC2037861CF3": {
+      "source": "Golden Hour",
+      "target": "夕照时分"
+    },
+    "19EEA82C21F95BB4BEC5EC2037861CF3.2": {
+      "source": "The road to the Ashen Throne",
+      "target": "通往灰烬王座之路"
+    },
+    "022C1D631753A65308E562012288BA6A": {
+      "source": "When I grow up I'm going to slay a dragon too. A small one, to start.",
+      "target": "等我长大了，我也要去屠龙。先从小的开始。"
+    },
+    "25F95BCA52C0365C964031E841B8516C": {
+      "source": "Smoke on the road, smoke in the sky. And that was no thunder.",
+      "target": "路上起烟，天上也起烟。刚才那声，可不是打雷。"
+    },
+    "26AE2B22E4A2780578FCDDD8BED4F7E6": {
+      "source": "Breathe, lass. How many, and where?",
+      "target": "喘口气，姑娘。有多少？在哪儿？"
+    },
+    "31D6E2BC8D44CDFEC876F73A75737C6F": {
+      "source": "The people of Sunhallow",
+      "target": "圣阳村的村民们"
+    },
+    "31D6E2BC8D44CDFEC876F73A75737C6F.2": {
+      "source": "Mira · Elder Hesk · and every voice that cried for help",
+      "target": "米拉、赫斯克长老，以及每一个呼救的声音"
+    },
+    "34E8FF8495EE8E772577036D01BFD1CE": {
+      "source": "Then they'll make their stand here. Hold together!",
+      "target": "那它们就要在这儿死守了。大家靠紧！"
+    },
+    "36E21D0129CEE382142A29CD3ACA4033": {
+      "source": "Chapter Two",
+      "target": "第二章"
+    },
+    "37A2D7748CCB611FCE49A93752431C72": {
+      "source": "The bonfire of the dragon-slayers",
+      "target": "屠龙英雄的篝火"
+    },
+    "39B08DF9B72FDE0FA06B1176A60260B2": {
+      "source": "The lair of Vorthrax",
+      "target": "沃斯拉克斯的巢穴"
+    },
+    "45D4A06FBE94B66FF9D31FF4506A22DF": {
+      "source": "My inn — oh, my poor inn!",
+      "target": "我的旅店——哎哟，我可怜的旅店！"
+    },
+    "45DE1952DB362D85F5674AC8AB920B8B": {
+      "source": "The upper town is clear!",
+      "target": "上村的怪物清光了！"
+    },
+    "46D46DBB33A04934CF49356C4F9C88C1": {
+      "source": "Saved you a honey cake. Well — I saved you half a honey cake.",
+      "target": "给你留了一块蜂蜜蛋糕。呃——其实是留了半块。"
+    },
+    "47E62CB940759FCB7FD901C5FBAA2C2F": {
+      "source": "We're alive… thanks to you. All of us, thanks to you.",
+      "target": "我们活下来了……多亏了你们。我们所有人，都多亏了你们。"
+    },
+    "50ABEEF792FE9C0D076810CA8DCB6B8F": {
+      "source": "Monsters came down from the Wyrmspine at dawn and are tearing Sunhallow apart, while a dragon circles overhead and hurls fire at the ground.",
+      "target": "黎明时分，魔物从龙脊山蜂拥而下，正将圣阳村撕成碎片；一头巨龙在空中盘旋，不时向地面降下烈火。"
+    },
+    "51C5868F68BAB12F59ECBBCDC7C6E8AE": {
+      "source": "Big. Why are they always so big?",
+      "target": "好大。为什么它们总是这么大？"
+    },
+    "54DCAAB3ECB320F88D8B6BF3050079A7": {
+      "source": "They're in the forge!",
+      "target": "它们闯进铁匠铺了！"
+    },
+    "56F039E0F0BD461D625434D1790DECEC": {
+      "source": "Chapter One",
+      "target": "第一章"
+    },
+    "058B6425B947CF726E7AEFFF6B6AB005": {
+      "source": "We're alive… thanks to you. All of us, thanks to you.",
+      "target": "我们活下来了……多亏了你们。我们所有人，都多亏了你们。"
+    },
+    "60DDDEA56B2FE931ADFF8E5BDC0651A7": {
+      "source": "To Sunhallow. And to those who did not live to see tonight.",
+      "target": "敬圣阳村。也敬那些没能活着看到今夜的人。"
+    },
+    "64A3F18229370664A7B27D7D7C442EE8": {
+      "source": "Both ends of the ledge! Back to back!",
+      "target": "岩台两头都来了！背靠背！"
+    },
+    "65B8A2048C023291F225D43E291F30C0": {
+      "source": "Help us, please!",
+      "target": "求求你们，救救我们！"
+    },
+    "73F6C160468D02450C7EC25B2B3C615A": {
+      "source": "Up the ledge — more of them!",
+      "target": "岩台上面——又来了一批！"
+    },
+    "74C7D09ED30B78182AAD14CB2A7E641B": {
+      "source": "Look at it! The whole village came out — even Old Marta is dancing!",
+      "target": "快看呀！全村人都出来了——连玛尔塔婆婆都在跳舞！"
+    },
+    "74E0FB5C1A1F7F9C74D1F311D4648103": {
+      "source": "The Wyrmspine",
+      "target": "龙脊山"
+    },
+    "77CB88A96281167396B40AF91C5B0BB0": {
+      "source": "Heat pours out of the smithy. The forge fire has spread to the rafters.",
+      "target": "热浪从铁匠铺里滚滚涌出。炉火已经烧到了房梁上。"
+    },
+    "78A33C6D8C54A25ADECF247C3DDB58EB": {
+      "source": "My mama said hide. I'm hiding! Is this good hiding?",
+      "target": "妈妈说要躲起来。我在躲啦！我躲得好不好？"
+    },
+    "78BD033F74F5C861248FE73BD83C8307": {
+      "source": "Tactics…",
+      "target": "战术…"
+    },
+    "87D038A89E1CA3B3402FF545218D4DB8": {
+      "source": "Mama! Where are you?",
+      "target": "妈妈！你在哪儿？"
+    },
+    "89A4FE6FC5CEC9065D7FF22D08DA9AEE": {
+      "source": "Help! They're everywhere — run!",
+      "target": "救命啊！到处都是怪物——快跑！"
+    },
+    "89BC89D1F89445CB0E9A7DF4CBD06EA9": {
+      "source": "The Wyrmspine is north, up the pass road. Come back to us. Promise?",
+      "target": "龙脊山在北边，顺着隘口山道往上走。一定要回来。说好了哦？"
+    },
+    "92C3DDFE2E88C58F0263526196CC0C54": {
+      "source": "Among the bones — they were waiting for us!",
+      "target": "在骸骨之间——它们一直在等着我们！"
+    },
+    "97CDCDE19C8509147DC56A5B0028072D": {
+      "source": "Vorthrax, the Ashen Tyrant",
+      "target": "灰烬暴君沃斯拉克斯"
+    },
+    "97CDCDE19C8509147DC56A5B0028072D.2": {
+      "source": "Slain on the Ashen Throne",
+      "target": "殒命于灰烬王座"
+    },
+    "98C06C4A7DBD2A9BA04A46838375B1CE": {
+      "source": "A dragon, then. And here I thought this would be a quiet errand.",
+      "target": "原来是龙啊。我还以为这会是趟清闲的差事呢。"
+    },
+    "0137C5AFC629EDD267E66C201BC52A53": {
+      "source": "The Wyrmspine",
+      "target": "龙脊山"
+    },
+    "141D186CE79F6A50A026A32315B17A4A": {
+      "source": "Dance with us! The dragon is dead and the night is young!",
+      "target": "跟我们一起跳舞吧！恶龙死了，夜还长着呢！"
+    },
+    "150D84F3B81EFC99060418A08EBFC45D": {
+      "source": "Oh, wonderful. All of them at once.",
+      "target": "噢，好极了。全都一起来了。"
+    },
+    "179F5787B15E344239DC5B4D8D2A5BAA": {
+      "source": "The End",
+      "target": "完"
+    },
+    "205DB8DA3AAA4198D844D37D6FE863D5": {
+      "source": "I heard it land. The whole mountain heard it land.",
+      "target": "我听见它落地了。整座山都听见它落地了。"
+    },
+    "241C2034C02F6F87863F10D9A0775F58": {
+      "source": "The Bonfire",
+      "target": "篝火"
+    },
+    "292F1025543C4F7A11C1EA98182FAB30": {
+      "source": "Elder of Sunhallow",
+      "target": "圣阳村长老"
+    },
+    "306B06EA9BD196209E53CE6ED0B64FCD": {
+      "source": "Dance with us! The dragon is dead and the night is young!",
+      "target": "跟我们一起跳舞吧！恶龙死了，夜还长着呢！"
+    },
+    "362A6885707E7A8E138280145DA27D0B": {
+      "source": "We're alive… thanks to you. All of us, thanks to you.",
+      "target": "我们活下来了……多亏了你们。我们所有人，都多亏了你们。"
+    },
+    "383B79F8CEB7BEC86134637BAB0A6E1A": {
+      "source": "The pack at the Baker's House has fallen · ${routed} of 7",
+      "target": "面包师之家的魔物群已被击溃 · ${routed}/7"
+    },
+    "426B271AFF9F3D0C4D6B804808ECABD2": {
+      "source": "Seventy years in this village. Never seen the like. Thank you, dear.",
+      "target": "我在这村子里活了七十年，从没见过这种事。谢谢你啊，孩子。"
+    },
+    "452EBB6C7861C53088B071E7E2634BF7": {
+      "source": "The Bonfire",
+      "target": "篝火"
+    },
+    "452EBB6C7861C53088B071E7E2634BF7.2": {
+      "source": "That night, in Sunhallow",
+      "target": "那一夜，圣阳村"
+    },
+    "468C26D69EA571EAFBA4135BE5D0ACBB": {
+      "source": "The tower's stair has fallen in. Old arrows still stand in the walls.",
+      "target": "塔里的楼梯已经塌了。墙上还插着陈年的箭矢。"
+    },
+    "577FFAE687BD50B2258619C727FAC10F": {
+      "source": "Stay behind the steel. That's what it's for.",
+      "target": "躲在钢盾后面。这玩意儿就是干这个用的。"
+    },
+    "606BF3DFE41E0E3633586D4BF9981DFA": {
+      "source": "The Wyrmspine",
+      "target": "龙脊山"
+    },
+    "620E71AF21DDB2DDCF5A0977BC315AFA": {
+      "source": "The granary — a whole winter's grain in there. Please!",
+      "target": "粮仓——里面是整整一冬的口粮啊。求求你们！"
+    },
+    "706C8CF8ECDC444432B8908B5D4EDEF3": {
+      "source": "Lead on",
+      "target": "继续前进"
+    },
+    "829BD8D326FD9D2855F25782C4812E83": {
+      "source": "Lead on. I've got your back.",
+      "target": "带路吧。你的后背交给我。"
+    },
+    "857ACF71C78AB9369CC49DAB145406C4": {
+      "source": "Someone has hung a lantern down the well. For luck, they say.",
+      "target": "有人往井里吊了一盏灯笼。据说是为了讨个好彩头。"
+    },
+    "858FA58C2257BA54D03F72F867F9129E": {
+      "source": "Into the Wyrmspine",
+      "target": "深入龙脊山"
+    },
+    "960A89778A18D9121A26A3CE17C82844": {
+      "source": "Scalekin, down the canyon! Hold the line!",
+      "target": "鳞族从峡谷冲下来了！守住阵线！"
+    },
+    "999C1E704BE291310A5DEAB63EAC1756": {
+      "source": "The road up the Wyrmspine swarms with the dragon's brood. Climb to the Ashen Throne.",
+      "target": "龙脊山的山路上满是恶龙的眷属。向上攀登，直抵灰烬王座。"
+    },
+    "2115B9DED68EB4585310053C3610D61D": {
+      "source": "Look at the ridges — the brood is everywhere. He knows we are coming.",
+      "target": "看那些山脊——到处都是眷属。它知道我们要来了。"
+    },
+    "2469B28F8122D60E385629FCC3387ADF": {
+      "source": "My house holds, for now. Never mind an old man — save the others!",
+      "target": "我的房子暂时还撑得住。别管我这老头子了——快去救其他人！"
+    },
+    "3223AFF0712B5BA9D616C1431EFDBC05": {
+      "source": "The water's all ash! We can't put anything out!",
+      "target": "水里全是灰！什么火都扑不灭！"
+    },
+    "4099F644DA571E1A4EABDD61C2B2C4AC": {
+      "source": "Wings — and teeth! Off the bridge, quickly!",
+      "target": "有翅膀——还有獠牙！快下桥！"
+    },
+    "5590F926E8AA671DF356AE9590E53553": {
+      "source": "The temple — the sisters are still inside!",
+      "target": "神殿——修女们还在里面！"
+    },
+    "5668FA2BF7EA7BCF670BCB8DBF4779C1": {
+      "source": "The merchant hall is locked. Through a crack: bolts of cloth, untouched.",
+      "target": "商会大厅上了锁。从门缝里望去：一匹匹布料原封未动。"
+    },
+    "5903A7BC433DC15E9028206D9657750B": {
+      "source": "Over here! By the stone — it still works!",
+      "target": "这边！到石头这儿来——它还管用！"
+    },
+    "7634AAD28C36603D512A9E427789222E": {
+      "source": "Shield of the Marches",
+      "target": "边境之盾"
+    },
+    "8484F3D5CF936371F696B200CEF7D7F0": {
+      "source": "Lead on",
+      "target": "继续前进"
+    },
+    "8636FEE9686809A66D367E1E25C395B4": {
+      "source": "↓ {the Valley Road}",
+      "target": "↓ {山谷大路}"
+    },
+    "25169D78910E3CD2361BF520298ECFFE": {
+      "source": "Sunhallow",
+      "target": "圣阳村"
+    },
+    "32689CB60740028C8BA9C48A0B0C2C9F": {
+      "source": "The Sun & Sickle. The shutters are torn off and the sign is smoking.",
+      "target": "日镰旅店。百叶窗被扯掉了，招牌还冒着烟。"
+    },
+    "35869B5B5604CFD9BF706E65D4E6071F": {
+      "source": "Monster packs destroyed (${routed} of 7)",
+      "target": "歼灭魔物群（${routed}/7）"
+    },
+    "52112FE76B556E11650B35A53679DA17": {
+      "source": "Dance with us! The dragon is dead and the night is young!",
+      "target": "跟我们一起跳舞吧！恶龙死了，夜还长着呢！"
+    },
+    "66540A74AAEEF43D714FC5565258AB11": {
+      "source": "The granary door is split down the middle. Sacks of grain spill into the street.",
+      "target": "粮仓的门从中间裂成了两半，一袋袋谷物散落在街上。"
+    },
+    "93308FE7B87E821D388D53BF56AD0790": {
+      "source": "How shall I serve?",
+      "target": "我该如何效劳？"
+    },
+    "96305DDF7F0A4BF0108754DD865B4751": {
+      "source": "Cleric of the Dawn",
+      "target": "曙光牧师"
+    },
+    "99867B51504884DA39C72D8800FBFE64": {
+      "source": "He nests on the Ashen Throne, in the Wyrmspine — the mountains to the north. The old pass road climbs straight to it.",
+      "target": "它盘踞在龙脊山的灰烬王座上——就是北边那片群山。古老的隘口山道直通那里。"
+    },
+    "270018ED58160A6B82ED59AAEE11D40C": {
+      "source": "Help! They're everywhere — run!",
+      "target": "救命啊！到处都是怪物——快跑！"
+    },
+    "413632AB30BCFC8F3A03C9A5CB1BABCF": {
+      "source": "The pack at the Sun & Sickle has fallen · ${routed} of 7",
+      "target": "日镰旅店的魔物群已被击溃 · ${routed}/7"
+    },
+    "495085D1F1D7D1BC3F0D45DF183A92F6": {
+      "source": "Vanquish the Evil Dragon",
+      "target": "讨伐恶龙"
+    },
+    "862259CE60250FA38960FC27142B0F44": {
+      "source": "Waves of the brood weathered (${waves} of 6)",
+      "target": "击退眷属的攻势（${waves}/6）"
+    },
+    "3526357A99028BEE1358BE5C0C6167E4": {
+      "source": "Bones. Old gold. More bones. Charming.",
+      "target": "骨头。旧金子。又是骨头。真是赏心悦目。"
+    },
+    "3684124DF102AE903016671118B76777": {
+      "source": "Half a day's walk. If nothing stops you.",
+      "target": "走过去要半天。要是路上没什么拦着你们的话。"
+    },
+    "5206703B45C396BD1930DA16EB2BF007": {
+      "source": "Sunhallow",
+      "target": "圣阳村"
+    },
+    "8235353B597A2421705A39B69094B695": {
+      "source": "Whatever comes, it comes through me first.",
+      "target": "不管来的是什么，都得先过我这一关。"
+    },
+    "012179548A3468E6B931B9E4D0C07BAE": {
+      "source": "The bridge holds. Mostly.",
+      "target": "桥还撑得住。大概吧。"
+    },
+    "66976960181302173DC81898C8E65301": {
+      "source": "The baker's oven held. Bread tomorrow — I swear it!",
+      "target": "面包房的烤炉保住了。明天就有面包吃——我发誓！"
+    },
+    "A5D7A72FD0D4E45FC2DB83AA7C9FD54E": {
+      "source": "Cleric of the Dawn",
+      "target": "曙光牧师"
+    },
+    "A7F1EEA8AC26036B0B5DA73089978381": {
+      "source": "Fire over Sunhallow",
+      "target": "烽火圣阳"
+    },
+    "A8EC2C2DB61B48B9E870C32F8BD3D799": {
+      "source": "I am here, Aldric. I will not fall behind.",
+      "target": "我在这儿，奥尔德里克。我不会掉队的。"
+    },
+    "A9B64D9CD4C4AB2AB73A38EAF7B16615": {
+      "source": "Vanquish the Evil Dragon",
+      "target": "讨伐恶龙"
+    },
+    "A9B64D9CD4C4AB2AB73A38EAF7B16615.2": {
+      "source": "A Luminati campaign",
+      "target": "Luminati 冒险"
+    },
+    "A23F506612E158CFC46FBA99B0E98734": {
+      "source": "Vorthrax is slain. Tonight Sunhallow lights its bonfire.",
+      "target": "沃斯拉克斯已被斩杀。今夜，圣阳村燃起篝火。"
+    },
+    "A84F31109084A15AC1B7B5EC9528AE8F": {
+      "source": "The granary held. A whole winter's grain, saved by strangers.",
+      "target": "粮仓保住了。整整一冬的口粮，竟是几个外乡人救下的。"
+    },
+    "A556C246ECB9B43094C98DBB77C3D78B": {
+      "source": "Help! They're everywhere — run!",
+      "target": "救命啊！到处都是怪物——快跑！"
+    },
+    "A6431B4333E14EF08DCFDD58F3FF680D": {
+      "source": "The Wyrmspine",
+      "target": "龙脊山"
+    },
+    "AAAE20C90741A21BB962C5FB65FE5951": {
+      "source": "We're alive… thanks to you. All of us, thanks to you.",
+      "target": "我们活下来了……多亏了你们。我们所有人，都多亏了你们。"
+    },
+    "ADD927EBF8F86D78EB47AC94120A105D": {
+      "source": "Chapter Three",
+      "target": "第三章"
+    },
+    "AE18216E2B0A75794695F32A983644BC": {
+      "source": "The pack at the Herder's House has fallen · ${routed} of 7",
+      "target": "牧人之家的魔物群已被击溃 · ${routed}/7"
+    },
+    "B2DEE2B607CECBCA06F89C81988DBC7E": {
+      "source": "The Wyrmspine",
+      "target": "龙脊山"
+    },
+    "B7DE5141E72EFCC7EAD2E9D3A222D2F6": {
+      "source": "The Wyrmspine",
+      "target": "龙脊山"
+    },
+    "B8C4ABD7F669F49EB5EBDCD76BFD488B": {
+      "source": "Out of my inn, you devils!",
+      "target": "滚出我的旅店，你们这些恶魔！"
+    },
+    "B9F77B69A9D0FFEFB7D86F7733519EF3": {
+      "source": "Vorthrax",
+      "target": "沃斯拉克斯"
+    },
+    "B9F77B69A9D0FFEFB7D86F7733519EF3.2": {
+      "source": "The Ashen Tyrant",
+      "target": "灰烬暴君"
+    },
+    "B22DA4B99D6EC706F4079CF3603B0376": {
+      "source": "Then let's not make it ours. Shields up from here on.",
+      "target": "那可别让咱们也在这儿落幕。从现在起，盾牌都举起来。"
+    },
+    "B341CCA235E6F92E98FDC28C550D9FDA": {
+      "source": "Orders?",
+      "target": "有何吩咐？"
+    },
+    "B500EA07E5DB0A4865636446ABAFC8DA": {
+      "source": "Sunhallow has burned before, and always been built again. But never, I think, with such a fire as this one.",
+      "target": "圣阳村以前也被火烧过，每一次都重建了起来。可像今晚这样的一把火，我想，还从来没有过。"
+    },
+    "B909EB389F66020251215AEF84CFE91D": {
+      "source": "Dance with us! The dragon is dead and the night is young!",
+      "target": "跟我们一起跳舞吧！恶龙死了，夜还长着呢！"
+    },
+    "B3638B3B3F31DD6AC7E0FFFB12B5FAB9": {
+      "source": "The Sun & Sickle: the roof leaks, the cellar is full. Drinks are free tonight.",
+      "target": "日镰旅店：屋顶漏雨，酒窖满满。今晚酒水免费。"
+    },
+    "B60180F864F5CE56B65295CC49CFBB9A": {
+      "source": "Faster? Faster! Sunhallow dances till the fire is ash!",
+      "target": "再快点？再快点！圣阳村要一直跳到篝火烧成灰！"
+    },
+    "BA6E65E01987013C9A8C7949808E42A4": {
+      "source": "Are they really all gone? Even the big horned ones?",
+      "target": "它们真的全都走了吗？连那些长角的大家伙也走了？"
+    },
+    "BB38AC134D9FCB0374635B91202F35B8": {
+      "source": "The Night of the Bonfire",
+      "target": "篝火之夜"
+    },
+    "BBCBBB49992C732216504DCD44DDFD4C": {
+      "source": "Help! They're everywhere — run!",
+      "target": "救命啊！到处都是怪物——快跑！"
+    },
+    "BCEBB889360FD743F47E824AF87F1B74": {
+      "source": "The light is with us. Lead, and I will mend what breaks.",
+      "target": "光明与我们同在。您尽管带路，受了什么伤，都由我来治愈。"
+    },
+    "BFA99A7C02160ECD6C686CFAFFBEBEF9": {
+      "source": "Go — and may the sun go with you!",
+      "target": "去吧——愿太阳与你们同行！"
+    },
+    "C9AF30A05BA1784006E6934C83CAFF67": {
+      "source": "Then let us go, and quickly.",
+      "target": "那我们走吧，要快些。"
+    },
+    "C9E8AEB3BE1E9338B3A9C2C24EBBD93E": {
+      "source": "Light keep us. Light keep us all.",
+      "target": "愿光明守护我们。守护我们所有人。"
+    },
+    "C36C6B8E659DB913AD640234258AB7CE": {
+      "source": "For Sunhallow! Bring him down!",
+      "target": "为了圣阳村！拿下它！"
+    },
+    "C47D97460BE634A72562B3059F9AE519": {
+      "source": "Not while Sunhallow burns.",
+      "target": "圣阳村还在燃烧，不能离开。"
+    },
+    "C82D0CB7730B8B0585B36B6430F404F0": {
+      "source": "Sunhallow",
+      "target": "圣阳村"
+    },
+    "C8976F8EC74EB6F9D2BCB76FB4E7C067": {
+      "source": "Shield's up, mace is heavy. We're ready.",
+      "target": "盾已举起，锤也够沉。随时可以出发。"
+    },
+    "CB5E630C9C9CDD19081D1DF0C6B8C00C": {
+      "source": "Beneath the Dragon's Fangs",
+      "target": "龙牙峰下"
+    },
+    "CB8C2B37AFBC52EBAF6ECF2F0C4CEE03": {
+      "source": "Slay Vorthrax, the Ashen Tyrant",
+      "target": "诛杀灰烬暴君沃斯拉克斯"
+    },
+    "CDB134564626AE6CBA246C85DC2ECEFF": {
+      "source": "Best fire I've seen all year. And the only one I didn't have to put out.",
+      "target": "这是我今年见过最好的一把火。也是唯一一把不用我去扑灭的。"
+    },
+    "D0C712006873D4B57ACFDF9D5CC84C11": {
+      "source": "Hounds in my forge! Burning hounds! Get them out — I've only a hammer!",
+      "target": "我的铁匠铺里全是猎犬！浑身冒火的猎犬！快把它们赶出去——我手里只有一把锤子！"
+    },
+    "D4C5123249612DEDDC50E6D8A574DE8A": {
+      "source": "If you are about to say \"be careful\", I will freeze your boots to the road.",
+      "target": "你要是想说“小心点”，我就把你的靴子冻在路上。"
+    },
+    "D9EA93507514C745645E723DFC92E581": {
+      "source": "The temple doors are barred from within. Someone inside is praying, loudly.",
+      "target": "神殿的门从里面闩上了。里面有人在祈祷——嗓门很大。"
+    },
+    "D9F87692CEA19720B4F679099EF23F94": {
+      "source": "Fire over Sunhallow",
+      "target": "烽火圣阳"
+    },
+    "D81FB9B0C33426FCF6B3D2EA65605C20": {
+      "source": "Dragons, brood, a burning village. And they said this errand would be dull.",
+      "target": "恶龙、眷属、燃烧的村子。他们还说这趟差事会很无聊呢。"
+    },
+    "D434257AB33C41E6D7051339F285DBF2": {
+      "source": "My hands are cold, my temper is colder. Point me at something.",
+      "target": "我的手很冷，我的脾气更冷。给我指个目标。"
+    },
+    "D8804574555C16B4F612741900150AA7": {
+      "source": "Bless you — the grain is saved!",
+      "target": "愿神保佑你们——粮食保住了！"
+    },
+    "DA5661A50D87EF2C8FE5FAB34096BD5A": {
+      "source": "↓ {Sunhallow}",
+      "target": "↓ {圣阳村}"
+    },
+    "DAC16BEB413434052FF48A2A87055420": {
+      "source": "Help! They're everywhere — run!",
+      "target": "救命啊！到处都是怪物——快跑！"
+    },
+    "DB8C69E907E9B3C25CB716EA8545357D": {
+      "source": "Elder Hesk named the dragon: Vorthrax, the Ashen Tyrant. The pass road north of Sunhallow climbs to his lair.",
+      "target": "赫斯克长老道出了那头龙的名字：灰烬暴君沃斯拉克斯。圣阳村北面的隘口山道一路通往它的巢穴。"
+    },
+    "DB9FFD8B433F06F2A7E6DAEF80C46F0A": {
+      "source": "↑ {Sunhallow}",
+      "target": "↑ {圣阳村}"
+    },
+    "DB626B812298E24D8FCA8D6D9A365660": {
+      "source": "Sunhallow will not forget this day, strangers. Nor the names of those who saved it.",
+      "target": "外乡人，圣阳村永远不会忘记今天——也永远不会忘记救下它的人们的名字。"
+    },
+    "DCC724ED8A0E51E1F76FD11D5F70273D": {
+      "source": "Dance with us! The dragon is dead and the night is young!",
+      "target": "跟我们一起跳舞吧！恶龙死了，夜还长着呢！"
+    },
+    "DDD9CE3E01C80F3577E107640BFF8109": {
+      "source": "Tactics…",
+      "target": "战术…"
+    },
+    "DF96C9C1B992DAD2A4DB1DE3D77BAAEC": {
+      "source": "Aye. Vorthrax, the Ashen Tyrant. My grandfather's grandfather saw him last, and lived to wish he hadn't.",
+      "target": "是啊。灰烬暴君沃斯拉克斯。上一回见到它的，是我祖父的祖父——他虽然活了下来，却后悔了一辈子。"
+    },
+    "DFA4AF5F9B2B47AD8B652FBEF7BC7D73": {
+      "source": "Dance with me! Come on — heroes are allowed to dance.",
+      "target": "来跟我跳舞！来嘛——英雄也是可以跳舞的。"
+    },
+    "E6C9C06CFC8F735CF2096710A61EA016": {
+      "source": "Help! They're everywhere — run!",
+      "target": "救命啊！到处都是怪物——快跑！"
+    },
+    "E6DCE726990AF04BDB63CA9ABBF6733B": {
+      "source": "Vorthrax, the Ashen Tyrant, nests on the Ashen Throne high in the Wyrmspine. End him before nightfall.",
+      "target": "灰烬暴君沃斯拉克斯盘踞在龙脊山高处的灰烬王座。在入夜之前将它了结。"
+    },
+    "E6E32EA6E020BF64B32D0B0888D8DD9A": {
+      "source": "Behind my shield, all of you!",
+      "target": "全都躲到我的盾后面！"
+    },
+    "E8E8C3ABEB49563BE96043238E7A00C7": {
+      "source": "They ran! They ran!",
+      "target": "它们逃跑啦！逃跑啦！"
+    },
+    "E7518C8049BC0A1363199E1B28250F0A": {
+      "source": "Strangers! The vintner's house — they're breaking in!",
+      "target": "外乡人！酿酒师家——它们要闯进去了！"
+    },
+    "E9565BD85CE59177DF779E056D08B8A5": {
+      "source": "Tactics…",
+      "target": "战术…"
+    },
+    "E0098904C939D8FC666B6AC077CF4A57": {
+      "source": "Then we go now, while the light holds. No other village will burn.",
+      "target": "那我们现在就出发，趁天还亮着。绝不能再让别的村子遭受火焚。"
+    },
+    "E883853BE8DBFAC22A2A734B4EC19907": {
+      "source": "Let him know. Up, and quickly.",
+      "target": "随它知道。上山，要快。"
+    },
+    "EA60E680F32B8340616617158D8D436B": {
+      "source": "A song for the dragon-slayers? I have been saving one all day.",
+      "target": "为屠龙英雄献上一曲？我特意留了一首，等了一整天呢。"
+    },
+    "ED4DD9ED37639FFCC61C71C5BEC8220D": {
+      "source": "Frost Mage of Halvard",
+      "target": "哈尔瓦德冰术师"
+    },
+    "EE1AA4A750A2D7796925DC99CF5D4760": {
+      "source": "My forge! Off with you, beasts!",
+      "target": "我的铁匠铺！滚出去，畜生们！"
+    },
+    "EF04D1D00BDDE502194E6FECEEB6C524": {
+      "source": "The road is long and the light is short. Shall we?",
+      "target": "路途遥远，天光短暂。我们出发吧？"
+    },
+    "EF48E51BB8185316416510BDCF188805": {
+      "source": "Reach the Ashen Throne",
+      "target": "抵达灰烬王座"
+    },
+    "F0B85A69538332C7A476661FB2966B1D": {
+      "source": "Here a dragon fell, long ago",
+      "target": "很久以前，曾有巨龙陨落于此"
+    },
+    "F0D4DA37D3C6538EB00E9284AA192913": {
+      "source": "Breathe. Steady hands make steady blades.",
+      "target": "深呼吸。手稳了，剑才会稳。"
+    },
+    "F1B1682A3002094D67395231AC3F3F96": {
+      "source": "They're gone. And my forge still stands. I owe you a sword, friend.",
+      "target": "它们走了。我的铁匠铺也还在。我欠你一把剑，朋友。"
+    },
+    "F1B11147BC1C29E3C8059EB7B7DAE9B9": {
+      "source": "The Wyrmspine",
+      "target": "龙脊山"
+    },
+    "F3BB9774AD743C931A129CBBEA6BA428": {
+      "source": "We're alive… thanks to you. All of us, thanks to you.",
+      "target": "我们活下来了……多亏了你们。我们所有人，都多亏了你们。"
+    },
+    "F5EE082B62158FC0A83206B6D5CE6E26": {
+      "source": "VANQUISH THE EVIL DRAGON",
+      "target": "讨伐恶龙"
+    },
+    "F9AF4DD7E2FA914E356348B030A39EC2": {
+      "source": "The forge is lit again. Tobin swears it burns brighter than before.",
+      "target": "炉火又燃起来了。托宾发誓说，它烧得比以前还旺。"
+    },
+    "F9FEB7FBDFEA269A9F57631900159C88": {
+      "source": "Save the thanks, Elder. That beast will be back — and hungrier.",
+      "target": "谢意先留着吧，长老。那头畜生还会回来的——而且会更饿。"
+    },
+    "F065E760FAB63334EF2429494D9DCCCB": {
+      "source": "Fire over Sunhallow",
+      "target": "烽火圣阳"
+    },
+    "F116AE29D7523082A1C4899788432166": {
+      "source": "Robed devils, throwing fire at my inn! Don't just stand there — go!",
+      "target": "一群穿袍子的恶魔，竟敢往我的旅店扔火！别光站着——快去呀！"
+    },
+    "F179916A6802EFC6BC61505C37521BA9": {
+      "source": "The Wyrmspine",
+      "target": "龙脊山"
+    },
+    "F0979826AA6FE60EDB49B249A9D59A54": {
+      "source": "The elder's door stands open. Nobody is home: everyone is at the bonfire.",
+      "target": "长老家的门敞开着。屋里没人：大家都去篝火那儿了。"
+    },
+    "FBDB8F0F4DBA6E80283D29347A555341": {
+      "source": "Aldric · Seraphine · Lyra · Brannoc",
+      "target": "奥尔德里克、塞拉菲娜、​莱拉、布兰诺克"
+    },
+    "FBDB8F0F4DBA6E80283D29347A555341.2": {
+      "source": "The heroes of Sunhallow",
+      "target": "圣阳村的英雄"
+    },
+    "FCBA4448EEC04CB4A0A4D25E1E71E3B8": {
+      "source": "To all of you. Rest now. The night is yours.",
+      "target": "敬你们每一个人。好好休息吧。今夜属于你们。"
+    },
+    "FCCD221F499D87A273F31CBB2714679D": {
+      "source": "What now, fearless leader?",
+      "target": "接下来呢，无所畏惧的队长大人？"
+    },
+    "FD8F5DFFBC1D0FF6AD3E6BE191F5A6F0": {
+      "source": "Lead on. I'll be the one behind you, saving your life.",
+      "target": "带路吧。我就跟在你后面——负责救你的命。"
+    },
+    "FF74106C4838048B918E3AD43185CA31": {
+      "source": "The Ashen Throne…",
+      "target": "灰烬王座……"
+    }
+  }
+}

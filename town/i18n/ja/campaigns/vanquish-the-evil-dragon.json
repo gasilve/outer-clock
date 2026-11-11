@@ -1,0 +1,977 @@
+{
+  "format": "luminati-i18n",
+  "version": 3,
+  "lang": "ja",
+  "source": "campaigns/vanquish-the-evil-dragon",
+  "extends": [],
+  "terms": {
+    "Aldric": "アルドリック",
+    "Ana the Fiddler": "フィドル弾きアナ",
+    "Brannoc": "ブラノック",
+    "Cinder Waystone": "シンダーの道標石",
+    "Corwin": "コーウィン",
+    "Elder Hesk": "ヘスク長老",
+    "Fire over Sunhallow": "火の降るサンハロウ",
+    "Garrick": "ギャリック",
+    "Lower Sunhallow": "サンハロウ下町",
+    "Lyra": "ライラ",
+    "Mira": "ミラ",
+    "Old Joss": "ジョスじいさん",
+    "Old Marta": "マルタばあさん",
+    "Pell": "ペル",
+    "Rina": "リナ",
+    "Sefa": "セファ",
+    "Sister Seraphine": "シスター・セラフィーヌ",
+    "Slay the Ashen Tyrant": "灰燼の暴君を討て",
+    "Sunhallow": "サンハロウ",
+    "Sunhallow Square": "サンハロウ広場",
+    "Sunstone": "陽の石",
+    "Teo the Drummer": "太鼓叩きテオ",
+    "The Ashen Throne": "灰燼の玉座",
+    "The Chasm Bridge": "裂け谷の橋",
+    "The Cinder Vents": "シンダー噴気孔",
+    "The Field of Bones": "白骨の野",
+    "The Old Watchtower": "古の物見塔",
+    "The Pass Gate": "峠の門",
+    "The Red Canyon": "赤岩の峡谷",
+    "The South Road": "南の街道",
+    "The Switchbacks": "つづら折りの坂",
+    "The Trailhead": "登山口",
+    "The Wyrmspine": "竜の背骨",
+    "Tobin": "トビン",
+    "Upper Sunhallow": "サンハロウ上町",
+    "Vanquish the Evil Dragon": "邪竜を討て",
+    "Vorthrax": "ヴォルスラクス",
+    "Watchtower Waystone": "物見塔の道標石"
+  },
+  "units": {
+    "00A66FF2E312A2F79B76A9B4AC9A4AB4": {
+      "source": "Candles burn on every step of the temple tonight.",
+      "target": "今夜は、神殿の石段の一段一段にろうそくが灯っている。"
+    },
+    "0ABC0F74EB39E5325BC45EB1A4F4A599": {
+      "source": "Those horned brutes came down the pass road. The pass road!",
+      "target": "あのツノの化け物ども、峠道を下ってきやがった。峠道をだぞ！"
+    },
+    "0BAA733E113F1B584EDE0A1FC14B8434": {
+      "source": "The temple! They are at the temple!",
+      "target": "神殿だよ！　やつら、神殿にいる！"
+    },
+    "0C1EE9A8BAC63AAC220CC4EBB7455A34": {
+      "source": "The pack at the Granary has fallen · ${routed} of 7",
+      "target": "穀物倉を襲う群れを撃破・${routed}/7"
+    },
+    "0CA100FE15A0B934D02987F365B93A0C": {
+      "source": "I watched it fall from the upper town. A star coming down backwards, it was.",
+      "target": "上町から、あいつが落ちるのを見てたよ。まるで逆さに流れる星だった。"
+    },
+    "0CD94747E9EFEEFB435D3A29538E9F36": {
+      "source": "Peace, child. You ran through fire to find us. It will not be for nothing.",
+      "target": "安心なさい。火の中を駆けて、私たちを探しに来てくれたのですね。その勇気は無駄にはしません。"
+    },
+    "0EA6D60508A76869045F1618FAA1AF2B": {
+      "source": "Dance with us! The dragon is dead and the night is young!",
+      "target": "一緒に踊ろう！　竜は死んだし、夜はまだこれからだ！"
+    },
+    "0EA53F7DD2C0816F727D26B74C229BF3": {
+      "source": "The sisters are safe. The temple bell will ring for you tonight.",
+      "target": "シスターたちは無事よ。今夜は神殿の鐘が、あなたたちのために鳴るわ。"
+    },
+    "0EB63BE99A2115313B665FA2363EDCF0": {
+      "source": "Golden hour. Of course it is golden hour. Every legend ends at golden hour.",
+      "target": "夕映えね。そりゃあ夕映えよね。伝説ってのは、決まって夕映えの中で終わるんだから。"
+    },
+    "0F5B1484C875F5DF654431AE338E8B3B": {
+      "source": "Made with Luminati",
+      "target": "Luminati で制作"
+    },
+    "0F5B1484C875F5DF654431AE338E8B3B.2": {
+      "source": "A 2.5D pixel-art engine on three.js",
+      "target": "three.js で動く 2.5D ピクセルアートエンジン"
+    },
+    "1A890C7DB4CEACA68F6D9B6F0547EE4E": {
+      "source": "Please — you have swords! Monsters came down from the mountain at first light. They're tearing Sunhallow apart!",
+      "target": "お願い――剣をお持ちなんでしょう！　夜明けに山から魔物が下りてきて、サンハロウをめちゃくちゃにしてるんです！"
+    },
+    "1B6F11BF22C4B2D432C9E8F5CDBE385D": {
+      "source": "I watched its shadow fly north. Toward the Throne.",
+      "target": "あいつの影が北へ飛んでいくのを見た。玉座のほうへな。"
+    },
+    "1B951AF2BBA697995084B8CD33D527F0": {
+      "source": "The pack at the Temple of the Dawn has fallen · ${routed} of 7",
+      "target": "暁の神殿を襲う群れを撃破・${routed}/7"
+    },
+    "1C7AC917887097223F1AC160D1873B92": {
+      "source": "You're Sunhallow's heroes, then. I held this tower as long as I could.",
+      "target": "あんたらがサンハロウの英雄か。この塔は、守れるだけ守った。"
+    },
+    "1F69566CBBE11D034A411D8610ADC370": {
+      "source": "— the Sunhallow watch",
+      "target": "――サンハロウ見張り隊"
+    },
+    "1FF82E7938400CBC83A49BAE53DC7B2C": {
+      "source": "↑ {The Wyrmspine} · {the Ashen Throne}",
+      "target": "↑ {竜の背骨}・{灰燼の玉座}"
+    },
+    "2A7EAF67383BEAC2DFD2948A3D957DB5": {
+      "source": "The pass road can wait — the packs cannot.",
+      "target": "峠道は後でいい――群れは待ってくれない。"
+    },
+    "2D42CC16B352FF4193BDA56FFD6385CE": {
+      "source": "A waystone still glows",
+      "target": "道標石がいまも光る"
+    },
+    "2EA0504309ECA4AD2D1997214BB40742": {
+      "source": "A Luminati campaign",
+      "target": "Luminati キャンペーン"
+    },
+    "2F06EB8EB13A574FAB708A26C3F024DE": {
+      "source": "Mira begged us to save Sunhallow: seven packs of monsters besiege its houses. Destroy every one of them.",
+      "target": "ミラにサンハロウを救ってほしいと頼まれた。七つの魔物の群れが家々を襲っている。ひとつ残らず倒そう。"
+    },
+    "02FDA0408CF823F6647492A712441080": {
+      "source": "The baker's house still stands!",
+      "target": "パン屋が持ちこたえた！"
+    },
+    "3B53EA30DB69AD6728EC87D289BC4378": {
+      "source": "Seventy years I've danced at this bonfire, and never once for a dragon-slayer. Go on, pick up your feet!",
+      "target": "このかがり火で踊って七十年、竜殺しのために踊るのは初めてだよ。ほら、しゃんと足を動かしな！"
+    },
+    "3C0CE21F6AA96CBA29ADDC21462EF356": {
+      "source": "The brood came down off the Throne like a rockslide. Little ones — but so many.",
+      "target": "眷属どもが玉座から、崖崩れみたいに押し寄せてきた。小物だが――とにかく数が多い。"
+    },
+    "3C09D341ACC39A29AB73DC63720B5EEE": {
+      "source": "The pack at the Vintner's House has fallen · ${routed} of 7",
+      "target": "ぶどう酒蔵を襲う群れを撃破・${routed}/7"
+    },
+    "3E110A8583F8396D41400E06999B2E0B": {
+      "source": "The road to the Wyrmspine",
+      "target": "竜の背骨へ続く道"
+    },
+    "3E06905200A89FC3D5A2185382D0BB95": {
+      "source": "The Ashen Throne. Vorthrax came down out of the sky to meet us.",
+      "target": "灰燼の玉座。ヴォルスラクスが空から舞い降り、我らの前に立ちはだかった。"
+    },
+    "3F8F9A8DB7270611173585EB4436E494": {
+      "source": "The water is low and full of ash. It will clear.",
+      "target": "水は少なく、灰にまみれている。いずれ澄むだろう。"
+    },
+    "3FC6B2AE1E7A0CC6C1475B9D1A4F3FA6": {
+      "source": "of Sunhallow",
+      "target": "サンハロウの村娘"
+    },
+    "4BBECCAF0A9843667D853E023A608228": {
+      "source": "Something will. Something always does.",
+      "target": "邪魔は入るわ。いつだってそう。"
+    },
+    "4D975A8C0807FF1A35E187D3EAB77BCC": {
+      "source": "Frost Mage of Halvard",
+      "target": "ハルヴァードの氷術士"
+    },
+    "4DB7B3E9FF1B904617ABFC3904F39D76": {
+      "source": "Sunhallow",
+      "target": "サンハロウ"
+    },
+    "4DC4E0257DABE66F50252F8DBFC5537D": {
+      "source": "That was the last of them. Listen — the beast knows it, too.",
+      "target": "今ので最後ね。聞いて――あの獣も気づいたみたい。"
+    },
+    "4E97788679EFAE8CAB31E5CA5DC8BA90": {
+      "source": "The Climb at Golden Hour",
+      "target": "夕映えの登攀"
+    },
+    "5B89F6C3FD1EEF2F62EE2D332028F55B": {
+      "source": "A toast — to the dragon. May his bones make a very fine fence.",
+      "target": "乾杯――竜に。あの骨が、さぞ立派な柵になりますように。"
+    },
+    "5B120EFA0ADB9DF8AB3CE28A47949C01": {
+      "source": "I'll keep down the road, like you said. Please — hurry!",
+      "target": "言われたとおり、街道の下のほうにいます。お願い――急いで！"
+    },
+    "5BCE86FC68404546A48B01C049881B61": {
+      "source": "You did it! Not one of them left standing!",
+      "target": "すごい！　一匹残らずやっつけちゃった！"
+    },
+    "5D2ADAD52CEAC5CF413628DCCE7750E9": {
+      "source": "The pack at the Smithy has fallen · ${routed} of 7",
+      "target": "鍛冶場を襲う群れを撃破・${routed}/7"
+    },
+    "5F5220BB3BBE33F0B8ACB197B5CDDDFF": {
+      "source": "Luminati 2.5D Pixel-Art Engine · three.js",
+      "target": "Luminati 2.5D ピクセルアートエンジン・three.js"
+    },
+    "5FDF7171655B85CA3FD7B2563395C421": {
+      "source": "They rang the temple bell for you. Did you hear it? The whole valley heard it.",
+      "target": "あなたたちのために神殿の鐘を鳴らしたの。聞こえた？　谷じゅうに響いたのよ。"
+    },
+    "5FF164F68AFAEA1F779EB16AED0A34B3": {
+      "source": "Not tonight. Tonight, Sunhallow dances.",
+      "target": "今夜はやめておこう。今夜のサンハロウは、踊り明かすのだから。"
+    },
+    "6B8A310E04E4A4EF955FDFA7D519CC06": {
+      "source": "The temple! They saved the temple!",
+      "target": "神殿が！　神殿を守ってくれた！"
+    },
+    "06B8E48EFB16951DC5B08F3B767932AC": {
+      "source": "Easy breaths. One fight at a time.",
+      "target": "ゆっくり息をしろ。戦いはひとつずつだ。"
+    },
+    "6CA6E3FFE2EB3F4FA6C5DC2D2AEECF6B": {
+      "source": "Tonight the granary is open to all. Eat, eat! You've earned it ten times over.",
+      "target": "今夜は穀物倉を皆に開けとる。さあ食え、食え！　あんたらには、その十倍の恩があるわい。"
+    },
+    "6CF4459423679641DA362FF1BB5EA1A2": {
+      "source": "Seventy years in this village. Never seen the like. Thank you, dear.",
+      "target": "この村で七十年、こんなことは初めてだよ。ありがとうね、お若いの。"
+    },
+    "6D1F69C7B7DC7E6E1A610D8544E9154E": {
+      "source": "We're alive… thanks to you. All of us, thanks to you.",
+      "target": "生きてる……あんたたちのおかげだ。みんな、あんたたちのおかげだよ。"
+    },
+    "6EEE2211DF5CC46463943111A1817934": {
+      "source": "Rest by the stone if you need it. It still remembers how to heal.",
+      "target": "必要なら石のそばで休め。癒やし方は、まだ忘れちゃいない。"
+    },
+    "7C629DE166BF1EA9F3B68867B36CF0C0": {
+      "source": "Flanks! Left and right — and behind!",
+      "target": "側面だ！　左右――後ろからもだ！"
+    },
+    "8B34AEBD5608510792C2491581C8C5EE": {
+      "source": "The ground itself is burning. The Throne must be close.",
+      "target": "大地そのものが燃えています。玉座は近いはずです。"
+    },
+    "8B98A6B3117220D29EF24866B4C4CEA0": {
+      "source": "Elder Hesk's house. The door is shut tight; the roof has held.",
+      "target": "ヘスク長老の家。扉は固く閉ざされ、屋根も持ちこたえている。"
+    },
+    "8C2263DD7E7B487646D5277D0281EC5C": {
+      "source": "Brannoc, the front. Lyra, Seraphine, the flanks. Mira — get clear. We'll give you your village back.",
+      "target": "ブラノック、前を頼む。ライラとセラフィーヌは両翼だ。ミラ――下がっていろ。村は俺たちが取り戻す。"
+    },
+    "8E50F05CC3E48B99B719619E1925B851": {
+      "source": "Lead on",
+      "target": "先へ進もう"
+    },
+    "8E371938CF6319DEFE548D573A3D708C": {
+      "source": "Before nightfall, then. We end this on the Ashen Throne.",
+      "target": "なら、日暮れまでにだ。灰燼の玉座で決着をつける。"
+    },
+    "9D1B3330A2C53AEBEDBF187F76E24399": {
+      "source": "Water! Bring water!",
+      "target": "水を！　水を持ってきて！"
+    },
+    "9DA6312C34CE8E6B313896291CDE9F92": {
+      "source": "The Ashen Throne lies at the top of the pass road. May the dawn light your way.",
+      "target": "灰燼の玉座は、峠道を登りきった先じゃ。暁の光が、そなたらの道を照らさんことを。"
+    },
+    "09DF00D6AD11BBEC015DA801DA2CF8BA": {
+      "source": "I'll forge you a blade from one of its teeth. Two blades. A whole rack of them!",
+      "target": "あいつの牙で剣を打ってやるよ。いや、二振りだ。いっそ棚いっぱいにな！"
+    },
+    "9EE808D7D4588C621C94A72E11484770": {
+      "source": "Still alive? Good. I hate breaking in new swordsmen.",
+      "target": "まだ生きてる？　よかった。新しい剣士を一から仕込むのは、ごめんだもの。"
+    },
+    "9F39B84997038AB24B4F19E0AAA2CA95": {
+      "source": "Shield of the Marches",
+      "target": "辺境の盾"
+    },
+    "9F60B8C551D0101FD3F56106315A062D": {
+      "source": "Seven packs — the granary, the smithy, the temple… And above it all, a dragon. No arrow can reach it. You see its shadow, then the fire falls.",
+      "target": "七つの群れが――穀物倉に、鍛冶場に、神殿に……。それに空には竜が。どんな矢も届きません。影が見えたと思ったら、火が降ってくるんです。"
+    },
+    "13C5088AA5BB6649FADC01129E7D0387": {
+      "source": "Sit, sit. The fire burns till dawn, and so will the dancing.",
+      "target": "まあ座れ、座れ。火は夜明けまで燃える。踊りも夜明けまで続くじゃろう。"
+    },
+    "13DAF0356CD6DDD6533573BE4CDC2F47": {
+      "source": "Sunhallow",
+      "target": "サンハロウ"
+    },
+    "19EEA82C21F95BB4BEC5EC2037861CF3": {
+      "source": "Golden Hour",
+      "target": "夕映え"
+    },
+    "19EEA82C21F95BB4BEC5EC2037861CF3.2": {
+      "source": "The road to the Ashen Throne",
+      "target": "灰燼の玉座への道"
+    },
+    "022C1D631753A65308E562012288BA6A": {
+      "source": "When I grow up I'm going to slay a dragon too. A small one, to start.",
+      "target": "大きくなったら、ぼくも竜をやっつけるんだ。まずは小さいのからね。"
+    },
+    "25F95BCA52C0365C964031E841B8516C": {
+      "source": "Smoke on the road, smoke in the sky. And that was no thunder.",
+      "target": "道に煙、空にも煙。それに、今のは雷ではないな。"
+    },
+    "26AE2B22E4A2780578FCDDD8BED4F7E6": {
+      "source": "Breathe, lass. How many, and where?",
+      "target": "落ち着け、嬢ちゃん。数は？　どこにいる？"
+    },
+    "31D6E2BC8D44CDFEC876F73A75737C6F": {
+      "source": "The people of Sunhallow",
+      "target": "サンハロウの人々"
+    },
+    "31D6E2BC8D44CDFEC876F73A75737C6F.2": {
+      "source": "Mira · Elder Hesk · and every voice that cried for help",
+      "target": "ミラ・ヘスク長老・そして助けを求めて叫んだ、すべての声"
+    },
+    "34E8FF8495EE8E772577036D01BFD1CE": {
+      "source": "Then they'll make their stand here. Hold together!",
+      "target": "なら、やつらはここで迎え撃つ気だ。固まって戦え！"
+    },
+    "36E21D0129CEE382142A29CD3ACA4033": {
+      "source": "Chapter Two",
+      "target": "第二章"
+    },
+    "37A2D7748CCB611FCE49A93752431C72": {
+      "source": "The bonfire of the dragon-slayers",
+      "target": "竜殺したちのかがり火"
+    },
+    "39B08DF9B72FDE0FA06B1176A60260B2": {
+      "source": "The lair of Vorthrax",
+      "target": "ヴォルスラクスの巣"
+    },
+    "45D4A06FBE94B66FF9D31FF4506A22DF": {
+      "source": "My inn — oh, my poor inn!",
+      "target": "うちの宿が――ああ、なんてこったい！"
+    },
+    "45DE1952DB362D85F5674AC8AB920B8B": {
+      "source": "The upper town is clear!",
+      "target": "上町は片づいたぞ！"
+    },
+    "46D46DBB33A04934CF49356C4F9C88C1": {
+      "source": "Saved you a honey cake. Well — I saved you half a honey cake.",
+      "target": "はちみつケーキ、取っておいたよ。えっと――半分だけ、取っておいたよ。"
+    },
+    "47E62CB940759FCB7FD901C5FBAA2C2F": {
+      "source": "We're alive… thanks to you. All of us, thanks to you.",
+      "target": "生きてる……あんたたちのおかげだ。みんな、あんたたちのおかげだよ。"
+    },
+    "50ABEEF792FE9C0D076810CA8DCB6B8F": {
+      "source": "Monsters came down from the Wyrmspine at dawn and are tearing Sunhallow apart, while a dragon circles overhead and hurls fire at the ground.",
+      "target": "明け方、竜の背骨から魔物が下りてきて、サンハロウを荒らし回っている。空では竜が旋回し、地上へ火を浴びせている。"
+    },
+    "51C5868F68BAB12F59ECBBCDC7C6E8AE": {
+      "source": "Big. Why are they always so big?",
+      "target": "大きいわね。どうしていつも、こう大きいのかしら？"
+    },
+    "54DCAAB3ECB320F88D8B6BF3050079A7": {
+      "source": "They're in the forge!",
+      "target": "やつら、鍛冶場にいるぞ！"
+    },
+    "56F039E0F0BD461D625434D1790DECEC": {
+      "source": "Chapter One",
+      "target": "第一章"
+    },
+    "058B6425B947CF726E7AEFFF6B6AB005": {
+      "source": "We're alive… thanks to you. All of us, thanks to you.",
+      "target": "生きてる……あんたたちのおかげだ。みんな、あんたたちのおかげだよ。"
+    },
+    "60DDDEA56B2FE931ADFF8E5BDC0651A7": {
+      "source": "To Sunhallow. And to those who did not live to see tonight.",
+      "target": "サンハロウに。そして、今夜を見ることなく逝った人々に。"
+    },
+    "64A3F18229370664A7B27D7D7C442EE8": {
+      "source": "Both ends of the ledge! Back to back!",
+      "target": "岩棚の両側からだ！　背中を合わせろ！"
+    },
+    "65B8A2048C023291F225D43E291F30C0": {
+      "source": "Help us, please!",
+      "target": "お願い、助けて！"
+    },
+    "73F6C160468D02450C7EC25B2B3C615A": {
+      "source": "Up the ledge — more of them!",
+      "target": "岩棚の上だ――まだ来るぞ！"
+    },
+    "74C7D09ED30B78182AAD14CB2A7E641B": {
+      "source": "Look at it! The whole village came out — even Old Marta is dancing!",
+      "target": "見て！　村じゅうのみんなが出てきてる――マルタばあさんまで踊ってる！"
+    },
+    "74E0FB5C1A1F7F9C74D1F311D4648103": {
+      "source": "The Wyrmspine",
+      "target": "竜の背骨"
+    },
+    "77CB88A96281167396B40AF91C5B0BB0": {
+      "source": "Heat pours out of the smithy. The forge fire has spread to the rafters.",
+      "target": "鍛冶場から熱気が噴き出している。炉の火が垂木にまで燃え移っている。"
+    },
+    "78A33C6D8C54A25ADECF247C3DDB58EB": {
+      "source": "My mama said hide. I'm hiding! Is this good hiding?",
+      "target": "ママが隠れてなさいって。だから隠れてるの！　ちゃんと隠れてる？"
+    },
+    "78BD033F74F5C861248FE73BD83C8307": {
+      "source": "Tactics…",
+      "target": "作戦…"
+    },
+    "87D038A89E1CA3B3402FF545218D4DB8": {
+      "source": "Mama! Where are you?",
+      "target": "ママ！　どこにいるの？"
+    },
+    "89A4FE6FC5CEC9065D7FF22D08DA9AEE": {
+      "source": "Help! They're everywhere — run!",
+      "target": "助けて！　そこらじゅうにいる――逃げて！"
+    },
+    "89BC89D1F89445CB0E9A7DF4CBD06EA9": {
+      "source": "The Wyrmspine is north, up the pass road. Come back to us. Promise?",
+      "target": "竜の背骨は北、峠道を登った先です。必ず帰ってきてください。約束ですよ？"
+    },
+    "92C3DDFE2E88C58F0263526196CC0C54": {
+      "source": "Among the bones — they were waiting for us!",
+      "target": "骨の陰に――待ち伏せです！"
+    },
+    "97CDCDE19C8509147DC56A5B0028072D": {
+      "source": "Vorthrax, the Ashen Tyrant",
+      "target": "灰燼の暴君ヴォルスラクス"
+    },
+    "97CDCDE19C8509147DC56A5B0028072D.2": {
+      "source": "Slain on the Ashen Throne",
+      "target": "灰燼の玉座にて討たれる"
+    },
+    "98C06C4A7DBD2A9BA04A46838375B1CE": {
+      "source": "A dragon, then. And here I thought this would be a quiet errand.",
+      "target": "竜、ね。静かなお使いで済むと思ってたのに。"
+    },
+    "0137C5AFC629EDD267E66C201BC52A53": {
+      "source": "The Wyrmspine",
+      "target": "竜の背骨"
+    },
+    "141D186CE79F6A50A026A32315B17A4A": {
+      "source": "Dance with us! The dragon is dead and the night is young!",
+      "target": "一緒に踊ろう！　竜は死んだし、夜はまだこれからだ！"
+    },
+    "150D84F3B81EFC99060418A08EBFC45D": {
+      "source": "Oh, wonderful. All of them at once.",
+      "target": "あら素敵。全員そろってお出ましね。"
+    },
+    "179F5787B15E344239DC5B4D8D2A5BAA": {
+      "source": "The End",
+      "target": "おわり"
+    },
+    "205DB8DA3AAA4198D844D37D6FE863D5": {
+      "source": "I heard it land. The whole mountain heard it land.",
+      "target": "やつが降りた音を聞いた。山じゅうがあの音を聞いたさ。"
+    },
+    "241C2034C02F6F87863F10D9A0775F58": {
+      "source": "The Bonfire",
+      "target": "かがり火"
+    },
+    "292F1025543C4F7A11C1EA98182FAB30": {
+      "source": "Elder of Sunhallow",
+      "target": "サンハロウの長老"
+    },
+    "306B06EA9BD196209E53CE6ED0B64FCD": {
+      "source": "Dance with us! The dragon is dead and the night is young!",
+      "target": "一緒に踊ろう！　竜は死んだし、夜はまだこれからだ！"
+    },
+    "362A6885707E7A8E138280145DA27D0B": {
+      "source": "We're alive… thanks to you. All of us, thanks to you.",
+      "target": "生きてる……あんたたちのおかげだ。みんな、あんたたちのおかげだよ。"
+    },
+    "383B79F8CEB7BEC86134637BAB0A6E1A": {
+      "source": "The pack at the Baker's House has fallen · ${routed} of 7",
+      "target": "パン屋を襲う群れを撃破・${routed}/7"
+    },
+    "426B271AFF9F3D0C4D6B804808ECABD2": {
+      "source": "Seventy years in this village. Never seen the like. Thank you, dear.",
+      "target": "この村で七十年、こんなことは初めてだよ。ありがとうね、お若いの。"
+    },
+    "452EBB6C7861C53088B071E7E2634BF7": {
+      "source": "The Bonfire",
+      "target": "かがり火"
+    },
+    "452EBB6C7861C53088B071E7E2634BF7.2": {
+      "source": "That night, in Sunhallow",
+      "target": "その夜、サンハロウにて"
+    },
+    "468C26D69EA571EAFBA4135BE5D0ACBB": {
+      "source": "The tower's stair has fallen in. Old arrows still stand in the walls.",
+      "target": "塔の階段は崩れ落ちている。壁にはいまも古い矢が突き立ったままだ。"
+    },
+    "577FFAE687BD50B2258619C727FAC10F": {
+      "source": "Stay behind the steel. That's what it's for.",
+      "target": "鋼の後ろにいろ。そのための盾だ。"
+    },
+    "606BF3DFE41E0E3633586D4BF9981DFA": {
+      "source": "The Wyrmspine",
+      "target": "竜の背骨"
+    },
+    "620E71AF21DDB2DDCF5A0977BC315AFA": {
+      "source": "The granary — a whole winter's grain in there. Please!",
+      "target": "穀物倉が――ひと冬ぶんの麦があそこにあるんじゃ。頼む！"
+    },
+    "706C8CF8ECDC444432B8908B5D4EDEF3": {
+      "source": "Lead on",
+      "target": "先へ進もう"
+    },
+    "829BD8D326FD9D2855F25782C4812E83": {
+      "source": "Lead on. I've got your back.",
+      "target": "先に行け。背中は俺が守る。"
+    },
+    "857ACF71C78AB9369CC49DAB145406C4": {
+      "source": "Someone has hung a lantern down the well. For luck, they say.",
+      "target": "誰かが井戸の中にランタンを吊るしている。縁起担ぎなのだそうだ。"
+    },
+    "858FA58C2257BA54D03F72F867F9129E": {
+      "source": "Into the Wyrmspine",
+      "target": "竜の背骨へ"
+    },
+    "960A89778A18D9121A26A3CE17C82844": {
+      "source": "Scalekin, down the canyon! Hold the line!",
+      "target": "鱗族だ、峡谷を下ってくる！　陣を崩すな！"
+    },
+    "999C1E704BE291310A5DEAB63EAC1756": {
+      "source": "The road up the Wyrmspine swarms with the dragon's brood. Climb to the Ashen Throne.",
+      "target": "竜の背骨を登る道には、竜の眷属がひしめいている。灰燼の玉座まで登りきろう。"
+    },
+    "2115B9DED68EB4585310053C3610D61D": {
+      "source": "Look at the ridges — the brood is everywhere. He knows we are coming.",
+      "target": "尾根をご覧なさい――眷属がそこかしこに。あの竜は、私たちが来ると知っています。"
+    },
+    "2469B28F8122D60E385629FCC3387ADF": {
+      "source": "My house holds, for now. Never mind an old man — save the others!",
+      "target": "わしの家はまだもつ。年寄りに構うな――ほかの者を救ってくだされ！"
+    },
+    "3223AFF0712B5BA9D616C1431EFDBC05": {
+      "source": "The water's all ash! We can't put anything out!",
+      "target": "水が灰だらけ！　これじゃ火が消せないよ！"
+    },
+    "4099F644DA571E1A4EABDD61C2B2C4AC": {
+      "source": "Wings — and teeth! Off the bridge, quickly!",
+      "target": "翼――それに牙！　早く橋から離れて！"
+    },
+    "5590F926E8AA671DF356AE9590E53553": {
+      "source": "The temple — the sisters are still inside!",
+      "target": "神殿が――まだシスターたちが中にいるの！"
+    },
+    "5668FA2BF7EA7BCF670BCB8DBF4779C1": {
+      "source": "The merchant hall is locked. Through a crack: bolts of cloth, untouched.",
+      "target": "商館には鍵がかかっている。隙間からのぞくと、反物が手つかずのまま積まれている。"
+    },
+    "5903A7BC433DC15E9028206D9657750B": {
+      "source": "Over here! By the stone — it still works!",
+      "target": "こっちだ！　石のそばへ――まだ力が残ってる！"
+    },
+    "7634AAD28C36603D512A9E427789222E": {
+      "source": "Shield of the Marches",
+      "target": "辺境の盾"
+    },
+    "8484F3D5CF936371F696B200CEF7D7F0": {
+      "source": "Lead on",
+      "target": "先へ進もう"
+    },
+    "8636FEE9686809A66D367E1E25C395B4": {
+      "source": "↓ {the Valley Road}",
+      "target": "↓ {谷の街道}"
+    },
+    "25169D78910E3CD2361BF520298ECFFE": {
+      "source": "Sunhallow",
+      "target": "サンハロウ"
+    },
+    "32689CB60740028C8BA9C48A0B0C2C9F": {
+      "source": "The Sun & Sickle. The shutters are torn off and the sign is smoking.",
+      "target": "陽と鎌亭。鎧戸はもぎ取られ、看板がくすぶっている。"
+    },
+    "35869B5B5604CFD9BF706E65D4E6071F": {
+      "source": "Monster packs destroyed (${routed} of 7)",
+      "target": "魔物の群れを撃破（${routed}/7）"
+    },
+    "52112FE76B556E11650B35A53679DA17": {
+      "source": "Dance with us! The dragon is dead and the night is young!",
+      "target": "一緒に踊ろう！　竜は死んだし、夜はまだこれからだ！"
+    },
+    "66540A74AAEEF43D714FC5565258AB11": {
+      "source": "The granary door is split down the middle. Sacks of grain spill into the street.",
+      "target": "穀物倉の扉が真っ二つに裂けている。麦の袋が通りにこぼれ出ている。"
+    },
+    "93308FE7B87E821D388D53BF56AD0790": {
+      "source": "How shall I serve?",
+      "target": "どのようにお仕えしましょう？"
+    },
+    "96305DDF7F0A4BF0108754DD865B4751": {
+      "source": "Cleric of the Dawn",
+      "target": "暁の僧侶"
+    },
+    "99867B51504884DA39C72D8800FBFE64": {
+      "source": "He nests on the Ashen Throne, in the Wyrmspine — the mountains to the north. The old pass road climbs straight to it.",
+      "target": "やつの巣は灰燼の玉座。北の山並み、竜の背骨にある。古い峠道が、まっすぐそこへ通じておる。"
+    },
+    "270018ED58160A6B82ED59AAEE11D40C": {
+      "source": "Help! They're everywhere — run!",
+      "target": "助けて！　そこらじゅうにいる――逃げて！"
+    },
+    "413632AB30BCFC8F3A03C9A5CB1BABCF": {
+      "source": "The pack at the Sun & Sickle has fallen · ${routed} of 7",
+      "target": "陽と鎌亭を襲う群れを撃破・${routed}/7"
+    },
+    "495085D1F1D7D1BC3F0D45DF183A92F6": {
+      "source": "Vanquish the Evil Dragon",
+      "target": "邪竜を討て"
+    },
+    "862259CE60250FA38960FC27142B0F44": {
+      "source": "Waves of the brood weathered (${waves} of 6)",
+      "target": "眷属の襲撃をしのぐ（${waves}/6）"
+    },
+    "3526357A99028BEE1358BE5C0C6167E4": {
+      "source": "Bones. Old gold. More bones. Charming.",
+      "target": "骨。古い金貨。また骨。素敵なご趣味だこと。"
+    },
+    "3684124DF102AE903016671118B76777": {
+      "source": "Half a day's walk. If nothing stops you.",
+      "target": "歩いて半日です。何にも邪魔されなければ。"
+    },
+    "5206703B45C396BD1930DA16EB2BF007": {
+      "source": "Sunhallow",
+      "target": "サンハロウ"
+    },
+    "8235353B597A2421705A39B69094B695": {
+      "source": "Whatever comes, it comes through me first.",
+      "target": "何が来ようと、まずは俺を越えてからだ。"
+    },
+    "012179548A3468E6B931B9E4D0C07BAE": {
+      "source": "The bridge holds. Mostly.",
+      "target": "この橋は落ちない。たいていは。"
+    },
+    "66976960181302173DC81898C8E65301": {
+      "source": "The baker's oven held. Bread tomorrow — I swear it!",
+      "target": "パン屋のかまどは無事だった。明日はパンを焼くよ――約束する！"
+    },
+    "A5D7A72FD0D4E45FC2DB83AA7C9FD54E": {
+      "source": "Cleric of the Dawn",
+      "target": "暁の僧侶"
+    },
+    "A7F1EEA8AC26036B0B5DA73089978381": {
+      "source": "Fire over Sunhallow",
+      "target": "火の降るサンハロウ"
+    },
+    "A8EC2C2DB61B48B9E870C32F8BD3D799": {
+      "source": "I am here, Aldric. I will not fall behind.",
+      "target": "ここにおります、アルドリック。遅れはとりません。"
+    },
+    "A9B64D9CD4C4AB2AB73A38EAF7B16615": {
+      "source": "Vanquish the Evil Dragon",
+      "target": "邪竜を討て"
+    },
+    "A9B64D9CD4C4AB2AB73A38EAF7B16615.2": {
+      "source": "A Luminati campaign",
+      "target": "Luminati キャンペーン"
+    },
+    "A23F506612E158CFC46FBA99B0E98734": {
+      "source": "Vorthrax is slain. Tonight Sunhallow lights its bonfire.",
+      "target": "ヴォルスラクスは討たれた。今夜、サンハロウにかがり火が灯る。"
+    },
+    "A84F31109084A15AC1B7B5EC9528AE8F": {
+      "source": "The granary held. A whole winter's grain, saved by strangers.",
+      "target": "穀物倉は無事じゃった。ひと冬ぶんの麦を、旅の方々が救ってくれたわい。"
+    },
+    "A556C246ECB9B43094C98DBB77C3D78B": {
+      "source": "Help! They're everywhere — run!",
+      "target": "助けて！　そこらじゅうにいる――逃げて！"
+    },
+    "A6431B4333E14EF08DCFDD58F3FF680D": {
+      "source": "The Wyrmspine",
+      "target": "竜の背骨"
+    },
+    "AAAE20C90741A21BB962C5FB65FE5951": {
+      "source": "We're alive… thanks to you. All of us, thanks to you.",
+      "target": "生きてる……あんたたちのおかげだ。みんな、あんたたちのおかげだよ。"
+    },
+    "ADD927EBF8F86D78EB47AC94120A105D": {
+      "source": "Chapter Three",
+      "target": "第三章"
+    },
+    "AE18216E2B0A75794695F32A983644BC": {
+      "source": "The pack at the Herder's House has fallen · ${routed} of 7",
+      "target": "牧人の家を襲う群れを撃破・${routed}/7"
+    },
+    "B2DEE2B607CECBCA06F89C81988DBC7E": {
+      "source": "The Wyrmspine",
+      "target": "竜の背骨"
+    },
+    "B7DE5141E72EFCC7EAD2E9D3A222D2F6": {
+      "source": "The Wyrmspine",
+      "target": "竜の背骨"
+    },
+    "B8C4ABD7F669F49EB5EBDCD76BFD488B": {
+      "source": "Out of my inn, you devils!",
+      "target": "うちの宿から出てお行き、悪魔ども！"
+    },
+    "B9F77B69A9D0FFEFB7D86F7733519EF3": {
+      "source": "Vorthrax",
+      "target": "ヴォルスラクス"
+    },
+    "B9F77B69A9D0FFEFB7D86F7733519EF3.2": {
+      "source": "The Ashen Tyrant",
+      "target": "灰燼の暴君"
+    },
+    "B22DA4B99D6EC706F4079CF3603B0376": {
+      "source": "Then let's not make it ours. Shields up from here on.",
+      "target": "なら、俺たちの伝説はここで終わらせん。ここからは盾を構えていけ。"
+    },
+    "B341CCA235E6F92E98FDC28C550D9FDA": {
+      "source": "Orders?",
+      "target": "命令は？"
+    },
+    "B500EA07E5DB0A4865636446ABAFC8DA": {
+      "source": "Sunhallow has burned before, and always been built again. But never, I think, with such a fire as this one.",
+      "target": "サンハロウは前にも焼け、そのたびに建て直してきた。じゃが、これほどの火は――一度もなかったと思うのう。"
+    },
+    "B909EB389F66020251215AEF84CFE91D": {
+      "source": "Dance with us! The dragon is dead and the night is young!",
+      "target": "一緒に踊ろう！　竜は死んだし、夜はまだこれからだ！"
+    },
+    "B3638B3B3F31DD6AC7E0FFFB12B5FAB9": {
+      "source": "The Sun & Sickle: the roof leaks, the cellar is full. Drinks are free tonight.",
+      "target": "陽と鎌亭。屋根は雨漏りするが、地下蔵は酒で満杯だ。今夜は酒がただだそうだ。"
+    },
+    "B60180F864F5CE56B65295CC49CFBB9A": {
+      "source": "Faster? Faster! Sunhallow dances till the fire is ash!",
+      "target": "もっと速く？　もっと速くだ！　サンハロウは火が灰になるまで踊るぞ！"
+    },
+    "BA6E65E01987013C9A8C7949808E42A4": {
+      "source": "Are they really all gone? Even the big horned ones?",
+      "target": "ほんとにみんないなくなった？　あの大きいツノのやつらも？"
+    },
+    "BB38AC134D9FCB0374635B91202F35B8": {
+      "source": "The Night of the Bonfire",
+      "target": "かがり火の夜"
+    },
+    "BBCBBB49992C732216504DCD44DDFD4C": {
+      "source": "Help! They're everywhere — run!",
+      "target": "助けて！　そこらじゅうにいる――逃げて！"
+    },
+    "BCEBB889360FD743F47E824AF87F1B74": {
+      "source": "The light is with us. Lead, and I will mend what breaks.",
+      "target": "光は私たちと共にあります。お進みください。傷ついたものは、私が癒やします。"
+    },
+    "BFA99A7C02160ECD6C686CFAFFBEBEF9": {
+      "source": "Go — and may the sun go with you!",
+      "target": "行って――太陽のご加護を！"
+    },
+    "C9AF30A05BA1784006E6934C83CAFF67": {
+      "source": "Then let us go, and quickly.",
+      "target": "では参りましょう、急いで。"
+    },
+    "C9E8AEB3BE1E9338B3A9C2C24EBBD93E": {
+      "source": "Light keep us. Light keep us all.",
+      "target": "光よ、我らを守りたまえ。我らすべてを守りたまえ。"
+    },
+    "C36C6B8E659DB913AD640234258AB7CE": {
+      "source": "For Sunhallow! Bring him down!",
+      "target": "サンハロウのために！　やつを討ち取れ！"
+    },
+    "C47D97460BE634A72562B3059F9AE519": {
+      "source": "Not while Sunhallow burns.",
+      "target": "サンハロウが燃えているうちは、行けない。"
+    },
+    "C82D0CB7730B8B0585B36B6430F404F0": {
+      "source": "Sunhallow",
+      "target": "サンハロウ"
+    },
+    "C8976F8EC74EB6F9D2BCB76FB4E7C067": {
+      "source": "Shield's up, mace is heavy. We're ready.",
+      "target": "盾よし、鎚矛もずしりと重い。いつでもいけるぞ。"
+    },
+    "CB5E630C9C9CDD19081D1DF0C6B8C00C": {
+      "source": "Beneath the Dragon's Fangs",
+      "target": "竜の牙のふもと"
+    },
+    "CB8C2B37AFBC52EBAF6ECF2F0C4CEE03": {
+      "source": "Slay Vorthrax, the Ashen Tyrant",
+      "target": "灰燼の暴君ヴォルスラクスを討つ"
+    },
+    "CDB134564626AE6CBA246C85DC2ECEFF": {
+      "source": "Best fire I've seen all year. And the only one I didn't have to put out.",
+      "target": "今年いちばんの火だな。消さずに済んだのも、こいつだけだ。"
+    },
+    "D0C712006873D4B57ACFDF9D5CC84C11": {
+      "source": "Hounds in my forge! Burning hounds! Get them out — I've only a hammer!",
+      "target": "鍛冶場に犬どもが！　燃える犬だ！　追い出してくれ――こっちは金槌一本なんだ！"
+    },
+    "D4C5123249612DEDDC50E6D8A574DE8A": {
+      "source": "If you are about to say \"be careful\", I will freeze your boots to the road.",
+      "target": "「気をつけて」なんて言うつもりなら、そのブーツを地面に凍りつかせるわよ。"
+    },
+    "D9EA93507514C745645E723DFC92E581": {
+      "source": "The temple doors are barred from within. Someone inside is praying, loudly.",
+      "target": "神殿の扉には内側からかんぬきが掛かっている。中で誰かが、大声で祈っている。"
+    },
+    "D9F87692CEA19720B4F679099EF23F94": {
+      "source": "Fire over Sunhallow",
+      "target": "火の降るサンハロウ"
+    },
+    "D81FB9B0C33426FCF6B3D2EA65605C20": {
+      "source": "Dragons, brood, a burning village. And they said this errand would be dull.",
+      "target": "竜に、眷属に、燃える村。退屈なお使いだって聞いてたんだけど。"
+    },
+    "D434257AB33C41E6D7051339F285DBF2": {
+      "source": "My hands are cold, my temper is colder. Point me at something.",
+      "target": "手は冷たいけど、機嫌はもっと冷たいの。凍らせる相手をちょうだい。"
+    },
+    "D8804574555C16B4F612741900150AA7": {
+      "source": "Bless you — the grain is saved!",
+      "target": "ありがたや――麦が助かった！"
+    },
+    "DA5661A50D87EF2C8FE5FAB34096BD5A": {
+      "source": "↓ {Sunhallow}",
+      "target": "↓ {サンハロウ}"
+    },
+    "DAC16BEB413434052FF48A2A87055420": {
+      "source": "Help! They're everywhere — run!",
+      "target": "助けて！　そこらじゅうにいる――逃げて！"
+    },
+    "DB8C69E907E9B3C25CB716EA8545357D": {
+      "source": "Elder Hesk named the dragon: Vorthrax, the Ashen Tyrant. The pass road north of Sunhallow climbs to his lair.",
+      "target": "ヘスク長老が竜の名を明かした。灰燼の暴君、ヴォルスラクス。サンハロウの北の峠道が、その巣へと続いている。"
+    },
+    "DB9FFD8B433F06F2A7E6DAEF80C46F0A": {
+      "source": "↑ {Sunhallow}",
+      "target": "↑ {サンハロウ}"
+    },
+    "DB626B812298E24D8FCA8D6D9A365660": {
+      "source": "Sunhallow will not forget this day, strangers. Nor the names of those who saved it.",
+      "target": "サンハロウは今日という日を忘れはせぬ、旅の方々。村を救った者たちの名もな。"
+    },
+    "DCC724ED8A0E51E1F76FD11D5F70273D": {
+      "source": "Dance with us! The dragon is dead and the night is young!",
+      "target": "一緒に踊ろう！　竜は死んだし、夜はまだこれからだ！"
+    },
+    "DDD9CE3E01C80F3577E107640BFF8109": {
+      "source": "Tactics…",
+      "target": "作戦…"
+    },
+    "DF96C9C1B992DAD2A4DB1DE3D77BAAEC": {
+      "source": "Aye. Vorthrax, the Ashen Tyrant. My grandfather's grandfather saw him last, and lived to wish he hadn't.",
+      "target": "うむ。灰燼の暴君、ヴォルスラクス。最後にやつを見たのは、わしの祖父の祖父じゃ。見なければよかったと、生涯悔やんでおった。"
+    },
+    "DFA4AF5F9B2B47AD8B652FBEF7BC7D73": {
+      "source": "Dance with me! Come on — heroes are allowed to dance.",
+      "target": "一緒に踊りましょ！　ほら――英雄だって踊っていいんですよ。"
+    },
+    "E6C9C06CFC8F735CF2096710A61EA016": {
+      "source": "Help! They're everywhere — run!",
+      "target": "助けて！　そこらじゅうにいる――逃げて！"
+    },
+    "E6DCE726990AF04BDB63CA9ABBF6733B": {
+      "source": "Vorthrax, the Ashen Tyrant, nests on the Ashen Throne high in the Wyrmspine. End him before nightfall.",
+      "target": "灰燼の暴君ヴォルスラクスは、竜の背骨の高みにある灰燼の玉座に巣食っている。日が暮れる前に討ち果たそう。"
+    },
+    "E6E32EA6E020BF64B32D0B0888D8DD9A": {
+      "source": "Behind my shield, all of you!",
+      "target": "全員、俺の盾の後ろへ！"
+    },
+    "E8E8C3ABEB49563BE96043238E7A00C7": {
+      "source": "They ran! They ran!",
+      "target": "逃げてった！　逃げてったよ！"
+    },
+    "E7518C8049BC0A1363199E1B28250F0A": {
+      "source": "Strangers! The vintner's house — they're breaking in!",
+      "target": "旅の方々！　ぶどう酒蔵に――やつらが押し入ろうとしておる！"
+    },
+    "E9565BD85CE59177DF779E056D08B8A5": {
+      "source": "Tactics…",
+      "target": "作戦…"
+    },
+    "E0098904C939D8FC666B6AC077CF4A57": {
+      "source": "Then we go now, while the light holds. No other village will burn.",
+      "target": "では今すぐ発ちましょう、日のあるうちに。もうどの村も燃やさせはしません。"
+    },
+    "E883853BE8DBFAC22A2A734B4EC19907": {
+      "source": "Let him know. Up, and quickly.",
+      "target": "知られて構わん。登るぞ、急げ。"
+    },
+    "EA60E680F32B8340616617158D8D436B": {
+      "source": "A song for the dragon-slayers? I have been saving one all day.",
+      "target": "竜殺しの皆さんに一曲？　一日じゅう、とっておきを温めていたんです。"
+    },
+    "ED4DD9ED37639FFCC61C71C5BEC8220D": {
+      "source": "Frost Mage of Halvard",
+      "target": "ハルヴァードの氷術士"
+    },
+    "EE1AA4A750A2D7796925DC99CF5D4760": {
+      "source": "My forge! Off with you, beasts!",
+      "target": "俺の鍛冶場だ！　失せろ、獣ども！"
+    },
+    "EF04D1D00BDDE502194E6FECEEB6C524": {
+      "source": "The road is long and the light is short. Shall we?",
+      "target": "道は長く、日は短い。参りましょうか？"
+    },
+    "EF48E51BB8185316416510BDCF188805": {
+      "source": "Reach the Ashen Throne",
+      "target": "灰燼の玉座にたどり着く"
+    },
+    "F0B85A69538332C7A476661FB2966B1D": {
+      "source": "Here a dragon fell, long ago",
+      "target": "遠い昔、竜が果てたところ"
+    },
+    "F0D4DA37D3C6538EB00E9284AA192913": {
+      "source": "Breathe. Steady hands make steady blades.",
+      "target": "深く息を。落ち着いた手が、揺るがぬ剣を生みます。"
+    },
+    "F1B1682A3002094D67395231AC3F3F96": {
+      "source": "They're gone. And my forge still stands. I owe you a sword, friend.",
+      "target": "やつら、いなくなった。おまけに鍛冶場も無事だ。あんたには剣一本の借りができたな。"
+    },
+    "F1B11147BC1C29E3C8059EB7B7DAE9B9": {
+      "source": "The Wyrmspine",
+      "target": "竜の背骨"
+    },
+    "F3BB9774AD743C931A129CBBEA6BA428": {
+      "source": "We're alive… thanks to you. All of us, thanks to you.",
+      "target": "生きてる……あんたたちのおかげだ。みんな、あんたたちのおかげだよ。"
+    },
+    "F5EE082B62158FC0A83206B6D5CE6E26": {
+      "source": "VANQUISH THE EVIL DRAGON",
+      "target": "邪竜を討て"
+    },
+    "F9AF4DD7E2FA914E356348B030A39EC2": {
+      "source": "The forge is lit again. Tobin swears it burns brighter than before.",
+      "target": "炉にふたたび火が入った。前より明るく燃えている、とトビンは言い張る。"
+    },
+    "F9FEB7FBDFEA269A9F57631900159C88": {
+      "source": "Save the thanks, Elder. That beast will be back — and hungrier.",
+      "target": "礼はまだ早いぞ、長老。あの獣はまた来る――もっと飢えてな。"
+    },
+    "F065E760FAB63334EF2429494D9DCCCB": {
+      "source": "Fire over Sunhallow",
+      "target": "火の降るサンハロウ"
+    },
+    "F116AE29D7523082A1C4899788432166": {
+      "source": "Robed devils, throwing fire at my inn! Don't just stand there — go!",
+      "target": "ローブの悪魔どもが、うちの宿に火を投げてるんだよ！　突っ立ってないで――お行き！"
+    },
+    "F179916A6802EFC6BC61505C37521BA9": {
+      "source": "The Wyrmspine",
+      "target": "竜の背骨"
+    },
+    "F0979826AA6FE60EDB49B249A9D59A54": {
+      "source": "The elder's door stands open. Nobody is home: everyone is at the bonfire.",
+      "target": "長老の家の扉は開け放たれている。中には誰もいない。みんな、かがり火のところにいるのだ。"
+    },
+    "FBDB8F0F4DBA6E80283D29347A555341": {
+      "source": "Aldric · Seraphine · Lyra · Brannoc",
+      "target": "アルドリック・セラフィーヌ・ライラ・ブラノック"
+    },
+    "FBDB8F0F4DBA6E80283D29347A555341.2": {
+      "source": "The heroes of Sunhallow",
+      "target": "サンハロウの英雄たち"
+    },
+    "FCBA4448EEC04CB4A0A4D25E1E71E3B8": {
+      "source": "To all of you. Rest now. The night is yours.",
+      "target": "皆に。今は休め。今夜は、皆のものだ。"
+    },
+    "FCCD221F499D87A273F31CBB2714679D": {
+      "source": "What now, fearless leader?",
+      "target": "次はどうするの、恐れ知らずのリーダーさん？"
+    },
+    "FD8F5DFFBC1D0FF6AD3E6BE191F5A6F0": {
+      "source": "Lead on. I'll be the one behind you, saving your life.",
+      "target": "お先にどうぞ。後ろであなたの命を救ってあげるから。"
+    },
+    "FF74106C4838048B918E3AD43185CA31": {
+      "source": "The Ashen Throne…",
+      "target": "灰燼の玉座……"
+    }
+  }
+}

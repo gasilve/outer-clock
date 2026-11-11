@@ -2,7 +2,9 @@
 
 Aventura de mirar, tomar y combinar. Se juega en el navegador.
 
-**Jugar el pueblo en 3D:** https://gasilve.github.io/outer-clock/play.html
+**Jugar con el motor de Luminati (Emberfall):** https://gasilve.github.io/outer-clock/town/game.html?campaign=emberfall-interiors&autostart=1
+
+Ese pueblo usa el motor [Luminati](https://gitlab.com/stubborn-hug/lumina) (MIT, three.js, diorama HD-2D). La historia de Outer Clock todavía está en la versión simple: https://gasilve.github.io/outer-clock/play.html
 
 WASD camina, E o un clic mira un objeto. El reloj de arriba es el de tu computadora. Crear sala muestra un código para que otra persona entre en la misma plaza.
 

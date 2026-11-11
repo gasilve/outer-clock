@@ -1,0 +1,2621 @@
+{
+  "format": "luminati-i18n",
+  "version": 3,
+  "lang": "ja",
+  "source": "campaigns/bells-of-evermere",
+  "extends": [],
+  "terms": {
+    "A Child's Drawing": "子どもの絵",
+    "Agathe": "アガット",
+    "Amberfield": "アンバーフィールド",
+    "Barracks Waystone": "兵舎の道標石",
+    "Bell Street": "鐘通り",
+    "Bessa": "ベッサ",
+    "Brother Fallow": "ファロウ修道士",
+    "Bryn": "ブリン",
+    "Cherry Blossom": "桜の小枝",
+    "Close Waystone": "囲い畑の道標石",
+    "Cob": "コブ",
+    "Cobb": "コッブ",
+    "Corin": "コリン",
+    "Court Waystone": "宮廷の道標石",
+    "Day board": "日数板",
+    "Dilly": "ディリー",
+    "Door Warden": "扉の衛士",
+    "Ebba": "エッバ",
+    "Elin": "エリン",
+    "Evermere": "エヴァーミア",
+    "Evermere Water": "エヴァーミア湖",
+    "Gilly": "ギリー",
+    "Gran Maud": "モードばあちゃん",
+    "Grandda's Coat": "じいちゃんの上着",
+    "Grandda's Tuning Fork": "じいちゃんの音叉",
+    "Harbour Row": "港通り",
+    "Hushguard": "静寂の鎧兵",
+    "Jory": "ジョーリー",
+    "Linnet": "リネット",
+    "Mill Lane": "風車小路",
+    "Mill Lane Waystone": "風車小路の道標石",
+    "Mole's End Waystone": "突堤の先の道標石",
+    "Mother Yarrow": "マザー・ヤロウ",
+    "Old Gullet": "オールド・ガレット",
+    "Old Mabry": "メイブリーじいさん",
+    "Old Nettle": "ネトルばあさん",
+    "Osmund": "オズマンド",
+    "Osric": "オズリック",
+    "Quay Waystone": "波止場の道標石",
+    "Red Leaf": "赤い葉",
+    "Rimehart": "ライムハート",
+    "Rimehart's Glade": "ライムハートの林",
+    "Rimeholt": "ライムホルト",
+    "Saffy": "サフィー",
+    "Saltcombe": "ソルトコーム",
+    "Seashell": "貝殻",
+    "Shrine Waystone": "社の道標石",
+    "Something for Dilly": "ディリーへのおみやげ",
+    "The Abbey of Amberfield": "アンバーフィールド修道院",
+    "The Barracks Ward": "兵舎の郭",
+    "The Bell Court": "鐘の宮廷",
+    "The Bell of Rest": "眠りの鐘",
+    "The Bells of Evermere": "エヴァーミアの鐘",
+    "The Blossomwood": "花咲きの森",
+    "The Churchyard": "教会墓地",
+    "The Coast Road": "海辺の街道",
+    "The Court Stair": "宮廷の階段",
+    "The East Shore": "東の岸辺",
+    "The Frost Gate": "霜の門",
+    "The Frozen Bay": "凍てつく湾",
+    "The Frozen Causeway": "凍てつく堤道",
+    "The Gorge Road": "峡谷道",
+    "The Halloway Forge": "ハロウェイ鋳鐘所",
+    "The Harbour Basin": "港の船溜まり",
+    "The Harvest Close": "収穫の囲い畑",
+    "The Harvest Mawkin": "収穫のかかし",
+    "The Hush Bell": "静寂の鐘",
+    "The Hushed King": "静寂の王",
+    "The Inner Ward": "内郭",
+    "The Last Waystone": "最後の道標石",
+    "The Lighthouse Head": "灯台岬",
+    "The Long Stair": "長階段",
+    "The Mill Pond": "風車池",
+    "The Outer Gate": "外門",
+    "The Reeve's Farm": "村長の農場",
+    "The Shrine of Waking": "目覚めの社",
+    "The South Shore": "南の岸辺",
+    "The Square": "広場",
+    "The Stopped Mills": "止まった風車",
+    "The Upper Town": "上の町",
+    "The Upper Wood": "上の森",
+    "The Wayside Chimes": "道ばたの小鐘",
+    "The Woodcutters' Camp": "きこりの野営地",
+    "The Year That Stopped": "止まった年",
+    "Tin": "ブリキ",
+    "Valley Waystone": "谷の道標石",
+    "Wenna": "ウェンナ",
+    "Wenna's Ledger": "ウェンナの帳簿",
+    "Wenna's Receipt": "ウェンナの領収書",
+    "Young Linnet": "幼いリネット"
+  },
+  "units": {
+    "0A1BD3CF803365531C305842E3D77136": {
+      "source": "The Year That Stopped",
+      "target": "止まった年"
+    },
+    "0A4B3979A41D06EDBFC4DE0ADD62E5EE": {
+      "source": "The knight takes the old coat from her arms and lays it around her shoulders. Then it kneels.",
+      "target": "騎士がリネットの腕から古い上着を取り、肩にかけてやる。それから、ひざまずく。"
+    },
+    "0A0024455200703DBC3AC72D1668DB85": {
+      "source": "That knight of yours is the best scarecrow Amberfield's ever had. Not one crow's touched the pie.",
+      "target": "あんたのとこの騎士、アンバーフィールド始まって以来、最高のかかしだよ。カラスが一羽だってパイをつついてないんだから。"
+    },
+    "0B9CE3B69B2985FA5AA4FDB5D855E1C4": {
+      "source": "Strike",
+      "target": "打つ"
+    },
+    "0D01DD3A44EBD8CF92C0946E85481149": {
+      "source": "The Bellkeeper",
+      "target": "鐘守"
+    },
+    "00D555ACFBBAD5C5A2E11F01CD4CC173": {
+      "source": "If it goes badly up there, I want it known I was the handsome one. Tell it bigger than it was. I would.",
+      "target": "もし上でまずいことになったら、色男は俺だったって語り継いでくれよ。実際より大きく盛ってな。俺ならそうする。"
+    },
+    "0DB5668DDCE3BDA407E640F76FE0B7DD": {
+      "source": "There's the wind! And — oh, lovely. There's what was in the fog.",
+      "target": "風が来たぞ！　で――ああ、こりゃ素敵だ。霧の中にいたのはあれかよ。"
+    },
+    "0E9FB47A9A14C64F1AA0B859EDDFCFAB": {
+      "source": "The ice went! I was standing on it! Well — near it. Well — I saw it.",
+      "target": "氷がなくなったんだよ！　ぼく、その上に立ってたんだ！　えっと――そのそばに。えっと――見てたんだ。"
+    },
+    "0EF5CCC2237E3F96A161E632A7045B11": {
+      "source": "The east bell! Did you bring me a leaf? A red one?",
+      "target": "東の鐘！　葉っぱ、持ってきてくれた？　赤いの？"
+    },
+    "0F2A7434774AD2491564D2D7EF35291A": {
+      "source": "→ Amberfield, across the fields. The Bell of Harvest.",
+      "target": "→ 畑の向こう、アンバーフィールド。実りの鐘。"
+    },
+    "0F6597ED174915F23FD974DAF331519A": {
+      "source": "Gran says flowers are like snow, only they come up instead of down.",
+      "target": "おばあちゃんがね、花って雪みたいなんだって。降ってくるんじゃなくて、下から生えてくるの。"
+    },
+    "0F7210378F42294D5C770EFE808B3896": {
+      "source": "Ring",
+      "target": "鳴らす"
+    },
+    "0FE4D15FE45832EA626A2FA81CF68A84": {
+      "source": "Strike the hub",
+      "target": "軸を叩く"
+    },
+    "1BAFE622A8C45A61355C9E8C88B1B442": {
+      "source": "The great mould. He broke it open the night he left, and never said what he'd poured.",
+      "target": "大鋳型だ。出ていった夜、じいちゃんはこれを割って開けた。何を鋳込んだのかは、ひと言も言わずに。"
+    },
+    "1BCD40537F29C567C0E862DCA86272B4": {
+      "source": "The sails are turning. That's all this one has to give.",
+      "target": "羽根は回っている。この風車にできるのは、ここまでだ。"
+    },
+    "1C5CBF3C6F13F124888912C9C2DB1615": {
+      "source": "Chatty as ever.",
+      "target": "相変わらず、よくしゃべる。"
+    },
+    "1C99AD48427F6EB28C30C6E56B676B09": {
+      "source": "Saltcombe",
+      "target": "ソルトコーム"
+    },
+    "1CC4934F310A6F0A9033EA4EC8DCE731": {
+      "source": "I'm staying. That's the whole story.",
+      "target": "俺は残るよ。話はそれで全部さ。"
+    },
+    "1E0B6408C33C8801184060A002876F4A": {
+      "source": "Once. The second was an accident.",
+      "target": "一回だけさ。二回目はたまたまだ。"
+    },
+    "1E7A6587A8F2BCB93EDD700D47B23E71": {
+      "source": "Cut logs, stacked to the rafters. Seven winters of firewood, and still the cold comes in.",
+      "target": "割った薪が、垂木まで積み上げてある。七つの冬ぶんの薪があっても、寒さは入りこんでくる。"
+    },
+    "1E894796E57D0298A3F25FBA8859403A": {
+      "source": "That's the east road, then.",
+      "target": "これで東の街道は通れる。"
+    },
+    "1EF6CA4615A334008147BA3E4877EA55": {
+      "source": "The lodge is shut. Frost has grown over the latch like a second lock.",
+      "target": "番小屋は閉まっている。掛け金を霜が覆い、まるで二つ目の錠前だ。"
+    },
+    "1F12C146BE96A587C5A3154F79312765": {
+      "source": "Snow on its pauldrons, frost in every joint. It has stood at the forge door every night for seven winters, and never once crossed the threshold.",
+      "target": "肩当てに雪、継ぎ目という継ぎ目に霜。七つの冬のあいだ毎晩、工房の戸口に立ちつづけ、一度として敷居をまたいだことはない。"
+    },
+    "02A7D8A78786BED13876D9C6B08D183C": {
+      "source": "A Waking Cake, fresh this morning. In case today's the day.",
+      "target": "目覚めのケーキ、けさの焼きたてだよ。今日がその日かもしれないからね。"
+    },
+    "2B950D4017D100E78A2A11853AB24B57": {
+      "source": "A sign: GONE TO EVERMERE. BACK WHEN THE TIDE IS.",
+      "target": "貼り紙。「エヴァーミアへ行ってます。潮が戻ったら戻ります」。"
+    },
+    "2B8477359E1102F01F9C90859FB26030": {
+      "source": "Your knight's gone from the door, love. Gave me a turn this morning.",
+      "target": "あんたの騎士さん、戸口からいなくなってたよ。けさは肝が冷えたわ。"
+    },
+    "2BCE368F30A851C752ADB1730B56FE7A": {
+      "source": "You rang it! Did you see one? A flower?",
+      "target": "鳴らしたんだね！　見た？　お花、見た？"
+    },
+    "2BF33C690D6A60A3CDFB3169E2FF088B": {
+      "source": "Amberfield's harvest stands frozen in the fields. Its abbey holds the Bell of Harvest.",
+      "target": "アンバーフィールドの麦は、刈り入れを待ったまま畑で凍りついている。その修道院に、実りの鐘がある。"
+    },
+    "2C0D8E087698C1BB49B364B941A4C0EE": {
+      "source": "I've seen the sea, you know. Twice. Once it was the wrong colour.",
+      "target": "あたしゃ海を見たことがあるんだよ。二度もね。一度は色が違ってたけどさ。"
+    },
+    "2C3C34B7ADDDFDB67F746A7944737CA5": {
+      "source": "Where the Hush Bell hangs",
+      "target": "静寂の鐘の掛かるところ"
+    },
+    "2C1629F4DC2EE2B87C89C7A22D3BD17B": {
+      "source": "Some nights the wall hums. Same note every time. Gets in your teeth.",
+      "target": "夜によっては、壁がうなる。毎回同じ音だ。歯にしみる。"
+    },
+    "2CF3CACF27EC95B0CBE789E27C9A70E0": {
+      "source": "Don't wait up.",
+      "target": "待ってなくていい。"
+    },
+    "02D0F74A755B45E4E022B09E00525D04": {
+      "source": "Ow! I set it for a bear. A small bear.",
+      "target": "いってえ！　熊用に仕掛けたんだぞ。小さめの熊用にな。"
+    },
+    "2DD390B8865572D9797FA2DD4D27B678": {
+      "source": "Black bell, white fog, and then you, grey as a gull. What day is it?",
+      "target": "黒い鐘に、白い霧。それから、カモメみたいな白髪頭のあんただ。今日は何日だ？"
+    },
+    "2DF742856727B48524022CF466530E8F": {
+      "source": "♪",
+      "target": "♪"
+    },
+    "2E913D91B0466EF9206E80C0AB1BFB0D": {
+      "source": "Bunks for forty, made up neat. The blankets have frozen to the frames.",
+      "target": "四十人分の寝台が、きちんと整えられている。毛布は寝台の枠に凍りついている。"
+    },
+    "2EB9A2B11797FB373E2BE7D173449195": {
+      "source": "Amberfield",
+      "target": "アンバーフィールド"
+    },
+    "2EBE7A5F1D9948B6805013AA7BD6FAE0": {
+      "source": "The Bellkeeper",
+      "target": "鐘守"
+    },
+    "2EC69AEB831FEFFC7B012D5F72893726": {
+      "source": "She climbed that ladder steadier than I held it. Seven, and she's never seen a lantern lit for anything good.",
+      "target": "あの子ったら、わたしが支えるより、しっかりはしごを登ったのよ。七つになるまで、いいことのために灯るランタンなんて、見たことがなかったんだもの。"
+    },
+    "2ECC9E6AC5FF1E544B7DBC0F59FD19E6": {
+      "source": "The coat was Grandda's. The drawing was mine. The Bell of Harvest waits at the abbey.",
+      "target": "あの上着は、じいちゃんのだった。あの絵は、私のだった。実りの鐘が修道院で待っている。"
+    },
+    "02F77C53E3F9DD4280E22BC0212B89AC": {
+      "source": "…It's so small. Gran said they'd be small. I didn't believe her.",
+      "target": "……ちっちゃい。おばあちゃん、ちっちゃいって言ってたけど、信じてなかったの。"
+    },
+    "3AFD02ABD1C1E2E51641CB537BD7E456": {
+      "source": "I've an invoice drawn up for whoever stopped the year. Lamp oil, one harbour, seven years of a brother. Itemised.",
+      "target": "年を止めたやつへの請求書、もう作ってあるよ。ランプの油、港ひとつ、弟の七年分。明細つきでね。"
+    },
+    "3B0068974203C509A0DEA6766732C751": {
+      "source": "The Bell of Harvest hangs in the abbey belfry at Amberfield. The road leaves from the east shore, across the frozen lake.",
+      "target": "実りの鐘は、アンバーフィールドの修道院の鐘楼に掛かっている。道は凍った湖の向こう、東の岸辺から出ている。"
+    },
+    "3C27DC030C66BA101CA86CA0DFC277A2": {
+      "source": "So this is where the hammer lives. Smaller than I pictured. Warmer, too. Nobody's been properly warm since the ice.",
+      "target": "ここがハンマーの住みかってわけか。思ってたより狭いな。それに、あったかい。氷が張ってから、まともにあったまったやつなんて誰もいないってのにさ。"
+    },
+    "3CD215FC2DC3067BF8EC72B0B9DF8DC2": {
+      "source": "Evermere",
+      "target": "エヴァーミア"
+    },
+    "3CE1F5A49B795A9DE08446055B9FB443": {
+      "source": "The way up to the Close. Ringers first — remember.",
+      "target": "囲い畑へ上がる道だ。まず鐘鳴らしから――忘れるな。"
+    },
+    "3DFEE3ACF2425866EA197404D86E9336": {
+      "source": "The west bell! I put an extra egg in this morning's, for luck. Number 2,563.",
+      "target": "西の鐘！　けさのには、縁起をかついで卵をひとつ多く入れたよ。2,563個目。"
+    },
+    "3E19DE93083AD15472BE2BB3D0D0915B": {
+      "source": "Poacher of the Blossomwood",
+      "target": "花咲きの森の密猟者"
+    },
+    "3ED3BF0BE31E7C1A012E0106B8F1B64D": {
+      "source": "↑ {Harbour Row} · {the Chapel Steps}",
+      "target": "↑ {港通り}・{礼拝堂の石段}"
+    },
+    "3F9CB89BE6CF4DE49B7A5158831E4FE6": {
+      "source": "Harbour Master of Saltcombe",
+      "target": "ソルトコームの港長"
+    },
+    "4A4E11631D02F32D3775BFAD3BCCCE78": {
+      "source": "Evermere",
+      "target": "エヴァーミア"
+    },
+    "04AE3745C99EA961528F19948D8DF7FB": {
+      "source": "He's up there. Grandda. He's been up there the whole time.",
+      "target": "あの上にいる。じいちゃんが。ずっと、あそこにいたんだ。"
+    },
+    "4B9A2793E4D66F76C3AFA1482EAC6341": {
+      "source": "Truer again. Two notes of the four.",
+      "target": "さらに合ってきた。四つの音のうち、二つ。"
+    },
+    "4B60B3676EF4A44C3887055771B18F8B": {
+      "source": "Day One",
+      "target": "一日目"
+    },
+    "4B94FDE9ADF44E03CA9A664D3194D811": {
+      "source": "Three beats, then the cold comes down. Anyone not by a fire went flat at the gate — I counted.",
+      "target": "三つ鳴ったら、寒さが降りてくる。火のそばにいなかった連中は、門のとこで残らずのびた――数えといたよ。"
+    },
+    "4BF9BB5909038F123D8508B626DAFB7D": {
+      "source": "Wake, little blossom, the frost's letting go… Turn, little tide, bring the boats back to shore…",
+      "target": "めざめよ、つぼみ　霜がほどける……めぐれよ、潮よ　舟を岸へと……"
+    },
+    "4C2A6703E1F2A8D5181742F314443D32": {
+      "source": "Go on. I'll find you.",
+      "target": "行って。あとで探しに行く。"
+    },
+    "4C6D5EC1CFF8A67F52BEF4BAAB999C95": {
+      "source": "See the falls? Froze the night the bells stopped. Mid-pour. I was standing about where you are.",
+      "target": "あの滝が見えるか？　鐘が鳴りやんだ夜に凍ったんだ。落ちてる途中でな。俺はちょうど、あんたが立ってるあたりにいた。"
+    },
+    "4C11B998B3F8BB74246BF69804EA7ED2": {
+      "source": "I'll see what I can do, sparrow.",
+      "target": "なんとかしてみよう、小すずめ。"
+    },
+    "4C419B9939AD9AE35CD3E895A0414EC4": {
+      "source": "A seashell, Linnet. From the sea. South.",
+      "target": "貝がらだよ、リネット。海の。南のね。"
+    },
+    "04CA36F8E1E38D0207C44A890F23BE07": {
+      "source": "I asked him. I was ten, and Mam was cold, and I asked him not to let it be morning.",
+      "target": "私が頼んだんだ。十歳で、母さんは冷たくなってて、私はじいちゃんに、朝にしないでって頼んだ。"
+    },
+    "4CAD349F5ACF46B61C222BF88420EF13": {
+      "source": "It's breathing. Frost, but breathing. It isn't the stag that's wrong — it's the cold in it.",
+      "target": "息はある。霜をかぶってても、息はしてる。おかしいのは牡鹿じゃない――中に入りこんだ寒さのほうだ。"
+    },
+    "4D498D01C89532B3A47CC71C42A553CE": {
+      "source": "The Bell of Tides",
+      "target": "潮の鐘"
+    },
+    "4DE0AD811E9D04BE4E212EF383540099": {
+      "source": "Your knight's at the forge door again. Every night. You'd think it'd want a sit-down.",
+      "target": "あんたの騎士さん、また工房の戸口にいるよ。毎晩だよ。たまには腰を下ろしたくならないのかしら。"
+    },
+    "4ED5735F6B25F30AA618A3402780F07C": {
+      "source": "One for Dilly.",
+      "target": "ディリーにひとつ。"
+    },
+    "5A88CF2F3BC3629F146ECE34F7AEFAA7": {
+      "source": "The Bell of Waking",
+      "target": "目覚めの鐘"
+    },
+    "5A88CF2F3BC3629F146ECE34F7AEFAA7.2": {
+      "source": "Wake, little blossom, the frost's letting go",
+      "target": "めざめよ、つぼみ　霜がほどける"
+    },
+    "5B53A66D7B3DFCB22696BB8C87CFA118": {
+      "source": "The Bell of Tides",
+      "target": "潮の鐘"
+    },
+    "5B53A66D7B3DFCB22696BB8C87CFA118.2": {
+      "source": "Turn, little tide, bring the boats back to shore",
+      "target": "めぐれよ、潮よ　舟を岸へと"
+    },
+    "5BE10955762EE8A1241BC9D7CFF0B253": {
+      "source": "The root bridge. I'd forgotten it was under there. So had the roots, I expect.",
+      "target": "根っこの橋だ。あの下にあったのを忘れてたぜ。根っこのほうも忘れてたんだろうさ。"
+    },
+    "5C6A35E1BA9EFB59C776D1EE21FCA0D8": {
+      "source": "Nothing. Armour full of frost. Hit it hard enough and the cold lets go.",
+      "target": "何でもない。霜の詰まった鎧だ。思いきり叩けば、冷気が抜ける。"
+    },
+    "5C9CC45F3F6753C65C3667B99FD6EE2A": {
+      "source": "Empty armour, standing where it chose to stand. Blossom has settled in its open helm.",
+      "target": "空っぽの鎧が、自分で選んだ場所に立っている。開いた兜の中に、花びらが積もっている。"
+    },
+    "5CD43AA8DFC6E0BE2B25CA543BBFE101": {
+      "source": "That log's been stuck upstream since the first winter. I'd have charged you a toll to cross it.",
+      "target": "あの丸太、最初の冬からずっと上流に引っかかってたんだ。橋になってりゃ、渡り賃を取ってやったのにな。"
+    },
+    "5CD8999AF6E57D25C75001BA27046F2C": {
+      "source": "Light",
+      "target": "灯す"
+    },
+    "5D05FFFEC6C4AE7C68BE9943E61052DF": {
+      "source": "Warmest I've been since the Blossomwood. Which was frozen.",
+      "target": "花咲きの森以来の暖かさだ。あそこも凍ってたけどな。"
+    },
+    "5D11B696F6241D99F268EBAD5CFF5A13": {
+      "source": "Linnet. I'm going up to the shrine to ring the Bell of Waking.",
+      "target": "リネットだ。社まで登って、目覚めの鐘を鳴らしに行く。"
+    },
+    "5E7E55F781922778EE7838EADABA5C5F": {
+      "source": "A red leaf next. Don't forget. I've written it on my hand.",
+      "target": "次は赤い葉っぱだよ。忘れないでね。手に書いといたもん。"
+    },
+    "5E013A7011D4E45A2E6F370B7B0873A0": {
+      "source": "Corin Ashby — poacher, guide, last man in the Blossomwood. And that's a bell-founder's hammer, so you're the Halloway girl.",
+      "target": "コリン・アシュビー――密猟者で、案内人で、花咲きの森に残った最後の男さ。で、そいつは鐘造りのハンマーだ。てことは、あんたがハロウェイんとこの娘か。"
+    },
+    "5E81C2912D4314C30E181314D9A8D0A2": {
+      "source": "The Citadel of Ice",
+      "target": "氷の城塞"
+    },
+    "5E8324F498F95B1A721C7F30CE6DCAC5": {
+      "source": "A red leaf",
+      "target": "赤い葉"
+    },
+    "5EF55C0F1BADA46EA5CD682CDD055A76": {
+      "source": "It wants them in order. Those three notes — they're the start of Mam's song.",
+      "target": "順番どおりに鳴らせってことだ。あの三つの音――母さんの歌の出だしだ。"
+    },
+    "5F0B3236631FFABAA2EA2E8ECD53BE36": {
+      "source": "The stag? It goes up into the high wood every spring and comes down every autumn. Seven years it stood still. Now it's late, and it knows it.",
+      "target": "牡鹿のことですか？　あの鹿は毎年、春になると上の森へ登り、秋になると下りてくるのです。七年、じっと立ちつくしていました。今はもう遅れてしまって、自分でもそれがわかっているのですよ。"
+    },
+    "5F7A1DBA5E2DE7E91E6F38E7403BF2E0": {
+      "source": "That drift on the beach went with the ice. And there's a box under it. Finders keepers is a harbour rule, isn't it?",
+      "target": "浜の吹きだまりが、氷と一緒に消えたぜ。下に箱がある。見つけたもん勝ちってのが港の決まりだろ？"
+    },
+    "5F654F034973A7B308C4ED3CDBF04D4D": {
+      "source": "It tilts its helm, as if listening for something a long way off.",
+      "target": "兜をかしげる。遠くの何かに耳を澄ますように。"
+    },
+    "6A6241E3C0ABA79A129D59744C6D1121": {
+      "source": "A Waking Cake for the first morning. And tomorrow I shall bake something else entirely. I don't know what. Isn't it marvellous?",
+      "target": "最初の朝の、目覚めのケーキよ。明日は、まるっきり違うものを焼くの。何にするかは、まだわからないけど。すてきだと思わない？"
+    },
+    "6ACA84A842ABA8CB935BDC7CB300475C": {
+      "source": "Seven winters, and nobody's dared touch it.",
+      "target": "七つの冬のあいだ、誰ひとり触れようとしなかった。"
+    },
+    "6B810FD127C9667831360F91317CD6D6": {
+      "source": "A flower. A real one. Not a paper one — Cobb made me a paper one and it doesn't count.",
+      "target": "お花だよ。ほんものの。紙のじゃなくて――コッブが紙のを作ってくれたけど、あれはかぞえないもん。"
+    },
+    "6C2AAA74F894F3938C5C9F9161A1DA88": {
+      "source": "↓ {Evermere}",
+      "target": "↓ {エヴァーミア}"
+    },
+    "6C7BE6017D5D145A3D0C53C503195A8C": {
+      "source": "Kneel",
+      "target": "ひざまずく"
+    },
+    "6C250C869543A5049B80F53D972AACB5": {
+      "source": "I've lit the harbour lamp every night since the ice came. Two thousand five hundred and fifty-seven lamps. Somebody owes me for the oil.",
+      "target": "氷が張ってから毎晩、港の灯をともしてきた。ランプ二千五百五十七灯。油代は誰かに払ってもらうよ。"
+    },
+    "6CF9D02AF9FAD8B094F9D9EC85959A42": {
+      "source": "Seven winters ago the bells of the valley fell silent and the year stopped turning. Four Season Bells stand at its edges — Waking, Tides, Harvest, Rest — and they have to ring in that order. Grandda's hammer will have to do.",
+      "target": "七年前の冬に谷の鐘が鳴りやみ、年はめぐるのをやめた。谷の四方の端には四季の鐘がある――目覚め、潮、実り、眠り。鐘はこの順に鳴らさなければならない。じいちゃんのハンマーで、なんとかするしかない。"
+    },
+    "6D3AEA8FA4A947FF9F16FE6D7F02596F": {
+      "source": "They say Amberfield's mills are turning. Mine's next. She's next, isn't she?",
+      "target": "アンバーフィールドの風車が回ってるんだって。次はうちの番。あの子の番だよね？"
+    },
+    "6DDEFF6713A87D214FEE2600B2FCA14F": {
+      "source": "The Bell of Tides",
+      "target": "潮の鐘"
+    },
+    "6DEF30B7C55F5625C8CD3214F074B80A": {
+      "source": "You asked me for one more night, Linnet. I am a bell-founder. I made it last.",
+      "target": "もうひと晩だけ、とおまえは頼んだね、リネット。私は鐘造りだ。だから、長持ちするように作った。"
+    },
+    "6E14B357EF73D44E6D520FCC4376467A": {
+      "source": "Saltcombe. I came here once to sell a fox fur. The harbour master fined me for the smell.",
+      "target": "ソルトコームさ。一度、狐の毛皮を売りに来たことがある。港長に、においの罰金を取られたよ。"
+    },
+    "6EA3DEBB5AE2F0B313AC84C33956A6F1": {
+      "source": "♪ …turn, little tide… gold, little field… ♪",
+      "target": "♪ ……めぐれよ、潮よ……みのれよ、麦よ…… ♪"
+    },
+    "6ECB2BF903918B9C3D251630CFDAF51E": {
+      "source": "♪",
+      "target": "♪"
+    },
+    "6F42793D49F87127B5EB32A4FD70F884": {
+      "source": "Light the fires first. Then them.",
+      "target": "まず火を灯す。あいつらはそれからだ。"
+    },
+    "07A4EE3EEB60D4F746547516ACD06F4B": {
+      "source": "Saltcombe's harbour master keeps a tally of what the frost has cost her harbour. She means to collect.",
+      "target": "霜のせいで港が被った損を、ソルトコームの港長はひとつ残らず勘定している。きっちり取り立てるつもりだ。"
+    },
+    "7B3105FA5CC8826F7F3B1D3B8AB9797E": {
+      "source": "Empty racks. Every halberd in Rimeholt is out walking.",
+      "target": "空っぽの武器架。ライムホルトの斧槍は、どれも出歩いている。"
+    },
+    "7BBCB1C5FF4F14E75ABE71CDE53FC787": {
+      "source": "Somebody tuned these chimes. Bronze does what it was cast to do.",
+      "target": "誰かがこの小鐘を調律したんだ。青銅は、鋳られたとおりに鳴る。"
+    },
+    "7C08F75459B25A23376E95EBBBC275C4": {
+      "source": "It stood where I should have stood.",
+      "target": "あれは、私が立つべきだった場所に立っていたんだよ。"
+    },
+    "7C9BE6D93A681C7BBAB95CCEE0FA2F00": {
+      "source": "HARBOUR OFFICE. Fees payable in advance. Complaints payable in advance.",
+      "target": "港湾事務所。料金は前払いのこと。苦情も前払いのこと。"
+    },
+    "7C67DFA011C799CEBD216E7B35D6DC3C": {
+      "source": "No. That's what makes it a good price.",
+      "target": "知らない。だからいい値段なんだ。"
+    },
+    "7CE552962EA419CEB73FAB0B2B44C2B0": {
+      "source": "That's a scarecrow. Why is it the size of a barn?",
+      "target": "ありゃかかしだろ。なんで納屋ほどでかいんだ？"
+    },
+    "7D4A25FCCCCCA4A36C35E2D8669E4F33": {
+      "source": "Salt. Mostly salt, and boats, and one very large fish.",
+      "target": "塩だ。ほとんどが塩で、あとは船と、すごく大きな魚が一匹。"
+    },
+    "7DD1EB07E3667F4EDF46980A6E78E33A": {
+      "source": "The Bell of Waking",
+      "target": "目覚めの鐘"
+    },
+    "7DF35A3435EB352FD36EDF2F73F57730": {
+      "source": "If they still make them.",
+      "target": "まだどこかで作ってればな。"
+    },
+    "7E0C4F974B3332B9A0CD750F636F7489": {
+      "source": "I tell her what I remember. Flowers, rain, the smell of cut grass. Some of it I make up. She'll not know the difference till she sees it.",
+      "target": "覚えてることを話してやるのよ。花、雨、刈ったばかりの草の匂い。ちょっとは作り話もまじってるけどねえ。自分の目で見るまでは、あの子にも違いはわからないよ。"
+    },
+    "7E322B6DECBDB073A246B2896340F24E": {
+      "source": "Evermere",
+      "target": "エヴァーミア"
+    },
+    "7E679B9BE19FD53D8F7DD11F6D5F875E": {
+      "source": "↓ {Evermere}",
+      "target": "↓ {エヴァーミア}"
+    },
+    "7EBC68DE7043EF24FF8ECEB054E73414": {
+      "source": "♪ Turn, little tide… gold, little field… rest, little— ♪",
+      "target": "♪ めぐれよ、潮よ……みのれよ、麦よ……ねむれよ―― ♪"
+    },
+    "7FD449C7B89637130442527BAC6184DE": {
+      "source": "Where the Bell of Waking hangs",
+      "target": "目覚めの鐘の掛かるところ"
+    },
+    "7FEFD6C97E34C09471ACC7BD90BD86A0": {
+      "source": "I remember now, Mam. All of it. …I'm sorry.",
+      "target": "思い出した、母さん。何もかも。……ごめん。"
+    },
+    "8A4C30FD032ADB0934B69DBDCDF8CBB5": {
+      "source": "Grandda used to say a bell's only a question you can hear across a valley. So. Let's ask one.",
+      "target": "じいちゃんがよく言ってた。鐘なんて、谷の向こうまで聞こえる問いかけにすぎないって。だから――ひとつ、問いかけてみよう。"
+    },
+    "8A4E2301E36F1838AFC85C8CA4D73143": {
+      "source": "Linnet! Gran says flowers are like snow, only they come up instead of down! Have you ever seen one?",
+      "target": "リネット！　おばあちゃんがね、花って雪みたいなんだって。降ってくるんじゃなくて、下から生えてくるの！　見たことある？"
+    },
+    "8ABC728EF6A18EE01EF7DA78045FBE60": {
+      "source": "Somebody had to ask.",
+      "target": "誰かが問いかけなきゃならなかった。"
+    },
+    "8ABEF7103A206AD615DCE984AD161CD8": {
+      "source": "Epilogue",
+      "target": "終章"
+    },
+    "8AF07846858D073603992A5FD1B28CDB": {
+      "source": "Hear the beat in it? That bell's been tuned against itself. On purpose.",
+      "target": "うなりが聞こえるか？　あの鐘は、自分とぶつかり合うように調律してある。わざとだ。"
+    },
+    "8B9F6CE4D810477B36E765533B5602B5": {
+      "source": "Three chimes rung, and the hill's still shut. Maybe it wants a fourth. Maybe it wants a fee.",
+      "target": "小鐘を三つ鳴らしたってのに、丘は閉じたままだ。四つ目が要るのかもな。それとも、料金か。"
+    },
+    "8B7140713D7B3F03DAAA0C3876A08987": {
+      "source": "Fish! Fresh fish! Well — fish. Seven years in a barrel of ice, they're fresher than I am.",
+      "target": "魚だよ！　新鮮な魚！　まあ――魚だよ。七年も氷の樽に入ってたんだ、あたしよりよっぽど新鮮さ。"
+    },
+    "8C8A82780AA07D50034408A5671373AD": {
+      "source": "Race you to the island! …Oh. You've got a hammer. Never mind.",
+      "target": "島まで競争だ！　……あ。ハンマー持ってる。やっぱいいや。"
+    },
+    "8CB15DD04B2B4A1CBD7D9295181ACA3F": {
+      "source": "Wake first. Then turn. Then gold. Even I've got it now.",
+      "target": "まず「めざめよ」、次に「めぐれよ」、それから「みのれよ」。俺でももう覚えたぜ。"
+    },
+    "8CFBAC24A255D3E73B10D39969C6EA92": {
+      "source": "Osmund Halloway's tuning fork. It gives one note, low and long. The Bellkeeper's.",
+      "target": "オズマンド・ハロウェイの音叉。低く長い、ひとつの音を鳴らす。鐘守のもの。"
+    },
+    "8D22FDF53C381BF30FEF2F7152D5550D": {
+      "source": "Mind the snares. Some of them are mine, and the bears are getting clever.",
+      "target": "罠に気をつけな。いくつかは俺が仕掛けたやつだし、熊どもも近ごろ知恵がついてきたからな。"
+    },
+    "8DBE3B9598984C85983400097C46F4B8": {
+      "source": "Three chimes, three notes",
+      "target": "三つの小鐘、三つの音"
+    },
+    "8DD9E2A4436CD063F424B39CED938A5C": {
+      "source": "Nobody believes you, do they?",
+      "target": "誰にも信じてもらえないんだろう？"
+    },
+    "8E3D923EC94E733A88FB6B5074F41C34": {
+      "source": "In a neat harbour hand: \"One kraken, removed. Paid: no.\" Signed, M. Gale, Harbour Master.",
+      "target": "港の帳簿らしい、きちんとした字。「クラーケン一匹、撤去済み。代金：未払い」。署名は、港長M・ゲイル。"
+    },
+    "8E632F51A3251E8043D25FEA0EE3E8AC": {
+      "source": "Inside, a kettle is already on. Mother Yarrow did not waste a minute.",
+      "target": "中では、もうやかんが火にかかっている。マザー・ヤロウは、一分たりとも無駄にしなかったらしい。"
+    },
+    "8F599DA5245E6FBC5701FBF6C0B5335C": {
+      "source": "J — strike · K — roll clear · L — lock on",
+      "target": "J――攻撃・K――回避ロール・L――ロックオン"
+    },
+    "9ACFB782784FAA85E3188A7960F14A41": {
+      "source": "My drift's gone — by the woodpile. I buried a little something under it, seven winters back.",
+      "target": "薪の山のとこの、俺の吹きだまりが消えてる。七年前の冬に、あの下にちょっとしたもんを埋めといたんだ。"
+    },
+    "9B3D185DB80B096A7CF8FB44DE2956E1": {
+      "source": "The Blossomwood",
+      "target": "花咲きの森"
+    },
+    "9BA22EB7888D8E6BACB5AAEFCE974080": {
+      "source": "Then ring your bell, bell-founder, and let's see what it does.",
+      "target": "なら、鐘を鳴らしてくれよ、鐘造り。どうなるか見ものだぜ。"
+    },
+    "9BC3BF38BD80F3B93FCF7C1338E0AD6F": {
+      "source": "The Bell of Waking",
+      "target": "目覚めの鐘"
+    },
+    "9BDB2871BF9CD1FCC3D43C36854854DA": {
+      "source": "The door is barred from inside. Nobody has lifted the bar in seven years.",
+      "target": "扉は内側から閂がかけられている。七年、誰もその閂を外していない。"
+    },
+    "9C53A429FA9F6F5C163EBB4D1F4B948D": {
+      "source": "Afternoon, Brother! We're after the abbey bell, and I was just telling these two about the time I wrestled a—",
+      "target": "どうも、修道士さん！　修道院の鐘を探してるんだ。ちょうどこのふたりに、俺がむかし取っ組み合った、あの――"
+    },
+    "9C96E1E4B4335BF4C8FA982A635454F8": {
+      "source": "Grandda's tuning fork hung on this hook every night of his life. It went where he went.",
+      "target": "じいちゃんの音叉は、毎晩欠かさずこの釘に掛かってた。じいちゃんの行ったところへ、こいつも行った。"
+    },
+    "9CDCF2E0B02058DB26CDA066DC9D4149": {
+      "source": "Saltcombe",
+      "target": "ソルトコーム"
+    },
+    "9D85FF4F5187435A7BEB3CA3A847B652": {
+      "source": "I'm going to let it be morning.",
+      "target": "もう、朝にするから。"
+    },
+    "9D434A215332946B6AC8EFF76FEE5F34": {
+      "source": "A Hushguard: old belfry armour, empty, frost in every joint. It has stood here since the bells fell silent. The children dare each other to touch it.",
+      "target": "静寂の鎧兵。鐘楼の古い鎧で、中は空っぽ、継ぎ目という継ぎ目に霜がついている。鐘が鳴りやんでから、ずっとここに立っている。子どもたちは、触れられるかどうかで度胸比べをしている。"
+    },
+    "9DA4B5E39A7EF5A88A86E4EB39724E35": {
+      "source": "All those mornings of practice. It's perfect. Somebody eat it before I cry.",
+      "target": "毎朝毎朝、練習してきたんだもの。完璧よ。誰か食べてちょうだい、あたしが泣きだす前に。"
+    },
+    "9E589A1EBEE54144FE0282E89CA0D42C": {
+      "source": "Go on home, bell-founder. And mind your knight. It listens better than any novice I ever had.",
+      "target": "さあ、家へお帰りなさい、鐘造りさん。それと、あなたの騎士を大事になさい。私が受け持ったどの見習いよりも、よく耳を傾けますよ。"
+    },
+    "9EABED425E7E1F2CA6D6825ABB4FD93F": {
+      "source": "Break the ice",
+      "target": "氷を砕く"
+    },
+    "9EE5E2E214770BC446FDFAF17EE74341": {
+      "source": "Saltcombe",
+      "target": "ソルトコーム"
+    },
+    "9F4DF2BAF87069CBB9B6BCAD1092E7CE": {
+      "source": "Old Gullet",
+      "target": "オールド・ガレット"
+    },
+    "9F4DF2BAF87069CBB9B6BCAD1092E7CE.2": {
+      "source": "the Thing under the Bay",
+      "target": "湾の底に潜むもの"
+    },
+    "9F5F9FEFD10FE8BBDEB9F6131AB4C224": {
+      "source": "↑ {The Shrine of Waking}",
+      "target": "↑ {目覚めの社}"
+    },
+    "9F11F80674CB5FFB100BF6A4DC694CC0": {
+      "source": "Poacher of the Blossomwood",
+      "target": "花咲きの森の密猟者"
+    },
+    "09F537F550199E877066EA87BE66886B": {
+      "source": "Three mills, and not a breath of wind",
+      "target": "三つの風車、風はそよとも吹かず"
+    },
+    "10BD03726AB2D361577E0BE0788A781D": {
+      "source": "♪",
+      "target": "♪"
+    },
+    "13CEA480233BF464D302967FEC21B555": {
+      "source": "Light",
+      "target": "灯す"
+    },
+    "14A74EAA4EF446BB873015B8A5A820AF": {
+      "source": "The year's stopped before, you know. For a fortnight, when I was small. We liked it.",
+      "target": "年が止まったのは、これが初めてじゃないんだよ。あたしがちっちゃいころに、二週間ばかりね。みんな気に入ってたもんさ。"
+    },
+    "14D59A34FD84BEA25A29A190549AB73E": {
+      "source": "The well has been a solid block of ice since that night. Somebody has carved a face in it.",
+      "target": "あの夜から、井戸は底まで凍りついたままだ。誰かが氷に顔を彫っていった。"
+    },
+    "14E9EDA8F6EA59E821778B13FD3D5FE3": {
+      "source": "A child's drawing, folded small. Four bells in a row, and a fifth, coloured in black. Under it, in big uneven letters: SO MAM CAN STAY.",
+      "target": "小さく折りたたまれた、子どもの絵。一列に並んだ四つの鐘と、黒く塗りつぶされた五つ目。その下に、大きなふぞろいの字で「かあさんがいられるように」。"
+    },
+    "016AA5AD75753FB7D5E22A61418E3799": {
+      "source": "The Blossomwood",
+      "target": "花咲きの森"
+    },
+    "17A6BEE1DAA3B94C6E517CCEA04E08E2": {
+      "source": "Evermere",
+      "target": "エヴァーミア"
+    },
+    "18DBDC855A6F04BA0FEA2A6665A9157E": {
+      "source": "Look at it. I couldn't have made this up. And I've made up a lot.",
+      "target": "見ろよ、これ。こんなの、俺にだってでっち上げられなかったぜ。でっち上げなら、さんざんやってきたってのにさ。"
+    },
+    "19A4D11A7AA183E473DA46070FD97761": {
+      "source": "A note on the door: \"Gone to ring at the knights. Back for vespers. — F.\" It has been there seven years.",
+      "target": "扉に書き置き。「騎士たちに鐘を鳴らしてきます。晩課には戻ります。――F」。七年前から、ずっとそこにある。"
+    },
+    "19B369BB50C7EF2ED8AC0B236D67F728": {
+      "source": "Seven years of names on the board by the door: the boats that went out the night the ice came.",
+      "target": "戸口の脇の板に、七年前から並んだままの名前。氷が張ったあの夜、海へ出ていった舟たちだ。"
+    },
+    "19ED5DC70B7C4E1E9A80D0FD86572A8F": {
+      "source": "Poaching.",
+      "target": "密猟か。"
+    },
+    "20B9DDF6C7DC55474ED0F7AF2E46E17C": {
+      "source": "The Blossomwood",
+      "target": "花咲きの森"
+    },
+    "21AFAEE1439FB49443C9D687FA92834A": {
+      "source": "Keeper of the Shrine",
+      "target": "社の守り手"
+    },
+    "23B877B60FC9C3CBBEE760522A20DCA3": {
+      "source": "♪ Wake, little blossom, the frost's letting go… ♪",
+      "target": "♪ めざめよ、つぼみ　霜がほどける…… ♪"
+    },
+    "29E97E049DB1160476291D4F39DEA0B2": {
+      "source": "In chalk: THE WEST BELL RANG. AND THE SOUTH ONE.",
+      "target": "チョークの字。「にしのかねがなった」「そして南の鐘も」。"
+    },
+    "31EB4CC39944BA88758CA7B241863214": {
+      "source": "A red leaf from Amberfield.",
+      "target": "アンバーフィールドの赤い葉。"
+    },
+    "32B59BF6A9EE1A0EB4546AF648D43A92": {
+      "source": "EVERMERE — Day 2,570 of Winter.",
+      "target": "エヴァーミア――冬、2,570日目。"
+    },
+    "32DDFC2EC0997564A819A5E478568A20": {
+      "source": "The Bell of Rest",
+      "target": "眠りの鐘"
+    },
+    "33EAEDDDB7FE6123F059CE4FD34269B4": {
+      "source": "Fishwife of Saltcombe",
+      "target": "ソルトコームの魚売り"
+    },
+    "34DA4996007A2B5DF830D0F8BF36EFF6": {
+      "source": "In chalk, in a child's round hand: THE WEST BELL RANG.",
+      "target": "チョークで書かれた、子どもの丸っこい字。「にしのかねがなった」。"
+    },
+    "36E9780688C941C4C23A630CE68A97BD": {
+      "source": "Barrels stacked to the rafters. Years of barrels, and nothing to put in them.",
+      "target": "垂木まで積み上げられた樽。何年分もの樽があるのに、詰めるものが何もない。"
+    },
+    "38C1EFA47EE528EAD53518D787BB7A96": {
+      "source": "You've snow on your shoulders again.",
+      "target": "また肩に雪が積もってる。"
+    },
+    "039FD556D6244F582F2E1D92A25BA5CB": {
+      "source": "The Bell of Waking hangs in the shrine on the hill of the Blossomwood, west along the road from Bell Street. Spring is waiting under the snow there.",
+      "target": "目覚めの鐘は、花咲きの森の丘にある社に掛かっている。鐘通りから西の街道を行った先だ。そこでは、雪の下で春が待っている。"
+    },
+    "40F82067E96F9766A3F19C30D47AE685": {
+      "source": "The fishermen were right. I hate it when fishermen are right.",
+      "target": "漁師の言うとおりだったか。漁師が正しいってのは、どうにも癪にさわるぜ。"
+    },
+    "41EAB4F305D21EDF3115F7DD9D5F2F27": {
+      "source": "Truer. As if it heard the west bell too.",
+      "target": "音が合ってきた。こいつにも、西の鐘が聞こえたみたいに。"
+    },
+    "43D30017A6A9D4BAF622046CD90B8C29": {
+      "source": "That's where I always stop.",
+      "target": "私も、いつもそこで止まる。"
+    },
+    "43EFB00CDA4EC57E0E7F608319DE438C": {
+      "source": "Seven years I've told that story about the man in the snow. Seven years of \"yes, Corin\". I'd like to be wrong, for once.",
+      "target": "雪の中の男の話、七年も語ってきた。七年ずっと「はいはい、コリン」さ。たまには、俺の話が外れててほしいもんだぜ。"
+    },
+    "43F507C10B304B1F9BA76396D3EF50C3": {
+      "source": "Mark me — it'll turn. I've a knee for weather, and it's itched since your first bell.",
+      "target": "覚えときな――めぐるよ。あたしゃ膝で天気がわかるんだ。あんたの最初の鐘から、ずっとうずいてるのさ。"
+    },
+    "44CB964823CCDFC7318399803DCE6221": {
+      "source": "I light them every evening. It's always evening. You do the sums.",
+      "target": "毎晩灯している。いつだって晩だ。勘定は自分でしてくれ。"
+    },
+    "44F1465F1321D05FD3E4B03485176085": {
+      "source": "…That's the Rest note.",
+      "target": "……眠りの音だ。"
+    },
+    "47AAEFE457C8657779D4293693F624BB": {
+      "source": "Of the Patience",
+      "target": "ペイシェンス号の船乗り"
+    },
+    "047D5C57C1AB7BD09C3AD4E228F75AEC": {
+      "source": "Wall's gone, sun's up, nothing to watch. Might take up fishing. Nettle says she'll teach me. Heaven help me.",
+      "target": "壁は消えた。日は昇った。見張るものもない。釣りでも始めるか。ネトルが教えてくれるそうだ。やれやれ、先が思いやられる。"
+    },
+    "049A69F7489D7E2A8C35501AEDD56832": {
+      "source": "Its helm is turned toward the square now. It was not, this morning.",
+      "target": "兜が今は広場を向いている。けさは、そうではなかった。"
+    },
+    "052C4EC1789CBB05F24B0EC9BE0EFE6C": {
+      "source": "Wenna tears the receipt in half, and in half again, and lets the pieces go with the petals.",
+      "target": "ウェンナは領収書をふたつに裂き、それをまたふたつに裂いて、花びらと一緒に風に放つ。"
+    },
+    "52E02EFBF79016A95E5FA84127DD5E75": {
+      "source": "You hit a knight! With a hammer! Do it again, I wasn't looking at the start!",
+      "target": "騎士を叩いた！　ハンマーで！　もう一回やって、最初のとこ見てなかったんだ！"
+    },
+    "53F3BC108FCDB6B5644BF9D250BACDC0": {
+      "source": "Gold to the hedges. I rang this little bell for seven years so I'd not forget what that sound was for.",
+      "target": "生け垣まで一面の金色ですね。この小さな鐘を七年鳴らしてきたのは、あの音が何のためのものか、忘れないためでした。"
+    },
+    "54C2BD4729D9E73E5ABD2F6C3152349A": {
+      "source": "When I'm big I'm going to see a summer. Gran says they're mostly flies, but I don't mind.",
+      "target": "おっきくなったら、夏を見るんだ。おばあちゃんは、夏ってほとんどハエだよって言うけど、あたしは平気。"
+    },
+    "54FAB1EB76732B9DEF50B4DD22969F2D": {
+      "source": "Stowaways. Every one of you owes passage!",
+      "target": "密航者か。全員、運賃を払ってもらうよ！"
+    },
+    "55DDAD84177B4A0DD947FF11B66FFE61": {
+      "source": "When you're ready, sparrow. I've waited seven years. I can wait a little longer.",
+      "target": "支度ができたらでいいよ、小すずめ。七年待ったんだ。もう少しくらい、待てるとも。"
+    },
+    "56DBA1618D1132450691B66996A8C164": {
+      "source": "Wake, little blossom… turn, little tide… gold, little field. Wake, turn, gold.",
+      "target": "めざめよ、つぼみ……めぐれよ、潮よ……みのれよ、麦よ。めざめよ、めぐれよ、みのれよ。"
+    },
+    "56EF80924F9FB924A7CA59CD459D4F58": {
+      "source": "The child lit the first one herself. Up the ladder before I'd found my boots.",
+      "target": "最初のはあの子が自分で灯した。私が長靴を見つける前に、もうはしごの上だ。"
+    },
+    "57C9EA71E9EA6F449ADAD82F1B2D59BA": {
+      "source": "The way to the Bell Court",
+      "target": "鐘の宮廷への道"
+    },
+    "58D553E8AAE21DE3185CAAC570886056": {
+      "source": "You're telling me somebody tuned a whole wood to a lullaby.",
+      "target": "誰かが森をまるごと、子守唄に合わせて調律したって言うのか？"
+    },
+    "60A6B0ADC85AEB21359211AE210CEF11": {
+      "source": "And you've gone nowhere, you great lump.",
+      "target": "あんたのほうは、一歩も進んじゃいないね、このでくのぼう。"
+    },
+    "060AA0AA2D78104E3456A25B7468065B": {
+      "source": "A seashell",
+      "target": "貝殻"
+    },
+    "064BC9088C877D6CBC28115FACA7D8AE": {
+      "source": "Not yet. Not till I know what I'm going for.",
+      "target": "まだだ。何をしに行くのか、わかるまでは。"
+    },
+    "64C8D4A471E1BD705C9E0E95CF9921AA": {
+      "source": "Sing her the end of it, Da.",
+      "target": "最後まで歌ってあげて、父さん。"
+    },
+    "64E136C097A63BDC0205CF01E5AC9EC8": {
+      "source": "Gran says when it's spring here I'm to make a crown of everything. You'll have to help. I don't know what everything is yet.",
+      "target": "おばあちゃんがね、ここが春になったら、ぜんぶの冠をつくりなさいって。リネットも手伝ってね。だって、ぜんぶってなにか、まだ知らないんだもん。"
+    },
+    "64FC3FD52B22F0AFE74BCD1D05954EE0": {
+      "source": "Rimeholt",
+      "target": "ライムホルト"
+    },
+    "65A88D3BE005F7EFDB9AF760C5A56F71": {
+      "source": "You set it on the road.",
+      "target": "仕掛けたのは道の上だ。"
+    },
+    "65B23B2E5D6952516B4BB5C7C0D4822B": {
+      "source": "I gave the tin knight flowers. It didn't say thank you, but it never says anything.",
+      "target": "ブリキの騎士さんにお花あげたの。ありがとうって言わなかったけど、いつもなんにも言わないもんね。"
+    },
+    "65D304724366F31C28095DDF7DFE9D4A": {
+      "source": "A Hushguard: old belfry armour, empty, frost in every joint. It has stood here since the bells fell silent. The children dare each other to touch it.",
+      "target": "静寂の鎧兵。鐘楼の古い鎧で、中は空っぽ、継ぎ目という継ぎ目に霜がついている。鐘が鳴りやんでから、ずっとここに立っている。子どもたちは、触れられるかどうかで度胸比べをしている。"
+    },
+    "68EA5F9C65545D93A37422D10BE97766": {
+      "source": "Evermere",
+      "target": "エヴァーミア"
+    },
+    "69E7DE5F32A3D58CF53E8EF79352D3CB": {
+      "source": "Where the Bell of Harvest hangs",
+      "target": "実りの鐘の掛かるところ"
+    },
+    "70CF989EF6A799E22F8EDC077E4E1A88": {
+      "source": "Not forever. That's the point of them, I think.",
+      "target": "ずっとは無理だ。それが花ってものなんだと思う。"
+    },
+    "71C1A454071FCAF2CACE66704B195D0B": {
+      "source": "That's not a garrison. That's a choir.",
+      "target": "ありゃ守備隊じゃない。聖歌隊だ。"
+    },
+    "71DAC091CB2141FF356B8F75C5D6CB92": {
+      "source": "The pilot's house. Her charts of the bay are pinned to the shutters — iced over, every one.",
+      "target": "水先案内人の家。湾の海図が鎧戸に留めてある――どれも、凍りついている。"
+    },
+    "71FFBD8E462542C30069E8AAABE83EFE": {
+      "source": "Seven fires. I'll want a receipt.",
+      "target": "火が七つ。領収書はもらうからね。"
+    },
+    "72A2FBF531CF4221B09FC75CC6716603": {
+      "source": "A notice on the door: NO MEETING THIS WEEK. Under it, older: NO MEETING THIS WEEK.",
+      "target": "扉に貼り紙。「今週の寄合はなし」。その下に、もっと古いのが一枚。「今週の寄合はなし」。"
+    },
+    "74F32A1A8BACC45E33ED8C11DC56A402": {
+      "source": "Linnet Halloway! Are you hurt? What were they?",
+      "target": "リネット・ハロウェイ！　けがはないの？　あれは何だったの？"
+    },
+    "76C05E6714117FB1C96E60A5A63976F0": {
+      "source": "Chapter Three",
+      "target": "第三章"
+    },
+    "76F956738F4641B08FD47551D6BED1BB": {
+      "source": "The Miller",
+      "target": "粉屋"
+    },
+    "77F24A99ED605420E44ED69C568081A2": {
+      "source": "Did you fight a kraken? Corin says you fought a kraken. Corin says a lot of things.",
+      "target": "クラーケンと戦ったの？　コリンが、クラーケンと戦ったって言ってた。コリンって、いろんなこと言うけど。"
+    },
+    "78FBECA7343A580764580095F3FEB452": {
+      "source": "Two! Cobb lit that one. He says he's a professional and I'm not allowed.",
+      "target": "ふたつめ！　あれはコッブがともしたの。自分はプロだから、あたしはだめなんだって。"
+    },
+    "78FEDF6FBE20D87558D56D3DA7D2E3A9": {
+      "source": "↑ {Mill Lane} · {the Abbey}",
+      "target": "↑ {風車小路}・{修道院}"
+    },
+    "79B76B8F81902D62640584C16746B4CD": {
+      "source": "…Morning, Tin.",
+      "target": "……おはよう、ブリキ。"
+    },
+    "80BF0699C776168743F3D852221E5390": {
+      "source": "We sat down to eat, and the light never moved. The others went to Evermere when the cold set in. I stayed with the supper.",
+      "target": "わしらが夕飯の席についたら、日の光がそれきり動かんようになった。寒くなると、ほかの者はエヴァーミアへ移った。わしは、夕飯と一緒にここに残ったんだ。"
+    },
+    "81D559A7F86FABA4D2FDB349B4F2AE71": {
+      "source": "The Knight at the Forge Door",
+      "target": "工房の戸口の騎士"
+    },
+    "81FC2C42A7505E9DCA3E85E408966441": {
+      "source": "↑ {Saltcombe} · {the Harbour}",
+      "target": "↑ {ソルトコーム}・{港}"
+    },
+    "81FDDB43603DDBB66AAAFF37E8963B1D": {
+      "source": "Harbour Master of Saltcombe",
+      "target": "ソルトコームの港長"
+    },
+    "83CFD61F06A11EA40B2AA0DB024E0A8D": {
+      "source": "The smell of fish has outlasted the fish. Impressive, in its way.",
+      "target": "魚がいなくなっても、魚の匂いだけは残っている。ある意味、見事なものだ。"
+    },
+    "83F24B8DDE55326B7F44CEBDA36447D7": {
+      "source": "A blossom",
+      "target": "花"
+    },
+    "84D112B1779C2E03DBADF29300695E2A": {
+      "source": "Evermere",
+      "target": "エヴァーミア"
+    },
+    "86B0899198EEB58A980692EE944E6424": {
+      "source": "Seven years I sat in Evermere with my hands in my lap, listening for that bell. And then — there it was. Clear as morning.",
+      "target": "七年ものあいだ、エヴァーミアで手を膝に重ねたまま、あの鐘に耳を澄ませていました。そうしたら――聞こえたのです。朝のように澄んだ音が。"
+    },
+    "86DE63212FF77A656B8AFBD1CE20DD21": {
+      "source": "The mills went still the same night. Hit one on the hub, if you've the arm for it. They always did need a kick to start.",
+      "target": "風車も同じ夜に止まった。腕に覚えがあるなら、どれかの軸を叩いてみるといい。あいつらは昔から、ひと蹴りくれてやらんと回らん連中でな。"
+    },
+    "87A6FDB06D91E4D4DF9B53E312B48180": {
+      "source": "Bar six nights I was down with the ague. I've billed myself for those.",
+      "target": "熱病で寝こんだ六晩は別だけどね。その分は自分に請求しといた。"
+    },
+    "87AF15969B89071A82C97BFCE688D9D5": {
+      "source": "Noted. One confession, unpaid. I'll put it under sundries.",
+      "target": "記帳しとく。白状ひとつ、未払い。雑費に入れとくよ。"
+    },
+    "88B2128415FA74F2D99FCEF67F2D263D": {
+      "source": "Where the Hushguard slept",
+      "target": "静寂の鎧兵の眠ったところ"
+    },
+    "88E9D082926A48D3E8B2774749B3C80F": {
+      "source": "You were ten. A debt that old, the harbour writes off. Ring it, love.",
+      "target": "まだ十歳だったんだ。そんな古い借りは、港じゃ棒引きにするもんさ。鳴らしな、あんた。"
+    },
+    "88FB4D00085E583208F38489712C9775": {
+      "source": "Wake…",
+      "target": "めざめよ……"
+    },
+    "89BC687F1F0C92777F6DC5AE92FE9E48": {
+      "source": "It's wearing a coat. Who dresses a scarecrow in a good coat?",
+      "target": "上着を着てるね。かかしに上等な上着を着せるやつが、どこにいるんだい？"
+    },
+    "090DC39E99484B42CC5643E3CE63DEF9": {
+      "source": "Two bells. The ice on the gate's gone grey at the edges. Like a beard. Like mine.",
+      "target": "鐘が二つ。門の氷が縁から灰色になってきた。ひげみたいにな。俺のみたいに。"
+    },
+    "92CDA0A8C9206C18CA57150084F31BC1": {
+      "source": "♪",
+      "target": "♪"
+    },
+    "92D227074CEF4B760BB744C82F42DCC2": {
+      "source": "Light",
+      "target": "灯す"
+    },
+    "93E991B0C77484FFCC34E40B79FF8F8A": {
+      "source": "No.",
+      "target": "ああ、違う。"
+    },
+    "94D1394602282AC38DF05823F95FDACE": {
+      "source": "Thousands. White, mostly, and pink at the edges. They smell like a clean shirt.",
+      "target": "何千も。たいていは白で、ふちが桃色。洗いたてのシャツみたいな匂いがする。"
+    },
+    "94E6664275A2C82FBF6BE8458B7A18DD": {
+      "source": "The bridge went in the first winter. Mind the edge.",
+      "target": "橋は最初の冬に落ちた。縁に気をつけろ。"
+    },
+    "94E21402652E5FF943820583F5B7F7E0": {
+      "source": "You're telling me somebody tuned a whole wood to a lullaby.",
+      "target": "誰かが森をまるごと、子守唄に合わせて調律したって言うのか？"
+    },
+    "097A0D0E486470324A142517BA7C97AC": {
+      "source": "Rimehart",
+      "target": "ライムハート"
+    },
+    "097A0D0E486470324A142517BA7C97AC.2": {
+      "source": "the Stag of the Waking Wood",
+      "target": "目覚めの森の牡鹿"
+    },
+    "97E63568D865FC653E9E7DF0319E9579": {
+      "source": "He's snuffing the fires! Light them again, quick!",
+      "target": "あいつ、火を消してやがる！　早く灯し直せ！"
+    },
+    "98BBB980CB6FE551924F570995699C70": {
+      "source": "Did you see Wenna's face when that boat came in? Best thing I've seen since the ice came, and I've seen a bear in a hat.",
+      "target": "あの船が戻ってきたときのウェンナの顔、見たか？　氷が張ってから見たもんの中で一番だったぜ。帽子をかぶった熊だって見たことあるのにさ。"
+    },
+    "172E878CF16AE475EC47DC927E57E0DA": {
+      "source": "The Bell of Tides is in the lighthouse at Saltcombe, south down the gorge road. The town dug the drift out the day the west bell rang.",
+      "target": "潮の鐘は、峡谷道を南へ下ったソルトコームの灯台にある。西の鐘が鳴った日に、町のみんなが吹きだまりを掘り抜いてくれた。"
+    },
+    "0192B7FC27B9794DB5753629EB12A42A": {
+      "source": "Still here, then.",
+      "target": "まだいるのか。"
+    },
+    "199B35BC476DE7608EF1FA3B4D07BABD": {
+      "source": "Ring it",
+      "target": "鳴らす"
+    },
+    "215EA6A38C37EA8D4F7F2E11458765C2": {
+      "source": "The Blossomwood",
+      "target": "花咲きの森"
+    },
+    "225AAD957D3581370349D80E10CD3694": {
+      "source": "You all right?",
+      "target": "大丈夫か？"
+    },
+    "238B06411F37B55DECE1ED3AE21F7720": {
+      "source": "A Hushguard: old belfry armour, empty, frost in every joint. It has stood here since the bells fell silent. The children dare each other to touch it.",
+      "target": "静寂の鎧兵。鐘楼の古い鎧で、中は空っぽ、継ぎ目という継ぎ目に霜がついている。鐘が鳴りやんでから、ずっとここに立っている。子どもたちは、触れられるかどうかで度胸比べをしている。"
+    },
+    "304B7084D9F93D8A334737D9F7F9C373": {
+      "source": "The Bell of Rest waits at Rimeholt, at the head of the valley, past the Frost Gate. So does Grandda.",
+      "target": "眠りの鐘は、霜の門の先、谷の奥のライムホルトで待っている。じいちゃんも、そこで待っている。"
+    },
+    "313F21D3F81E009299828C0B50FA481A": {
+      "source": "Tidy forge. Your grandfather kept accounts, I'd wager. A man who hangs every tool on its own hook keeps accounts.",
+      "target": "片づいた工房だね。あんたのじいさん、帳簿をつけてたろう。賭けてもいい。道具をひとつ残らず決まった釘に掛ける男は、帳簿もつけるもんさ。"
+    },
+    "333CBF51E114510EA1F5C6016294156F": {
+      "source": "Gold, little field, for the reapers are home… Rest, little year—",
+      "target": "みのれよ、麦よ　刈り手が帰る……ねむれよ、年よ――"
+    },
+    "339D4BBA8CE8D7A3AB2706CEB34F9015": {
+      "source": "Evermere",
+      "target": "エヴァーミア"
+    },
+    "345DC99ACF32A31FDC8D33EE6C07E1E3": {
+      "source": "Harbour Master of Saltcombe",
+      "target": "ソルトコームの港長"
+    },
+    "355EDDF570C24B01D0C381B29D482259": {
+      "source": "Luminati 2.5D Pixel-Art Engine · three.js",
+      "target": "Luminati 2.5D ピクセルアートエンジン・three.js"
+    },
+    "392DBC16E8539499B5818C6DC64DE74B": {
+      "source": "My hands shake on the hammer now. Yours don't. That's as it should be.",
+      "target": "今は、ハンマーを握ると手が震える。おまえの手は震えない。それでいいんだよ。"
+    },
+    "403AFDD6C72CF9BBE8DC76D50BFD16C8": {
+      "source": "The Prosper. Wool and brandy for Evermere, seven years overdue. I've a key for every hold in this harbour.",
+      "target": "プロスパー号だ。エヴァーミア行きの羊毛とブランデー、七年の延着だよ。この港の船倉の鍵なら、全部持ってる。"
+    },
+    "432C61663E40CED38D3A88290AF422C3": {
+      "source": "Nothing comes down through that ice. Nothing goes up. I watch it anyway.",
+      "target": "あの氷を抜けて下りてくるものはない。上るものもない。それでも見張る。"
+    },
+    "439C6A299D3ACE8C0FE7856361DBB479": {
+      "source": "I make it seven. And two of the bell-ringers behind them.",
+      "target": "あたしの勘定じゃ七体。後ろに鐘鳴らしが二体だね。"
+    },
+    "465AFEF623F6A4A90F8F31814C5D2DBC": {
+      "source": "♪ Wake, little blossom, the frog's letting go…",
+      "target": "♪ めざめよ、つぼみ　ひもがほどける……"
+    },
+    "469B748BA6043F77AEC3640A08978ED2": {
+      "source": "The 2,578 has been rubbed out with a mitten. Under it, in a child's round hand: SPRING!!!",
+      "target": "「2,578」はミトンでこすって消してある。その下に、子どもの丸っこい字。「はる！！！」。"
+    },
+    "469FA993835F3B9ADBBDC55DA7F7735A": {
+      "source": "Fog cleared, hedge open, knights behind it. I'll invoice the miller.",
+      "target": "霧が晴れて、生け垣が開いて、その奥に騎士。粉屋に請求しとくよ。"
+    },
+    "470F892584693F79D0AE515108D6F3F1": {
+      "source": "I've closed the ledger. First time it's balanced since the ice. I don't know what to do with my evenings.",
+      "target": "帳簿は締めたよ。氷が張ってから初めて、帳尻が合った。おかげで、夜に何をすりゃいいのかわからないね。"
+    },
+    "487DF1D93605F4337760EE4CA480315C": {
+      "source": "A bridge under the drift. Roots, grown across on purpose.",
+      "target": "吹きだまりの下に橋。根を、わざと向こう岸へ渡るように育ててある。"
+    },
+    "488D27557FC7BE08CF800EDE36795954": {
+      "source": "Strike",
+      "target": "打つ"
+    },
+    "492E37CE20A044CEC7004F8864407FEB": {
+      "source": "One brazier's worth of coal. Billed to the King.",
+      "target": "篝火台ひとつ分の石炭。王様に請求しとくよ。"
+    },
+    "00492F4FD3DB19F280C3D5F186AE70F7": {
+      "source": "Up past the chimes, past the falls, past whatever's been living on that hill since the frost came. You'll want a guide.",
+      "target": "小鐘を越え、滝を越え、霜が降りてからあの丘に棲みついた何かを越えた先だ。案内人が要るだろ？"
+    },
+    "509F29F06F3A9242F5F201D878E5C6BF": {
+      "source": "You've grown, sparrow.",
+      "target": "大きくなったね、小すずめ。"
+    },
+    "512C27BC45EEF1EC3F90BE8E54D09E46": {
+      "source": "The sails are turning. That's all this one has to give.",
+      "target": "羽根は回っている。この風車にできるのは、ここまでだ。"
+    },
+    "517A24795F30D4778EBE14FEFFF22C35": {
+      "source": "A crown of everything, when spring comes to Evermere.",
+      "target": "エヴァーミアに春が来たら、ぜんぶの冠を。"
+    },
+    "535F5E04657D060D74FB309FABBF97A4": {
+      "source": "It's Grandda's coat. These burns on the cuffs — that's bell-metal. He never would wear gloves.",
+      "target": "じいちゃんの上着だ。袖口のこの焦げ跡――鐘の地金だ。手袋だけは、どうしてもはめない人だった。"
+    },
+    "543E2922D00DDA2E02981A7A1A50B7E3": {
+      "source": "Rimeholt",
+      "target": "ライムホルト"
+    },
+    "554B85172ADD64DD6797F7DBF4E29325": {
+      "source": "Then they'll be wanting a founder.",
+      "target": "なら、鐘造りの出番だ。"
+    },
+    "560C98F7ACDC8BFD8B521E60855EFD9D": {
+      "source": "The Bell of Harvest",
+      "target": "実りの鐘"
+    },
+    "561BE8996D1A052B4D6A891E92E4468A": {
+      "source": "Do you know what a bell's worth of bronze weighs?",
+      "target": "鐘ひとつ分の青銅がどれだけの重さか、知ってるのか？"
+    },
+    "575DF8030F6943FEEE753A17EF7B2CCB": {
+      "source": "There was a hollow behind the ice all along.",
+      "target": "氷の裏に、ずっとくぼみが隠れてたのか。"
+    },
+    "586A20A9A69FA2AE2E81316E1DAB0B5B": {
+      "source": "I know.",
+      "target": "知ってるもん。"
+    },
+    "0592E5567DEFC9D48E693F88C18423FF": {
+      "source": "…Someone was singing.",
+      "target": "……誰かが歌ってた。"
+    },
+    "599F001E2C16AFD2F20ED5487FE55492": {
+      "source": "Every word of it's true. Most of the words, anyway.",
+      "target": "一言一句、本当の話さ。まあ、だいたいの言葉はな。"
+    },
+    "609AD190C780A081FF5558A9B4B43630": {
+      "source": "A sprig of the Blossomwood's first blossom in seven years. Dilly has never seen one.",
+      "target": "花咲きの森に七年ぶりに咲いた、最初の花の小枝。ディリーは花を見たことがない。"
+    },
+    "611CDC4ED9EE6A8FBE304F1B275CF1BB": {
+      "source": "Evermere",
+      "target": "エヴァーミア"
+    },
+    "649E39BA6C67E508C74DB47E41D50B91": {
+      "source": "Every spring, till I was ten. …I can't remember the colour.",
+      "target": "十歳までは、春が来るたびに。……色が、思い出せない。"
+    },
+    "698E7BC6E2982993DB1FF94F7161B297": {
+      "source": "Stay by the fire when it rings.",
+      "target": "鐘が鳴ったら、火のそばを離れるな。"
+    },
+    "709FB7D7A90330AED5F9E054D25DF6DC": {
+      "source": "Dilly's going to want one of these.",
+      "target": "ディリーがこれ、欲しがるだろうな。"
+    },
+    "713CF53905864BD5CFAC4B1A1B1B345A": {
+      "source": "The shrine gate is open. Something waits in the glade beneath the Bell of Waking.",
+      "target": "社の門が開いた。目覚めの鐘の下の林で、何かが待っている。"
+    },
+    "740AB65949EB9E4AD7D84A944D012077": {
+      "source": "The Bell of Harvest",
+      "target": "実りの鐘"
+    },
+    "740AB65949EB9E4AD7D84A944D012077.2": {
+      "source": "Gold, little field, for the reapers are home",
+      "target": "みのれよ、麦よ　刈り手が帰る"
+    },
+    "743F35A805B429B91E4990E00F215EC9": {
+      "source": "The Bell of Rest",
+      "target": "眠りの鐘"
+    },
+    "746E47ACEF4B918B04B218F87C1B9877": {
+      "source": "Still flat. Grandda could tune a bell by ear in an afternoon. Seven years, and I've got this far.",
+      "target": "まだ音が低い。じいちゃんなら、耳だけで鐘を半日で調律できた。七年かけて、私はまだここまでだ。"
+    },
+    "766AB64DB6E8B9D8B032102C87E1AEC6": {
+      "source": "Saltcombe",
+      "target": "ソルトコーム"
+    },
+    "772D2C8AF274AEC31E36E1DF5B6DB420": {
+      "source": "Its helm is turned toward the square now. It was not, this morning.",
+      "target": "兜が今は広場を向いている。けさは、そうではなかった。"
+    },
+    "800A126C13328C21C1B35D7D5E4B0D40": {
+      "source": "The harbour's got its master back. And I've an invoice to deliver, soon as I find out who it's made out to.",
+      "target": "これで港に、港長が戻ったってわけだ。それと、届けなきゃならない請求書がひとつ。宛名が誰か、わかり次第ね。"
+    },
+    "819E1018476644D60E4187E02F4B581E": {
+      "source": "Three bells. Number 2,578, iced. I've a feeling about tomorrow's. Don't you laugh.",
+      "target": "鐘が三つ。2,578個目、アイシングつきよ。明日の分は、なんだか予感がするの。笑わないでちょうだいよ。"
+    },
+    "833F681391E1D2AD5E2A00DC0432F871": {
+      "source": "Wenna says the chandler went to Evermere and married a baker. That can't be right. He hated bread.",
+      "target": "ウェンナが言うには、船具屋はエヴァーミアへ行ってパン屋と結婚したんだと。そんなわけあるか。あいつ、パンが大嫌いだったんだぞ。"
+    },
+    "856FD4964EE8DE54EE6F761F32812B46": {
+      "source": "Call it settled.",
+      "target": "これで帳消しだ。"
+    },
+    "897CE414424BF4CE46E938B236A65546": {
+      "source": "A loom clacks inside, slow and patient. Whatever it is, it is very long by now.",
+      "target": "中で機織り機がカタン、カタンと鳴っている。ゆっくりと、根気よく。何を織っているにせよ、もうずいぶん長くなっているはずだ。"
+    },
+    "897F867F4F12918B8C5CCB7E12EEEC6B": {
+      "source": "The Hushed King",
+      "target": "静寂の王"
+    },
+    "932B90DF47D1C4151A3EE116D54E4FDE": {
+      "source": "Dilly is seven. She has never seen a season. She wants something from each edge of the valley.",
+      "target": "ディリーは七歳。季節というものを見たことがない。谷のそれぞれの端から、ひとつずつ何か持ってきてほしいそうだ。"
+    },
+    "950A443931569FD3A40D45CA8D780066": {
+      "source": "Ships. Stuck in the ice like flies in amber. Seven years, and not one of them has rotted.",
+      "target": "船だ。琥珀に閉じこめられた虫みたいに、氷に捕まってる。七年たっても、一隻も朽ちてない。"
+    },
+    "953BC26134611DD23C5F61B16A5F25CE": {
+      "source": "Strike",
+      "target": "打つ"
+    },
+    "1241E197947E267548E625A68DFB0336": {
+      "source": "You're quiet, Halloway. Quiet costs extra. Talk to me.",
+      "target": "黙りこんでるね、ハロウェイ。だんまりは割増料金だよ。話しな。"
+    },
+    "1415FC8BF825157FC3641C5ECF17A75F": {
+      "source": "Buds. Every one of them shut tight under the ice, like a casting left too long in the mould.",
+      "target": "つぼみだ。どれも氷の下で固く閉じてる。型に入れたまま放っておかれた鋳物みたいに。"
+    },
+    "1613F1B0B9004A0A28790090D1365FE0": {
+      "source": "Ships in the ice, like flies in amber",
+      "target": "琥珀の中の虫のように、氷に閉ざされた船"
+    },
+    "02169C44DD5953280A4B6161F051D6B3": {
+      "source": "Jory's asked after three girls who married other men and a dog that's dead. I tell him one a day. It's cheaper.",
+      "target": "ジョーリーときたら、よその男と一緒になった娘三人と、死んだ犬一匹のことを聞いてくるんだよ。一日にひとつずつ教えてやってる。そのほうが安くつくからね。"
+    },
+    "2255AABC8C023C48DB9667A837B2D72F": {
+      "source": "The Bell of Harvest",
+      "target": "実りの鐘"
+    },
+    "2365FCD2989A570FCE9EE61B45F41DAF": {
+      "source": "The Knight at the Forge Door",
+      "target": "工房の戸口の騎士"
+    },
+    "2875B9AA0906250FC41084810E5AFE00": {
+      "source": "Strike",
+      "target": "打つ"
+    },
+    "2935D88BB2BDE520A75CCB8190A17D8A": {
+      "source": "Three bells! I've been practising on the well with a stick. Forty hits. It hasn't rung once.",
+      "target": "鐘が三つ！　ぼく、棒で井戸を叩いて練習してるんだよ。四十回。まだ一回も鳴ってないんだ。"
+    },
+    "3116F7320ED8FE64043636F3F519B6CF": {
+      "source": "…turn…",
+      "target": "……めぐれよ……"
+    },
+    "3532C9A803900A18EA6555655BCFC25C": {
+      "source": "That's not a smell. …Bring me a seashell next. From the sea. Gran says it's south.",
+      "target": "そんなの匂いじゃないもん。……次は貝がら持ってきて。海のだよ。おばあちゃんがね、海は南なんだって。"
+    },
+    "4145B64221771864267D938BD0A3026A": {
+      "source": "Wake, little blossom… turn, little tide… gold, little field. Wake, turn, gold.",
+      "target": "めざめよ、つぼみ……めぐれよ、潮よ……みのれよ、麦よ。めざめよ、めぐれよ、みのれよ。"
+    },
+    "4223E58F89782A19425DC7BB9D18316B": {
+      "source": "Somebody has to keep the places laid. When they come home, they'll want to know where to sit.",
+      "target": "誰かが席を整えておかにゃならん。みんなが帰ってきたら、どこに座ればいいか知りたがるじゃろうからな。"
+    },
+    "4347BE94BC45F96A7843EE7C92B1E25D": {
+      "source": "Sit down, sit down. The pie's seven years cold and still the best in the valley.",
+      "target": "まあ座れ、座れ。パイは七年冷めたままじゃが、それでも谷いちばんじゃよ。"
+    },
+    "5000E7D86E0F2DCCA38711F22142D7C6": {
+      "source": "And you. The fox fur. I never forget a smell.",
+      "target": "それと、あんた。狐の毛皮だね。においは忘れないんだよ。"
+    },
+    "5013F6288CECF3AD033196A95FE183B9": {
+      "source": "Ringers first. The cantors mend the knights; a knight with no cantor is only armour with an opinion.",
+      "target": "まず鐘鳴らしから。詠唱者が騎士を直すのです。詠唱者のいない騎士など、一家言ある鎧にすぎません。"
+    },
+    "5126B7B45D255778283F5D335117CF25": {
+      "source": "A Hushguard: old belfry armour, empty, frost in every joint. It has stood here since the bells fell silent. The children dare each other to touch it.",
+      "target": "静寂の鎧兵。鐘楼の古い鎧で、中は空っぽ、継ぎ目という継ぎ目に霜がついている。鐘が鳴りやんでから、ずっとここに立っている。子どもたちは、触れられるかどうかで度胸比べをしている。"
+    },
+    "5151E4E1C606ADE04FF776E2787390FE": {
+      "source": "Its helm is turned toward the square now. It was not, this morning.",
+      "target": "兜が今は広場を向いている。けさは、そうではなかった。"
+    },
+    "5163B39B69D17A5465B1506E8D38E46F": {
+      "source": "\"One kraken, removed. Paid: no.\"",
+      "target": "「クラーケン一匹、撤去済み。代金：未払い」"
+    },
+    "5389D9D1D5313A08D16BCACEBD7F4585": {
+      "source": "Poacher of the Blossomwood",
+      "target": "花咲きの森の密猟者"
+    },
+    "5988FC0C5F702CB3F017085FC8E3F245": {
+      "source": "EVERMERE — Day 2,563 of Winter.",
+      "target": "エヴァーミア――冬、2,563日目。"
+    },
+    "6570A326F80B077230E5E0C5C57A1F74": {
+      "source": "Ring",
+      "target": "鳴らす"
+    },
+    "6681ECAACC0E8D634CC7C7A24BE7BC05": {
+      "source": "Not for seven years.",
+      "target": "七年このかた、誰ひとりな。"
+    },
+    "6973C4651E6115917B8C8C277302EE73": {
+      "source": "The Patience is home, and Jory with her, seven years late and not a day older. Wenna has an invoice for whoever stopped the year.",
+      "target": "ペイシェンス号が帰ってきた。ジョーリーも一緒に。七年遅れで、一日も年を取らずに。ウェンナは、年を止めたやつへの請求書を用意している。"
+    },
+    "7008DBA72B1A6D4B4A07EE10CD714870": {
+      "source": "In chalk: THE WEST BELL RANG. AND THE SOUTH ONE. EAST TOO!!!",
+      "target": "チョークの字。「にしのかねがなった」「そして南の鐘も」「ひがしも！！！」。"
+    },
+    "7030E3380972BE09F1D2DB0FE51B04FD": {
+      "source": "Rimeholt",
+      "target": "ライムホルト"
+    },
+    "7642E8B423D46DD9F8B20705C4A186AC": {
+      "source": "Dilly's Gran",
+      "target": "ディリーのおばあちゃん"
+    },
+    "7720B1DB5BD3D4E16EEB63BE7EAC8E8C": {
+      "source": "The Knight at the Forge Door",
+      "target": "工房の戸口の騎士"
+    },
+    "08093F5D1642708D5C648DDE7B6A9FC8": {
+      "source": "The west bell rang, and the wall up there sang back. Never heard it do that.",
+      "target": "西の鐘が鳴ったら、上の壁が歌い返してきた。あんなのは聞いたことがない。"
+    },
+    "8148ABB93CACFCBC67EF9220BBD7DA8A": {
+      "source": "The Lamplighter",
+      "target": "点灯夫"
+    },
+    "8193F29D69F58F92C0130CF472E17C40": {
+      "source": "Amberfield",
+      "target": "アンバーフィールド"
+    },
+    "8209A2432FBCBEC957D6F90157CCF12E": {
+      "source": "Evermere",
+      "target": "エヴァーミア"
+    },
+    "8248F68E3290D73727BBCDD6650EE01D": {
+      "source": "For luck.",
+      "target": "縁起かつぎだ。"
+    },
+    "8536EA6CF0CDAFDEA288FD947E2C785F": {
+      "source": "Harbour Master of Saltcombe",
+      "target": "ソルトコームの港長"
+    },
+    "8676E403060FB9B10A641DC7D96595EA": {
+      "source": "Its helm is turned toward the square now. It was not, this morning.",
+      "target": "兜が今は広場を向いている。けさは、そうではなかった。"
+    },
+    "9362FBDAEF5A313E4152F911ECA4BF85": {
+      "source": "Three lanterns. I've started a fourth. Optimism, the child calls it.",
+      "target": "ランタンが三つ。四つ目に取りかかった。あの子に言わせれば、楽観主義だそうだ。"
+    },
+    "9377D55DCBB2B23262FCE0FA13FC9C07": {
+      "source": "Bears use roads. Everybody uses roads. That's what makes them roads.",
+      "target": "熊だって道を使うさ。誰だって使う。だから道っていうんだ。"
+    },
+    "9631D691C9E69DCE2A71726F95863BB4": {
+      "source": "Seven years that water's been holding its breath. Hark at it go.",
+      "target": "七年も、あの水は息を止めてたんだ。聞いてみな、あの勢い。"
+    },
+    "9825B9AA8C169E076ADE088FFCE3D27C": {
+      "source": "Strike the hub",
+      "target": "軸を叩く"
+    },
+    "12505E298F3B507C701F7D5253A4A668": {
+      "source": "Poacher of the Blossomwood",
+      "target": "花咲きの森の密猟者"
+    },
+    "21498CED57480762DB91B425B1709CC1": {
+      "source": "The grass is GREEN. Gran didn't make it up. Gran didn't make ANY of it up.",
+      "target": "草が、ほんとにみどりなの！　おばあちゃん、作り話なんかしてなかった。おばあちゃんのお話、ひとつも作り話じゃなかったんだよ！"
+    },
+    "21555E80C2D7514ECA86D777ED3EF7FE": {
+      "source": "Three lanterns. I've been telling that child stories about spring since she could talk. She likes yours better.",
+      "target": "ランタンが三つ。あの子がしゃべれるようになってから、ずっと春の話をしてきたのよ。でも、あんたの話のほうが好きみたいねえ。"
+    },
+    "25644EE86D18D885FF660F35269B151A": {
+      "source": "We're in the middle. We go last.",
+      "target": "ここは谷の真ん中だ。私たちの番は最後だ。"
+    },
+    "28780D8D87E4D1DFD12FEF4D93E1346A": {
+      "source": "I stood at your door seven winters, and walked beside you from the abbey. Corin tells me you hit him with a hammer.",
+      "target": "七つの冬のあいだ、私はおまえの戸口に立っていた。修道院からは、おまえの隣を歩いた。コリンが言うには、おまえにハンマーで殴られたそうだね。"
+    },
+    "35936BB3F046552C85F0C8343196F79C": {
+      "source": "…Oh. There it is. Hello, dear. Does it eat cake?",
+      "target": "……あら。いたいた。こんにちは。ケーキは食べるのかしら？"
+    },
+    "39772AB5249F1C71931530190C22ABE8": {
+      "source": "…That's not a bear.",
+      "target": "……ありゃ熊じゃないな。"
+    },
+    "43227DC6BF1126C52A705A7FF39AFE38": {
+      "source": "Tell her it's only one night.",
+      "target": "ひと晩だけだって、言ってあげて。"
+    },
+    "43465D418DAD6E4C29C5077C70D5E50F": {
+      "source": "The town has dug the gorge road out. The way south to Saltcombe is open.",
+      "target": "町の人々が峡谷道の吹きだまりを掘り抜いた。南のソルトコームへ続く道が開いた。"
+    },
+    "47013EEA9B37BF439B90E47E8EB30BC1": {
+      "source": "I'm the harbour master. Somebody has to keep the books.",
+      "target": "あたしは港長だよ。誰かが帳簿をつけなきゃね。"
+    },
+    "47978D2E3280E3440105C9C70687CD5E": {
+      "source": "I lit the second lantern. Professional job. The child's not allowed up ladders after the first one.",
+      "target": "二つ目のランタンは私が灯した。プロの仕事だ。最初の一件以来、あの子ははしご禁止だ。"
+    },
+    "56500C6193C3B88C521991D3782F6FBF": {
+      "source": "I lit it! Gran held the ladder. We heard it, Linnet — all the way from the west!",
+      "target": "あたしがともしたの！　おばあちゃんがはしごを押さえててくれたんだよ。聞こえたの、リネット――ずーっと西のほうから！"
+    },
+    "63479C630960DA67F6C8315BF73A5D5F": {
+      "source": "—and begin it once more.",
+      "target": "――また、はじめから。"
+    },
+    "67826EA6E47E350EC1AE61AC6CEBE38F": {
+      "source": "Tin strikes the fork on its gauntlet. One note, low and long. Linnet's hand goes to her throat, as if to catch it.",
+      "target": "ブリキが籠手で音叉を打つ。低く長い、ひとつの音。リネットの手が、それをつかまえようとするように喉もとへ動く。"
+    },
+    "72552D8E133E0FD97AB5B4452C7DD4F3": {
+      "source": "Ice shove. Seen one put a wall across Saltcombe harbour in a night. Stand back.",
+      "target": "押し氷だね。こいつがひと晩でソルトコームの港を壁でふさいだのを見たことがある。下がってな。"
+    },
+    "073711B15C683E1DBD31D652BE6A6D7A": {
+      "source": "My brother's boat was out that night. If a bell brings the tide back, it brings the Patience back. Wait there.",
+      "target": "あの夜、弟の船が沖に出てたんだ。鐘で潮が戻るなら、ペイシェンス号も戻ってくる。そこで待ってな。"
+    },
+    "75581EDEBCD5AA31DF354C812AA56EB4": {
+      "source": "Evermere",
+      "target": "エヴァーミア"
+    },
+    "78331B0A43E778C9E008884CDDB7D900": {
+      "source": "A shell! It sounds like snow inside. Is the sea made of snow?",
+      "target": "貝がら！　中から雪みたいな音がする。海って雪でできてるの？"
+    },
+    "78861D445BD30E77949546A44751EA1F": {
+      "source": "Seven years I've rung it at them. A bell-note stills them, for a breath. They listen.",
+      "target": "七年、あれらに向けて鳴らしてきました。鐘の音を聞くと、ひと息のあいだ静まるのです。耳を傾けるのですよ。"
+    },
+    "89492D4F87079EEEE61130D48D8627A0": {
+      "source": "The press still holds its last load of apples — frozen solid, mid-squeeze.",
+      "target": "搾り機には、最後に入れたリンゴがまだ残っている――搾られる途中で、かちかちに凍ったまま。"
+    },
+    "94260A22E0B97DD77B88ED41B0D9E2DC": {
+      "source": "Chapter One",
+      "target": "第一章"
+    },
+    "99628F533A34A8AF1764C846958DB01B": {
+      "source": "You can. And if you can't, I'll tell everyone you did. I'm very convincing.",
+      "target": "できるさ。できなくたって、あんたが鳴らしたってみんなに言ってやる。俺の話は、すごく説得力があるんだぜ。"
+    },
+    "246879FF036C873A1231B67A2DB36E3F": {
+      "source": "The Bell of Tides",
+      "target": "潮の鐘"
+    },
+    "270097C7BFCA79464AEF7B38B645172C": {
+      "source": "— C. A.",
+      "target": "――C・A"
+    },
+    "299801CD3E66E30C1719A874CAC58D59": {
+      "source": "The Cider Wife",
+      "target": "リンゴ酒のおかみ"
+    },
+    "0316673FCCBD4D85BAEB1EA76123B2DF": {
+      "source": "That's number 2,557. I bake one every morning. One morning somebody's going to need it.",
+      "target": "これで2,557個目。毎朝ひとつ焼いてるのよ。いつかきっと、これが入り用になる朝が来るからね。"
+    },
+    "0342726C1B4B76C0F18FD49769330A4B": {
+      "source": "Ring",
+      "target": "鳴らす"
+    },
+    "417454C44BDB6E7088FB6D8480A2F892": {
+      "source": "Seven years they've stood about this town like coat-stands, and you go and ring the bell at them.",
+      "target": "七年もこの町でコート掛けみたいに突っ立ってた連中だよ。それをあんたときたら、鐘を鳴らして叩き起こすんだからね。"
+    },
+    "511494E2794D3D3C9F2C6A375248685F": {
+      "source": "Light",
+      "target": "灯す"
+    },
+    "554430D00A6E2E189A2C4EB7602A2E52": {
+      "source": "Day One",
+      "target": "一日目"
+    },
+    "705686EDCF6F3EBE08F482FD1C90383A": {
+      "source": "Oil, wicks, and a ledger. Every night for seven years, one tally mark: a lamp lit. The last page is nearly full.",
+      "target": "油と灯心、それに帳簿。七年間、毎晩一本ずつ引かれた線――ランプを一灯ともした印だ。最後のページは、もうすぐ埋まる。"
+    },
+    "711552E98201E05A84B73813073677A0": {
+      "source": "The road to the Shrine of Waking climbs through the Blossomwood, where three wayside chimes stand frozen in the snow.",
+      "target": "目覚めの社への道は、花咲きの森を登っていく。そこでは道ばたの小鐘が三つ、雪の中で凍りついている。"
+    },
+    "716633E638E6147138DC7F9A9CDA31FE": {
+      "source": "A cracked bell can be recast. It's still the same bronze.",
+      "target": "ひびの入った鐘は鋳なおせる。それでも同じ青銅だ。"
+    },
+    "760182A5066A2C943F44F9C89484242F": {
+      "source": "Rimeholt",
+      "target": "ライムホルト"
+    },
+    "798741E0D6A92A3A7F3E173F58C9A72B": {
+      "source": "Doesn't even blink. Best one we've ever had.",
+      "target": "まばたきひとつしねえ。今までで一番だ。"
+    },
+    "816035CD9279065DAEA62356DF6D2628": {
+      "source": "Observing. Black as a boot, that night, and a man came up the north road through the storm — tall, a long coat, striking something on his hand. A little fork. Ting. Ting.",
+      "target": "観察さ。あの夜は長靴の中みたいに真っ暗でな、吹雪の中、北の街道を男がひとり登っていった――背が高くて、丈の長い上着で、手のひらに何かを打ちつけてた。二股の、小さなやつさ。キィン。キィン。"
+    },
+    "821534D762A56BA3E20D92A87EBE7850": {
+      "source": "Harbour's closed. Has been since the ice came in. There's a fee for asking.",
+      "target": "港は閉鎖中だよ。氷が張ってからずっとね。聞くだけでも料金をいただくよ。"
+    },
+    "849001DCF931D284B7F8B98369C63667": {
+      "source": "The Bell of Rest",
+      "target": "眠りの鐘"
+    },
+    "863689DAE37C2D39A923DA2A933F16F4": {
+      "source": "The Bell of Harvest",
+      "target": "実りの鐘"
+    },
+    "0887007CA2AED877783D809519A9D2AC": {
+      "source": "A hut of split logs. Snares hang from every peg — and one rabbit, frozen in mid-escape.",
+      "target": "割った丸太の小屋。どの釘にも罠がぶら下がっている――それと、逃げる途中で凍りついたウサギが一匹。"
+    },
+    "4026794A8E0CB3B624EEAFA2A611EDBB": {
+      "source": "A draught for the road? Brother Fallow blesses them. I mostly just bottle them.",
+      "target": "道中に回復薬はいかが？　ファロウ修道士が祝福してくれてるんだよ。あたしはだいたい、瓶に詰めてるだけだけどね。"
+    },
+    "4091270AAA5DC37007FACF0C452F1C61": {
+      "source": "I'll be at the square, sparrow. There's something I should have given you a long time ago.",
+      "target": "広場で待っているよ、小すずめ。ずっと前に渡しておくべきだったものがあるんだ。"
+    },
+    "4349824F9AEF41164555A3836B2191CF": {
+      "source": "Rimeholt",
+      "target": "ライムホルト"
+    },
+    "6566875B293A95FDC8A339400AE6D075": {
+      "source": "I'll take you. For a bell's worth of bronze.",
+      "target": "案内してやるよ。鐘ひとつ分の青銅でな。"
+    },
+    "8022428E64A4AFBAE670D68B7FA08634": {
+      "source": "Here — first thing the tide brought in. For luck.",
+      "target": "ほら――潮が最初に運んできたもんだ。お守りにな。"
+    },
+    "09350883BA9EB471D3749215F3D3EAB9": {
+      "source": "Seven years of grain, never threshed. It smells of a summer nobody had.",
+      "target": "七年分の穀物が、脱穀されないまま積まれている。誰も過ごさなかった夏の匂いがする。"
+    },
+    "16514465F679A4C83DD9A19C9DDE2C2D": {
+      "source": "Somebody tuned these chimes. Bronze does what it was cast to do.",
+      "target": "誰かがこの小鐘を調律したんだ。青銅は、鋳られたとおりに鳴る。"
+    },
+    "22603117AA5C0F15647A4243E824A5B7": {
+      "source": "The south bell! Is the sea real? Is it bigger than the lake?",
+      "target": "南の鐘！　海ってほんとにあるの？　湖よりおっきい？"
+    },
+    "23941854A3C4DD17F5C50D492ABC75D1": {
+      "source": "A seashell from Saltcombe, from the sea.",
+      "target": "ソルトコームの貝殻。海から来たものを。"
+    },
+    "27982778F2FEC5F58540700F08321189": {
+      "source": "I keep looking at the sea and waiting for it to stop again. Silly. It's only water.",
+      "target": "つい海を眺めて、また止まるんじゃないかって待っちまう。ばかだよな。ただの水なのに。"
+    },
+    "32018271A8F5AC0865D05E3D9A1BB023": {
+      "source": "The Bells of Evermere",
+      "target": "エヴァーミアの鐘"
+    },
+    "32018271A8F5AC0865D05E3D9A1BB023.2": {
+      "source": "A tale of the year that stopped",
+      "target": "止まった年の物語"
+    },
+    "45770347C5F136C279CEFD49663E43F3": {
+      "source": "The chapel is cold. Seven rows of candles, all of them lit.",
+      "target": "礼拝堂は冷えきっている。ろうそくが七列、どれにも火が灯っている。"
+    },
+    "61924768EAFE34937C1A7F273B5637B8": {
+      "source": "Itemise it. He likes a thing done properly.",
+      "target": "明細つきで頼む。きちんとした仕事が好きな人だから。"
+    },
+    "66461843AFE2664B2C921FD3BFC01A5A": {
+      "source": "Grandda said the Bell of Waking was tuned to open them. Let's see if he was right.",
+      "target": "じいちゃんが言ってた。目覚めの鐘は、これを開かせるように調律してあるって。合ってたかどうか、確かめよう。"
+    },
+    "74160077D540C32C80F7463EA219995A": {
+      "source": "The stream's talking under the ice by the wheel. First time since that night. I put my ear to it.",
+      "target": "風車のそばの小川が、氷の下でしゃべってるの。あの夜から初めてだよ。耳をつけて聴いてみたんだ。"
+    },
+    "350018980D955E0E1A1A5092E01786EF": {
+      "source": "The drift's gone off the cellar hatch. Cider wife won't miss a bottle. Or a chest.",
+      "target": "地下室の戸から吹きだまりが消えたぜ。リンゴ酒のおかみだって、一本くらい減っても気づかないさ。箱ひとつでもな。"
+    },
+    "809169588BB3D3371E0DE3034F34D3D5": {
+      "source": "I came up to see the spring for myself. Wenna says I owe her for the cart.",
+      "target": "春をこの目で見ようと思って、のぼってきたんだ。荷車代はツケにしとくって、ウェンナに言われた。"
+    },
+    "893752004B8B34A915A9DC57882D9500": {
+      "source": "The lake's full of fish that think it's still the night it froze. I'll not tell them if you won't.",
+      "target": "湖はね、まだ凍ったあの夜だと思いこんでる魚でいっぱいさ。あんたが黙ってるなら、あたしも言わないでおくよ。"
+    },
+    "9235568619BECB49EDB7A7D70A9B250F": {
+      "source": "Bound in ice for seven winters",
+      "target": "七つの冬、氷に縛られて"
+    },
+    "80893500187C4AE13EE9DE1E015EF6A6": {
+      "source": "That's three. A blossom, a shell and a leaf. Gran says there's one more season, and it's ours.",
+      "target": "これで三つ。お花と、貝がらと、葉っぱ。おばあちゃんがね、季節はもうひとつあって、それはあたしたちのなんだって。"
+    },
+    "18527884915869FF396699D79F20C094": {
+      "source": "Go out",
+      "target": "外に出る"
+    },
+    "981331532385267FCFF012F36F9E741A": {
+      "source": "♪ Gold, little field, for the reapers are home…",
+      "target": "♪ みのれよ、麦よ　刈り手が帰る……"
+    },
+    "A1D1B93B614FB60F13173CBB66BC68D0": {
+      "source": "Light",
+      "target": "灯す"
+    },
+    "A2E780479F13F4047FDA9A3AA4846B73": {
+      "source": "The mills? Strike the hub. Old Mabry swears by it, and he's been wrong about everything else.",
+      "target": "風車ですか？　軸を叩くのです。メイブリーじいさんのお墨つきですよ。ほかのことでは、何から何まで間違ってきた人ですが。"
+    },
+    "A5E7DCA4A3EBA090DC9C731BC1276937": {
+      "source": "Amberfield. Monks and mills. I've never stolen from a monk. Never had the chance.",
+      "target": "アンバーフィールドか。修道士と風車の土地だ。修道士から盗んだことは一度もない。機会がなかったんでね。"
+    },
+    "A6CD5251D2F661EBDA47FD458C780444": {
+      "source": "Two bells! I've started icing them. That's how hopeful I am. Number 2,570, with a cherry on.",
+      "target": "鐘が二つ！　アイシングをかけはじめたのよ。それくらい期待してるってこと。2,570個目、さくらんぼのせ。"
+    },
+    "A9AD547D9D339510D93AAFFC877A0AEE": {
+      "source": "The armour kneels where it fell, empty. There is frost on the inside of the helm, and nothing else.",
+      "target": "鎧は倒れたその場で、ひざまずいている。中は空っぽだ。兜の内側に霜がついている――それ以外には、何もない。"
+    },
+    "A9D958C695E55ABA805D2B36293954D8": {
+      "source": "Your grandfather tuned the wayside chimes, you know. Wake, Turn, Gold. He said a wood should learn the song before the children did.",
+      "target": "道ばたの小鐘は、あなたのおじいさまが調律したのですよ。めざめよ、めぐれよ、みのれよ。森は子どもたちより先に歌を覚えるべきだ、とおっしゃっていました。"
+    },
+    "A18A2DB919CDDFAAF5404A31CE4E091C": {
+      "source": "Ring",
+      "target": "鳴らす"
+    },
+    "A20F4207AE3917B6EEC765E1E09C8FAE": {
+      "source": "Night, Tin.",
+      "target": "おやすみ、ブリキ。"
+    },
+    "A35B690E123986136AC7631FB5B917D0": {
+      "source": "Go and see them all. Then come and find me with your mother.",
+      "target": "みんなの顔を見ておいで。それから、おまえの母さんのところへ私を探しにおいで。"
+    },
+    "A66E6B8AA98E46539EC217B4E302E7D4": {
+      "source": "A maple leaf from Amberfield, red as a forge. Dilly has never seen one fall.",
+      "target": "アンバーフィールドのカエデの葉。炉のように赤い。ディリーは、葉が散るのを見たことがない。"
+    },
+    "A95F8AB9D69D11385A29AE6EC3F6C1AC": {
+      "source": "The year turns in order. Waking, Tides, Harvest, Rest — four bells, one at each edge of the valley, and each one frees its own edge into the season it was holding.",
+      "target": "年は順にめぐる。目覚め、潮、実り、眠り――谷の端ごとにひとつずつ、鐘は四つ。鳴らせば、鐘はそれぞれ自分の端を解き放つ。押さえこんでいた季節の中へ。"
+    },
+    "A300BD460FD79E1DDC003EA758B9DFBC": {
+      "source": "Three notes true. The last is the one I could never hold.",
+      "target": "音が三つ合った。最後のひとつは、私がずっとつかまえられなかった音だ。"
+    },
+    "A340FB352262BD0347C3FC026679EAEA": {
+      "source": "There's something in the pocket.",
+      "target": "ポケットに何か入ってる。"
+    },
+    "A364DCAF2E21D80785F46186F0751B2E": {
+      "source": "…Well. That's an answer.",
+      "target": "……なるほど。返事は来た。"
+    },
+    "A515B41BA4A729AF6C2EEA33804899D4": {
+      "source": "Never been up this far. The deer won't come past the steps.",
+      "target": "こんな上まで来たのは初めてだ。鹿だって、あの石段より先には来ないんだぜ。"
+    },
+    "A03699D465D583DFC8F0A102D0B1D5D4": {
+      "source": "Poacher of the Blossomwood",
+      "target": "花咲きの森の密猟者"
+    },
+    "A9250F38913DF9946C7FCD4430DBA047": {
+      "source": "Last chance for anyone to confess they've been lying this whole time…",
+      "target": "ずっと嘘をついてましたって白状するなら、今が最後のチャンスだぜ……"
+    },
+    "A312636FFFB6EE5BDA93C239903045EE": {
+      "source": "The Gate Watch",
+      "target": "門番"
+    },
+    "A5383901E0EDA69A4DE530AB6F0DF339": {
+      "source": "♪ Rest, little year — and begin it once more.",
+      "target": "♪ ねむれよ、年よ――また、はじめから。"
+    },
+    "A36113719C4A35B52E5459A5F64546BC": {
+      "source": "The gorge road. Seven winters of drift.",
+      "target": "峡谷道。七つの冬の吹きだまりでふさがっている。"
+    },
+    "AA8FE585E5A1A1A6CB2AF960C4C831C4": {
+      "source": "All that lamp oil. The harbour master down at Saltcombe counts hers, I hear. Every lamp.",
+      "target": "あれだけのランプの油だ。聞けば、ソルトコームの港長は自分の分を数えているそうだ。ランプ一灯ずつ。"
+    },
+    "AA9F16CB048532F5377C0F72CE368408": {
+      "source": "Is it true there was a colour called green? Not pine green. Grass green.",
+      "target": "みどりって色があったって、ほんと？　松のみどりじゃなくて。草のみどり。"
+    },
+    "AC0A3F898B7EE9F3C0883025CCFED5BD": {
+      "source": "Seven winters of a wrong note, then. And a whole valley made to hold it.",
+      "target": "それなら、七つの冬ぶん、外れた音を鳴らしていたんだね。谷ひとつまるごとに、それを抱えさせて。"
+    },
+    "AC6CC94754A080DC4E7181FDF0F2899D": {
+      "source": "Reeve of Amberfield",
+      "target": "アンバーフィールドの村長"
+    },
+    "ACBEF0AF3EEE61CEB0A498A676374551": {
+      "source": "The Blossomwood",
+      "target": "花咲きの森"
+    },
+    "AD7BFC4A78831391914EC70315FC4563": {
+      "source": "♪",
+      "target": "♪"
+    },
+    "AD875033023A8E2C00EC0083316BE36D": {
+      "source": "One kraken, removed. Paid: no. …Give it here.",
+      "target": "クラーケン一匹、撤去済み。代金：未払い。……よこしな。"
+    },
+    "AED6980CFFCF82861ADF3B526C96D7BC": {
+      "source": "Saltcombe",
+      "target": "ソルトコーム"
+    },
+    "AF3C47DF8ED4F6DAB63D1003B1E920C6": {
+      "source": "Oh, that's lovely. I'm never leaving this spot.",
+      "target": "ああ、こりゃいい。俺はもう、ここから一歩も動かないぜ。"
+    },
+    "AF59E643A09EBE93A87374FC4CF35BE2": {
+      "source": "Every knight carried a piece of my winter. That one carried the piece that was sorry.",
+      "target": "どの騎士も、私の冬をひとかけらずつ運んでいた。あれが運んでいたのは、すまないと思っていたかけらだよ。"
+    },
+    "AFA066954FB0D36FB92A71DB09C9A5CD": {
+      "source": "A rota on the door: the night watch, every night, for seven years. Nobody has crossed a name off.",
+      "target": "扉に当番表。夜警、毎晩、七年分。誰の名前にも線は引かれていない。"
+    },
+    "AFD5691D92F07763AFF92EFB355DC0F1": {
+      "source": "Is it… dead?",
+      "target": "死んだ……のか？"
+    },
+    "B0BE1480C30F38910ED2E903F8874225": {
+      "source": "It's a knight. It's with us. It doesn't do crows.",
+      "target": "騎士だよ。うちの連れさ。カラス追いはやらないよ。"
+    },
+    "B0F2DAA3FC939EDBDD9CAAF35AB38631": {
+      "source": "The Frost Gate. Ice to the sky — and it hums, when the wind's in the north.",
+      "target": "霜の門。空まで届く氷だ――北風が吹くと、うなる。"
+    },
+    "B1AC7C9F63DC86D1D71A80B65FE164C8": {
+      "source": "The nets are frozen into one grey block. Somebody has chalked FEE PAID on it.",
+      "target": "網が凍って、ひとつの灰色の塊になっている。誰かがチョークで「料金支払済み」と書いている。"
+    },
+    "B02F99B82A2DC6BCD1B1CB5B4A2981DE": {
+      "source": "Evermere",
+      "target": "エヴァーミア"
+    },
+    "B2FC135B7BB2A14B542681492B200030": {
+      "source": "Of the Patience",
+      "target": "ペイシェンス号の船乗り"
+    },
+    "B4FB92F7139B652CB2DE0F58EC72D132": {
+      "source": "Light",
+      "target": "灯す"
+    },
+    "B5A59EC0C9AC1A32A8ADB2F3B465CB23": {
+      "source": "→ {The Quay} · {the Mole}",
+      "target": "→ {波止場}・{突堤}"
+    },
+    "B6B647CAB383E61BC67D2C7FB998B7DC": {
+      "source": "Two bells, Mam. There's a harbour master who fights with a door. You'd have liked her.",
+      "target": "鐘が二つ、母さん。扉を持って戦う港長がいるんだ。母さんなら、きっと気に入ってた。"
+    },
+    "B6CF6999294FB8A61FD60DDA96D2AC22": {
+      "source": "Two thousand five hundred and fifty-seven lamps, one a night, for a brother's boat. Wenna has joined us — and taken her office door.",
+      "target": "ランプ二千五百五十七灯。弟の船のために、ひと晩にひとつずつ。ウェンナが仲間に加わった――事務所の扉ごと。"
+    },
+    "B7BE46C717662040775B9E003B3014E2": {
+      "source": "The Year Turns",
+      "target": "年はめぐる"
+    },
+    "B7E1A25F42CD61A7A6C088BDF402D0EA": {
+      "source": "…A fork.",
+      "target": "……音叉。"
+    },
+    "B8DEE2E8F453574811B029A91A3A5F9A": {
+      "source": "↓ {Evermere}",
+      "target": "↓ {エヴァーミア}"
+    },
+    "B16E332170ED6A8300B6DBE5EA913CBA": {
+      "source": "Corin Ashby knows the wood. The chimes come first, he says — the shrine gate has not opened since the frost.",
+      "target": "コリン・アシュビーはこの森に詳しい。まずは小鐘だと言う――霜が降りてから、社の門は一度も開いていないそうだ。"
+    },
+    "B45E50C4C2DF502F4823E1AA6B258963": {
+      "source": "I've been as far south as Saltcombe twice. Once on purpose.",
+      "target": "南はソルトコームまで、二度行ったことがあるぜ。一度は、行くつもりで行った。"
+    },
+    "B46BDB964B7EBA772004680E5613CD75": {
+      "source": "Under that, very large, the chalk snapped halfway: EAST TOO!!!",
+      "target": "その下に、ものすごく大きな字。チョークが途中で折れている。「ひがしも！！！」。"
+    },
+    "B53BCCC22D84A636F2176772E707AEC5": {
+      "source": "Tell it it's welcome to the field any year it likes.",
+      "target": "好きな年に、いつでも畑に来ていいよって伝えといて。"
+    },
+    "B62D023B2ECB2ACE9AFF770EB0B8825D": {
+      "source": "The Knight at the Forge Door",
+      "target": "工房の戸口の騎士"
+    },
+    "B63DD723BF57243D39782CDAD8D8B2A6": {
+      "source": "We sat down to eat, and the light never moved.",
+      "target": "わしらが夕飯の席についたら、日の光がそれきり動かんようになった。"
+    },
+    "B76B1678CB663E647EFD819231D9A414": {
+      "source": "Chapter Four",
+      "target": "第四章"
+    },
+    "B78B2DC684DFCA249608AA5407CD0DE7": {
+      "source": "Will you bring me a flower? A real one?",
+      "target": "お花、持ってきてくれる？　ほんもののやつ？"
+    },
+    "B87F147A588C90093704A1C2D0DFADCB": {
+      "source": "But there are cantors in the fields now — hollow things in choir robes, ringing bells of their own. When a cantor rings, the knights mend.",
+      "target": "ですが今は、畑に詠唱者がいます。聖歌隊の衣をまとった、中身のない者たちで、自分たちの鐘を鳴らしています。詠唱者が鳴らせば、騎士は直るのです。"
+    },
+    "B148D7EFEBB045D47C03369F1FBFD5EE": {
+      "source": "♪",
+      "target": "♪"
+    },
+    "B199C28A378FDC953A0DDE206F45E4AC": {
+      "source": "Warm through the door: cinnamon, and something burning slightly.",
+      "target": "戸口から、あたたかい匂いが漏れてくる。シナモンと、何かがちょっと焦げた匂い。"
+    },
+    "B215E4DA49F9F4BC0FA7768DB9400FFF": {
+      "source": "The west road to the Blossomwood is open.",
+      "target": "花咲きの森へ続く西の街道が開いた。"
+    },
+    "B224E32F31E88C7B9B8CB4CE8D915E60": {
+      "source": "Go on, Bellkeeper. Wake them.",
+      "target": "さあ、鐘守。起こしておやり。"
+    },
+    "B547B7BAD7FAF6D97E378BA3646C4CB5": {
+      "source": "Chalked under it, in a child's round hand: THE WEST BELL RANG.",
+      "target": "その下に、子どもの丸っこい字でチョーク書き。「にしのかねがなった」。"
+    },
+    "B0572A49F32280DAF0356A29E78D86A8": {
+      "source": "Where the Bells Fell Silent",
+      "target": "鐘の黙した地"
+    },
+    "B730A2AE01E985FFF1857DD8BD57D627": {
+      "source": "Seven years in Evermere sleeping on my sister's floor. You've no idea what she snores like.",
+      "target": "七年も、エヴァーミアで姉貴んちの床に寝てたんだ。あいつのいびきがどんなだか、あんたにゃ想像もつかねえよ。"
+    },
+    "B2074D4B3CA3577442F3A7C748761760": {
+      "source": "There. Gone back down where it came from. And you'll want a receipt for that.",
+      "target": "ほら。来たところへ帰っていったよ。で、その分の領収書がいるだろう？"
+    },
+    "B4910E6AB5D191A266341B7619EC8339": {
+      "source": "Strike the hub",
+      "target": "軸を叩く"
+    },
+    "B7791C4A3430B5BDE3B058FE98817FEE": {
+      "source": "Light",
+      "target": "灯す"
+    },
+    "B8360F956A4D40E37B2D211F71CA9865": {
+      "source": "Sit a moment. You've brought the spring up a hill; you can rest your legs.",
+      "target": "少しお座りなさい。春を丘の上まで運んできたのですもの、足を休めてもいいでしょう。"
+    },
+    "B52988BD981613DBDEDBC260AD425B98": {
+      "source": "Mam's shawl. Some nights I can hear the song she sang me, right up to the last line. Then nothing.",
+      "target": "母さんのショール。夜によっては、母さんが歌ってくれた歌が聞こえる。最後の一行の、すぐ手前まで。そこから先は、何もない。"
+    },
+    "B871383F89D9EB9C3C23BD7DC3A29DBD": {
+      "source": "Rimeholt",
+      "target": "ライムホルト"
+    },
+    "B5541274245C003745AEA7FD5C225EBA": {
+      "source": "Day One",
+      "target": "一日目"
+    },
+    "B18768369826AF629B3C0BDB85CE95B9": {
+      "source": "The Knight at the Forge Door",
+      "target": "工房の戸口の騎士"
+    },
+    "BABF7D43C2ABD5CA5C40DB7AE9ED93DA": {
+      "source": "A tale of the year that stopped",
+      "target": "止まった年の物語"
+    },
+    "BADFAAC259ADCB428DC70B74616F86FF": {
+      "source": "One kraken, removed. Paid: no. The lighthouse is up the cliff stair.",
+      "target": "クラーケン一匹、撤去済み。代金：未払い。灯台は崖の階段の上だ。"
+    },
+    "BC07C54F2887B183ADABA4BEF220D24A": {
+      "source": "Harbour Master of Saltcombe",
+      "target": "ソルトコームの港長"
+    },
+    "BC808E4453575F099BE08F1204038C0E": {
+      "source": "A shield, if you like. I'll want that back.",
+      "target": "盾がわりさ。貸しだからね、あとで返してもらうよ。"
+    },
+    "BCC34966A6604F5F0E1719464C4D6229": {
+      "source": "The Frost Gate. Seven winters thick.",
+      "target": "霜の門。七つの冬ぶんの厚みだ。"
+    },
+    "BCD89318AC14CEC01D4367BF1A069601": {
+      "source": "Three chimes rung, and the hill's still shut. Maybe it wants a fourth. Maybe it wants a fee.",
+      "target": "小鐘を三つ鳴らしたってのに、丘は閉じたままだ。四つ目が要るのかもな。それとも、料金か。"
+    },
+    "BCF0A6F1BF293FB10175D431EA247295": {
+      "source": "The citadel at the head of the valley",
+      "target": "谷の奥の城塞"
+    },
+    "BD81AA8799F6D6B835644ACE5E766438": {
+      "source": "Abbey bell's up the hill, past the mills. They've not turned since. Nor has anything.",
+      "target": "修道院の鐘は丘の上、風車の先じゃ。風車はあれから回っとらん。何ひとつ、めぐっとらんよ。"
+    },
+    "BDCB9E047375BA1BCBA72655E3FF703A": {
+      "source": "Listen. Hear that creak? She's turning. She's turning!",
+      "target": "聞いて。きしんでるの、聞こえる？　回ってる。あの子が回ってる！"
+    },
+    "BE4C35F88F1D6CAAB12049824E78CEA6": {
+      "source": "Don't let it be morning, Grandda. Please.",
+      "target": "朝にしないで、じいちゃん。おねがい。"
+    },
+    "BE363A294AB868D7CBE98D4F75704A92": {
+      "source": "Linnet! LINNET! Look at my crown!",
+      "target": "リネット！　ねえ、リネットってば！　あたしの冠、見て！"
+    },
+    "BEAC09F49B5A38FAF8CD511FF5C65FFA": {
+      "source": "One ridge, removed. I'll put it on the account.",
+      "target": "氷の尾根ひとつ、撤去済み。ツケにしとくよ。"
+    },
+    "BF3F630A881569C982792909A5A3E15D": {
+      "source": "That's a mooring fee, that is. And that one. And you, with the face.",
+      "target": "係留料ひとつ、と。そっちもだ。それから、そこのふてぶてしい顔のあんたもね。"
+    },
+    "BF019AE9C109FC59C17C58021946CD0C": {
+      "source": "The stream heard it. Well. There's my bridge.",
+      "target": "川が聞きつけたか。よし。橋のできあがりだ。"
+    },
+    "BF862A40610621DE09F2998FC3135346": {
+      "source": "♪ Turn, little tide, bring the boats back to shore…",
+      "target": "♪ めぐれよ、潮よ　舟を岸へと……"
+    },
+    "BFFE86F15EB58B2D9B297090FC24A433": {
+      "source": "♪",
+      "target": "♪"
+    },
+    "C0C63D0FBE6F6F1EC5EC20CC4D4973B9": {
+      "source": "Three chimes rung, and the hill's still shut. Maybe it wants a fourth. Maybe it wants a fee.",
+      "target": "小鐘を三つ鳴らしたってのに、丘は閉じたままだ。四つ目が要るのかもな。それとも、料金か。"
+    },
+    "C2B45788C7CC702B17E993273B07AAE8": {
+      "source": "Take a slice for the road. …No? Nobody ever does. The crows won't touch them any more either.",
+      "target": "道中にひと切れ持っておいき。……いらない？　誰も持っていかないのよねえ。カラスだって、もう見向きもしないんだから。"
+    },
+    "C2BDA73F59AAB05390800403A687A956": {
+      "source": "Rimeholt",
+      "target": "ライムホルト"
+    },
+    "C4A51D895A57E22C298716C09CDE9C84": {
+      "source": "Gone nowhere? We came round the head in a fog so thick you could lean on it. Last thing I saw before it closed — old Halloway, up on the north road, ringing a bell black as a kettle.",
+      "target": "一歩も進んでないだって？　寄りかかれそうなくらい濃い霧の中、岬を回ってきたんだぞ。霧が閉じる前に最後に見たのは――北の街道の上にいた、ハロウェイのじいさんだ。やかんみたいに真っ黒な鐘を鳴らしてた。"
+    },
+    "C04D4E2B0B8BDD6B38DE80F489DA9A40": {
+      "source": "I told you. I told everyone.",
+      "target": "言っただろ。みんなに言ってたんだ。"
+    },
+    "C9F570528C76606DFAD3408D9B3DE347": {
+      "source": "Rest, little year—",
+      "target": "ねむれよ、年よ――"
+    },
+    "C24B250B6F2CB96ABB31816F1C4568A4": {
+      "source": "Nobody moors in the basin. Not since my father's day. The fishermen say there's something under it.",
+      "target": "船溜まりに船をつなぐ者はいないよ。親父の代からずっとね。漁師たちは、下に何かいるって言う。"
+    },
+    "C41BAE39479C4C203E8FB58172E98B05": {
+      "source": "Bigger than the lake. It doesn't stop. It just goes on till it's sky.",
+      "target": "湖より大きい。終わりがないんだ。ずっと続いて、そのまま空になる。"
+    },
+    "C41DCA6C0830624ED3CC5F6FA6862D30": {
+      "source": "Works on novices too.",
+      "target": "見習いにもよく効きます。"
+    },
+    "C43DB7419EA3FAD33C695C56A5AE9BE6": {
+      "source": "The Knight at the Forge Door",
+      "target": "工房の戸口の騎士"
+    },
+    "C53D0A77E8BEB23290C70089F7B8F29C": {
+      "source": "Light",
+      "target": "灯す"
+    },
+    "C69DC76944273D4BCA15572C4BCDA9F1": {
+      "source": "Now bring me a leaf. A red one. Gran says they go red before they fall, like they're embarrassed.",
+      "target": "次は葉っぱね。赤いの。おばあちゃんがね、葉っぱは落ちる前に赤くなるんだって。はずかしいみたいに。"
+    },
+    "C82BC35FF4CF17162EA69BE759787420": {
+      "source": "The year has turned, and spring has come to Evermere. Grandda has gone to sit with Mam in the churchyard.",
+      "target": "年はめぐり、エヴァーミアに春が来た。じいちゃんは教会墓地へ、母さんのそばに座りに行った。"
+    },
+    "C94D8E6407589853F2052A5E0113DE56": {
+      "source": "I should go and sit with your mother. Seven years, and I never once went.",
+      "target": "おまえの母さんのところへ行って、そばに座ってやらないとね。七年、一度も行かなかった。"
+    },
+    "C94DB1844E241C2B1E57AF7F34C124B8": {
+      "source": "First pressing in seven years. It's a bit sharp. So am I.",
+      "target": "七年ぶりの一番搾りだよ。ちょっときついけどね。あたしもさ。"
+    },
+    "C573BB3E8EB4BFE7CA73F85FC246CF33": {
+      "source": "Her sails haven't turned since that night. I grease her every week anyway. You never know.",
+      "target": "あの夜から、あの子の羽根は回ってない。それでも毎週油をさしてるの。何があるかわからないからね。"
+    },
+    "C2180CC8B7356A3185F1C6A343D1D9A4": {
+      "source": "Something walks in the Harvest Close at dusk. Which is always, now. It wears a coat.",
+      "target": "夕暮れになると、収穫の囲い畑を何かが歩くのです。今はいつだって夕暮れですが。上着を着ていますよ。"
+    },
+    "C5900A5C01904326D4422451BA9FEBEA": {
+      "source": "And the Hushguard came out of the snow behind him. Dozens. Following the note like hounds after a horn. North, the lot of them.",
+      "target": "そしたら、そいつの後ろの雪の中から、静寂の鎧兵が出てきた。何十体もだ。角笛を追う猟犬みたいに、あの音についてってな。北へ、一体残らずさ。"
+    },
+    "C6154AC2C81DC921458ED3F97ACE307D": {
+      "source": "West first. The Bell of Waking.",
+      "target": "まずは西。目覚めの鐘だ。"
+    },
+    "CACE10EE2E10FC321EA162ED128878DE": {
+      "source": "A tale of the year that stopped",
+      "target": "止まった年の物語"
+    },
+    "CB5B2B9AC74F95DF33C9C54590868975": {
+      "source": "Here. It's yours. It always was going to be.",
+      "target": "ほら。おまえのものだ。ずっと前から、そうなると決まっていたんだよ。"
+    },
+    "CB275E1E80F35C8A12A67898064AB304": {
+      "source": "Listen to that. Running water. I'd forgotten it had a voice.",
+      "target": "聞けよ。水が流れてる。水にも声があるってこと、忘れてたぜ。"
+    },
+    "CBA8AAFAE8F84F7DFA701E3AC658B088": {
+      "source": "Every bell in the valley just rang at once, and you look like somebody stood on your foot.",
+      "target": "谷じゅうの鐘がいっぺんに鳴ったってのに、あんた、足を踏まれて我慢してるみたいな顔してるぜ。"
+    },
+    "CBB5DCF7684798A96421E1CB23ABC172": {
+      "source": "Nobody came running. Good.",
+      "target": "誰も駆けつけてこない。よし。"
+    },
+    "CBD99F3126D6E1EAE9DDDECDF258F844": {
+      "source": "Every fire's out — stand in your own bell's ring, Linnet!",
+      "target": "火が全部消えた――自分の鐘の響きの中に立ちな、リネット！"
+    },
+    "CC7A7DF3429A0959D9CC1F7AB49FC317": {
+      "source": "Gull Steps, clear again. My father carried his lamps up these every evening for forty years.",
+      "target": "カモメの石段、また通れるようになったね。親父は四十年、毎晩ここをランプを持って登ったんだよ。"
+    },
+    "CCC14D19110C7F59E2265EBC29E06B82": {
+      "source": "…It's very good.",
+      "target": "……すごく、おいしい。"
+    },
+    "CD709F5A1B5B3DAEEA60B015A41BEEA5": {
+      "source": "One bell. It's blossom out west, Mam. Pink and white. You'd have picked an armful.",
+      "target": "鐘がひとつ。西は花盛りだよ、母さん。桃色と白。母さんなら、両腕いっぱいに摘んでた。"
+    },
+    "CDF64CE00F013692428A8B42DB6B57D7": {
+      "source": "Wake, little blossom… turn, little tide… gold, little field. Wake, turn, gold.",
+      "target": "めざめよ、つぼみ……めぐれよ、潮よ……みのれよ、麦よ。めざめよ、めぐれよ、みのれよ。"
+    },
+    "CDF301EFAD5DBE32E6A364B6FE0F3B07": {
+      "source": "Ice shove. The whole lake's been leaning on this shore since the freeze. I'd need a crowbar the size of a mast.",
+      "target": "押し氷だ。凍ってからずっと、湖じゅうの氷がこの岸にのしかかってる。帆柱ほどのかなてこでもなきゃ無理だ。"
+    },
+    "CE2F936AC804510CBC4CFE43C14549BE": {
+      "source": "Seven years? It was Tuesday a minute ago. Is old Penhallow still at the chandlery? He owes me a rope.",
+      "target": "七年？　ついさっきまで火曜日だったぞ。ペンハロウのじいさんは、まだ船具屋にいるのか？　あいつにはロープ一本、貸しがあるんだ。"
+    },
+    "CE7D29B1ECCD2E75D89C39A332A39882": {
+      "source": "Poacher of the Blossomwood",
+      "target": "花咲きの森の密猟者"
+    },
+    "CF2770A5D6429679A2E2041A08A6DD4F": {
+      "source": "Grandda is waiting at the square's bell.",
+      "target": "じいちゃんが広場の鐘のところで待っている。"
+    },
+    "CFB32D4804DE00323E42DF50CC76D4D4": {
+      "source": "First morning I've not had to light a lamp. I don't know what to do with my hands.",
+      "target": "ランプを灯さずにすむ朝は、これが初めてだ。手のやり場に困る。"
+    },
+    "CFE86E0686036212E208534ECDC52C1A": {
+      "source": "Light",
+      "target": "灯す"
+    },
+    "D0D35BECE39151DB5AAA8E0B7FCEC0D8": {
+      "source": "So. Ringers first. Then the knights. Then supper.",
+      "target": "ですから、まず鐘鳴らしから。次に騎士。それから夕飯です。"
+    },
+    "D2F2C5C6DA5420D07CB357A758D2D0EC": {
+      "source": "Morning, Mam. …Evening. It's always evening.",
+      "target": "おはよう、母さん。……いや、こんばんは。いつだって晩だ。"
+    },
+    "D2FDA1811A9BFCF9EF5FFCF1365137E4": {
+      "source": "Amberfield",
+      "target": "アンバーフィールド"
+    },
+    "D3A1AC1923D32E31C187569D15886AEF": {
+      "source": "Hymn sheets frozen to the lectern. Every hymn on them is the same four notes, backwards.",
+      "target": "書見台に凍りついた賛美歌の譜面。どの歌も、同じ四つの音を逆さにたどっている。"
+    },
+    "D3B8664BA79247879A41BB6D3919EED8": {
+      "source": "♪",
+      "target": "♪"
+    },
+    "D3ED560EF41FDAD7285F40C6A2170AAF": {
+      "source": "Strike",
+      "target": "打つ"
+    },
+    "D8E2694E8837AA82A1281352194E4B9C": {
+      "source": "When that bell goes, stand by a fire. I'm not paying to dig anyone out.",
+      "target": "あの鐘が鳴ったら、火のそばに立ってな。掘り出し代なんか払わないからね。"
+    },
+    "D9CC38F740773E0C22D7AC1BA48BE5AD": {
+      "source": "Amberfield",
+      "target": "アンバーフィールド"
+    },
+    "D9EE575DF5D3DFF1288A5ED48C22C053": {
+      "source": "No? Just me, then.",
+      "target": "いない？　じゃあ、俺だけか。"
+    },
+    "D51D3552B3C0F62E81F69F0FE6CA2D5A": {
+      "source": "Draughts too, if you're hurt. Wenna makes me keep them. Says it's a harbour regulation. It isn't.",
+      "target": "けがしてるなら、回復薬もあるよ。ウェンナに置いとけって言われてね。港の規則なんだってさ。そんな規則、ないけどね。"
+    },
+    "D75A2671AFE331FEBE0CFC12EE85E33F": {
+      "source": "Told you it'd turn.",
+      "target": "めぐるって言ったろう。"
+    },
+    "D83C4A097BBE5D3E1E6412BE96523E7D": {
+      "source": "EVERMERE — Day 1 of Spring.",
+      "target": "エヴァーミア――春、1日目。"
+    },
+    "D83C7F1FCE4E049A94B295B1354931F5": {
+      "source": "When I was a girl the sun went backwards for a whole afternoon. Nobody else noticed. Typical.",
+      "target": "あたしが娘っこだったころ、お日さまが午後いっぱい、逆向きに進んだことがあってね。気づいたのはあたしだけさ。いつものこったよ。"
+    },
+    "D404E3B636D6A135372C009549CF1FC8": {
+      "source": "Look! A crown of everything! A blossom, a shell, a red leaf — and a snowdrop, so winter doesn't feel left out.",
+      "target": "見て！　ぜんぶの冠なの！　お花と、貝がらと、赤い葉っぱと――それから、スノードロップ。冬がなかまはずれだって思わないように。"
+    },
+    "D724AB7DB72A9DB188242386269828EE": {
+      "source": "Got you, you thieving—",
+      "target": "捕まえたぞ、このこそ泥――"
+    },
+    "D981DCF8160EB16D5976E042862A2EA1": {
+      "source": "♪ Wake, little blossom… ♪",
+      "target": "♪ めざめよ、つぼみ…… ♪"
+    },
+    "D8281F683C5E2A76E35A4233104168D5": {
+      "source": "Seven years I watched that wall, and I'd have sworn nothing could shift it. Mind how you go up there.",
+      "target": "七年、あの壁を見張ってきた。何があろうと動かんと、誓ってもよかった。上では気をつけろ。"
+    },
+    "D9530D721D44A5757B7F3F7A47EA96E8": {
+      "source": "Light",
+      "target": "灯す"
+    },
+    "D85354E12B619DA8AF38F9AC6347E316": {
+      "source": "↓ The gorge road to Saltcombe. The Bell of Tides.",
+      "target": "↓ ソルトコームへの峡谷道。潮の鐘。"
+    },
+    "D838037F0C3A5672E04F0CCE85461DD3": {
+      "source": "The west bell, was it? Then I'll have flour on my hands by summer. Mark me.",
+      "target": "西の鐘だって？　なら、夏までにはこの手が粉だらけになるよ。覚えときな。"
+    },
+    "DA4BDD1373FB0C2E68FBC8D42DA2AC4D": {
+      "source": "You've gone grey, Wenna.",
+      "target": "白髪になったな、ウェンナ。"
+    },
+    "DAF04985981766DDD055A12B007999DF": {
+      "source": "Seven years she asked me what green smelled like. I said wait. I'm glad I said wait.",
+      "target": "七年ずっと、緑ってどんな匂いって聞かれてねえ。待ってなさいって言ったのよ。待ってなさいって言って、よかった。"
+    },
+    "DAFBF9B2DD4A76C1FB2AD2D62E4183ED": {
+      "source": "It's RED. Is it hot? It looks hot. …It's not hot.",
+      "target": "赤い！　あついの？　あつそう。……あつくない。"
+    },
+    "DD74520AB8B1FC3DF3FBC738E2302271": {
+      "source": "My hands shake now. A Bellkeeper wants steady hands.",
+      "target": "もう手が震えるんだよ。鐘守には、震えない手が要る。"
+    },
+    "DDEBFC4723BDE1BEDAD2DE4A906ACB71": {
+      "source": "Evermere",
+      "target": "エヴァーミア"
+    },
+    "DE3F3EC766413A5A0897DBC8E3C563C1": {
+      "source": "EVERMERE — Day 2,557 of Winter.",
+      "target": "エヴァーミア――冬、2,557日目。"
+    },
+    "DE388EAE297F476D7F130A7536A1FC33": {
+      "source": "Ring the Bell of Harvest?",
+      "target": "実りの鐘を鳴らす？"
+    },
+    "DED0335C0D54F7B6C2175A490FEDDF84": {
+      "source": "The sails are turning. That's all this one has to give.",
+      "target": "羽根は回っている。この風車にできるのは、ここまでだ。"
+    },
+    "DF3F5E7CD09EAE9265217AB62B129193": {
+      "source": "Evermere",
+      "target": "エヴァーミア"
+    },
+    "DFA5B1CC79AEFD66267D5911FD5FE263": {
+      "source": "The bells are broken, girl. Everyone knows that.",
+      "target": "鐘は壊れてるんだよ、嬢ちゃん。誰だって知ってるさ。"
+    },
+    "DFD121A62F2D508DAA15AEFAADC11730": {
+      "source": "The three chimes ring the first notes of Mam's song. Strike them in its order: Wake, Turn, Gold.",
+      "target": "三つの小鐘は、母さんの歌の最初の音を鳴らす。歌の順に打つこと――「めざめよ」「めぐれよ」「みのれよ」。"
+    },
+    "E1DD52EE89296FD0473F1A61205DAADE": {
+      "source": "They're all red over there. Red and gold, the whole field. Like the forge, but quiet.",
+      "target": "向こうは、どこも赤い。赤と金で、畑一面。炉みたいなのに、静かなんだ。"
+    },
+    "E1FAC7E383054A75AB00207F90175C66": {
+      "source": "I've come to ring the Bell of Tides.",
+      "target": "潮の鐘を鳴らしに来た。"
+    },
+    "E3B5E40D6C00F1D035D0DF371E4426C4": {
+      "source": "The reeve's door stands open, as it has for seven years. The supper is outside, where the light was.",
+      "target": "村長の家の戸は開いたままだ。七年前から、ずっと。夕飯は外に並べてある。あのとき光が差していた場所に。"
+    },
+    "E4D5ECE328FD596C7C9216DC359997C0": {
+      "source": "Can I keep it forever? Will it stay?",
+      "target": "ずっと持っててもいい？　このままでいてくれる？"
+    },
+    "E4E4A845BF63FE0F217893CC22BEA39B": {
+      "source": "Light",
+      "target": "灯す"
+    },
+    "E5F24F5335E9233AD1E4EE373D963EFB": {
+      "source": "Mam's gone, Grandda. She was gone before morning.",
+      "target": "母さんはもういない、じいちゃん。朝を待たずに逝ったんだ。"
+    },
+    "E8E0D6F502FDA3D9627B1A08D1CB5BA3": {
+      "source": "Evermere",
+      "target": "エヴァーミア"
+    },
+    "E9A8E8834A2C8AD8C396D43B4CA6DDC5": {
+      "source": "I'm keeping a tally. You'll want to be on the right side of it.",
+      "target": "勘定はつけてるよ。載るなら、借りより貸しのほうにしときな。"
+    },
+    "E22A14C192445854C990E3E4F7DE63F0": {
+      "source": "No mooring past the second bollard. — W. Gale",
+      "target": "二本目の係船柱より先は係留禁止。――W・ゲイル"
+    },
+    "E24A0C67E11B8A78DBF5BE8D84483A6D": {
+      "source": "It wants them in order. Those three notes — they're the start of Mam's song.",
+      "target": "順番どおりに鳴らせってことだ。あの三つの音――母さんの歌の出だしだ。"
+    },
+    "E40FB6AE2E22C8C5F6F7C3665A0E965A": {
+      "source": "Tin's armour stands beside the grave, empty. Blossom drifts down into its open helm.",
+      "target": "墓のそばに、ブリキの鎧が空っぽのまま立っている。開いた兜の中へ、花びらが舞い落ちる。"
+    },
+    "E41FF83703E8F311BF0F60BC990DB8FF": {
+      "source": "Oh, look, Cob — they've brought us a new mawkin. Isn't it handsome?",
+      "target": "まあ見て、コブ――新しいかかしを連れてきてくれたよ。男前じゃないの。"
+    },
+    "E55E79392C7F912BFD2D9645A670267F": {
+      "source": "Does it… want something?",
+      "target": "そいつ……何か欲しいのか？"
+    },
+    "E64B939984B18583F629BC387A01B1EA": {
+      "source": "Four bells in a row and a fifth, coloured in black. Underneath, in a child's letters: SO MAM CAN STAY.",
+      "target": "一列に並んだ四つの鐘と、黒く塗りつぶされた五つ目。その下に、子どもの字で「かあさんがいられるように」。"
+    },
+    "E98ECCF8CC3D6FA70FB7C2F849A7008A": {
+      "source": "Osmund Halloway's old work coat, taken off the Harvest Mawkin. Bell-metal burns on both cuffs.",
+      "target": "オズマンド・ハロウェイの古い仕事着。収穫のかかしから取り戻したもの。両の袖口に、鐘の地金の焼け焦げがある。"
+    },
+    "E341E44CD2E349322EEF6863C2459B7A": {
+      "source": "Visitors. First since the ice. Morwenna Gale, harbour master — that'll be a landing fee.",
+      "target": "客か。氷が張ってから初めてだね。モルウェンナ・ゲイル、港長だ――上陸料をいただくよ。"
+    },
+    "E681A93C063F7C1CF959F2A19C901BFB": {
+      "source": "The charcoal burner's hut. His last fire is still laid in the hearth, seven years unlit.",
+      "target": "炭焼きの小屋。炉には最後の焚きつけが組まれたまま、七年、火が入っていない。"
+    },
+    "E958F3371E9FBB0A490214C5F5FECD01": {
+      "source": "A flower from the Blossomwood. A real one.",
+      "target": "花咲きの森の花。本物の花を。"
+    },
+    "E984A15A67FFD2403F4F49DB028F156F": {
+      "source": "It suits you.",
+      "target": "似合ってる。"
+    },
+    "E1533CF9F0C8667CB6AEC6D60788565C": {
+      "source": "The chapter house. Seven years of hymn sheets, frozen to the lectern in the middle of a verse.",
+      "target": "参事会室。賛美歌の譜面が、節の途中で書見台に凍りついたまま、七年。"
+    },
+    "E3773BBE7CE3A524AAD30298DA89DCC0": {
+      "source": "Oh, I'm crying anyway.",
+      "target": "あら、やっぱり泣いちゃったわ。"
+    },
+    "E6227FBE1FF966E1FD5C9098BF7A7A1B": {
+      "source": "…I can't",
+      "target": "……できない"
+    },
+    "E7134DE65A4DC2BE6BB76D82B6C2A82C": {
+      "source": "A knight walked right past the forge last night. I hid. Bravely.",
+      "target": "ゆうべ、騎士が工房の前を歩いてったんだ。ぼく、隠れたよ。勇敢にね。"
+    },
+    "E9382E034A2573A229EBE3449E3C9A9B": {
+      "source": "Like the forge but quiet. …I'm going to think about that all night.",
+      "target": "炉みたいなのに、静か。……あたし、ひと晩じゅうそのこと考えちゃう。"
+    },
+    "E37241BA0350421355EF582FE3ACD683": {
+      "source": "Chapter Two",
+      "target": "第二章"
+    },
+    "E46835437C28C7ED7A3FAADC06D681B4": {
+      "source": "Kneel",
+      "target": "ひざまずく"
+    },
+    "E74454985700C6CE7FFFE8E8708F76E0": {
+      "source": "Still rings true. That's something.",
+      "target": "まだ音は合ってる。それだけでもましだ。"
+    },
+    "EAD917F85C36B5780E9B6213D67EE5DB": {
+      "source": "EVERMERE — Day 2,578 of Winter.",
+      "target": "エヴァーミア――冬、2,578日目。"
+    },
+    "EAF1BD5552BB72CFD50B98F1766D4666": {
+      "source": "Somebody tuned these chimes. Bronze does what it was cast to do.",
+      "target": "誰かがこの小鐘を調律したんだ。青銅は、鋳られたとおりに鳴る。"
+    },
+    "EB11CE4472C89F18CE52D3F19DC3E466": {
+      "source": "Last Monk of Amberfield",
+      "target": "アンバーフィールド最後の修道士"
+    },
+    "EBD9CDE2ED88AE432127AF31F2910307": {
+      "source": "I asked after Mabli Price all morning. Married a cooper. Three children. Seven years, and I still had a ribbon for her in my pocket.",
+      "target": "朝からずっと、マブリ・プライスのことを聞いて回ったんだ。樽職人と結婚したってさ。子どもが三人。七年たっても、俺のポケットには、あの子にやるリボンが入ったままだったのにな。"
+    },
+    "EC687273F040CDDE5AA00CEA092B599C": {
+      "source": "Light",
+      "target": "灯す"
+    },
+    "ECA6686FC3EF005C92D620D6A5BB0AE9": {
+      "source": "Rimeholt",
+      "target": "ライムホルト"
+    },
+    "ECB1EAC05E1951F03E414BCDA8DC1CE5": {
+      "source": "Twelve places, eleven empty. And a pie nobody's cut. That's a supper owed.",
+      "target": "席が十二、空きが十一。誰も切ってないパイがひとつ。夕飯一回分の貸しだね。"
+    },
+    "ECD7392B607A140D2C267C2970EBCCFA": {
+      "source": "Ring",
+      "target": "鳴らす"
+    },
+    "ECF73D07A42FEB4A899FB272063FC88C": {
+      "source": "Empty. A kettle on a cold hob, and the gulls nesting in the chimney.",
+      "target": "誰もいない。冷えたかまどにやかんがひとつ。煙突ではカモメが巣を作っている。"
+    },
+    "EDD6FD65FF7C7F0B608EC9857814373F": {
+      "source": "Then we'll go up and have a word with him. I've brought the ledger.",
+      "target": "なら、登ってって話をつけようじゃないか。帳簿なら持ってきたよ。"
+    },
+    "EDFDF44E8B014473C9ECF6E81E7F6911": {
+      "source": "Light",
+      "target": "灯す"
+    },
+    "EE16976A0DC2C406F68B818DAF33A8AE": {
+      "source": "THE MOLE",
+      "target": "突堤"
+    },
+    "EE3741554F67E93541275855FD39CDBC": {
+      "source": "Tin?",
+      "target": "ブリキ？"
+    },
+    "EFA64D82760CE69E89E0D382383017CE": {
+      "source": "Petals in my hair. Seven years of snow and now petals. I'll never get them out.",
+      "target": "髪に花びらだ。七年も雪だったのに、今度は花びらときた。こりゃ一生取れないな。"
+    },
+    "F0D8B412F04865D451794A85C8075066": {
+      "source": "The Harvest Mawkin",
+      "target": "収穫のかかし"
+    },
+    "F0D8B412F04865D451794A85C8075066.2": {
+      "source": "Keeper of the Frozen Field",
+      "target": "凍てつく畑の番人"
+    },
+    "F0D43513A63A76CA7EBFFDF6D48D5501": {
+      "source": "It stood at our door every night. Seven years.",
+      "target": "毎晩、うちの戸口に立ってた。七年も。"
+    },
+    "F1B0D320FDAB17D323E48D3C0F0E78B8": {
+      "source": "Look at it. Gold to the hedges. I'd forgotten wheat could move.",
+      "target": "ほれ、見てごらん。生け垣まで一面の金色じゃ。麦が揺れるもんだってことを、すっかり忘れとったよ。"
+    },
+    "F1BB36DB36B73C6C2B5E121F77FF279F": {
+      "source": "There. Warm iron.",
+      "target": "よし。鉄が温まった。"
+    },
+    "F1D94AF5443D52A52239E4BB504F88FC": {
+      "source": "Whatever he is up there, he's your family. I'll bill him gently.",
+      "target": "あの上で何になっていようと、あんたの家族だ。請求はお手やわらかにしとくよ。"
+    },
+    "F2A634E386184E0C09282B0833C380C7": {
+      "source": "THE BELLS OF EVERMERE",
+      "target": "エヴァーミアの鐘"
+    },
+    "F002B37EE197632642B6550D70B858A4": {
+      "source": "They say the fish at Saltcombe come the size of carts. I'll believe it once I've told it myself.",
+      "target": "ソルトコームの魚は荷車ほどもでかいって話だ。自分の口で一度語ってみたら、信じてやるよ。"
+    },
+    "F5BDED5DAD00A70909787A400425235F": {
+      "source": "The Bell of Waking",
+      "target": "目覚めの鐘"
+    },
+    "F5DBA860AAC125350AA588D826EE32B6": {
+      "source": "Prologue",
+      "target": "序章"
+    },
+    "F6BD78DBF013D57C10CF593116882BB7": {
+      "source": "And then the abbey bell, clear across the valley, and we all just — got up and walked home.",
+      "target": "そしたら修道院の鐘が、谷の向こうからはっきり聞こえてさ。みんなで、こう――起きて、歩いて家に帰ってきたんだ。"
+    },
+    "F6EA5DE509F7F52D6AF9DBCBD60ED1AD": {
+      "source": "Wake, turn, gold. The gate heard it. Up the hill, then.",
+      "target": "めざめよ、めぐれよ、みのれよ。門が聞きつけた。じゃあ、丘の上へ。"
+    },
+    "F7FFD77E037C4ED2CDAB865C79D9C9B2": {
+      "source": "Mam's shawl. I remember the last line now. I'll sing it to her when it's morning.",
+      "target": "母さんのショール。最後の一行、今は思い出せる。朝が来たら、母さんに歌って聞かせよう。"
+    },
+    "F8AAD04566E53CA4F1A7248C1C9ABB81": {
+      "source": "It is not.",
+      "target": "そんな決まりはないよ。"
+    },
+    "F8CCE1D4465146A3E0F3C0605F1BCD2A": {
+      "source": "A spiral shell the first tide in seven years brought to Saltcombe's quay. Dilly has never heard the sea in one.",
+      "target": "七年ぶりの最初の潮が、ソルトコームの波止場に運んできた巻き貝。ディリーは、貝殻に耳をあてて海の音を聞いたことがない。"
+    },
+    "F9BFB8171FC5D6CFB215F98AB284F329": {
+      "source": "The Bell of Rest",
+      "target": "眠りの鐘"
+    },
+    "F9BFB8171FC5D6CFB215F98AB284F329.2": {
+      "source": "Rest, little year — and begin it once more",
+      "target": "ねむれよ、年よ――また、はじめから"
+    },
+    "F046F5EE58867A352AE2050955577CE7": {
+      "source": "Where the Bell of Tides hangs",
+      "target": "潮の鐘の掛かるところ"
+    },
+    "F48DC95D1282E7B3B721D3FE454C1545": {
+      "source": "I taught your grandfather to ring. Left hand on the rope, right hand on your heart. He never listened.",
+      "target": "あんたのじいさんに鐘の鳴らし方を教えたのは、あたしだよ。左手は綱に、右手は胸に。ちっとも聞きゃしなかったけどね。"
+    },
+    "F50C2BA1A68135E546A8ADC2C503B082": {
+      "source": "A handbell. Does it work on the Hushguard?",
+      "target": "手鐘か。静寂の鎧兵にも効くのか？"
+    },
+    "F65F145CDC71A1F171798C77182B55DB": {
+      "source": "It wasn't dead. It was waiting.",
+      "target": "死んでなかった。待ってたんだ。"
+    },
+    "F68ACB2367A80AEAB158B3D784779064": {
+      "source": "Brother Fallow's lesson: the cantors ring and the knights mend. Silence the ringers first. The mills' fog closes the lane to the abbey.",
+      "target": "ファロウ修道士の教え――詠唱者が鳴らせば、騎士は直る。まず鐘鳴らしから黙らせること。風車の霧が、修道院への小路をふさいでいる。"
+    },
+    "F88AE9FACD647FBD931A91EDC70112DB": {
+      "source": "Tin looks at Linnet for a long moment. Then it reaches out and straightens her collar.",
+      "target": "ブリキが長いあいだリネットを見つめる。それから手を伸ばし、襟を直してやる。"
+    },
+    "F9500EFA5B1D79F15154E6662CFEDA7C": {
+      "source": "The Baker",
+      "target": "パン屋"
+    },
+    "F9876DAFEF7CA4920BCC2916CE0597B9": {
+      "source": "Saltcombe",
+      "target": "ソルトコーム"
+    },
+    "F41439BE9912BF2F3859B6055130D96F": {
+      "source": "You're telling me somebody tuned a whole wood to a lullaby.",
+      "target": "誰かが森をまるごと、子守唄に合わせて調律したって言うのか？"
+    },
+    "F50585B18917057D65FA1A1ED122ECB6": {
+      "source": "→ {The Cider Press}",
+      "target": "→ {リンゴ酒の搾り場}"
+    },
+    "FA3AE77F8AA8EB66AE9885418D30B797": {
+      "source": "The east road. Not before the Bell of Tides.",
+      "target": "東の街道。潮の鐘が先だ。"
+    },
+    "FB3E2248685742C1CF347027B647EAC6": {
+      "source": "It wants them in order. Those three notes — they're the start of Mam's song.",
+      "target": "順番どおりに鳴らせってことだ。あの三つの音――母さんの歌の出だしだ。"
+    },
+    "FC12155D0DB6571A60A5D6DD7FE51B01": {
+      "source": "↓ {Evermere}",
+      "target": "↓ {エヴァーミア}"
+    },
+    "FD0F7FE452D9709216526BB1D6470249": {
+      "source": "Rimeholt",
+      "target": "ライムホルト"
+    },
+    "FD3A13996E4175F5C39D00831FF0FA56": {
+      "source": "Somebody inside is arguing with a kettle, and winning.",
+      "target": "中で誰かがやかんと言い争っている。しかも、勝っている。"
+    },
+    "FD8F4E015A4CFAD000E9CC5171EC4DD0": {
+      "source": "Iron's iron. Hit it till it rings — then hit what's underneath.",
+      "target": "鉄は鉄だ。鳴るまで叩け――それから、その下にあるものを叩け。"
+    },
+    "FDEA8BAD70B2261D1BC1A9ADE381F441": {
+      "source": "EVERMERE — Day 2,578 of Winter.",
+      "target": "エヴァーミア――冬、2,578日目。"
+    },
+    "FE2DE483BD18969F483626DC958DE005": {
+      "source": "← The Blossomwood. The Bell of Waking.",
+      "target": "← 花咲きの森。目覚めの鐘。"
+    },
+    "FE37BF36B57F989710F72D520AB90C9D": {
+      "source": "Through the door: a fiddle, badly tuned, and somebody laughing anyway.",
+      "target": "戸口の向こうから、調子っぱずれのフィドル。それでも誰かが笑っている。"
+    },
+    "FF5F5ED5134FE573FD832C95791EADBC": {
+      "source": "Night, Tin.",
+      "target": "おやすみ、ブリキ。"
+    },
+    "FF7C628C654C9B791592CC71F852D85A": {
+      "source": "Then we light our own. Brazier iron holds its heat. It only wants a spark.",
+      "target": "なら、自分たちで灯す。篝火台の鉄は熱を溜めておける。足りないのは火花だけだ。"
+    },
+    "FF75BC0872302ED8CA938AC6B7082D8D": {
+      "source": "Under it, in a lamplighter's careful capitals: AND THE SOUTH ONE.",
+      "target": "その下に、点灯夫のきちょうめんな角ばった字。「そして南の鐘も」。"
+    },
+    "FF6295EACFB1674D27FD32955138ED0D": {
+      "source": "CLOSED FOR THE SEASON. The season has lasted seven years.",
+      "target": "今季休業。その「今季」が、もう七年続いている。"
+    }
+  }
+}

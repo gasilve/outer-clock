@@ -1,0 +1,105 @@
+{
+  "format": "luminati-campaign",
+  "version": 1,
+  "name": "Vanquish the Evil Dragon",
+  "subtitle": "A Luminati campaign",
+  "title": {
+    "title": "VANQUISH THE EVIL DRAGON",
+    "subtitle": "Fire over Sunhallow",
+    "credit": "Luminati 2.5D Pixel-Art Engine · three.js"
+  },
+  "look": "cinematic",
+  "player": {
+    "name": "Aldric",
+    "preset": "swordsman",
+    "spec": {
+      "hair": "hairBrown",
+      "hairStyle": "short",
+      "outfit": {
+        "top": "#5d7398",
+        "bottom": "#33303f",
+        "accent": "metal",
+        "style": "tunic",
+        "shirt": "cream"
+      },
+      "cape": {
+        "color": "#a8262e",
+        "style": "cape",
+        "lining": "#5a1218"
+      },
+      "gear": {
+        "pauldrons": true,
+        "bracers": true,
+        "boots": "black",
+        "bladeGlow": true
+      }
+    },
+    "kit": "swordmaster"
+  },
+  "progress": {
+    "level": 10,
+    "potions": 5
+  },
+  "controls": {
+    "time": false,
+    "weather": false
+  },
+  "start": {
+    "level": "sunhallow",
+    "entrance": "south-road"
+  },
+  "levels": [
+    {
+      "id": "sunhallow",
+      "at": [4, 128]
+    },
+    {
+      "id": "wyrmspine",
+      "at": [0, 0]
+    }
+  ],
+  "chapters": [
+    {
+      "id": "siege",
+      "title": "Chapter One",
+      "subtitle": "Fire over Sunhallow",
+      "textKeys": {
+        "title": "56F039E0F0BD461D625434D1790DECEC",
+        "subtitle": "D9F87692CEA19720B4F679099EF23F94"
+      }
+    },
+    {
+      "id": "ascent",
+      "title": "Chapter Two",
+      "subtitle": "Into the Wyrmspine",
+      "when": "village-saved",
+      "textKeys": {
+        "title": "36E21D0129CEE382142A29CD3ACA4033",
+        "subtitle": "858FA58C2257BA54D03F72F867F9129E"
+      }
+    },
+    {
+      "id": "festival",
+      "title": "Chapter Three",
+      "subtitle": "The Bonfire",
+      "when": "dragon-slain",
+      "levels": {
+        "sunhallow": "sunhallow-festival"
+      },
+      "textKeys": {
+        "title": "ADD927EBF8F86D78EB47AC94120A105D",
+        "subtitle": "241C2034C02F6F87863F10D9A0775F58"
+      }
+    }
+  ],
+  "story": [
+    "main.json",
+    "dialogue.story"
+  ],
+  "textKeys": {
+    "subtitle": "2EA0504309ECA4AD2D1997214BB40742",
+    "title.title": "F5EE082B62158FC0A83206B6D5CE6E26",
+    "title.subtitle": "F065E760FAB63334EF2429494D9DCCCB",
+    "title.credit": "5F5220BB3BBE33F0B8ACB197B5CDDDFF"
+  }
+}

@@ -1,0 +1,160 @@
+{
+  "format": "luminati-campaign",
+  "version": 1,
+  "name": "The Bells of Evermere",
+  "subtitle": "A tale of the year that stopped",
+  "title": {
+    "title": "THE BELLS OF EVERMERE",
+    "subtitle": "A tale of the year that stopped",
+    "credit": "Luminati 2.5D Pixel-Art Engine · three.js"
+  },
+  "look": "cinematic",
+  "player": {
+    "name": "Linnet",
+    "preset": "villager",
+    "spec": {
+      "female": true,
+      "hair": "hairRed",
+      "hairStyle": "ponytail",
+      "eyes": "green",
+      "weapon": "hammer",
+      "outfit": {
+        "top": "#6e4a32",
+        "bottom": "#3a3640",
+        "accent": "brown",
+        "style": "tunic",
+        "shirt": "cream"
+      },
+      "gear": {
+        "apron": "#5a3a24",
+        "gloves": "#3a2a1e",
+        "boots": "brown",
+        "hammerGlow": true
+      }
+    },
+    "kit": "bellwarden"
+  },
+  "progress": {
+    "level": 3,
+    "potions": 3
+  },
+  "controls": {
+    "time": false,
+    "weather": false
+  },
+  "start": {
+    "level": "evermere",
+    "entrance": "square"
+  },
+  "levels": [
+    {
+      "id": "evermere",
+      "at": [200, 200]
+    },
+    {
+      "id": "halloway-forge"
+    },
+    {
+      "id": "blossomwood",
+      "at": [92, 172]
+    },
+    {
+      "id": "saltcombe",
+      "at": [192, 304]
+    },
+    {
+      "id": "amberfield",
+      "at": [312, 196]
+    },
+    {
+      "id": "rimeholt",
+      "at": [212, 64]
+    },
+    {
+      "id": "bell-court",
+      "at": [220, 0]
+    }
+  ],
+  "chapters": [
+    {
+      "id": "prologue",
+      "title": "Prologue",
+      "subtitle": "The Year That Stopped",
+      "textKeys": {
+        "title": "F5DBA860AAC125350AA588D826EE32B6",
+        "subtitle": "0A1BD3CF803365531C305842E3D77136"
+      }
+    },
+    {
+      "id": "waking",
+      "title": "Chapter One",
+      "subtitle": "The Bell of Waking",
+      "when": "set-out",
+      "textKeys": {
+        "title": "94260A22E0B97DD77B88ED41B0D9E2DC",
+        "subtitle": "F5BDED5DAD00A70909787A400425235F"
+      }
+    },
+    {
+      "id": "tides",
+      "title": "Chapter Two",
+      "subtitle": "The Bell of Tides",
+      "when": "bell-waking",
+      "textKeys": {
+        "title": "E37241BA0350421355EF582FE3ACD683",
+        "subtitle": "4D498D01C89532B3A47CC71C42A553CE"
+      }
+    },
+    {
+      "id": "harvest",
+      "title": "Chapter Three",
+      "subtitle": "The Bell of Harvest",
+      "when": "bell-tides",
+      "textKeys": {
+        "title": "76C05E6714117FB1C96E60A5A63976F0",
+        "subtitle": "2255AABC8C023C48DB9667A837B2D72F"
+      }
+    },
+    {
+      "id": "rest",
+      "title": "Chapter Four",
+      "subtitle": "The Bell of Rest",
+      "when": "bell-harvest",
+      "textKeys": {
+        "title": "B76B1678CB663E647EFD819231D9A414",
+        "subtitle": "743F35A805B429B91E4990E00F215EC9"
+      }
+    },
+    {
+      "id": "first-spring",
+      "title": "Epilogue",
+      "subtitle": "Day One",
+      "when": "bell-rest",
+      "levels": {
+        "evermere": "evermere-spring"
+      },
+      "textKeys": {
+        "title": "8ABEF7103A206AD615DCE984AD161CD8",
+        "subtitle": "4B60B3676EF4A44C3887055771B18F8B"
+      }
+    }
+  ],
+  "story": [
+    "main.json",
+    "shared.story",
+    "forge.story",
+    "evermere.story",
+    "blossomwood.story",
+    "saltcombe.story",
+    "amberfield.story",
+    "rimeholt.story",
+    "bellcourt.story",
+    "spring.story"
+  ],
+  "textKeys": {
+    "subtitle": "CACE10EE2E10FC321EA162ED128878DE",
+    "title.title": "F2A634E386184E0C09282B0833C380C7",
+    "title.subtitle": "BABF7D43C2ABD5CA5C40DB7AE9ED93DA",
+    "title.credit": "355EDDF570C24B01D0C381B29D482259"
+  }
+}

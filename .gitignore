@@ -8,3 +8,8 @@ export_presets.cfg
 Thumbs.db
 *.tmp
 _setup_log.txt
+
+luminati/node_modules/
+luminati/dist/
+luminati/.git/
+luminati/.check/
