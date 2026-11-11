@@ -199,37 +199,50 @@ export class Diorama {
     this.birds = [];
     this.animal = null;
     this.inside = spec.inside;
-    this.limit = spec.inside == null ? 20 : 3.3;
+    this.limit = spec.inside == null ? 62 : 3.3;
     const style = STYLE[spec.look] || STYLE.taller;
     const [ground, roof, wall] = spec.colors;
     this.scene.background = new THREE.Color(spec.inside == null ? "#7eb0c8" : ground);
-    this.scene.fog = new THREE.Fog(spec.inside == null ? "#9ec4d4" : ground, spec.inside == null ? 28 : 9, spec.inside == null ? 78 : 14);
+    this.scene.fog = new THREE.Fog(spec.inside == null ? "#9ec4d4" : ground, spec.inside == null ? 36 : 9, spec.inside == null ? 120 : 14);
     if (spec.inside == null) this._street(spec, style, ground, roof, wall);
     else this._room(spec, style, ground, roof, wall);
     this.player.position.set(0, 0, spec.inside == null ? 6 : 2.4);
   }
 
+  heightAt(x, z) {
+    const radius = Math.hypot(x, z);
+    let y = Math.sin(x * 0.07) * Math.cos(z * 0.06) * 0.7;
+    const mountain = Math.hypot(x + 36, z + 30);
+    if (mountain < 30) y += Math.pow(1 - mountain / 30, 1.35) * 20;
+    const woods = Math.hypot(x - 28, z - 8);
+    if (woods < 16) y += (1 - woods / 16) * 2.2;
+    if (radius > 52) y -= (radius - 52) * 0.62;
+    return y;
+  }
+
   _street(spec, style, ground, roof, wall) {
-    const sea = new THREE.Mesh(new THREE.CircleGeometry(70, 48), matte("#3e7f96"));
+    const sea = new THREE.Mesh(new THREE.PlaneGeometry(220, 220), matte("#2f7490"));
     sea.rotation.x = -Math.PI / 2;
-    sea.position.y = -0.35;
-    const beach = new THREE.Mesh(new THREE.CircleGeometry(24, 40), matte("#e4d2a8"));
-    beach.rotation.x = -Math.PI / 2;
-    beach.position.y = -0.08;
+    sea.position.y = -1.1;
+    const geo = new THREE.PlaneGeometry(150, 150, 80, 80);
+    geo.rotateX(-Math.PI / 2);
+    const pos = geo.attributes.position;
+    for (let i = 0; i < pos.count; i += 1) {
+      pos.setY(i, this.heightAt(pos.getX(i), pos.getZ(i)));
+    }
+    geo.computeVertexNormals();
     const grass = floorTexture(style.floor, ground);
-    grass.repeat.set(10, 10);
-    const island = new THREE.Mesh(new THREE.CircleGeometry(20, 40), matte("#ffffff", grass));
-    island.rotation.x = -Math.PI / 2;
-    island.position.y = 0;
-    this.place.add(sea, beach, island);
-    this._mountain(spec.look, roof);
+    grass.repeat.set(24, 24);
+    const field = new THREE.Mesh(geo, matte("#ffffff", grass));
+    this.place.add(sea, field);
     const spots = [[-6.2, -4.2], [5.4, -5.1], [-1.2, 5.2]];
     spots.forEach(([x, z], index) => {
+      const groundY = this.heightAt(x, z);
       const house = this._house(style, wall, roof, index);
-      house.position.set(x, 0, z);
+      house.position.set(x, groundY, z);
       this.place.add(house);
       const door = new THREE.Mesh(new THREE.BoxGeometry(0.7, 1.3, 0.12), matte("#4a3428"));
-      door.position.set(x, 0.7, z + style.d / 2 + 0.08);
+      door.position.set(x, groundY + 0.7, z + style.d / 2 + 0.08);
       door.userData.propId = "door" + index;
       door.userData.label = "Entrar a " + (spec.houses[index] || "la casa");
       this.place.add(door);
@@ -238,6 +251,26 @@ export class Diorama {
     this._clockTower(spec.look);
     this._outdoorsLife(style, ground, roof);
     this._age(spec.look, roof, wall);
+    this._fieldMarks();
+  }
+
+  _fieldMarks() {
+    const posts = [[18, 6, "Bosque"], [-22, -16, "Montaña"], [8, -24, "Costa"]];
+    posts.forEach(([x, z]) => {
+      const y = Math.max(0, this.heightAt(x, z));
+      const post = new THREE.Mesh(new THREE.CylinderGeometry(0.08, 0.08, 1.4, 6), matte("#6b4a2a"));
+      post.position.set(x, y + 0.7, z);
+      const board = new THREE.Mesh(new THREE.BoxGeometry(0.7, 0.35, 0.08), matte("#e6d3a3"));
+      board.position.set(x, y + 1.3, z);
+      this.place.add(post, board);
+    });
+    for (let i = 0; i < 10; i += 1) {
+      const rock = new THREE.Mesh(new THREE.DodecahedronGeometry(0.35 + (i % 3) * 0.15), matte("#7a736c"));
+      const x = -30 + (i % 5) * 3;
+      const z = -22 + Math.floor(i / 5) * 3;
+      rock.position.set(x, this.heightAt(x, z) + 0.3, z);
+      this.place.add(rock);
+    }
   }
 
   _house(style, wall, roof, index) {
@@ -363,14 +396,16 @@ export class Diorama {
       crown.position.y = 1.5;
       tree.add(trunk, crown);
       const angle = i / 6 * Math.PI * 2;
-      tree.position.set(Math.cos(angle) * 13.5, 0, Math.sin(angle) * 13.5);
+      const tx = Math.cos(angle) * 13.5;
+      const tz = Math.sin(angle) * 13.5;
+      tree.position.set(tx, Math.max(0, this.heightAt(tx, tz)), tz);
       this.place.add(tree);
     }
     for (let i = 0; i < 28; i += 1) {
       const tuft = new THREE.Mesh(new THREE.ConeGeometry(0.12, 0.35, 5), matte(i % 3 ? "#4f8f4a" : "#d7c15a"));
       const angle = i * 0.7;
       const radius = 2.2 + (i % 5) * 1.1;
-      tuft.position.set(Math.cos(angle) * radius, 0.15, Math.sin(angle) * radius);
+      tuft.position.set(Math.cos(angle) * radius, Math.max(0, this.heightAt(Math.cos(angle) * radius, Math.sin(angle) * radius)) + 0.15, Math.sin(angle) * radius);
       this.place.add(tuft);
     }
     for (let i = 0; i < 3; i += 1) {
@@ -531,27 +566,50 @@ export class Diorama {
   }
 
   move(dt, keys) {
-    const speed = (keys.run ? 4.2 : 2.3) * (this.slow ? 1 : 1);
-    let x = 0;
-    let z = 0;
-    if (keys.up) z -= 1;
-    if (keys.down) z += 1;
-    if (keys.left) x -= 1;
-    if (keys.right) x += 1;
-    if (x || z) {
-      const len = Math.hypot(x, z);
-      const yaw = Math.PI / 4;
-      const wx = (x / len) * Math.cos(yaw) - (z / len) * Math.sin(yaw);
-      const wz = (x / len) * Math.sin(yaw) + (z / len) * Math.cos(yaw);
-      const limit = this.limit || 8;
-      this.player.position.x = Math.max(-limit, Math.min(limit, this.player.position.x + wx * speed * dt));
-      this.player.position.z = Math.max(-limit, Math.min(limit, this.player.position.z + wz * speed * dt));
-      this.player.rotation.y = Math.atan2(wx, wz);
+    const speed = (keys.run ? 11 : 6) * (this.slow ? 1 : 1);
+    if (this.inside == null) {
+      if (keys.left) this.player.rotation.y += 2.1 * dt;
+      if (keys.right) this.player.rotation.y -= 2.1 * dt;
+    }
+    let forward = 0;
+    if (keys.up) forward += 1;
+    if (keys.down) forward -= 1;
+    if (this.inside != null) {
+      let x = 0;
+      let z = 0;
+      if (keys.up) z -= 1;
+      if (keys.down) z += 1;
+      if (keys.left) x -= 1;
+      if (keys.right) x += 1;
+      if (x || z) {
+        const len = Math.hypot(x, z);
+        const yaw = Math.PI / 4;
+        const wx = (x / len) * Math.cos(yaw) - (z / len) * Math.sin(yaw);
+        const wz = (x / len) * Math.sin(yaw) + (z / len) * Math.cos(yaw);
+        forward = 0;
+        const limit = 3.3;
+        this.player.position.x = Math.max(-limit, Math.min(limit, this.player.position.x + wx * speed * dt));
+        this.player.position.z = Math.max(-limit, Math.min(limit, this.player.position.z + wz * speed * dt));
+        this.player.rotation.y = Math.atan2(wx, wz);
+      }
+    } else if (forward) {
+      const yaw = this.player.rotation.y;
+      this.player.position.x += Math.sin(yaw) * forward * speed * dt;
+      this.player.position.z += Math.cos(yaw) * forward * speed * dt;
+    }
+    if (forward || keys.left || keys.right) {
       this.bob += dt * (this.slow ? 2 : 10);
       const swing = Math.sin(this.bob) * 0.5;
       this.player.userData.legs[0].rotation.x = swing;
       this.player.userData.legs[1].rotation.x = -swing;
     }
+    const limit = this.limit || 62;
+    this.player.position.x = Math.max(-limit, Math.min(limit, this.player.position.x));
+    this.player.position.z = Math.max(-limit, Math.min(limit, this.player.position.z));
+    if (this.inside == null) {
+      const y = this.heightAt(this.player.position.x, this.player.position.z);
+      this.player.position.y = Math.max(-0.2, y);
+    } else this.player.position.y = 0;
   }
 
   setRemotes(list) {
@@ -600,15 +658,54 @@ export class Diorama {
       const angle = performance.now() / 1000 * 0.4 * rate;
       this.animal.position.x = this.animal.userData.ox + Math.cos(angle) * (this.inside == null ? 1.5 : 0.45);
       this.animal.position.z = this.animal.userData.oz + Math.sin(angle) * (this.inside == null ? 1.5 : 0.45);
+      this.animal.position.y = this.inside == null ? Math.max(0, this.heightAt(this.animal.position.x, this.animal.position.z)) : 0;
       this.animal.rotation.y = -angle;
     }
     const p = this.player.position;
     const zoom = this.zoom || 1;
-    const back = (this.inside == null ? 7.5 : 4.2) * zoom;
-    const up = (this.inside == null ? 8.2 : 3.4) * zoom;
-    this.camera.position.set(p.x + back, up, p.z + back);
-    this.camera.lookAt(p.x, 1.2, p.z);
+    if (this.inside == null) {
+      const yaw = this.player.rotation.y;
+      const dist = 9 * zoom;
+      this.camera.position.set(p.x - Math.sin(yaw) * dist, p.y + 4.6 * zoom, p.z - Math.cos(yaw) * dist);
+      this.camera.lookAt(p.x, p.y + 1.3, p.z);
+    } else {
+      const back = 4.2 * zoom;
+      const up = 3.4 * zoom;
+      this.camera.position.set(p.x + back, up, p.z + back);
+      this.camera.lookAt(p.x, 1.2, p.z);
+    }
+    this.drawMap();
     this.renderer.render(this.scene, this.camera);
     return dt;
+  }
+
+  drawMap() {
+    const canvas = document.getElementById("map");
+    if (!canvas || this.inside != null) return;
+    const g = canvas.getContext("2d");
+    const w = canvas.width;
+    g.fillStyle = "#163e4e";
+    g.fillRect(0, 0, w, w);
+    const scale = w / 150;
+    const dot = (x, z, color, s) => {
+      g.fillStyle = color;
+      g.fillRect(w / 2 + x * scale, w / 2 + z * scale, s, s);
+    };
+    for (let iz = 0; iz < 36; iz += 1) {
+      for (let ix = 0; ix < 36; ix += 1) {
+        const x = (ix - 18) * 4;
+        const z = (iz - 18) * 4;
+        const y = this.heightAt(x, z);
+        dot(x, z, y < -0.4 ? "#2a6d86" : y > 7 ? "#e4e0d8" : "#3d7a46", 4);
+      }
+    }
+    dot(0, 0, "#e6c49a", 4);
+    dot(-36, -30, "#d7d3cc", 5);
+    const px = this.player.position.x;
+    const pz = this.player.position.z;
+    g.fillStyle = "#d7b56d";
+    g.beginPath();
+    g.arc(w / 2 + px * scale, w / 2 + pz * scale, 3.5, 0, Math.PI * 2);
+    g.fill();
   }
 }

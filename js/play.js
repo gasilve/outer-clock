@@ -543,7 +543,7 @@ function loop(now) {
   world.move(dt, keys);
   world.frame(dt);
   const near = world.nearest(1.8);
-  document.getElementById("prompt").textContent = near ? "E · " + near.userData.label : "WASD camina. Rueda, + y - hacen zoom. Clic o E mira.";
+  document.getElementById("prompt").textContent = near ? "E · " + near.userData.label : "W avanza, A y D giran, Shift corre. Rueda hace zoom. El mapa está abajo a la izquierda.";
   if (peer && peer.id && Math.floor(now / 120) !== Math.floor((now - dt * 1000) / 120)) {
     const msg = {
       t: "pos",
