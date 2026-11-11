@@ -108,6 +108,18 @@ h1 { font-weight: normal; font-size: clamp(3rem, 8vw, 6.5rem); margin: 0; line-h
   background: #1a120c;
 }
 #scene-bg { position: absolute; inset: 0; background-size: cover; background-position: center; }
+#scene[data-look="cueva"] { font-family: Georgia, serif; }
+#scene[data-look="cueva"] #scene-bg { filter: sepia(0.45) contrast(1.15); }
+#scene[data-look="rio"] #scene-bg { filter: saturate(1.2) hue-rotate(8deg); }
+#scene[data-look="polvo"] #scene-bg { filter: sepia(0.35); }
+#scene[data-look="burgo"] .spot { border-radius: 2px; }
+#scene[data-look="marea"] #scene-bg { filter: hue-rotate(150deg) saturate(0.8); }
+#scene[data-look="imprenta"] #scene-bg { filter: grayscale(0.35) contrast(1.2); }
+#scene[data-look="vapor"] #scene-bg { filter: contrast(1.2) saturate(0.7); }
+#scene[data-look="ondas"] #scene-bg { filter: hue-rotate(190deg); }
+#scene[data-look="partida"] #scene-bg { filter: grayscale(0.55); }
+#scene[data-look="despues"] #scene-bg { filter: saturate(0.85) brightness(1.05); }
+#scene[data-look="taller"] .spot { border-color: #d7b56d; }
 #scene.slow #scene-bg { animation: slow-world 24s linear infinite; filter: saturate(0.7); }
 #scene.slow .spot { animation: slow-world 24s linear infinite; }
 @keyframes slow-world { 50% { transform: translateY(2px); } }

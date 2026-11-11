@@ -54,8 +54,42 @@ function fresh() {
     amberUsedOn: "",
     photo: "",
     name: "",
-    picked: []
+    picked: [],
+    inteligencia: 0,
+    suerte: 0,
+    machine: null
   };
+}
+
+function rollStat() {
+  return 1 + Math.floor(Math.random() * 10);
+}
+
+function machineFrom(inteligencia, suerte) {
+  if (inteligencia >= 8 && suerte >= 8) {
+    return { id: "coronas", name: "Máquina de dos coronas", hours: 72, hint: true, note: "El ámbar dura tres días de ellos y la misión dice las piezas." };
+  }
+  if (inteligencia >= 7) {
+    return { id: "engranajes", name: "Taller de engranajes", hours: 48, hint: true, note: "Ves qué objetos hay que unir." };
+  }
+  if (suerte >= 7) {
+    return { id: "arena", name: "Reloj de arena fina", hours: 72, hint: false, note: "La suerte estira el ámbar a tres días de ellos." };
+  }
+  if (inteligencia <= 3 && suerte <= 3) {
+    return { id: "caja", name: "Caja de latón", hours: 36, hint: false, note: "Una caja corta. El ámbar alcanza para un día y medio." };
+  }
+  return { id: "bolsillo", name: "Máquina de bolsillo", hours: 48, hint: false, note: "Un salto por día y dos días lentos con el ámbar." };
+}
+
+function ensureCharacter() {
+  if (!state.inteligencia) state.inteligencia = rollStat();
+  if (!state.suerte) state.suerte = rollStat();
+  if (!state.machine) state.machine = machineFrom(state.inteligencia, state.suerte);
+}
+
+function amberHours() {
+  ensureCharacter();
+  return state.machine.hours;
 }
 
 function save() {
@@ -105,15 +139,17 @@ function clockText() {
 }
 
 function amberOn() {
-  return state.amber && state.amber.date === todayKey() && state.amber.hour < 48;
+  return state.amber && state.amber.date === todayKey() && state.amber.hour < amberHours();
 }
 
 function innerText() {
   if (!amberOn()) return state.ambar ? "Ámbar listo. El mundo todavía va a tiempo normal." : "Todavía no tenés el ámbar.";
   const hour = state.amber.hour;
+  const span = amberHours();
   const day = Math.floor(hour / 24) + 1;
+  const days = Math.ceil(span / 24);
   const h = hour % 24;
-  return "Día " + day + " de 2 · hora " + h + " · todos van a 1/24";
+  return "Día " + day + " de " + days + " · hora " + h + " · todos van a 1/24";
 }
 
 function say(who, text) {
@@ -134,7 +170,7 @@ function toast(text) {
 function spendHour() {
   if (!amberOn()) return true;
   state.amber.hour += 1;
-  if (state.amber.hour >= 48) {
+  if (state.amber.hour >= amberHours()) {
     state.amber = null;
     state.amberUsedOn = todayKey();
     toast("Se acabaron los dos días de ellos. El mundo vuelve a su hora.");
@@ -199,12 +235,42 @@ function futureCopy() {
   };
 }
 
-function renderScene(title, when, place, image, spots, slow) {
+function lookFor(era) {
+  const y = era && era.y ? era.y : "";
+  if (y.indexOf("mucho") >= 0) return "cueva";
+  if (y.indexOf("Ríos") >= 0) return "rio";
+  if (y.indexOf("polvo") >= 0) return "polvo";
+  if (y.indexOf("Burgos") >= 0) return "burgo";
+  if (y.indexOf("Mareas") >= 0) return "marea";
+  if (y.indexOf("Imprentas") >= 0) return "imprenta";
+  if (y.indexOf("Vapor") >= 0) return "vapor";
+  if (y.indexOf("Ondas") >= 0) return "ondas";
+  if (y.indexOf("partida") >= 0) return "partida";
+  if (y.indexOf("Después") >= 0) return "despues";
+  return "taller";
+}
+
+const LOOK_NAME = {
+  cueva: "Cueva y ocre",
+  rio: "Adobe y canal",
+  polvo: "Polvo y olivo",
+  burgo: "Piedra y campana",
+  marea: "Madera y sal",
+  imprenta: "Papel y plomo",
+  vapor: "Hollín y vapor",
+  ondas: "Cables y noche",
+  partida: "Ciudad gris",
+  despues: "Latón frío",
+  taller: "Taller de latón"
+};
+
+function renderScene(title, when, place, image, spots, slow, look) {
   document.getElementById("scene-title").textContent = title;
-  document.getElementById("scene-when").textContent = when;
+  document.getElementById("scene-when").textContent = when + (look ? " · " + (LOOK_NAME[look] || look) : "");
   document.getElementById("scene-place").textContent = place;
   const bg = document.getElementById("scene-bg");
   const scene = document.getElementById("scene");
+  scene.dataset.look = look || "taller";
   scene.classList.toggle("slow", slow);
   if (image) {
     bg.style.backgroundImage = "linear-gradient(90deg, rgba(12,9,7,.72), rgba(12,9,7,.15)), url(" + image + ")";
@@ -227,7 +293,7 @@ function renderWorkshop() {
     { label: "Cajón: aro de latón", onClick: () => pickPart("Aro de latón") },
     { label: "La máquina", onClick: installCore }
   ];
-  renderScene("El taller", "Hoy, antes de que el reloj mande", "Tres piezas, una máquina, y una foto si querés prestarle tu cara.", "img/taller.jpg", spots, false);
+  renderScene("El taller", "Hoy, antes de que el reloj mande", "Tres piezas, una máquina, y una foto si querés prestarle tu cara. La tuya es " + state.machine.name + ".", "img/taller.jpg", spots, false, "taller");
   document.getElementById("mission").textContent = "Armá el núcleo: engranaje, lente y aro. Después encendé la máquina.";
   say("Tictac", "Soy el pájaro del reloj. Mirá, tomá, combiná. El futuro no se apura.");
 }
@@ -259,7 +325,7 @@ function renderFuture() {
     { label: "El abrigo en el suelo", onClick: () => say("Vos", "Está vacío. No explica nada.") },
     { label: "La puerta del fondo", onClick: () => say("Vos", "Si entro, dejo de ver el cuadro. Me quedo acá.") },
     { label: "Volver al taller", onClick: returnFromFuture }
-  ], false);
+  ], false, "despues");
   document.getElementById("mission").textContent = "Mirá. No vas a ver quién. Después volvé.";
   say("Tictac", copy.line);
 }
@@ -273,9 +339,9 @@ function returnFromFuture() {
 }
 
 function renderReturn() {
-  renderScene("El taller, otra vez", "La máquina todavía responde", "Podés saltar una vez más. La calle del futuro ya cambió si dejaste algo escrito en otra época. En este primer día, todavía no.", "img/taller.jpg", [
+  renderScene("El taller, otra vez", "La máquina todavía responde", "Podés saltar una vez más. Tu máquina es " + state.machine.name + ". " + state.machine.note, "img/taller.jpg", [
     { label: "Saltar otra vez", onClick: () => { state.phase = "future"; save(); render(); } }
-  ], false);
+  ], false, "taller");
   document.getElementById("mission").textContent = "Un salto más. Después el vidrio no da para otro.";
   say("Tictac", "Si insistís, la muerte cambia de forma. La cara sigue sin estar.");
 }
@@ -284,7 +350,7 @@ function renderBreak() {
   state.ambar = true;
   state.brujula = true;
   save();
-  renderScene("La máquina se raja", "A partir de ahora manda el reloj de la pared", "Te quedan el ámbar y la brújula. El ámbar pone a todos a 1/24: dos días de ellos para buscar una sola cosa.", "img/taller.jpg", [
+  renderScene("La máquina se raja", "A partir de ahora manda el reloj de la pared", "Te quedan el ámbar y la brújula. Con " + state.machine.name + " el mundo va a 1/24 durante " + amberHours() + " horas de ellos.", "img/taller.jpg", [
     {
       label: "Que mande el reloj",
       onClick: () => {
@@ -293,7 +359,7 @@ function renderBreak() {
         render();
       }
     }
-  ], false);
+  ], false, "taller");
   document.getElementById("mission").textContent = "Entrá en la época de hoy.";
   say("Tictac", "No elijas el siglo. Dejalo que lo elija la fecha.");
 }
@@ -301,7 +367,7 @@ function renderBreak() {
 function renderEra() {
   const era = todayEra();
   if (!era) {
-    renderScene("Eco del taller", "Las cien épocas ya tuvieron su día", "El reloj sigue. No queda una época nueva.", "img/taller.jpg", [], false);
+    renderScene("Eco del taller", "Las cien épocas ya tuvieron su día", "El reloj sigue. No queda una época nueva.", "img/taller.jpg", [], false, "taller");
     document.getElementById("mission").textContent = "Esperar otra fecha no alcanza: el mapa ya está recorrido.";
     return;
   }
@@ -318,8 +384,12 @@ function renderEra() {
       onClick: () => searchHidden(era)
     });
   }
-  renderScene(era.title, era.y + (done ? " · hecho" : ""), era.place, null, spots, amberOn());
-  document.getElementById("mission").textContent = era.mission + (done ? " Ya quedó en la bitácora." : "");
+  const look = lookFor(era);
+  renderScene(era.title, era.y + (done ? " · hecho" : ""), era.place, null, spots, amberOn(), look);
+  let mission = era.mission + (done ? " Ya quedó en la bitácora." : "");
+  if (!done && state.machine.hint && era.puzzle === "combine") mission += " Piezas: " + era.a + " y " + era.b + ".";
+  if (!done && state.machine.hint && era.puzzle === "sequence") mission += " Orden: " + era.seq.join(", ") + ".";
+  document.getElementById("mission").textContent = mission;
   if (!done) say(era.npc, era.line);
 }
 
@@ -457,6 +527,13 @@ function renderGadgets() {
   list.appendChild(coat);
 }
 
+function renderStats() {
+  ensureCharacter();
+  const el = document.getElementById("stats");
+  if (!el) return;
+  el.textContent = "Inteligencia " + state.inteligencia + " · Suerte " + state.suerte + ". " + state.machine.name + ". " + state.machine.note;
+}
+
 function renderJournal() {
   const flags = Object.keys(state.flags);
   document.getElementById("journal").textContent = flags.length
@@ -504,6 +581,7 @@ function renderAtlas() {
 }
 
 function render() {
+  ensureCharacter();
   if (state.phase === "workshop") renderWorkshop();
   else if (state.phase === "future") renderFuture();
   else if (state.phase === "workshop-return") renderReturn();
@@ -512,6 +590,7 @@ function render() {
   renderInventory();
   renderGadgets();
   renderJournal();
+  renderStats();
   paintClock();
   const retry = document.getElementById("retry-future");
   retry.hidden = state.phase !== "play";
