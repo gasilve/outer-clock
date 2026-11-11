@@ -121,7 +121,7 @@ export class Diorama {
   constructor(parent) {
     this.parent = parent;
     this.scene = new THREE.Scene();
-    this.camera = new THREE.PerspectiveCamera(32, 1, 0.1, 80);
+    this.camera = new THREE.PerspectiveCamera(32, 1, 0.1, 180);
     this.renderer = new THREE.WebGLRenderer({ antialias: true });
     this.renderer.setClearColor(0x120e0b);
     this.renderer.setPixelRatio(Math.min(window.devicePixelRatio || 1, 2));
@@ -199,22 +199,30 @@ export class Diorama {
     this.birds = [];
     this.animal = null;
     this.inside = spec.inside;
-    this.limit = spec.inside == null ? 8 : 3.3;
+    this.limit = spec.inside == null ? 20 : 3.3;
     const style = STYLE[spec.look] || STYLE.taller;
     const [ground, roof, wall] = spec.colors;
-    this.scene.background = new THREE.Color(ground);
-    this.scene.fog = new THREE.Fog(ground, spec.inside == null ? 16 : 9, spec.inside == null ? 32 : 14);
+    this.scene.background = new THREE.Color(spec.inside == null ? "#7eb0c8" : ground);
+    this.scene.fog = new THREE.Fog(spec.inside == null ? "#9ec4d4" : ground, spec.inside == null ? 28 : 9, spec.inside == null ? 78 : 14);
     if (spec.inside == null) this._street(spec, style, ground, roof, wall);
     else this._room(spec, style, ground, roof, wall);
     this.player.position.set(0, 0, spec.inside == null ? 6 : 2.4);
   }
 
   _street(spec, style, ground, roof, wall) {
+    const sea = new THREE.Mesh(new THREE.CircleGeometry(70, 48), matte("#3e7f96"));
+    sea.rotation.x = -Math.PI / 2;
+    sea.position.y = -0.35;
+    const beach = new THREE.Mesh(new THREE.CircleGeometry(24, 40), matte("#e4d2a8"));
+    beach.rotation.x = -Math.PI / 2;
+    beach.position.y = -0.08;
     const grass = floorTexture(style.floor, ground);
-    grass.repeat.set(6, 6);
-    const floor = new THREE.Mesh(new THREE.PlaneGeometry(24, 24), matte("#ffffff", grass));
-    floor.rotation.x = -Math.PI / 2;
-    this.place.add(floor);
+    grass.repeat.set(10, 10);
+    const island = new THREE.Mesh(new THREE.CircleGeometry(20, 40), matte("#ffffff", grass));
+    island.rotation.x = -Math.PI / 2;
+    island.position.y = 0;
+    this.place.add(sea, beach, island);
+    this._mountain(spec.look, roof);
     const spots = [[-6.2, -4.2], [5.4, -5.1], [-1.2, 5.2]];
     spots.forEach(([x, z], index) => {
       const house = this._house(style, wall, roof, index);
@@ -227,8 +235,9 @@ export class Diorama {
       this.place.add(door);
       this.props.push(door);
     });
-    this._clockTower();
+    this._clockTower(spec.look);
     this._outdoorsLife(style, ground, roof);
+    this._age(spec.look, roof, wall);
   }
 
   _house(style, wall, roof, index) {
@@ -354,7 +363,7 @@ export class Diorama {
       crown.position.y = 1.5;
       tree.add(trunk, crown);
       const angle = i / 6 * Math.PI * 2;
-      tree.position.set(Math.cos(angle) * 9.2, 0, Math.sin(angle) * 9.2);
+      tree.position.set(Math.cos(angle) * 13.5, 0, Math.sin(angle) * 13.5);
       this.place.add(tree);
     }
     for (let i = 0; i < 28; i += 1) {
@@ -407,18 +416,74 @@ export class Diorama {
     this.animal.userData.oz = 1.6;
   }
 
-  _clockTower() {
-    const tower = new THREE.Mesh(new THREE.CylinderGeometry(0.55, 0.7, 2.4, 8), matte("#d7b56d"));
-    tower.position.set(-5.5, 1.2, 2);
-    const handH = new THREE.Mesh(new THREE.BoxGeometry(0.06, 0.45, 0.04), matte("#f4efe4"));
-    const handM = new THREE.Mesh(new THREE.BoxGeometry(0.04, 0.7, 0.04), matte("#1a120c"));
-    handH.position.y = 2.15;
-    handM.position.y = 2.18;
+  _clockTower(look) {
+    const future = look === "despues" || look === "ondas";
+    const early = look === "cueva" || look === "rio";
+    const height = future ? 6.2 : early ? 1.6 : 3.2;
+    const color = early ? "#8a8175" : future ? "#d7e7ea" : "#d7b56d";
+    const tower = new THREE.Mesh(new THREE.CylinderGeometry(future ? 0.35 : 0.55, 0.8, height, 8), matte(color));
+    tower.position.set(-5.5, height / 2, 2);
+    const handH = new THREE.Mesh(new THREE.BoxGeometry(0.06, future ? 0.7 : 0.45, 0.04), matte("#f4efe4"));
+    const handM = new THREE.Mesh(new THREE.BoxGeometry(0.04, future ? 0.95 : 0.7, 0.04), matte("#1a120c"));
+    handH.position.y = height / 2 + 0.05;
+    handM.position.y = height / 2 + 0.08;
     handH.geometry.translate(0, 0.2, 0);
     handM.geometry.translate(0, 0.3, 0);
     tower.add(handH, handM);
     this.place.add(tower);
     this.hands = [handH, handM];
+  }
+
+  _mountain(look) {
+    const group = new THREE.Group();
+    const rock = look === "despues" ? "#8aa0b2" : look === "partida" ? "#6b6560" : "#7d7368";
+    const base = new THREE.Mesh(new THREE.ConeGeometry(7.5, 9, 7), matte(rock));
+    base.position.y = 4.2;
+    const capColor = look === "cueva" || look === "rio" ? "#f4f7f8" : look === "despues" ? "#d7b56d" : "#cfc6ba";
+    const cap = new THREE.Mesh(new THREE.ConeGeometry(2.4, 2.2, 6), matte(capColor));
+    cap.position.y = 8.6;
+    group.add(base, cap);
+    if (look === "vapor" || look === "partida") {
+      const cut = new THREE.Mesh(new THREE.BoxGeometry(2.2, 1.4, 1.2), matte("#4a4038"));
+      cut.position.set(1.4, 3.2, 2);
+      group.add(cut);
+    }
+    group.position.set(-14, 0, -12);
+    this.place.add(group);
+  }
+
+  _age(look, roof, wall) {
+    if (look === "marea" || look === "rio") {
+      const boat = new THREE.Mesh(new THREE.BoxGeometry(1.6, 0.35, 0.7), matte("#6b4a2a"));
+      boat.position.set(16, -0.05, 4);
+      boat.rotation.y = 0.4;
+      this.place.add(boat);
+    }
+    if (look === "vapor" || look === "imprenta") {
+      const chimney = new THREE.Mesh(new THREE.CylinderGeometry(0.28, 0.34, 2.4, 8), matte("#3a2418"));
+      chimney.position.set(7.2, 2.4, -6.2);
+      this.place.add(chimney);
+    }
+    if (look === "ondas" || look === "despues") {
+      const spire = new THREE.Mesh(new THREE.BoxGeometry(0.8, 5.5, 0.8), matte(look === "despues" ? "#d9e6ea" : wall));
+      spire.position.set(8, 2.8, 6);
+      this.place.add(spire);
+    }
+    if (look === "partida") {
+      const ruin = new THREE.Mesh(new THREE.BoxGeometry(2.4, 0.4, 1.2), matte("#5c564e"));
+      ruin.position.set(3, 0.3, 8);
+      ruin.rotation.z = 0.4;
+      this.place.add(ruin);
+    }
+    if (look === "burgo" || look === "polvo") {
+      for (let i = 0; i < 8; i += 1) {
+        const stone = new THREE.Mesh(new THREE.BoxGeometry(0.8, 0.7, 0.4), matte("#b7aa98"));
+        const a = i / 8 * Math.PI * 2;
+        stone.position.set(Math.cos(a) * 8.5, 0.35, Math.sin(a) * 8.5);
+        stone.lookAt(0, 0.35, 0);
+        this.place.add(stone);
+      }
+    }
   }
 
   propById(id) {
