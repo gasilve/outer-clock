@@ -1,0 +1,106 @@
+[gd_scene load_steps=6 format=3 uid="uid://outerclockmain"]
+
+[ext_resource type="Script" path="res://scripts/main.gd" id="1_main"]
+
+[sub_resource type="Environment" id="Environment_room"]
+background_mode = 1
+background_color = Color(0.07, 0.08, 0.11, 1)
+ambient_light_source = 2
+ambient_light_color = Color(0.35, 0.32, 0.28, 1)
+ambient_light_energy = 0.4
+
+[sub_resource type="StandardMaterial3D" id="Mat_floor"]
+albedo_color = Color(0.16, 0.14, 0.12, 1)
+roughness = 0.85
+
+[sub_resource type="StandardMaterial3D" id="Mat_brass"]
+albedo_color = Color(0.74, 0.58, 0.28, 1)
+metallic = 0.75
+roughness = 0.32
+
+[sub_resource type="StandardMaterial3D" id="Mat_hand"]
+albedo_color = Color(0.93, 0.9, 0.82, 1)
+metallic = 0.4
+roughness = 0.25
+
+[node name="Main" type="Node3D"]
+script = ExtResource("1_main")
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+environment = SubResource("Environment_room")
+
+[node name="Camera3D" type="Camera3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 0.906308, 0.422618, 0, -0.422618, 0.906308, 0, 2.4, 4.6)
+current = true
+
+[node name="Sun" type="DirectionalLight3D" parent="."]
+transform = Transform3D(0.866025, -0.353553, 0.353553, 0, 0.707107, 0.707107, -0.5, -0.612372, 0.612372, 2, 5, 2)
+light_color = Color(1, 0.93, 0.82, 1)
+light_energy = 1.4
+shadow_enabled = true
+
+[node name="Fill" type="OmniLight3D" parent="."]
+position = Vector3(-1.6, 1.8, 1.4)
+light_color = Color(0.55, 0.68, 0.85, 1)
+light_energy = 0.6
+
+[node name="Floor" type="CSGBox3D" parent="."]
+position = Vector3(0, -0.08, 0)
+size = Vector3(8, 0.16, 8)
+material = SubResource("Mat_floor")
+
+[node name="Clock" type="Node3D" parent="."]
+
+[node name="Body" type="CSGCylinder3D" parent="Clock"]
+position = Vector3(0, 0.9, 0)
+radius = 0.72
+height = 0.12
+material = SubResource("Mat_brass")
+
+[node name="HourPivot" type="Node3D" parent="Clock"]
+position = Vector3(0, 0.98, 0)
+
+[node name="HourHand" type="CSGBox3D" parent="Clock/HourPivot"]
+position = Vector3(0, 0, -0.2)
+size = Vector3(0.04, 0.03, 0.4)
+material = SubResource("Mat_hand")
+
+[node name="MinutePivot" type="Node3D" parent="Clock"]
+position = Vector3(0, 1.02, 0)
+
+[node name="MinuteHand" type="CSGBox3D" parent="Clock/MinutePivot"]
+position = Vector3(0, 0, -0.3)
+size = Vector3(0.025, 0.025, 0.6)
+material = SubResource("Mat_hand")
+
+[node name="UI" type="CanvasLayer" parent="."]
+
+[node name="Panel" type="PanelContainer" parent="UI"]
+offset_left = 28.0
+offset_top = 28.0
+offset_right = 640.0
+offset_bottom = 280.0
+
+[node name="Margin" type="MarginContainer" parent="UI/Panel"]
+theme_override_constants/margin_left = 16
+theme_override_constants/margin_top = 14
+theme_override_constants/margin_right = 16
+theme_override_constants/margin_bottom = 14
+
+[node name="VBox" type="VBoxContainer" parent="UI/Panel/Margin"]
+theme_override_constants/separation = 10
+
+[node name="ClockLabel" type="Label" parent="UI/Panel/Margin/VBox"]
+text = "Reloj de afuera"
+
+[node name="EraLabel" type="Label" parent="UI/Panel/Margin/VBox"]
+theme_override_font_sizes/font_size = 28
+text = "Epoca"
+
+[node name="DetailLabel" type="Label" parent="UI/Panel/Margin/VBox"]
+autowrap_mode = 3
+text = "Detalle"
+
+[node name="HintLabel" type="Label" parent="UI/Panel/Margin/VBox"]
+modulate = Color(0.75, 0.75, 0.75, 1)
+text = "F2 dia siguiente  |  F1 dia anterior  |  F5 borrar partida de prueba"

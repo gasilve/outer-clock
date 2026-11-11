@@ -1,0 +1,39 @@
+{
+  "prologo": [
+    {
+      "id": "taller",
+      "titulo": "El taller",
+      "cuando": "Hoy",
+      "rol": "Se arma la máquina, se toma la foto y se aprende a mirar, guardar y combinar."
+    },
+    {
+      "id": "futuro",
+      "titulo": "El futuro cercano",
+      "cuando": "Dentro de poco",
+      "rol": "El protagonista ve su muerte y no alcanza a ver quién la causa. Al volver a intentarlo, la muerte cambia de forma."
+    }
+  ],
+  "epocas": [
+    {
+      "id": "ciudad_partida",
+      "titulo": "La ciudad partida",
+      "cuando": "Mediados de siglo",
+      "bandera": "documento_salvado",
+      "rol": "Un acertijo de objetos. Salvar un documento enciende la primera bandera del futuro."
+    },
+    {
+      "id": "camino_de_polvo",
+      "titulo": "El camino de polvo",
+      "cuando": "Hace unos dos mil años",
+      "bandera": "mensaje_entregado",
+      "rol": "Una elección pequeña, contada con respeto. El futuro muestra la consecuencia, no una escena gráfica."
+    },
+    {
+      "id": "futuro_escrito",
+      "titulo": "El futuro ya escrito",
+      "cuando": "Después de las banderas",
+      "bandera": "",
+      "rol": "El mismo lugar de la muerte, reconstruido según lo que quedó encendido."
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+; Godot 4 project. Open this folder in Godot 4.3 or newer.
+
+config_version=5
+
+[application]
+
+config/name="Outer Clock"
+config/description="Aventura 3D. La máquina del tiempo se rompe y cada día real abre una época distinta."
+run/main_scene="res://scenes/main.tscn"
+config/features=PackedStringArray("4.4", "Forward Plus")
+config/icon="res://icon.svg"
+
+[display]
+
+window/size/viewport_width=1280
+window/size/viewport_height=720
+
+[rendering]
+
+renderer/rendering_method="forward_plus"
