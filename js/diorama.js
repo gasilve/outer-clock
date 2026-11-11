@@ -1,15 +1,96 @@
 import * as THREE from "three";
 
-function pixelTexture(paint, w = 32, h = 32) {
+function makeTexture(paint, w = 128, h = 128) {
   const canvas = document.createElement("canvas");
   canvas.width = w;
   canvas.height = h;
   paint(canvas.getContext("2d"), w, h);
   const tex = new THREE.CanvasTexture(canvas);
-  tex.magFilter = THREE.NearestFilter;
-  tex.minFilter = THREE.NearestFilter;
   tex.colorSpace = THREE.SRGBColorSpace;
+  tex.wrapS = THREE.RepeatWrapping;
+  tex.wrapT = THREE.RepeatWrapping;
+  tex.anisotropy = 8;
   return tex;
+}
+
+function shade(hex, amount) {
+  const n = parseInt(hex.slice(1), 16);
+  const f = (c) => Math.max(0, Math.min(255, c + amount));
+  const r = f((n >> 16) & 255);
+  const g = f((n >> 8) & 255);
+  const b = f(n & 255);
+  return "#" + [r, g, b].map((v) => v.toString(16).padStart(2, "0")).join("");
+}
+
+function wallTexture(kind, color) {
+  return makeTexture((g, w, h) => {
+    g.fillStyle = color;
+    g.fillRect(0, 0, w, h);
+    if (kind === "rock") {
+      for (let i = 0; i < 18; i += 1) {
+        g.fillStyle = shade(color, i % 2 ? 28 : -24);
+        g.beginPath();
+        g.ellipse(20 + (i * 37) % 100, 16 + (i * 23) % 90, 18, 12, i, 0, 7);
+        g.fill();
+      }
+    } else if (kind === "adobe" || kind === "plaster") {
+      for (let y = 0; y < h; y += 16) {
+        g.fillStyle = shade(color, y % 32 ? 12 : -10);
+        g.fillRect(0, y, w, 14);
+      }
+    } else if (kind === "stone" || kind === "brick" || kind === "concrete") {
+      const bh = kind === "brick" ? 14 : 22;
+      for (let y = 0; y < h; y += bh + 3) {
+        const off = (y / (bh + 3)) % 2 ? 20 : 0;
+        for (let x = -20; x < w; x += 40) {
+          g.fillStyle = shade(color, ((x + y) % 50) - 18);
+          g.fillRect(x + off, y, 36, bh);
+        }
+      }
+    } else if (kind === "plank" || kind === "siding" || kind === "timber") {
+      for (let x = 0; x < w; x += 16) {
+        g.fillStyle = shade(color, x % 32 ? 16 : -18);
+        g.fillRect(x, 0, 14, h);
+      }
+      if (kind === "timber") {
+        g.fillStyle = "#3a2414";
+        g.fillRect(0, 0, w, 8);
+        g.fillRect(0, h / 2, w, 8);
+        g.fillRect(0, 0, 8, h);
+        g.fillRect(w - 8, 0, 8, h);
+      }
+    } else {
+      g.strokeStyle = shade(color, -30);
+      g.lineWidth = 3;
+      g.strokeRect(8, 8, w - 16, h - 16);
+    }
+  });
+}
+
+const STYLE = {
+  cueva: { roof: "dome", roofKind: "rock", wall: "rock", floor: "dirt", h: 1.6, w: 3.4, d: 2.8 },
+  rio: { roof: "flat", roofKind: "adobe", wall: "adobe", floor: "clay", h: 2.3, w: 3.6, d: 2.6 },
+  polvo: { roof: "tile", roofKind: "adobe", wall: "plaster", floor: "dust", h: 2.5, w: 2.8, d: 3.3 },
+  burgo: { roof: "steep", roofKind: "stone", wall: "stone", floor: "cobble", h: 3.3, w: 2.6, d: 3.5 },
+  marea: { roof: "thatch", roofKind: "plank", wall: "plank", floor: "sand", h: 1.8, w: 3.8, d: 2.2, stilts: true },
+  imprenta: { roof: "gable", roofKind: "timber", wall: "timber", floor: "board", h: 2.8, w: 3.1, d: 3.1 },
+  vapor: { roof: "shed", roofKind: "brick", wall: "brick", floor: "ash", h: 3.5, w: 4.4, d: 2.4 },
+  ondas: { roof: "flat", roofKind: "siding", wall: "siding", floor: "board", h: 2.2, w: 2.5, d: 2.4, antenna: true },
+  partida: { roof: "broken", roofKind: "concrete", wall: "concrete", floor: "rubble", h: 2.7, w: 3.3, d: 2.9 },
+  despues: { roof: "glass", roofKind: "panel", wall: "panel", floor: "tile", h: 3.1, w: 2.9, d: 2.9 },
+  taller: { roof: "gable", roofKind: "brick", wall: "brick", floor: "board", h: 2.7, w: 3.8, d: 3.1 }
+};
+
+function floorTexture(kind, color) {
+  return makeTexture((g, w, h) => {
+    g.fillStyle = color;
+    g.fillRect(0, 0, w, h);
+    for (let i = 0; i < w; i += 8) {
+      g.fillStyle = shade(color, (i % 16) ? 10 : -14);
+      if (kind === "board") g.fillRect(i, 0, 6, h);
+      else g.fillRect(0, i, w, 6);
+    }
+  });
 }
 
 function matte(color, map) {
@@ -41,9 +122,9 @@ export class Diorama {
     this.parent = parent;
     this.scene = new THREE.Scene();
     this.camera = new THREE.PerspectiveCamera(32, 1, 0.1, 80);
-    this.renderer = new THREE.WebGLRenderer({ antialias: false });
+    this.renderer = new THREE.WebGLRenderer({ antialias: true });
     this.renderer.setClearColor(0x120e0b);
-    this.renderer.domElement.style.imageRendering = "pixelated";
+    this.renderer.setPixelRatio(Math.min(window.devicePixelRatio || 1, 2));
     parent.appendChild(this.renderer.domElement);
     this.scene.add(new THREE.HemisphereLight(0xffe2b0, 0x3a2a22, 0.85));
     this.sun = new THREE.DirectionalLight(0xffc98a, 1.35);
@@ -68,7 +149,7 @@ export class Diorama {
     const h = this.parent.clientHeight || window.innerHeight;
     this.camera.aspect = w / h;
     this.camera.updateProjectionMatrix();
-    this.renderer.setSize(Math.max(160, w / 2), Math.max(100, h / 2), false);
+    this.renderer.setSize(w, h, false);
     this.renderer.domElement.style.width = w + "px";
     this.renderer.domElement.style.height = h + "px";
   }
@@ -80,9 +161,9 @@ export class Diorama {
   setFace(dataUrl) {
     const image = new Image();
     image.onload = () => {
-      const tex = pixelTexture((g, w, h) => {
+      const tex = makeTexture((g, w, h) => {
         g.drawImage(image, 0, 0, w, h);
-      }, 32, 32);
+      }, 64, 64);
       this.player.userData.head.material = matte("#ffffff", tex);
     };
     image.src = dataUrl;
@@ -102,50 +183,150 @@ export class Diorama {
 
   build(spec) {
     this.clearPlace();
+    this.npc = null;
+    this.hands = null;
+    this.inside = spec.inside;
+    this.limit = spec.inside == null ? 8 : 3.3;
+    const style = STYLE[spec.look] || STYLE.taller;
     const [ground, roof, wall] = spec.colors;
     this.scene.background = new THREE.Color(ground);
-    this.scene.fog = new THREE.Fog(ground, 12, 28);
-    const grass = pixelTexture((g, w, h) => {
-      g.fillStyle = ground;
-      g.fillRect(0, 0, w, h);
-      for (let i = 0; i < 80; i += 1) {
-        g.fillStyle = i % 2 ? roof : wall;
-        g.fillRect((i * 7) % w, (i * 13) % h, 2, 2);
-      }
-    }, 64, 64);
-    grass.wrapS = grass.wrapT = THREE.RepeatWrapping;
-    grass.repeat.set(8, 8);
-    const floor = new THREE.Mesh(new THREE.PlaneGeometry(22, 22), matte("#ffffff", grass));
+    this.scene.fog = new THREE.Fog(ground, spec.inside == null ? 16 : 9, spec.inside == null ? 32 : 14);
+    if (spec.inside == null) this._street(spec, style, ground, roof, wall);
+    else this._room(spec, style, ground, roof, wall);
+    this.player.position.set(0, 0, spec.inside == null ? 6 : 2.4);
+  }
+
+  _street(spec, style, ground, roof, wall) {
+    const grass = floorTexture(style.floor, ground);
+    grass.repeat.set(6, 6);
+    const floor = new THREE.Mesh(new THREE.PlaneGeometry(24, 24), matte("#ffffff", grass));
     floor.rotation.x = -Math.PI / 2;
     this.place.add(floor);
-    const spots = [[-7, -6], [7, -6], [-7, 4], [7, 4], [0, -8]];
+    const spots = [[-6.2, -4.2], [5.4, -5.1], [-1.2, 5.2]];
     spots.forEach(([x, z], index) => {
-      const house = new THREE.Group();
-      const body = new THREE.Mesh(new THREE.BoxGeometry(2.4, 1.8, 2.2), matte(wall));
-      body.position.y = 0.9;
-      const top = new THREE.Mesh(new THREE.ConeGeometry(1.8, 1.1, 4), matte(roof));
-      top.position.y = 2.2;
-      top.rotation.y = Math.PI / 4;
-      house.add(body, top);
+      const house = this._house(style, wall, roof, index);
       house.position.set(x, 0, z);
-      house.scale.setScalar(index === 4 ? 1.15 : 1);
       this.place.add(house);
+      const door = new THREE.Mesh(new THREE.BoxGeometry(0.7, 1.3, 0.12), matte("#4a3428"));
+      door.position.set(x, 0.7, z + style.d / 2 + 0.08);
+      door.userData.propId = "door" + index;
+      door.userData.label = "Entrar a " + (spec.houses[index] || "la casa");
+      this.place.add(door);
+      this.props.push(door);
     });
     this._clockTower();
-    const npc = makePerson("#c4552a");
-    npc.position.set(0, 0, -1.5);
-    npc.userData.propId = "npc";
-    npc.userData.label = spec.npc;
-    this.place.add(npc);
-    this.npc = npc;
-    spec.props.forEach((prop) => {
-      const mesh = new THREE.Mesh(new THREE.BoxGeometry(0.45, 0.45, 0.45), matte(prop.color || roof));
-      mesh.position.set(prop.x, 0.28, prop.z);
-      mesh.userData.propId = prop.id;
-      mesh.userData.label = prop.label;
+  }
+
+  _house(style, wall, roof, index) {
+    const group = new THREE.Group();
+    const w = style.w * (index === 1 ? 1.25 : index === 2 ? 0.82 : 1);
+    const h = style.h * (index === 2 ? 1.35 : 1);
+    const d = style.d;
+    const y0 = style.stilts ? 0.7 : 0;
+    if (style.stilts) {
+      for (const [sx, sz] of [[-0.8, -0.6], [0.8, -0.6], [-0.8, 0.6], [0.8, 0.6]]) {
+        const post = new THREE.Mesh(new THREE.CylinderGeometry(0.08, 0.1, 0.7, 6), matte("#6b4a2a"));
+        post.position.set(sx, 0.35, sz);
+        group.add(post);
+      }
+    }
+    const walls = new THREE.Mesh(
+      new THREE.BoxGeometry(w, h, d),
+      matte("#ffffff", wallTexture(style.wall, wall))
+    );
+    walls.position.y = y0 + h / 2;
+    group.add(walls);
+    const roofMat = matte("#ffffff", wallTexture(style.roofKind, roof));
+    let top;
+    if (style.roof === "dome") top = new THREE.Mesh(new THREE.SphereGeometry(w * 0.42, 16, 10, 0, Math.PI * 2, 0, Math.PI / 2), roofMat);
+    else if (style.roof === "flat" || style.roof === "glass") top = new THREE.Mesh(new THREE.BoxGeometry(w + 0.3, 0.18, d + 0.3), roofMat);
+    else if (style.roof === "thatch") top = new THREE.Mesh(new THREE.ConeGeometry(w * 0.62, 1.3, 8), roofMat);
+    else if (style.roof === "shed") top = new THREE.Mesh(new THREE.BoxGeometry(w + 0.2, 0.25, d), roofMat);
+    else top = new THREE.Mesh(new THREE.ConeGeometry(w * 0.72, style.roof === "steep" ? 2.1 : 1.15, 4), roofMat);
+    top.position.y = y0 + h + 0.45;
+    if (style.roof === "gable" || style.roof === "steep" || style.roof === "tile") top.rotation.y = Math.PI / 4;
+    if (style.roof === "shed") top.rotation.z = 0.18;
+    if (style.roof === "broken") top.position.x = 0.35;
+    group.add(top);
+    if (style.antenna) {
+      const pole = new THREE.Mesh(new THREE.CylinderGeometry(0.03, 0.03, 1.4, 6), matte("#d7b56d"));
+      pole.position.y = y0 + h + 1.2;
+      group.add(pole);
+    }
+    return group;
+  }
+
+  _room(spec, style, ground, roof, wall) {
+    const floor = new THREE.Mesh(new THREE.PlaneGeometry(8, 8), matte("#ffffff", floorTexture(style.floor, shade(ground, 20))));
+    floor.rotation.x = -Math.PI / 2;
+    this.place.add(floor);
+    const wallMat = matte("#ffffff", wallTexture(style.wall, wall));
+    const h = 3;
+    const parts = [
+      [8, h, 0.18, 0, h / 2, -4],
+      [0.18, h, 8, -4, h / 2, 0],
+      [0.18, h, 8, 4, h / 2, 0],
+      [3.2, h, 0.18, -2.3, h / 2, 4],
+      [3.2, h, 0.18, 2.3, h / 2, 4]
+    ];
+    parts.forEach(([bw, bh, bd, x, y, z]) => {
+      const mesh = new THREE.Mesh(new THREE.BoxGeometry(bw, bh, bd), wallMat);
+      mesh.position.set(x, y, z);
       this.place.add(mesh);
-      this.props.push(mesh);
     });
+    const ceil = new THREE.Mesh(new THREE.PlaneGeometry(8, 8), matte(shade(roof, -20)));
+    ceil.rotation.x = Math.PI / 2;
+    ceil.position.y = h;
+    this.place.add(ceil);
+    this._furniture(style, roof);
+    const exit = new THREE.Mesh(new THREE.BoxGeometry(0.9, 1.6, 0.1), matte("#4a3428"));
+    exit.position.set(0, 0.8, 3.7);
+    exit.userData.propId = "salir";
+    exit.userData.label = "Salir a la calle";
+    this.place.add(exit);
+    this.props.push(exit);
+    if (spec.inside === 0) {
+      const npc = makePerson("#c4552a");
+      npc.position.set(0, 0, -1.6);
+      npc.userData.propId = "npc";
+      npc.userData.label = spec.npc;
+      this.place.add(npc);
+      this.npc = npc;
+      spec.props.forEach((prop, index) => {
+        const mesh = new THREE.Mesh(new THREE.BoxGeometry(0.38, 0.28, 0.38), matte(prop.color || roof));
+        mesh.position.set(-1.2 + index * 0.8, 0.72, -0.2);
+        mesh.userData.propId = prop.id;
+        mesh.userData.label = prop.label;
+        this.place.add(mesh);
+        this.props.push(mesh);
+      });
+    }
+  }
+
+  _furniture(style, roof) {
+    const wood = matte("#6b4a2a");
+    const top = new THREE.Mesh(new THREE.BoxGeometry(1.4, 0.08, 0.7), matte(roof));
+    top.position.set(-1.6, 0.72, -2.4);
+    const leg = new THREE.Mesh(new THREE.BoxGeometry(0.08, 0.64, 0.08), wood);
+    leg.position.set(-2.1, 0.32, -2.6);
+    this.place.add(top, leg);
+    if (style.wall === "rock") {
+      const hearth = new THREE.Mesh(new THREE.BoxGeometry(1.1, 0.5, 0.6), matte("#3a2418"));
+      hearth.position.set(2, 0.25, -2.6);
+      this.place.add(hearth);
+    } else if (style.stilts || style.wall === "plank") {
+      const bed = new THREE.Mesh(new THREE.BoxGeometry(1.6, 0.28, 0.8), matte("#e6d3c4"));
+      bed.position.set(2, 0.3, -2.2);
+      this.place.add(bed);
+    } else {
+      const shelf = new THREE.Mesh(new THREE.BoxGeometry(0.3, 1.4, 1.2), wood);
+      shelf.position.set(3.2, 0.8, -1);
+      this.place.add(shelf);
+    }
+    const rug = new THREE.Mesh(new THREE.PlaneGeometry(2.2, 1.4), matte(roof));
+    rug.rotation.x = -Math.PI / 2;
+    rug.position.set(0, 0.02, 0.2);
+    this.place.add(rug);
   }
 
   _clockTower() {
@@ -219,8 +400,9 @@ export class Diorama {
       const yaw = Math.PI / 4;
       const wx = (x / len) * Math.cos(yaw) - (z / len) * Math.sin(yaw);
       const wz = (x / len) * Math.sin(yaw) + (z / len) * Math.cos(yaw);
-      this.player.position.x = Math.max(-8, Math.min(8, this.player.position.x + wx * speed * dt));
-      this.player.position.z = Math.max(-8, Math.min(8, this.player.position.z + wz * speed * dt));
+      const limit = this.limit || 8;
+      this.player.position.x = Math.max(-limit, Math.min(limit, this.player.position.x + wx * speed * dt));
+      this.player.position.z = Math.max(-limit, Math.min(limit, this.player.position.z + wz * speed * dt));
       this.player.rotation.y = Math.atan2(wx, wz);
       this.bob += dt * (this.slow ? 2 : 10);
       const swing = Math.sin(this.bob) * 0.5;
@@ -261,8 +443,10 @@ export class Diorama {
       this.npc.position.y = wave * (this.slow ? 0.02 : 0.06);
     }
     const p = this.player.position;
-    this.camera.position.set(p.x + 7.5, 8.2, p.z + 7.5);
-    this.camera.lookAt(p.x, 1.1, p.z);
+    const back = this.inside == null ? 7.5 : 4.2;
+    const up = this.inside == null ? 8.2 : 3.4;
+    this.camera.position.set(p.x + back, up, p.z + back);
+    this.camera.lookAt(p.x, 1.2, p.z);
     this.renderer.render(this.scene, this.camera);
     return dt;
   }

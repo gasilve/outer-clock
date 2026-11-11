@@ -40,7 +40,7 @@ function fresh() {
   return {
     seed, order, byDate: {}, phase: "workshop", futureVisits: 0,
     flags: {}, inv: [], ambar: false, amber: null, amberUsedOn: "",
-    photo: "", name: "", inteligencia, suerte, machine: machineFrom(inteligencia, suerte)
+    photo: "", name: "", inside: null, inteligencia, suerte, machine: machineFrom(inteligencia, suerte)
   };
 }
 
@@ -119,6 +119,47 @@ function colorsOf(era) {
   return (era && era.colors) || ["#1a120c", "#d7b56d", "#8c5a32"];
 }
 
+function lookFor(era) {
+  const y = era && era.y ? era.y : "";
+  if (y.indexOf("mucho") >= 0) return "cueva";
+  if (y.indexOf("Ríos") >= 0) return "rio";
+  if (y.indexOf("polvo") >= 0) return "polvo";
+  if (y.indexOf("Burgos") >= 0) return "burgo";
+  if (y.indexOf("Mareas") >= 0) return "marea";
+  if (y.indexOf("Imprentas") >= 0) return "imprenta";
+  if (y.indexOf("Vapor") >= 0) return "vapor";
+  if (y.indexOf("Ondas") >= 0) return "ondas";
+  if (y.indexOf("partida") >= 0) return "partida";
+  if (y.indexOf("Después") >= 0) return "despues";
+  return "taller";
+}
+
+function lookNow() {
+  if (state.phase === "future") return "despues";
+  if (state.phase === "play" || state.phase === "break") {
+    const era = todayEra();
+    return era ? lookFor(era) : "taller";
+  }
+  return "taller";
+}
+
+function houseNames() {
+  const names = {
+    cueva: ["La gruta", "El abrigo de piedra", "La hoguera"],
+    rio: ["La casa del canal", "El archivo de vasijas", "La barca cubierta"],
+    polvo: ["La casa blanca", "El horno", "El pozo"],
+    burgo: ["El taller del burgo", "La posada", "El campanario"],
+    marea: ["La cabaña del muelle", "La bodega", "El farol de proa"],
+    imprenta: ["La prensa", "El cuarto del cajista", "La plaza cubierta"],
+    vapor: ["La sala de calderas", "La oficina", "El andén cubierto"],
+    ondas: ["La cabina", "El altillo", "La casa de la antena"],
+    partida: ["El café", "El sótano", "El departamento"],
+    despues: ["La calle cubierta", "El zaguán", "El archivo futuro"],
+    taller: ["Tu taller", "La posada", "El archivo"]
+  };
+  return names[lookNow()] || names.taller;
+}
+
 function propsFor() {
   if (state.phase === "workshop" || state.phase === "workshop-return") {
     return [
@@ -172,23 +213,31 @@ function showPlace() {
       colors = colorsOf(era);
     }
   }
-  world.build({ colors, npc, props: propsFor() });
+  world.build({
+    colors,
+    npc,
+    look: lookNow(),
+    inside: state.inside,
+    houses: houseNames(),
+    props: state.inside === 0 ? propsFor() : []
+  });
   if (state.phase === "play") {
     const era = todayEra();
     if (era && era.puzzle === "slow") world.showProp("hidden", !state.flags[era.flag]);
   }
   world.setSlow(amberOn());
+  if (state.inside != null) title = houseNames()[state.inside] || title;
   document.getElementById("title").textContent = title;
   let mission = "";
   if (state.phase === "workshop" || state.phase === "workshop-return") {
-    mission = "Juntá engranaje, lente y aro. Combinalos y poné el núcleo en la máquina. Tu máquina es " + state.machine.name + ".";
+    mission = "Entrá a tu taller. Adentro juntá engranaje, lente y aro. Tu máquina es " + state.machine.name + ".";
   } else if (state.phase === "future") {
-    mission = "Mirá el abrigo y la puerta. No vas a ver quién. Después volvé.";
+    mission = "Entrá a la primera casa. Adentro está el abrigo. No vas a ver quién.";
   } else if (state.phase === "break") {
-    mission = "La máquina se rajó. Tocá el reloj.";
+    mission = "Entrá al taller y tocá el reloj que quedó.";
   } else {
     const era = todayEra();
-    mission = era ? era.mission : "No quedan épocas nuevas.";
+    mission = era ? "Entrá a la primera casa. " + era.mission : "No quedan épocas nuevas.";
     if (era && state.machine.hint && era.puzzle === "combine") mission += " Piezas: " + era.a + " y " + era.b + ".";
     if (era && state.machine.hint && era.puzzle === "sequence") mission += " Orden: " + era.seq.join(", ") + ".";
     if (era && state.flags[era.flag]) mission += " Ya quedó hecho.";
@@ -198,6 +247,21 @@ function showPlace() {
 
 function interact(id) {
   if (!id) return;
+  if (id === "salir") {
+    state.inside = null;
+    save();
+    showPlace();
+    say("Tictac", "Otra vez en la calle. Las casas de esta época no tienen la misma forma.");
+    return;
+  }
+  if (id.indexOf("door") === 0) {
+    state.inside = Number(id.slice(4));
+    save();
+    showPlace();
+    const names = houseNames();
+    say("Tictac", "Estás en " + (names[state.inside] || "la casa") + ". " + (state.inside === 0 ? "Acá está la gente y lo que hay que buscar." : "Mirá los muebles. La misión está en la primera casa."));
+    return;
+  }
   if (state.phase === "workshop" || state.phase === "workshop-return") {
     if (id === "engranaje" || id === "lente" || id === "aro") {
       const name = id === "engranaje" ? "Engranaje" : id === "lente" ? "Lente" : "Aro de latón";
@@ -209,6 +273,7 @@ function interact(id) {
     }
     if (id === "maquina") {
       if (state.phase === "workshop-return") {
+        state.inside = null;
         state.phase = "future";
         save();
         say("Tictac", "Un salto más. La cara sigue sin estar.");
@@ -220,6 +285,7 @@ function interact(id) {
         return;
       }
       take("Núcleo");
+      state.inside = null;
       state.phase = "future";
       state.futureVisits = 0;
       save();
@@ -233,6 +299,7 @@ function interact(id) {
     else if (id === "puerta") say("Vos", "Si entro, dejo de ver el cuadro. Me quedo acá.");
     else if (id === "volver") {
       state.futureVisits += 1;
+      state.inside = null;
       state.phase = state.futureVisits < 2 ? "workshop-return" : (state.ambar ? "play" : "break");
       save();
       showPlace();
@@ -242,6 +309,7 @@ function interact(id) {
   }
   if (state.phase === "break" && id === "reloj") {
     state.ambar = true;
+    state.inside = null;
     state.phase = "play";
     save();
     showPlace();
