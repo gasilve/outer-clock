@@ -1,17 +1,15 @@
 # Outer Clock
 
-Aventura 3D en Godot 4. Un inventor arma una máquina del tiempo, ve su muerte en un futuro cercano y, cuando la máquina se rompe, cada día real abre una época distinta.
+Aventura de mirar, tomar y combinar. Se juega en el navegador.
 
-El título en pantalla es **Outer Clock**. "Time Machine" ya lo usan el libro de H. G. Wells, un juego de Amiga (Activision, 1990), *Time Machine VR* (Steam, 2016) y un hidden-object de 2025.
+**Jugar:** https://gasilve.github.io/outer-clock/
 
-## Abrir
+La partida queda en este navegador. Arriba se ve la hora real y cuánto falta para que el día se cierre. Cada fecha abre una época de las cien y no la repite. El ámbar de los lentos pone a todos a 1/24: son dos días de ellos para buscar un objeto, y cada mirada gasta una hora de esos días.
 
-1. Instalá [Godot 4.3 o más nuevo](https://godotengine.org/download).
-2. Importá esta carpeta (`project.godot`).
-3. F5 corre la escena del reloj.
+## Antes del jam
 
-La partida de prueba se guarda en `user://outer_clock_save.json`. F2 adelanta un día de la historia, F1 lo retrasa y F5 la borra.
+Esto se armó el 11 de noviembre de 2026, antes de que abra el Epic AI MegaJam (12 de noviembre). Si el juego se presenta al jam, hay que declararlo.
 
-## Qué hay ahora
+El jam pide un juego empaquetado en Unreal Engine o un código de UEFN, con textos en inglés, a partir del 12. Esta página es la versión que se puede abrir sin instalar nada. El tema del jam se anuncia en el vivo del 11 y todavía no entra en estas escenas.
 
-Un taller en bloque, un reloj que marca la hora real, y la regla de una fecha, una época. El diseño completo está en [docs/DISENO.md](docs/DISENO.md).
+El diseño largo está en [docs/DISENO.md](docs/DISENO.md).

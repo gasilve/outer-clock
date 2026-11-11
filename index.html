@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Outer Clock</title>
+  <link rel="stylesheet" href="css/game.css">
+</head>
+<body>
+  <section id="intro" aria-label="Entrada">
+    <img class="intro-bg" src="img/taller.jpg" alt="">
+    <div class="intro-shade"></div>
+    <div class="intro-clock" aria-hidden="true"></div>
+    <div class="intro-crack" aria-hidden="true"></div>
+    <div class="intro-copy">
+      <p class="eyebrow">Una época por día</p>
+      <h1>Outer Clock</h1>
+      <p id="intro-line">En el taller todavía huele a metal caliente.</p>
+      <button id="enter" type="button">Entrar al taller</button>
+    </div>
+  </section>
+
+  <div id="shell" hidden>
+    <header class="top">
+      <div>
+        <p class="eyebrow">Reloj de afuera</p>
+        <p id="clock-time">--:--:--</p>
+      </div>
+      <div class="day-meter">
+        <p id="day-left">Queda este día</p>
+        <div class="bar"><span id="day-bar"></span></div>
+      </div>
+      <div>
+        <p class="eyebrow">Dentro del mundo</p>
+        <p id="inner-clock">El ámbar está quieto</p>
+      </div>
+    </header>
+
+    <div class="layout">
+      <main>
+        <section id="scene">
+          <div id="scene-bg"></div>
+          <div class="scene-copy">
+            <p id="scene-when" class="eyebrow"></p>
+            <h2 id="scene-title"></h2>
+            <p id="scene-place"></p>
+          </div>
+          <div id="hotspots"></div>
+          <div id="dialogue" hidden>
+            <p id="dialogue-who"></p>
+            <p id="dialogue-text"></p>
+            <div id="choices"></div>
+          </div>
+        </section>
+        <p id="toast" role="status"></p>
+      </main>
+
+      <aside>
+        <figure class="portrait">
+          <img id="portrait" src="img/inventor.jpg" alt="El inventor">
+          <figcaption>
+            <input id="hero-name" type="text" maxlength="24" placeholder="Tu nombre" aria-label="Tu nombre">
+            <label class="file">Tu foto
+              <input id="photo" type="file" accept="image/*">
+            </label>
+          </figcaption>
+        </figure>
+
+        <section>
+          <h3>Misión</h3>
+          <p id="mission"></p>
+        </section>
+
+        <section>
+          <h3>Inventario</h3>
+          <ul id="inventory"></ul>
+          <button id="combine" type="button">Combinar</button>
+        </section>
+
+        <section>
+          <h3>Artilugios</h3>
+          <ul id="gadgets"></ul>
+        </section>
+
+        <section>
+          <h3>Bitácora</h3>
+          <p id="journal"></p>
+          <button id="atlas-open" type="button">Mapa de los cien tiempos</button>
+          <button id="retry-future" type="button" hidden>Volver a mirar el futuro</button>
+          <button id="wipe" type="button">Borrar esta partida</button>
+        </section>
+      </aside>
+    </div>
+  </div>
+
+  <div id="atlas" hidden>
+    <div class="atlas-card">
+      <header>
+        <h2>Cien tiempos</h2>
+        <button id="atlas-close" type="button">Cerrar</button>
+      </header>
+      <p id="atlas-note"></p>
+      <div id="atlas-grid"></div>
+    </div>
+  </div>
+
+  <script src="js/eras.js"></script>
+  <script src="js/game.js"></script>
+</body>
+</html>

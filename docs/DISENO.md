@@ -1,5 +1,24 @@
 # Outer Clock — diseño
 
+La versión que se abre en el navegador está en la raíz del repo (`index.html`). El 11 de noviembre de 2026, antes de que empiece el jam, ya tiene la entrada, el taller, las dos muertes del futuro, el reloj real, el ámbar a 1/24 y el mapa de cien épocas. El jam, si se entrega, pide Unreal o UEFN desde el 12 y textos en inglés. Esta carpeta es el juego jugable sin instalar nada, y hay que declararla si se compite.
+
+## Cómo se parte el trabajo
+
+1. **Ya está:** reloj de afuera, ámbar, inventario, cuatro tipos de misión, cien fichas, foto del jugador.
+2. **Pintura:** un fondo por época, en el estilo que se confirme. Hoy hay taller, calle del futuro e inventor.
+3. **Inglés:** la entrega del jam pide todos los textos en inglés.
+4. **Unreal, si hay una máquina que lo banque:** las mismas fichas de `js/eras.js` pasan al nivel. Esta PC no empaqueta Unreal.
+
+## Artilugios
+
+- **Ámbar de los lentos.** Pone a la gente y a los relojes de la época a 1/24. El jugador tiene dos días de ellos (48 horas) para buscar. Cada mirada gasta una hora de esos días. Sirve para el objeto que solo está quieto un instante.
+- **Brújula de fechas.** Abre el mapa de los cien tiempos. Solo el día de hoy se puede jugar.
+- **Abrigo de polvo.** Se cose en la ciudad partida y cambia el retrato.
+
+## Misiones
+
+Cada época tiene una: combinar dos objetos, seguir un orden, elegir una frase, o encontrar algo que solo aparece con el ámbar. La ficha que deja esa misión cambia el texto de la calle del futuro.
+
 Aventura 3D de mirar, hablar, usar y combinar. El modelo es *Monkey Island*: el conflicto se resuelve con objetos y conversación. La primera versión jugable es un taller, una muerte en el futuro y una época que cambia ese futuro.
 
 ## Historia
