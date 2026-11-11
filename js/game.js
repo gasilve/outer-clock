@@ -82,9 +82,11 @@ function machineFrom(inteligencia, suerte) {
 }
 
 function ensureCharacter() {
+  const missing = !state.inteligencia || !state.suerte || !state.machine;
   if (!state.inteligencia) state.inteligencia = rollStat();
   if (!state.suerte) state.suerte = rollStat();
   if (!state.machine) state.machine = machineFrom(state.inteligencia, state.suerte);
+  if (missing) save();
 }
 
 function amberHours() {
